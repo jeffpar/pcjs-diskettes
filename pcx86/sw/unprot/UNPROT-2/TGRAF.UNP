@@ -1,0 +1,69 @@
+Some time ago, I published an INCORRECT scheme for cracking
+"TGRAF-05" by Grafpoint Corp.  This note contains the CORRECT
+method for cracking TGRAF.  The problem with the first method was
+that I was fooled into thinking the thing had been cracked, just
+because I got it to start. Unfortunately, TGRAF loads a symbol
+table from its protected track, and I had overlooked this.  This
+causes all typed characters to be unreadable with a copy of TGRAF
+which has been "cracked" by the original (faulty) scheme.
+
+The correct scheme relies on the fact that the symbol table has
+to be placed on a hard disk when TGRAF is installed to the H.D.
+All we need to do is copy the symbol table and convince TGRAF
+that it is ALWAYS running from a hard disk.
+
+
+Here is the correct scheme:
+
+First, copy the original TGRAF diskette using a copy utility such
+as COPYWRIT or COPYIITC. Next, install TGRAF to an unused section
+of your hard disk, using the HDI program.  TGRAF creates a hidden
+file called GRFPT000.SYS on the hard disk.
+
+Copy ALL of the TGRAF files to the hard disk.
+
+Rename the EXE files CONFIGx.EXE to CONFIGx.XEX, so that they can
+be loaded, modified, and re-written with DEBUG. Don't forget
+TGRAF.EXE as well!
+
+On each of the XEX files, use debug to search for the following
+strings of bytes:
+
+
+                         3D 40 1F 72 03
+
+and
+
+                     3B 84 00 04 B0 32 75 18
+
+This can be done with the following DEBUG commands:
+
+-S CS:0 L FFFF 3D 40 1F 72 03               (First string)
+
+-S CS:0 L FFFF 3B 84 00 B0 32 75 18         (Second string)
+
+in both cases, use debug to alter the last two bytes of these
+strings to NOP's (hex 90):
+
+                         3D 40 1F 90 90
+
+and
+
+                     3B 84 00 04 B0 32 90 90
+
+Now use debug's WRITE instruction to copy the modified file to
+disk.
+
+-W                      (write file)
+
+-Q                      (quit)
+
+RENAME all of the .XEX files to EXE files.  Use a "file unhide"
+utility, such as UNHIDE.COM or ALTER.COM, to unhide the file
+GRFPT000.SYS. Now copy all of the files, including GRFPT000.SYS,
+to a nice, clean, formatted blank floppy.
+
+TGRAF-05 has been cleansed of nasty, embarassing copy-protection.
+
+LET THERE BE SOFTWARE!
+

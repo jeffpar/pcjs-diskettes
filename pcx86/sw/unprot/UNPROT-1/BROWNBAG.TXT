@@ -1,0 +1,56 @@
+THE GREAT BROWN BAG WORD PROCESSOR HOAX
+
+The latest issue of PC Magazine (April 15, 1986) has a free disk 
+enclosed - a full working copy of the Brown Bag Word Processing 
+program with Mail Merge. Wow! What a great idea and what a great 
+magazine! 
+     
+But what's this - there's something about "Unlocking" the copy 
+protected disk for $85 - If I don't, it's going to suddenly stop 
+working after a while. I couldn't resist the temptation to test 
+their copy protection - sure enough, even the latest versions of 
+COPYIIPC and COPYWRIT admit defeat in trying to make a copy. 
+    
+By this time I'm thinking that this program must really be 
+something special - mass marketing it to everyone in the world who 
+buys PC Magazine and incorporating the very latest copy protection 
+methods. I'd better try this program out - maybe it's really worth 
+it to unlock it for $85.  
+    
+I do a disk directory and recognize some familiar looking files - 
+ED.EXE, HELPE.DEF, RULER.DEF, etc. I think, "this must be the 
+wrong disk in the drive, because those are PC-WRITE files." 
+Nope - it's the Brown Bag Word Processor alright. This can't be! I 
+crank the program up and with the exception of an introduction 
+screen identifying it as the Brown Bag Word Processor - it is 
+PC-WRITE v2.55 - licensed by the author, Bob Wallace, to Brown Disk 
+Manufacturing, Inc.   What will they think of next?
+    
+So - you get to try out this Brown Bag "mystery" program for an 
+unspecified length of time, and just as you're starting to like 
+it, it dies. You send off your $85 to get it fixed and you're 
+happy again.  But of course, you have to put up with the copy 
+protection nonsense in the meantime.  
+    
+Wait! I have a great idea!  Why not get a legal SHAREWARE copy of 
+PC-WRITE v2.55 (if you are one of the .0001 % of the PC population 
+that doesn't already have a copy), try it out for as long as you 
+wish, and then register if you choose to do so.  No copy 
+protection, no "rigged" program that dies just as you are getting 
+used to it, but the same program with the same capabilities.
+    
+What do I think of this particular "FREE, ACTUAL FULL-FEATURED, 
+FULL-FUNCTIONAL PROGRAM OFFER"?  (I'll bet you can't guess).
+Well, I think PC Magazine is an excellent magazine, the idea of 
+putting a trial or demo disk in the magazine is a good one, and 
+PC-WRITE is a very good editor (I am a registered owner).  BUT - 
+putting a copy protected, boobytrapped, identical clone of a 
+readily available SHAREWARE program in a magazine with no 
+reference to the fact that it really is just another program in 
+disguise - well, that stinks! They'll probably make a ton of money 
+from all of the people who don't know any better - and that makes 
+it smell even worse!
+    
+---- Mike Miller     Orlando, Florida    03-15-86
+
+

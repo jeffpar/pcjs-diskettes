@@ -1,0 +1,39 @@
+To  unprotect  the "Smart System Disk",  use diskcopy to  make  a
+backup,  or  load all files onto your hard disk.   Next using DEBUG
+issue the instructions listed below:
+
+
+debug smart.com
+G 12F
+T
+G 9F35
+T
+G 31B8
+T
+G C760
+T
+G 22
+T
+A 27
+JMP 29
+
+A 807
+JMP 885
+
+G
+Q
+
+
+
+This begins execution, then modifys the partially executed file.  After
+this process is complete, screen output is restored, and voila, you have
+it - The Smart System - up and running.
+
+I must confess I am new at this - have only had an MS-DOS machine
+for two months,  so there may be a faster way.   I am working  on
+it, and would appreciate any help.  Leave a message for me on any
+Bay Area bulletin board.
+
+MICHAEL YARD
+March 10, 1985
+

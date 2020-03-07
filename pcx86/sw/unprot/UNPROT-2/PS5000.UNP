@@ -1,0 +1,35 @@
+HOW TO UNPROTECT PROJECT SCHEDULER 5000 by SCITOR
+
+FIRST, make a copy of your original diskette. NEVER, EVER, fool around
+with the original copy--unless you like to DESTROY your software!
+
+PS5000.EXE is heavily overlaid: it was linked with the PLINK86 linker,
+and the machine code is a mass of spaghetti. The easiest way to "repair"
+PS5000 is to use a disk zapper such as the Norton Utilities to patch the
+hex bytes on the disk directly. So, using the COPY, NOT your ORIGINAL,
+perform the following search-and-alter operations using NU:
+
+Search the file PS5000.EXE for the following hex byte strings:
+
+Search for:   9A 2C 01 8B 2E      (a call to routine which tests
+                                   for presence of PS5000.EXE)
+Change to:    B8 00 90 90 90      (get RID of it!)
+
+Search for:   A1 32 7B            (memory move into AX)
+Change to:    B8 01 00            (force the right value into AX)
+
+Search for:   D1 E8 73 18         (a jump which we don't want)
+Change to:    D1 E8 90 90         (get RID of it)
+
+Search for:   8D 86 FE FD 50 B8 12 00 (careful here....!)
+Change to:    8D 86 FE FD 50 EB 07 90 (jump to the right place)
+
+Search for:   32 E4 40            (setting up AX for tests)
+              B8 42 00            (make sure AX looks good)
+
+When these patches are complete, PS5000.EXE has been fully and
+completely repaired, removing the malicious damage that the manufacturer
+did to the software in order to keep us from copying it!
+
+LET THERE BE SOFTWARE!
+

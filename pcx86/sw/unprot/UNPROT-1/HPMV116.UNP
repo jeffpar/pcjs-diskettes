@@ -1,0 +1,369 @@
+FOR THE USERS THAT HAVE 'HARVARD PROJECT MANAGER' V 1.16
+-------------------------------------------------------------------
+FROM : THE A.S.P ; (Against Software Protection)
+
+ORIGINALLY SUBMITTED TO ASA FULTONS BBS (SHINING SUN - 305-273-0020
+                    AND WHIT WYANTS BBS (PC-CONNECT  - 203-966-8869
+
+PLEASE NOTE THAT THESE UNPROTECT PROCEDURES INVOLVE FROM 4 HOURS TO
+___________________________________________________________________
+
+40 OR MORE HOURS ( 10+ HOURS FOR 'HPM' v1.16 ) OF
+
+SINGLE STEPPING THRU CODE AND FIGURING OUT THE
+
+INTENT OF THE ORIGINAL CODE.. SO I WOULD APPRECIATE IT WHEN U PASS
+
+THIS ON TO OTHER BOARDS YOU DO NOT ALTER THIS OR TRY TO TAKE CREDIT
+
+FOR MY LOST SLEEP.... THE A.S.P... ORLANDO FLA. (J.P. TO HIS FRIENDS)
+
+
+OH, AS A FURTHER NOTE. I SEE SOME BBS'S ARE NOW CHARGING U TO BE REGISTERED
+TO USE THEIR SYSTEM. FIRST OF ALL I GIVE U FROM 4 TO 60 HOURS OF MY TIME
+AT NO COST TO YOU AND I DO NOT LOOK TO KINDLY TO SUCH BBS'S PUTTING ON
+MY PROCEDURES AND THEN CHARGING U TO GET ACCESS TO THEM. THEY DIDNT SPEND
+TIME AND COST (SAY 'X' HOURS * $40+) TO MAKE THE PROCEDURES AVAIL. , SO
+I WOULD APPRECIATE THAT SUCH BOARDS DID NOT USE ANY OF THE 'A.S.P'S'
+PROCEDURES, UNLESS THEY ARE WILLING TO PUT THEIR WORKS TRULY IN THE
+PUBLIC DOMAAIN.. ENOUGH SAID.. THANK YOU.
+
+
+IF YOU HAVE A HARD DISK OR WANT TO CREATE A BACKUP COPY THAT IS NOT
+TIED INTO THE 'HPM'  DISKETTE...IN CASE YOUR ONLY COPY GOES BAD
+.. THIS PATCH WILL REMOVE THE COPY PROTECTION COMPLETELY....
+
+           AS ALWAYS THIS IS FOR YOUR PERSONAL PEACE OF MIND ONLY
+    IT IS NOT MEANT TO BYPASS ANY COPYRIGHTS..YOU ARE BY LAW BOUND BY
+    YOUR PURCHASE LISCENSE AGREEMENT.
+
+          IF YOU HAVE A HARD DISK AND WANT TO PUT THE PROGRAM ON SUCH
+    WHY SHOULD YOU BE TIED TO A FLOPPY. YOU HAD TO GIVE UP A LOT OF
+    'BIG MACS' TO GET YOUR HARD DISK.
+
+
+1). FORMAT 1 SYSTEM DISK UNDER DOS 2.0 OR 2.1  (1.1 SUPPORT WAS NOT INCLUDED)
+
+2). LABEL IT ACCORDING TO THE ORIGINAL 'HPM' DISKETTES
+
+3). COPY THE FILES FROM THE ORIGINAL DISKETTE TO THE CORRESPONDING
+   2.X FORMATTED DISKETTE
+
+4). PLACE THE ORIGINAL 'HPM' DISKETTE BACK IN THE MANUAL
+   WE WILL NO LONGER USE THEM.
+
+5). I WONT  TELL U HOW TO USE DEBUG OR  ANY 'PATCHER' PROGRAMS
+   ON THE BBS'S, I'LL JUST GIVE U THE CODE TO CHANGE.
+
+6). FIRST WE WILL NEED TO CHANGE A PROGRAM CALLED 'HPM.EXE'
+
+7). I USED THE DOS UTILITY 'COMP.COM' TO PRINT THE DIFFERENCES BETWEEN THE
+   FILES THAT WERE CHANGED.
+
+    NOTE: FILE 1 IS THE MODIFIED VERSION IN ALL CASES.
+   ---------------------------------------------------
+
+
+C:HPM     .EXE and A:HPM     .EXE
+
+Compare error at offset B154
+File 1 = 31
+File 2 = CD
+
+Compare error at offset B155
+File 1 = C0
+File 2 = 13
+
+Compare error at offset 133A1
+File 1 = 00
+File 2 = 01
+
+Compare error at offset 138B6
+File 1 = 68
+File 2 = 61
+
+Compare error at offset 138B7
+File 1 = 70
+File 2 = 3A
+
+Compare error at offset 138B8
+File 1 = 6D
+File 2 = 68
+
+Compare error at offset 138BA
+File 1 = 72
+File 2 = 6D
+
+Compare error at offset 138BB
+File 1 = 74
+File 2 = 70
+
+Compare error at offset 138BC
+File 1 = 2E
+File 2 = 72
+
+Compare error at offset 138BD
+File 1 = 64
+File 2 = 74
+
+Compare error at offset 138BE
+File 1 = 61
+File 2 = 2E
+
+Compare error at offset 138BF
+File 1 = 74
+File 2 = 64
+
+Compare error at offset 138C0
+File 1 = 00
+File 2 = 61
+
+Compare error at offset 138C1
+File 1 = 00
+File 2 = 74
+
+Compare error at offset 138C6
+File 1 = 68
+File 2 = 61
+
+Compare error at offset 138C7
+File 1 = 70
+File 2 = 3A
+
+Compare error at offset 138C8
+File 1 = 6D
+File 2 = 68
+
+Compare error at offset 138C9
+File 1 = 2E
+File 2 = 70
+
+Compare error at offset 138CA
+File 1 = 6F
+File 2 = 6D
+
+Compare error at offset 138CB
+File 1 = 76
+File 2 = 2E
+
+Compare error at offset 138CC
+File 1 = 6C
+File 2 = 6F
+
+Compare error at offset 138CD
+File 1 = 00
+File 2 = 76
+
+Compare error at offset 138CE
+File 1 = 00
+File 2 = 6C
+
+Compare error at offset 138D2
+File 1 = 68
+File 2 = 61
+
+Compare error at offset 138D3
+File 1 = 70
+File 2 = 3A
+
+Compare error at offset 138D4
+File 1 = 6D
+File 2 = 68
+
+Compare error at offset 138D5
+File 1 = 2E
+File 2 = 70
+
+Compare error at offset 138D6
+File 1 = 68
+File 2 = 6D
+
+Compare error at offset 138D7
+File 1 = 6C
+File 2 = 2E
+
+Compare error at offset 138D8
+File 1 = 70
+File 2 = 68
+
+Compare error at offset 138D9
+File 1 = 00
+File 2 = 6C
+
+Compare error at offset 138DA
+File 1 = 00
+File 2 = 70
+
+Eof mark not found
+
+
+8). NEXT WE WILL CHANGE A PROGRAM CALLED 'HPM.OVL'
+
+C:HPM     .OVL and A:HPM     .OVL
+
+Compare error at offset 2098
+File 1 = 68
+File 2 = 61
+
+Compare error at offset 2099
+File 1 = 70
+File 2 = 3A
+
+Compare error at offset 209A
+File 1 = 6D
+File 2 = 68
+
+Compare error at offset 209C
+File 1 = 72
+File 2 = 6D
+
+Compare error at offset 209D
+File 1 = 74
+File 2 = 70
+
+Compare error at offset 209E
+File 1 = 2E
+File 2 = 72
+
+Compare error at offset 209F
+File 1 = 64
+File 2 = 74
+
+Compare error at offset 20A0
+File 1 = 61
+File 2 = 2E
+
+Compare error at offset 20A1
+File 1 = 74
+File 2 = 64
+
+Compare error at offset 20A2
+File 1 = 00
+File 2 = 61
+
+Compare error at offset 20A3
+File 1 = 00
+File 2 = 74
+
+Compare error at offset 20A8
+File 1 = 68
+File 2 = 61
+
+Compare error at offset 20A9
+File 1 = 70
+File 2 = 3A
+
+Compare error at offset 20AA
+File 1 = 6D
+File 2 = 68
+
+Compare error at offset 20AB
+File 1 = 2E
+File 2 = 70
+
+Compare error at offset 20AC
+File 1 = 6F
+File 2 = 6D
+
+Compare error at offset 20AD
+File 1 = 76
+File 2 = 2E
+
+Compare error at offset 20AE
+File 1 = 6C
+File 2 = 6F
+
+Compare error at offset 20AF
+File 1 = 00
+File 2 = 76
+
+Compare error at offset 20B0
+File 1 = 00
+File 2 = 6C
+
+Compare error at offset 20B4
+File 1 = 68
+File 2 = 61
+
+Compare error at offset 20B5
+File 1 = 70
+File 2 = 3A
+
+Compare error at offset 20B6
+File 1 = 6D
+File 2 = 68
+
+Compare error at offset 20B7
+File 1 = 2E
+File 2 = 70
+
+Compare error at offset 20B8
+File 1 = 68
+File 2 = 6D
+
+Compare error at offset 20B9
+File 1 = 6C
+File 2 = 2E
+
+Compare error at offset 20BA
+File 1 = 70
+File 2 = 68
+
+Compare error at offset 20BB
+File 1 = 00
+File 2 = 6C
+
+Compare error at offset 20BC
+File 1 = 00
+File 2 = 70
+
+Compare error at offset 10141
+File 1 = C3
+File 2 = 55
+
+Eof mark not found
+
+NOTE: NOW ALL OF 'HPM' COPY PROTECTION IS REMOVED, AND U MAY DISKCOPY
+     THE UNPROTECTED DISKS AS REQUIRED.
+
+OTHER NOTES:
+-------------------------------------------------------------------------
+
+1). CHECKS FOR SPECIALLY FORMATTED TRACKS COMPLETELY REMOVED
+
+2). ANY HARD CODED DRIVE ASSIGNMENTS COMPLETELY REMOVED
+   (ALL FILE REQUESTS, INCLUDING INITIAL LOAD FILES ,WILL LOAD
+    FROM THE CURRENT DEFAULT DRIVE)
+
+3). U MAY LOAD ALL THE FILES ON THE NEWLY FORMATTED AND UNPROTECTED
+   DISKETTE DIRECTLY TO HARD OR RAM DISK, IN ANY SUB-DIRECTORY U
+   SET UP
+
+4). U MAY CHANGE THE DEFAULT DRIVE AFTER RUNNING BY USING  THE ' FILE UNIT'
+OPTION.  THIS EFFECTIVELY DOES A SELECT DISK TO WHAT EVER DRIVE U WANT.
+
+5). THERE IS NO LONGER A START UP CHECK TO VERIFY THAT ALL THE 'HPM' FILES
+   ARE ON THE DEFAULT DRIVE.
+
+6). THE SERIAL NUMBER , AT START UP , WILL DISPLAY AS '(INVALID)' BUT
+   THE PROGRAM WILL STILL RUN. YOU MAY USE DEBUG TO CHANGE THE STRING
+ '(invalid)' TO ANOTHER STRING IF U DONT LIKE IT.
+
+7). WHEN U DID THE ORIGINAL COPY FROM THE 'HPM' DISKETTE TO THE DOS 2.X
+   FORMATTED DISK , A HIDDEN FILE IN THE ORIGINAL DIRECTORY CALLED,
+   'SERIAL.NO' WAS OF COURSE NOT COPIED. THE SERIAL NUMBER IS PUT IN THE
+   RESERVED DIRECTORY BYTES IMMEDIATLEY FOLLOWING THE NAME 'SERIAL NO'
+   IN THE HIDDEN DIRECTORY ENTRY. (NOTE: THIS IS AN ASSUMPTION FOR V1.16)
+
+8). THERE IS NO LONGER A CHECK TO SEE THAT THE ORIGINAL PROTECTED 'HPM'
+   DISKETTE IS IN THE 'A' DRIVE WHEN U WANT TO WRITE A FILE (NEW OR OLD)
+   WHILE IN 'HPM'.
+
+9). THESE MODIFICATIONS WERE BASED ON PRIOR KNOWLEDGE OF VERSION 1.1
+   AND HAVE NOT BEEN TESTED EXTENSIVELY. YOU MIGHT WANT TO RUN BOTH THE
+   OLD AND NEW VERSIONS WITH THE SAME DATA FOR A PERIOD OF TIME TO
+   VERIFY THE MODIFICATIONS.
+
+
+  ENJOY YOUR NEW FOUND FREEDOM..HARD DISKS FOREVER!!!!!
+ SAME DATA FOR A PER

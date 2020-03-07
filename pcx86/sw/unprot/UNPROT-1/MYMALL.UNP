@@ -1,0 +1,102 @@
+       UNPROTECT MANAGE YOUR MONEY - ALL REVS
+                              Courtesy of Rolling Stone
+
+There are many patches that allow you to backup or run Manage Your Money
+from a hard disk. The ones I've seen are dependent on Rev 1.50 (i.e. they
+won't cut it on 1.52). The follow should work for almost all revs.
+
+Needless to say, this should be used for backups and hard disks. MYM is a
+good program, and deserves to be paid for. Use it for piracy, and I will
+seek you out, and cut your bells (control-g, ascii 7) off.
+
+
+A>ren mym.exe mym.pgm
+
+A>debug mym.pgm
+
+-s 0 L ffff cd 13
+0914:4ADE     {note the 4ADE}
+     ^^^^
+
+-u 4aae       {this is about hex 30 less than the 4ADE}
+0914:4AAE 07            POP     ES
+0914:4AAF 80C330        ADD     BL,30
+0914:4AB2 BE6E07        MOV     SI,076E
+0914:4AB5 881C          MOV     [SI],BL
+0914:4AB7 56            PUSH    SI
+0914:4AB8 8A9FC402      MOV     BL,[BX+02C4]
+0914:4ABC 53            PUSH    BX
+0914:4ABD E82DFB        CALL    45ED
+0914:4AC0 83C406        ADD     SP,+06
+0914:4AC3 C3            RET                  {note the address after the RET}
+0914:4AC4 E82B8A        CALL    D4F2
+     ^^^^
+0914:4AC7 B80001        MOV     AX,0100
+0914:4ACA 50            PUSH    AX
+0914:4ACB E80086        CALL    D0CE
+
+-a 4ac4          {this is the address after the RET}
+0914:4AC4 ret    {you type the 'ret'}
+0914:4AC5        {type a newline}
+
+-u
+0914:4ACE 1E            PUSH    DS
+0914:4ACF 07            POP     ES
+0914:4AD0 BB9640        MOV     BX,4096     {note the address part}
+            ^^^^
+0914:4AD3 B95B0B        MOV     CX,0B5B
+0914:4AD6 33D2          XOR     DX,DX
+0914:4AD8 BF0500        MOV     DI,0005
+0914:4ADB B80102        MOV     AX,0201
+0914:4ADE CD13          INT     13
+0914:4AE0 0AE4          OR      AH,AH
+0914:4AE2 7425          JZ      4B09
+0914:4AE4 4F            DEC     DI
+0914:4AE5 75F4          JNZ     4ADB
+0914:4AE7 B80002        MOV     AX,0200
+0914:4AEA 50            PUSH    AX
+0914:4AEB E8E085        CALL    D0CE
+
+-s 0 L ffff 96 40    {search for it}
+0914:4AD1
+0914:5063            {note this address}
+     ^^^^
+
+-u 5053              {use about 10 less than it}
+0914:5053 0075D5        ADD     [DI-2B],DH
+0914:5056 8346F803      ADD     WORD PTR [BP-08],+03
+0914:505A 832E5C4909    SUB     WORD PTR [495C],+09
+0914:505F EBB3          JMP     5014
+0914:5061 803E964053    CMP     BYTE PTR [4096],53
+0914:5066 74C6          JZ      502E               {note this instruction}
+                        ^^^^^^^^^^^^
+0914:5068 E983FA        JMP     4AEE               {note this address}
+     ^^^^
+0914:506B 8BF4          MOV     SI,SP
+0914:506D 8B7402        MOV     SI,[SI+02]
+0914:5070 A0B601        MOV     AL,[01B6]
+
+-a 5068              {use the address}
+0914:5068 jmp 502e   {and the instruction}
+0914:506A            {newline}
+
+-u 5053              {just checking}
+0914:5053 0075D5        ADD     [DI-2B],DH
+0914:5056 8346F803      ADD     WORD PTR [BP-08],+03
+0914:505A 832E5C4909    SUB     WORD PTR [495C],+09
+0914:505F EBB3          JMP     5014
+0914:5061 803E964053    CMP     BYTE PTR [4096],53
+0914:5066 74C6          JZ      502E
+0914:5068 EBC4          JMP     502E
+0914:506A FA            CLI
+0914:506B 8BF4          MOV     SI,SP
+0914:506D 8B7402        MOV     SI,[SI+02]
+0914:5070 A0B601        MOV     AL,[01B6]
+
+-w
+Writing F5B0 bytes
+
+-q
+
+A>ren mym.pgm mym.exe
+

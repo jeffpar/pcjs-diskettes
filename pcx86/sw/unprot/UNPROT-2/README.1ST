@@ -1,0 +1,60 @@
+UNPROT00.LBR                      REV#00 . . . 30-NOV-84
+
+This is a library of public domain routines to unprotect 
+and/or copy a variety of software for the IBM PC.
+
+These routines are provided to allow those who purchase
+copy protected software; to use it on hard disk and/or
+make backup copies without restriction . . .
+
+THEY ARE NOT FOR USE AS TOOLS OF SOFTWARE PIRACY ! ! !
+
+SYSOPS: Please feel free to add to this library and then
+        reissue it.  However, be sure to update:
+        1. The README.1ST file with descriptions
+        2. The date in the 1st line of the README.1ST file
+        3. The name under which this library is saved (ie: UNPROT01.LBR)
+
+
+README   1ST    This file
+COPYPC   COM    Copy protected programs
+COPYPC   DOC    Documentation for COPYPC.DOC
+DSAVER   COM    Another copier of protected programs
+
+123STAR  UNP    Unprotect LOTUS 1-2-3 new version 1A (with *)
+MOD123   COM    Modifies LOTUS 1-2-3 (Old version)
+MOD123   DOC    Documentation for MOD123.COM
+NEW123   UNP    Unprotect version 1A of LOTUS 1-2-3
+NEW123UN V1A    Unprotect new version of LOTUS 1-2-3
+UNP123   TXT    Unprotect LOTUS 1-2-3 (versions 1 and 1A)
+
+DB3ZAP   LBR    Library file to unprotect DBASE III
+ENABLE   UNP    Unprotect ENABLE version 1.00
+EZWRITR  UNP    Unprotect EASYWRITER version 1.1
+FLTSIM   CPY    Make copies of Microsoft Flight Simulator I
+FLTSIM   UNP    Unprotect Microsoft Flight Simulator I
+GRAFWRTR UNP    Unprotect GRAPHWRITER version 4.21
+LAYOUT   UNP    More about breaking PROKEY version 3.0
+LOADCALC UNP    Allows LOADCALC to be run after COPYIIPC
+MEMSHIFT UNP    Unprotects "Memory Shift" program
+MLINK206 UNP    Unprotect IBM/Microsoft MULTILINK
+MS2      UNP    Unprotect "Memory Shift" Version 2.1
+PCM      UNP    Unprotect IBM Personel Computer Manager
+PFSFILE  UNP    Unprotect PFS FILE and REPORT
+PFS-ZAP  UNP    Unprotect PFS FILE and REPORT version 1.05
+PROKEY30 UNP    Unprotect PROKEY version 3.0
+PRODWN   TXT    Slick PROKEY patch fixes compatibility
+SDKIK    UNP    Unprotect SIDEKICK version 1.10A
+SK       UNP    Unprotect SIDEKICK version 1.00A
+SYMPHONY LBR    Library of programs to unprotect SYMPHONY
+SYMPHONY UNP    Corrected Unprotection Information for SYMPHONY
+TIMER    SK     Correct PRINT.COM to run with SIDEKICK
+TM       UNP    Unprotect IBM/Microsoft TIME MANAGER
+UNPROT   B      Unprotect *.BAS programs when SAVEd "*",P
+UNPROT   DOC    Documentation for UNPROT.B
+VISICALC UNP    Unprotect VISICALC version 1.1
+WORD     UNP    Unprotect Microsoft's THE WORD
+WORD1_1  UNP    Unprotect Microsoft's THE WORD version 1.1
+ZORK12   UNP    Unprotect Infocom's ZORK I and II
+ZORK3    UNP    Unprotect Infocom's ZORK III
+

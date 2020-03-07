@@ -1,0 +1,64 @@
+==========================================================================
+     How To Unprotect:  Aardvark McGraw-Hill Financial Software      JRE
+==========================================================================
+
+         This information is provided to allow legal owners of the
+    above software to liberate themselves from the dependence of a
+    single floppy diskette.
+
+         Using the below patches, you will be able to make unlimited
+    backups of the floppy, but more importantly, be able to boot the
+    entire system off a hard disk.
+
+         The copy protection method used on this program expects an
+    unusually formatted Track 7.  The easiest way around this was to
+    bypass the entire 'Verify Track 7' routine.
+
+         I assume that you are familiar with DEBUG (found on the 2nd
+    DOS diskette).  Everything displayed below in upper-case will be
+    supplied by the computer; you must type everything that is in
+    lower-case.  Note that the '-' is DEBUG's prompt and should not
+    be typed.  Place the program diskette in Drive A, and Debug
+    in Drive B.	 The following example applies to 'Estate Tax Planner'
+    but the same theory seems to apply to all in the series.
+
+                                   /------ Comments -------------------
+   A> b:debug est1                 | Enter Debug
+   -r cs                           | Get CS from debug (always different)
+   CS XXXX                         | Add 1000 to the number returned
+                                   |  by DEBUG. This becomes yyyy.
+   :  <return key>                 | Example: CS 2502, + 1000 = 3502 (yyyy)
+   -s yyyy:0 ffff e8 a 0 75 5      | Use above calculated yyyy in this line.
+   YYYY:CF3D                       | If DEBUG does not return this number, add
+                                   | another 1000 and retry.
+   -e yyyy:cf3d 90 90 90 90 90     | Tell prog to skip copy prot. routine.
+   -w                              | Save the program with the changes.
+   Writing 1E000 bytes             | DEBUG displays this message.
+   -q                              | Exit DEBUG
+
+
+   Thats It.  Use 'COPY A:*.* B:' to move all files to a formatted
+diskette and you will have the whole system unprotected and copyable.
+
+
+==========================================================================
+      Originally Uploaded To:    Rail Road BBS  New York        JRE
+==========================================================================
+   Dec. 6, 1985:  From:TOP CAT Rbbs, Springfield, MA  Subject: addendum
+--------------------------------------------------------------------------
+If you are like me, and you follow the above directions verbatim, you will
+never succeed in unprotecting the AARDVARK software.  In the step above 
+where you are waiting for the computer to return CF3D, it does NOT have to
+be CF3D.  On my software, it was something totally different.  So...the
+proper step, in my case, was to take the value returned:  YYYY:CF3D <or
+whatever value appeared>, and type:
+   -e yyyy:CF3D <or whatever value appeared above> 90 90 90 90 90
+in place of what the program tells you above.
+  C A U T I O N:  IT IS HIGHLY RECOMMENDED THAT YOU USE THIS PROTECTION
+                SCHEME ON A *BACKUP* COPY OF YOUR SOFTWARE, IN CASE 
+                YOU HAVE A PROBLEM.  UNDER NO CIRCUMSTANCE SHOULD YOU
+                USE THIS ROUTINE ON AN ORIGINAL FLOPPY.
+                I DID THE ROUTINE ON A COPY CREATED BY QUAID SOFTWARE'S
+                "COPYRIGHT" <A PROGRAM I HIGHLY SUGGEST YOUR PURCHASING>.
+-------------------------------------------------------------------------
+

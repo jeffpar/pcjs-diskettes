@@ -1,0 +1,28 @@
+This patch allows the user to unprotect PrintMaster, published recently
+(1985) by Unison World, Inc.  The following steps assume that DEBUG.COM
+and the file PMMAIN.EXE are on the default disk drive.  If not, add
+a drive specifier (A:, B:, C:, etc.) to the file names shown below.
+The procedure is as follows:
+
+     REN PMMAIN.EXE PMMAIN
+     DEBUG PMMAIN
+     S 0000 FFFE CD 13  (This should return an address in the form
+          xxxx:6C73, where xxxx is the current code segment.  If the
+          second part of the address is not 6C73, you have a different
+          version, and this patch probably will not work.  If it is
+          6C73, proceed with the following steps.)
+     E 6C73 90 90
+     E 6C7A 90
+     W
+     Q
+     REN PMMAIN PMMAIN.EXE
+
+The version you have now created will run from an unprotected
+floppy in drive A, but since some of the file names used by the
+program are hard coded to be on drive A, there is another step to be
+performed before it can be run from the hard disk or RAM disk.
+The DOS command ASSIGN A=C must be executed (assuming the hard disk
+or RAM disk is drive C).  This will direct all calls for drive A to
+drive C, where the program and its files are.
+
+

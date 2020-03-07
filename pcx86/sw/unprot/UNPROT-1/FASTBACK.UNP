@@ -1,0 +1,49 @@
+These patches are for FASTBACK by Fifth Generation Ver 5.0 and 5.01
+
+These patches allow you to run Fastback without master disk in drive A.
+It will ask you for master disk but any formatted floppy will work.
+
+Make a backup copy of your Fastback Files using diskcopy of master disk.
+Then do the following. If data does not match, then this may not work.
+I have not tested the Version 5.0 patch, but the patch for 5.01 uses the
+same changes as in 5.0, at different addresses.  The 5.01 patch seems to
+work fine.
+
+This patch is for FASTBACK By Fith Generation Ver. 5.0
+
+1. DEBUG FASTBACK.PGM
+ -E 28B2 <CR>
+ -XXXX:28B2 7D.90 <SP>  2E.90 <CR>
+ -E 28B7 <CR>
+ -XXXX:28B7 7D.90 <SP>  29.90 <CR>
+ -E 2972 <CR>
+ -XXXX:2972 7D.90 <SP>  2F.90 <CR>
+ -E 2977 <CR>
+ -XXXX:2977 7D.90 <SP>  2A.90 <CR>
+ -W
+ Writing blocks xxxx
+ -Q
+
+This patch is for FASTBACK By Fith Generation Ver. 5.01
+
+1. DEBUG FASTBACK.PGM
+ -E 29AD <CR>
+ -XXXX:29AD 7D.90 <SP>  2E.90 <CR>
+ -E 29B2 <CR>
+ -XXXX:29B2 7D.90 <SP>  29.90 <CR>
+ -E 2A6D <CR>
+ -XXXX:2A6D 7D.90 <SP>  2F.90 <CR>
+ -E 2A72 <CR>
+ -XXXX:2A72 7D.90 <SP>  2A.90 <CR>
+ -W
+ Writing blocks xxxx
+ -Q
+
+Now install FASTBACK on your harddisk using the installation program.
+
+Patch for Version 5.0 contributed by
+R.R.S. Orlando FL 10/22/85
+
+Patch for Version 5.01 contributed by
+D.A.W. Alexandria VA 11/11/85
+

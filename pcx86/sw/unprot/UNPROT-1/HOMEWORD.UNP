@@ -1,0 +1,19 @@
+I just recently bought a copy of Sierra On-Line's "Homeword" word processor 
+for my kids.  They just can't master DisplayWrite yet.  It is a nice for the 
+price program.  BUT, wouldn't you know, it's protected, with no provision for 
+backup other than $15 and "we'll mail a new disk".  Fat chance! There is no 
+way the kids won't destroy the disk.  So, to unprotect Homeword, first format 
+a new system disk, then copy all the Homeword files to it.  Next, rename the 
+Homeword program file HWCOMP.EXE to HWCOMP.TMP. With Dos in drive A: and the 
+new Homeword Disk in drive B: enter: 
+
+   debug b:hwcomp.tmp (CR) 
+       e cs:59f eb 05 (CR)
+       w (CR)
+       q (CR)         
+
+Now, rename HWCOMP.TMP to HWCOMP.EXE.
+
+That should do it.  At least it worked for me on version 1.0
+
+

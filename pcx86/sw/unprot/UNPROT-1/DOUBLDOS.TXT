@@ -1,0 +1,207 @@
+*********************** DOUBLEDOS Ver. 1.00 *************
+
+                 DOUBLEDOS  -  Unprotect
+                                        Based on The Lone Victor's
+                                        routine.
+
+     The following instructions show you how to bypass the SoftGuard
+copy protection scheme used on DOUBLEDOS version 1.00.  This is the same
+scheme used for FrameWork 1.10 and for Wordstar 2000 1.00.  Wordstar
+2000 version 1.10 does not use a copy protection scheme, while versions
+1.00 of dBase III and FrameWork used ProLock.  To unprotect Prolock disks
+read the file PROLOCK.UNP.
+
+     First, using your valid, original DOUBLEDOS diskette, install it on
+a fixed disk.  Softguard hides three files in your root directory:
+CML0200.HCL, VDF0200.VDW, and DOUBLEDO.EXE.  It also copies DOUBLEDO.COM into
+your chosen DOUBLEDOS directory.  DOUBLEDO.EXE is the real DOUBLEDOS program,
+encrypted.  When you run DOUBLEDOS, the program DOUBLEDO.COM loads CML0200.HCL
+high in memory and runs it.  CML decrypts itself and reads VDF0200.VDW.
+The VDF file contains some code and data from the fixed disk FAT at the
+time of installation.  By comparing the information in the VDF file with
+the current FAT, CML can tell if the CML, VDF, and DOUBLEDO.EXE files are
+in the same place on the disk where they were installed.  If they have
+moved, say from a backup & restore, then DOUBLEDOS will not run.
+
+     Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM found on any BBS.
+
+     Make copies of the three files, and of DOUBLEDO.COM, into some other
+directory.
+
+     Hide the three root files again using ALTER or FM.
+
+     Following the DOUBLEDOS  instructions, UNINSTALL DOUBLEDOS.  You can now
+put away your original DOUBLEDOS diskette.  We are done with it.
+
+     Next we will make some patches to CML0200.HCL to allow us to trace
+through the code in DEBUG.  These patches will keep it from killing our
+interrupt vectors.
+
+debug cml0200.hcl
+e 3F9 <CR>  2A.4A <CR>          ; change the 2A to 4A
+e 49D <CR>  F6.16 <CR>          ;  if any of these numbers don't show up
+e 506 <CR>  E9.09 <CR>          ;  it's not working.
+e A79 <CR>  00.20 <CR>          ;
+e AE9 <CR>  00.20 <CR>          ;
+e 73C  97 FA FA F4 F1 7E <CR>   ; this is an encrypted call to 0:300
+w                               ; write out the new CML file
+q                               ; quit debug
+
+
+     Now copy your four saved files back into the root directory and
+hide the CML0200.HCL, VDF0200.VDW, and DOUBLEDOS.EXE files using ALTER or FM.
+
+     We can now run DOUBLEDO.COM using DEBUG, trace just up to the point
+where it has decrypted DOUBLEDO.EXE, then write that file out.
+
+debug dOUBLEDO.COM
+r <CR>                          ; write down the value of DS for use below.
+a 0:300 <CR>                    ; we must assemble some code here
+        pop     ax
+        cs:
+        mov     [320],ax        ; save return address
+        pop     ax
+        cs:
+        mov     [322],ax
+        push    es              ; set up stack the way we need it
+        mov     ax,20
+        mov     es,ax
+        mov     ax,0
+        cs:
+        jmp     far ptr [320]   ; jump to our return address
+ <CR>
+g 406                           ; now we can trace CML
+t
+g 177                           ; this stuff just traces past some
+g 1E9                           ;   encryption routines.
+t
+g 54E                           ; wait while reading VDF & FAT
+g=559 569
+g=571 857                       ; DOUBLEDO.EXE has been decrypted
+rBX <CR>                        ; length DOUBLEDO.EXE = 04800 bytes
+:0                              ; set BX to 0
+rCX <CR>
+:4800                           ; set CX to 4800.
+nDOUBLEDO                       ; name of file to write to
+w XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the begining.
+q                               ; quit debug
+
+     Last, unhide and delete the three root files CML0200.HCL, VDF0200.VDW,
+and DOUBLEDO.EXE.  Delete DOUBLEDO.COM and rename DOUBLEDO to DOUBLEDO.EXE.  This is the
+real DOUBLEDOS program without any SoftGuard code or encryption.  It requires
+only the DOUBLGD2.PGM and DDCONFIG.SYS files to run.
+
+
+*********************** DOUBLEDOS Ver. 2.00 *************
+
+Unprotect DoubleDOS, Version 2.00
+---------------------------------
+
+The following instructions show you how to bypass the DoubleDOS
+copy protection scheme used on Version 2.00.  My thanks to Lone
+Victor, whoever he/she is, for a push in the right direction, by
+way of DB3V110.UNP, and most of all, Thanx and a tip of the hat
+to the guy I learn something technical from every day, The Coffee
+Man, who did the work!!
+
+First, using your ORIGINAL DoubleDOS diskette, install it on
+a FIXED DISK!  DoubleDOS hides three files in your root directory:
+CML0200.HCL, VDF0200.VDW, and DOUBLEDO.EXE.  It also copies DOUBLEDO.COM
+to the current logged hard disk directory.  DOUBLEDO.EXE is the real
+DoubleDOS program, encrypted.  When you run DoubleDOS, the program
+DOUBLEDO.COM loads CML0200.HCL high in memory and runs it.  CML0200.HCL
+decrypts itself and reads VDF0200.VDW.  The VDF0200.VDW file contains
+some code and data from the fixed disk FAT at the time of installation.
+By comparing the information in the VDF0200.VDW file with the current
+FAT, CML0200.HCL can tell if the three hidden files are still in the
+same place on the disk where they were installed.  If they have
+moved, say from a backup & restore, then DoubleDOS will not run.
+
+Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM found on any BBS, or many
+other commercially available programs.
+
+Make copies of the three files, and of DOUBLEDO.COM, into some other
+directory.  Hide the three root files again!
+
+Following the DoubleDOS instructions, UNINSTALL DoubleDOS.  You can now
+put away your original DoubleDOS diskette.  We are done with it.
+
+Next we will make some patches to CML0200.HCL to allow us to trace
+through the code in DEBUG.  These patches will keep it from killing our
+interrupt vectors.
+
+debug cml0200.hcl
+e 3F9 <CR>  2A.4A <CR>          ; change the 2A to 4A
+e 49D <CR>  F6.16 <CR>          ; if any of these numbers don't show up
+e 506 <CR>  E9.09 <CR>          ; it's not working.
+e A79 <CR>  00.20 <CR>          ;
+e AE9 <CR>  00.20 <CR>          ;
+e 73C  97 FA FA F4 F1 7E <CR>   ; this is an encrypted call to 0:300
+w                               ; write out the new CML file
+q                               ; quit debug
+
+
+Now copy your four saved files back into the root directory and
+hide the CML0200.HCL, VDF0200.VDW, and DOUBLEDO.EXE files.
+
+We can now run DOUBLEDO.COM using DEBUG, trace just up to the point
+where it has decrypted DOUBLEDO.EXE, then write that file out.
+
+debug doubledo.com
+r <CR>                          ; write down the value of DS for use below.
+a 0:300 <CR>                    ; we must assemble some code here
+        pop     ax
+        cs:
+        mov     [320],ax        ; save return address
+        pop     ax
+        cs:
+        mov     [322],ax
+        push    es              ; set up stack the way we need it
+        mov     ax,20
+        mov     es,ax
+        mov     ax,0
+        cs:
+        jmp     far ptr [320]   ; jump to our return address
+ <CR>
+g 406                           ; now we can trace CML
+t
+g 177                           ; this stuff just traces past some
+g 1E9                           ; encryption routines.
+t
+g 54E                           ; wait while reading VDF & FAT
+g=559 569
+g=571 857                       ; DOUBLEDO.EXE has been decrypted
+rBX <CR>                        ; length DOUBLEDO.EXE = 1AC00 bytes
+:1                              ; set BX to 1
+rCX <CR>
+:AC00                           ; set CX to AC00.
+nDOUBLEDO                       ; name of file to write to
+w XXXX:100                      ; where XXXX is the value of DS that
+                                ; you wrote down at the begining.
+q                               ; quit debug
+
+Last, unhide and delete the three root files CML0200.HCL, VDF0200.VDW,
+and DOUBLEDO.EXE.  Delete DOUBLEDO.COM and rename DOUBLEDO (the one we
+just wrote, with Debug) to DOUBLEDO.EXE.  This is the real DoubleDOS
+program without any encryption or protection.  It requires only the
+remaining files you already have probably worked with (DDCONFIG.SYS,
+etc.) to run.
+
+The only words above that are different from Lone Victor's DBase III
+unprotection are the substitution of DOUBLEDO.COM and DOUBLEDO.EXE
+in place of the references to DBASE!  Because of this, the BX and CX
+values above will create a DOUBLEDO.EXE file that is over 100K in
+length.  This .EXE program runs just fine, but Relia's Spacemaker
+will pack that file down to a .COM file of 2,979 bytes!  So far, no
+problems - it works great!
+
+Good luck from the Coffee Man and Big-A!
+5-5-85
+
+*********************** DOUBLEDOS Ver. 2.1R *************
+
+See SOFTGARD.TXT
+

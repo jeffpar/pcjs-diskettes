@@ -1,0 +1,40 @@
+		How to Unprotect Clipper, Winter 85
+ 						by the Lone Victor
+
+     This file tells how to remove the Softguard Superlok 2.03 copy
+protection from Clipper Winter 85, on the file CLIPPER.W85
+105984 bytes.  It will work with this file and no others.  
+If it doesn't work, you probably have a different file.
+
+     With this text file you should find a binary file CLIPPER.BIN.
+You will need this file, ALTER, DEBUG, and your Clipper System Disk.
+
+     Install your copy of Clipper on a hard disk as normal.  Using
+ALTER or a similar utility, un-hide and copy the CLIPPER.W85 file.
+Next, hide the file again and Un-Install Clipper.  Put your system
+disk away for safe keeping.
+
+     Now, using DEBUG execute the following commands:
+
+	debug clipper.w85
+	n clipper.bin
+	l
+	rbx <cr>
+	BX 0000			;debug response
+	:1
+	rcx
+	CX 1000			;debug response
+	:9C92
+	w
+	Writing 19C92 bytes	;debug response
+	q
+
+	rename clipper.bin clipper.exe
+	del clipper.w85
+
+     You now have a complete working copy of CLIPPER. 
+
+     If anyone has trouble with this copy of CLIPPR, please contact
+me on the Atlanta IBM-PCUG BBS at 404-433-0062.
+
+						The Lone Victor

@@ -1,0 +1,44 @@
+
+UNPROTECTING MIND PROBER
+
+
+The operation to remove the copy protection is very simple. An added
+benefit to removing the copy protection is the ability to put
+Mind Prober on your hard disk, without the need to have the original
+disk in Drive A: at startup time.
+
+Follow the steps below for removing the copy protection. Be sure to do
+this to a copy, and not to the original disk. Use the DOS COPY command
+to make a copy onto another floppy, or to move a copy to your hard disk.
+Then perform the DEBUG steps to the copy.
+
+1) RENAME MP.EXE MP.1
+
+2) DEBUG MP.1
+
+3) S 0 F000 CD 13
+
+(Note: Two locations should be found, at xxxx:70DC and xxxx:70EC. If they
+       are not at these two addresses then stop, you must have a different
+       version than I. The values xxxx are unimportant.)
+
+4) E 70DC 90 90 90 90
+
+5) E 70EC 90 90 59 EB
+
+6) W
+
+(Note: A 'Writing DC3A bytes' should be displayed. The above Edit commands
+       tell the Mind Prober program to not bother looking for the bad
+       sector located on the diskette.)
+
+7) Q
+
+8) RENAME MP.1 MP.EXE
+
+You are now all through with the ëèrnges, and should have a non-protected
+copy.
+
+
+J. R., otherwise known as "Hacker Jack" of Lake Jackson, TX
+

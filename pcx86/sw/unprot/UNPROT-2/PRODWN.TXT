@@ -1,0 +1,180 @@
+The following is from a file found on COMPUSERVE. Tried the portion using
+ DEBUG and could not get profix.com to read my prokey files (ex. ws.pro)
+ Maybe some one who understand the top part of this message can fill me
+ in.  Thanks    John Roswick, Bismarck.
+
+
+PRODWN         17-July 1984         
+
+    Keywords: SIDEKICK PROKEY PATCH FIX BUGS COMPATIBILITY BORLAND
+    
+     Attention Sidekick/Prokey users !  We at Borland were having
+trouble getting Sidekick to be compatible with Rosesoft's Prokey and
+as many of you Prokey users out there know everything locked up when the
+two got together.  The reason Prokey does not work is because it trashes
+some of the registers when running and confuses Sidekick as to make your
+terminal go down.  Enclosed is the portion of Prokey which does this.
+ 
+0730  2EF606D402FF              TEST    CS:BYTE PTR [02D4H],OFFH
+0736  7409                      JE      0741H
+0738  2EFF2EC602                JMP     CS:DWORD PTR [02C6H]
+073D  5B                        POP     BX
+073E  1F                        POP     DS
+073F  EBF7                      JMP     SHORT 0738H
+0741  1E                        PUSH    DS
+0742  53                        PUSH    BX
+0743  8CCB                      MOV     BX,CS
+0745  8EDB                      MOV     DS,BX
+0747  FB                        STI
+0748  C5053D0100                MOV     BYTE PTR [013DH],00H
+074D  803E660400                CMP     BYTE PTR [0466H],00H
+0752  7420                      JE      0774H
+0754  833E670400                CMP     WORD PTR [0469H],00H
+0759  7507                      JNE     0762H
+075B  833E670400                CMP     WORD PTR [0467H],00H
+0760  740D                      JE      076FH
+0762  832E670401                SUB     WORD PTR [0467H],01H
+0767  831E690400                SBB     WORD PTR [0469H],00H
+076C  EB06                      JMP     SHORT 0774H
+076E  90                        NOP
+076F  C606660400                MOV     BYTE PTR [0466H],00H
+0774  803E530400                CMP     BYTE PTR [0466H],00H
+0779  74C2                      JE      037DH
+077B  833E662400                CMP     WORD PTR [2466H],00H
+0780  7507                      JNE     0789H
+0782  833E682400                CMP     WORD PTR [2468H],00H
+0787  740C                      JE      0795H
+0789  832E682401                SUB     WORD PTR [2468H],01H
+078E  831E662400                SBB     WORD PTR [2466H],00H
+0793  EBA8                      JMP     SHORT 073DH
+0795  E8841D                    CALL    251CH                    ;HMMM !
+0798  EBA3                      JMP     SHORT 073DH
+ 
+THE SAGA CONTINUES ...
+ 
+251C  50                        PUSH    AX
+251D  1E                        PUSH    DS
+251E  A05304                    MOV     AL,[0453H]
+2521  3C01                      CMP     AL,01H
+2523  7407                      JE      252CH
+2525  3C02                      CMP     AL,02H
+2527  743F                      JE      2568H
+2529  1F                        POP     DS
+252A  58                        POP     AX
+252B  C3                        RET     ?NEAR
+252C  BD9D2D                    MOV     BP,2D9DH       BP DESTROYED
+252F  E8480E                    CALL    337AH
+2532  A16C24                    MOV     AX,[246CH]
+2535  A39D2D                    MOV     [2D9DH],AX
+2538  BD9D2D                    MOV     BP,2D9DH
+253B  E8E30D                    CALL    3321H
+253E  BD9D2D                    MOV     BP,2D9DH
+2541  BEE023                    MOV     SI,23E0H       SI DESTROYED
+2544  B601                      MOV     DH,01H         DX DESTROYED
+2546  B201                      MOV     DL,01H         (BUT WILL BE RESTORED
+2548  E8230C                    CALL    317FH          BY THE BIOS)
+254B  E88407                    CALL    2CD2H
+254E  8B366024                  MOV     SI,[2460H]
+2552  387D07                    CALL    2CD2H
+2555  A16224                    MOV     AX,[2462H]
+2558  A36824                    MOV     [2468H],AX
+255B  C70666240000              MOV     WORD PTR [2466H],000H
+2561  C606530402                MOV     BYTE PTR [0453H],02H
+2566  EBC1                      JMP     SHORT 2529H
+2568  BD9D2D                    MOV     BP,2D9DH
+256B  E80C0E                    CALL    337AH
+256E  C606530400                MOV     BYTE PTR [0453H],00H
+2573  EBB4                      JMP     SHORT 2529H
+ .
+ .
+ .
+ 
+Prokey does not save and restore all registers when trapping interrupt
+1C.  The reason why this error occurs at a higher frequency when using
+Sidekick is beyond this discussion. However, to verify the error try the
+following:
+ 
+1. Start Prokey
+2. Define a key recursively
+3. Notice prokey now issues an error message
+4. terminate definition (fast...)
+5. press return 100 times
+6. if prokey did not crash repeat step 2-6
+ 
+Register destroying occurs when Prokey is flashing error message.  You must
+terminate and press return as fast as possible, and be logged on a floppy
+drive (important: let your prompt show the active directory in order to let
+dos read on the disk).
+ 
+The following program establishes a trap at interrupt 8 (to make sure Prokey
+or others does not overwrite it, bios int 8 then activates 1C).
+ 
+CODE                          SEGMENT
+                              ASSUME     CS:CODE
+                              ORG        100H
+START                         PROC
+                              JMP        SHORT SETUP
+START                         ENDP
+INT08SAVE                     DD
+INT08TRAP                     PROC       FAR
+                              PUSH       AX
+                              PUSH       BX
+                              PUSH       CX
+                              PUSH       DX
+                              PUSH       SI
+                              PUSH       DI
+                              PUSH       BP
+                              PUSH       DS
+                              PUSH       ES
+                              PUSHF
+                              CALL       INT08SAVE
+                              POP        ES
+                              POP        DS
+                              POP        BP
+                              POP        DI
+                              POP        SI
+                              POP        DX
+                              POP        CX
+                              POP        BX
+                              POP        AX
+                              IRET
+INT08TRAP                     ENDP
+EOTRAP:
+SETUP                         PROC
+
+                              MOV        DS,AX
+                              MOV        SI,20H
+                              CLI
+                              LES        AX,DWORD PTR[SI]
+                              MOV        WORD PTR INT08SAVE,AX
+                              MOV        WORD PT
+                              MOV        WORD PTR [SI],OFFSET INT08TRAP
+                              MOV        [SI+2],CS
+                              STI
+                              MOV        DX,OFFSET EOTRAP+1
+                        
+SETUP                         ENDP
+CODE                          ENDS
+                              END        START
+ 
+It may be faster to enter the following bytes using debug and writing them
+to the file profix.com, thus saving your original prokey file:
+ 
+
+e100
+0100:  EB 1D 00 00 00 00 50 53 51 52 56 57 55 1E 06 9C
+0110:  2E FF 1E 02 01 07 1F 5D 5F 5E 5A 59 5B 58 CF 33
+0120:  C0 8E D8 BE 20 00 FA C4 04 2E A3 02 01 2E 8C 06
+0130:  04 01 C7 04 06 01 8C 4C 02 FB BA 20 01 CD 27
+RCX
+3F
+NPROFIX.COM
+W
+
+ 
+NOW USE PROFIX INSTEAD OF PROKEY
+ 
+NOTE:  THIS MAY NOT BE THE COMPLETE SOLUTION AS THE WORD STILL DOES NOT
+WORK WITH PROKEY.  FURTHERMORE THIS HAS ONLY BEEN TESTED USING PROKEY
+VERSION 3.0 - OLDER VERSIONS MAY HAVE OTHER BUGS!
+                                                                                                                                

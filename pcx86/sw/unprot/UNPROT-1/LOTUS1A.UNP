@@ -1,0 +1,18 @@
+
+Method to unprotect LOTUS 1-2-3 ver. 1A  by
+	Tom Hall, PC Resources Inc.
+	620 Hobart Terrace
+	Santa Clara, CA  95051
+
+A>RENAME B:123.EXE B:123.XXX
+A>DEBUG B:123.XXX
+-F 4EF L6 90
+-W
+-Q
+A>RENAME B:123.XXX B:123.EXE
+
+
+
+ra, CA  95051
+
+A>R

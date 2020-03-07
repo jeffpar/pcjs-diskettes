@@ -1,0 +1,50 @@
+This is the procedure to unprotect the intregrated software package
+called ENABLE , Vers 1.00
+
+If you have a hard disk or want to create a backup copy that is not
+tied to the original ENABLE system disk, this will remove the copy
+protection completly.
+
+This procedure is to be used by legitimate owners of ENABLE only,
+as you are entitled to make a back up for archive purposes only.
+You are bound by your licence agreement.
+
+Format a blank disk using DOS 2 or 2.1 (Do not use the /s option.)
+
+Label it the same as the original ENABLE system disk.
+
+Copy the files from the original ENABLE system to the formatted
+blank disk using  *.*   .
+
+Place DOS system disk containing DEBUG in drive A:
+
+Place the new copy of ENABLE in drive B:
+
+DEBUG B:SYSTEM.TSG
+
+S CS:0 L EFFF B8 01 04
+
+(You should see)
+XXXX:069C
+XXXX:XXXX   < this one doest matter!
+
+(If you dont - type q and enter - you have a different version!)
+
+(If you do)
+
+E 069C      (enter)
+
+B8.EB 01.2D 04.90     (enter)
+
+W
+
+Q
+
+Now all the copy protection has been removed, and you may copy the
+files as required.
+
+All checks for specially formatted tracks has been removed.
+
+Disk needs no longer to be in the A drive on start up.
+
+

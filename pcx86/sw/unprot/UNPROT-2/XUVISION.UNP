@@ -1,0 +1,148 @@
+I found the same code at a different place than JRE, if your
+program is not the same as JRE's, I have labeled my address down
+below.				The Blot.
+				10/16/85
+
+==========================================================================
+              How To Unprotect:  Execuvision                        JRE
+==========================================================================
+         This information is provided to allow legal owners of the
+    above software to liberate themselves from the dependance of a
+    single floppy diskette.
+
+         Using the below patches, you will be able to make unlimited
+    backups of the floppy, but more importantly, be able to boot the
+    entire system off a hard disk.
+
+         The copy protection method used on this program expects an
+    unusually formatted Track 5.  The easiest way around this was to
+    force the programs to take an exact path through the copy protection.
+
+         I assume that you are familiar with DEBUG (found on the 2nd
+    DOS diskette).  Everything displayed below in upper-case will be
+    supplied by the computer; you must type everything that is in
+    lower-case.  Note that the '-' is DEBUG's prompt and should not
+    be typed.  Make a copy of the files 'EV.EXE' and 'CREATE.EXE';
+    never work with your only copy.  Place the program diskette in
+    Drive A, and Debug in Drive B.
+
+   ===========Unprotect EV.EXE================================================
+                                   /------ Comments -------------------
+   A> ren ev.exe ev                | Debug can't resave an EXE file
+   A> b:debug electric             | Enter Debug
+   -s 0 fff0 75 07 e8 58
+   XXXX:B843                       | If DEBUG does not return 'B843' then
+   -e b843 90 90                   |  you have a different vers & should quit.
+   -e b84a eb 0a                   | These statements bypass the copy
+   -e b873 90 90                   |  protection scheme.
+   -e b882 eb 0d                   |
+   -e b8c7 c3                      |
+                                   | To prevent re-initializing the printer,
+                                   |  use this section, otherwise goto <Save>
+   -r cs                           | Get CS from debug (always different)
+   CS XXXX                         | Add 1000 to the number returned
+                                   |  by DEBUG. This becomes yyyy.
+   :  <return key>                 | Example: CS 2502, + 1000 = 3502 (yyyy)
+   -s yyyy:0 ff00 cd 17 5f 5e      | Use above calculated yyyy in this line.
+   YYYY:0055                       | DEBUG should return this #. If not, quit.
+   -e yyyy:0055 90 90              | Tell prog to skip copy prot. routine.
+                                   | <Save> 
+   -w                              | Save the program with the changes.
+   Writing 19480 bytes             | DEBUG displays this message.
+   -q                              | Exit DEBUG
+A> ren ev ev.exe                   | REName the file to it's original name
+
+   ===========Unprotect CREATE.EXE============================================
+                                   /------ Comments -------------------
+   A> ren create.exe create        | Debug can't resave an EXE file
+   A> b:debug create               | Enter Debug
+   -s 0 fff0 75 07 e8 58
+   XXXX:E7E3                       | If DEBUG does not return 'E7E3' then
+   -e e7e3 90 90                   |  you have a different vers & should quit.
+   -e e7ea eb 0a                   | These statements bypass the copy
+   -e e813 90 90                   |  protection scheme.
+   -e e822 eb 0d                   |
+   -e e867 c3                      |
+                                   | To prevent re-initializing the printer,
+                                   |  use this section, otherwise goto <Save>
+   -r cs                           | Get CS from debug (always different)
+   CS XXXX                         | Add 1000 to the number returned
+                                   |  by DEBUG. This becomes yyyy.
+   :  <return key>                 | Example: CS 2502, + 1000 = 3502 (yyyy)
+   -s yyyy:0 ff00 cd 17 5f 5e      | Use above calculated yyyy in this line.
+   YYYY:320E                       | DEBUG should return this #. If not, quit.
+   -e yyyy:320E 90 90              | Tell prog to skip copy prot. routine.
+                                   | <Save> 
+   -w                              | Save the program with the changes.
+   Writing 1E380 bytes             | DEBUG displays this message.
+   -q                              | Exit DEBUG
+A> ren create create.exe           | REName the file to it's original name
+
+
+   Thats It.  Use 'COPY A:*.* B:' to move all files to a formatted
+diskette and you will have the whole system unprotected and copyable.
+
+   If this program is to be used on a Hard Disk, use the ASSIGN command.
+This will force the program to Read and Write data on the Hard Disk. You
+must use the ASSIGN command before invoking EV.EXE.  The correct Syntax is:
+       ASSIGN A=C B=C, where 'C' is the Hard Disk drive letter.
+
+==========================================================================
+
+===========Unprotect EV.EXE================================================
+                                   /------ Comments -------------------
+   A> ren ev.exe ev                | Debug can't resave an EXE file
+   A> b:debug electric             | Enter Debug
+   -s 0 fff0 75 07 e8 58
+   XXXX:C8C3                       | If DEBUG does not return 'C8C3' then
+   -e c8c3 90 90                   |  you have a different vers & should quit.
+   -e c8ca eb 0a                   | These statements bypass the copy
+   -e c8f3 90 90                   |  protection scheme.
+   -e c902 eb 0d                   |
+   -e c947 c3                      |
+                                   | To prevent re-initializing the printer,
+                                   |  use this section, otherwise goto <Save>
+   -r cs                           | Get CS from debug (always different)
+   CS XXXX                         | Add 1000 to the number returned
+                                   |  by DEBUG. This becomes yyyy.
+   :  <return key>                 | Example: CS 2502, + 1000 = 3502 (yyyy)
+   -s yyyy:0 ff00 cd 17 5f 5e      | Use above calculated yyyy in this line.
+   YYYY:0055                       | DEBUG should return this #. If not, quit.
+   -e yyyy:0055 90 90              | Tell prog to skip copy prot. routine.
+                                   | <Save> 
+   -w                              | Save the program with the changes.
+   Writing 19480 bytes             | DEBUG displays this message.
+   -q                              | Exit DEBUG
+A> ren ev ev.exe                   | REName the file to it's original name
+
+   ===========Unprotect CREATE.EXE============================================
+                                   /------ Comments -------------------
+   A> ren create.exe create        | Debug can't resave an EXE file
+   A> b:debug create               | Enter Debug
+   -s 0 fff0 75 07 e8 58
+   XXXX:FD33                       | If DEBUG does not return 'E7E3' then
+   -e fd33 90 90                   |  you have a different vers & should quit.
+   -e fd3a eb 0a                   | These statements bypass the copy
+   -e fd63 90 90                   |  protection scheme.
+   -e fd72 eb 0d                   |
+   -e fdb7 c3                      |
+                                   | To prevent re-initializing the printer,
+                                   |  use this section, otherwise goto <Save>
+   -r cs                           | Get CS from debug (always different)
+   CS XXXX                         | Add 1000 to the number returned
+                                   |  by DEBUG. This becomes yyyy.
+   :  <return key>                 | Example: CS 2502, + 1000 = 3502 (yyyy)
+   -s yyyy:0 ff00 cd 17 5f 5e      | Use above calculated yyyy in this line.
+   YYYY:0AA8                       | DEBUG should return this #. If not, quit.
+   YYYY:4802                       |
+   -e yyyy:4802 90 90              | Tell prog to skip copy prot. routine.
+                                   | <Save> 
+   -w                              | Save the program with the changes.
+   Writing 1E380 bytes             | DEBUG displays this message.
+   -q                              | Exit DEBUG
+A> ren create create.exe           | REName the file to it's original name
+
+
+There must be a few different versions of the program out.  They
+do not put a version number on the package anymore.  Good luck!
+

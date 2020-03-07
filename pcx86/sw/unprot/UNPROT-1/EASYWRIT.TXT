@@ -1,0 +1,80 @@
+
+
+I assume that the information below will allow you to run EW 1.1 from hard
+disk--not having one, and being a little unsophisticated, I am unsure.
+If your hard disk is drive C, then the command ASSIGN A=C B=C will have to
+be used.  In any event, I can run it from electronic disk, so I don't
+think you'll have any problems--but please let me know if you do.
+
+
+    UNPROTECTING EASYWRITER 1.1 - A PUBLIC SERVICE ANNOUNCEMENT BY:
+    CHARLES S. HERTZ, JR., M.D., 534 ROLAND AVE., JACKSON, TN 38301
+    SOURCE ID TCZ599
+
+EasyWriter 1.1's copy-protection scheme seems to depend on the existence of
+a bizarrely formatted track 39, and a single subroutine that verifies the
+existence of this track.  This subroutine is located in the file
+IBM88VMI.COM at offset hex 196, and is invoked by a CALL instruction
+located at offset hex 180 in the same file.  The subroutine checks to see
+if a sector number 80 exists on track 39--it does on the original
+EasyWriter diskette, but of course does not on a normally formatted
+diskette.  If the subroutine cannot verify the existence of the sector,
+then it returns values such that the calling program immediately executes
+an interrupt 20H, i.e. terminates and returns to DOS.  Examination of the
+code shows that it is necessary only to substitute three 1-byte NOP's (null
+operations) for the 3-byte CALL statement--thus, the subroutine is never
+executed, and track 39 is never checked.  The substitution can be made
+easily with the Norton Utility SECMOD, or, of course, with the DOS utility
+DEBUG.	The substitution can be made directly on the original EasyWriter
+diskette (or the single "authorized" copy); or, for the squeamish, on a
+diskette to which the EasyWriter files have been copied with a "copy *.*"
+command.  After the patch, the files can be copied (but only with copy *.*
+if using the original diskette as the source) as often as desired to any
+type DOS formatted diskette, and the program will run without a hitch.
+Note that if you copy to a DOS 2 diskette, but originally installed DOS
+1.1, you should replace the DOS 1.1 COMMAND.COM, and the utilities FORMAT,
+DISKCOPY, etc., with their DOS 2 versions.  The files can also be copied to
+simulated disk, or hard disk; since EasyWriter expects to find programs on
+Drive A, and data on Drive B, appropriate use of the DOS 2 ASSIGN command
+will be necessary in the latter instances (typically ASSIGN A=C B=C).
+
+WARNING:  The instructions below are based on the first release of EW 1.1;
+files on this version are stamped 06-08-82.  It is possible that there are
+more recent versions; and while it is unlikely that the basic protection
+scheme has been changed, it may be that changes have been made that have by
+chance altered the location of the CALL to the protection subroutine.  If
+in trying to follow the instructions you receive unexpected results, STOP
+before writing any changes; please contact me for further advice.  Even if
+my method works on a newer version, I would GREATLY appreciate hearing from
+you about its existence, as my version has a very annoying bug.
+
+For those with the Norton Utilities, place the diskette containing SECMOD
+in Drive A, and the EasyWriter diskette in Drive B.  Be sure it is not
+write protected.  Invoke SECMOD, select the file IBM88VMI.COM, and move the
+cursor to offset hex 180.  Change the bytes E8 13 00 to 90 90 90.  Remember
+to hit the F9 key to write the changes.  That's it.
+
+For DEBUG:  First, invoke DEBUG from the DOS diskette.	Place the
+EasyWriter diskette (again, be sure it is not write protected) in Drive A.
+At the DEBUG prompt, type n ibm88vmi.com, then hit [Enter].  At the next
+prompt, type l (that's the letter, not the number), and [Enter].  At the
+next prompt, type e cs:0280, and [Enter].  Debug responds with xxxx:0280
+E3.  WITHOUT hitting [Enter], type 90.	Then hit the space bar; DEBUG
+responds with 13.  Type 90, and hit the space bar again.  DEBUG responds
+with 00.  Type 90, and now hit [Enter].  At the next DEBUG prompt, type w
+(to write the changes) and [Enter]; then, at the next prompt, type q (to
+quit) and [Enter].  That's all.
+
+Addendum:  The EasyWriter utility TRANSFER, written in BASIC, has a
+trivial, independent protection scheme.  From the BASIC interpreter command
+prompt (Ok), type LOAD"TRANSFER [Enter].  Delete line 80 by simply typing
+80 [Enter].  Then type SAVE"TRANSFER [Enter].
+
+Regards,
+Charles...TCZ599
+
+
+**************************************************
+
+Also see program EZWRITER.BAS
+

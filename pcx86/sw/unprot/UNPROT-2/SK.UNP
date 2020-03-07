@@ -1,0 +1,48 @@
+
+This is the procedure for bypassing the copy protection scheme used by 
+SIDEKICK,  version 1.00A.
+
+Using DEBUG on SK.COM, NOP out the CALL 8780 at location 071A ----+
+                                                                  |
+Change the OR  AL,AL at 072D to  OR  AL,01 --------+              |
+                                                   |              |
+......and that's it!                               |              |
+                                                   |              |
+                     (BEFORE ZAP)                  |              |
+78A7:071A E86380        CALL    8780 <----------------------------+
+78A7:071D 2E            CS:                        |              |
+78A7:071E 8E163D02      MOV     SS,[023D]          |              |
+78A7:0722 2E            CS:                        |              |
+78A7:0723 8B263F02      MOV     SP,[023F]          |              |
+78A7:0727 1F            POP     DS                 |              |
+78A7:0728 59            POP     CX                 |              |
+78A7:0729 880E1300      MOV     [0013],CL          |              |
+78A7:072D 0AC0          OR      AL,AL   <----------+              |
+                                                   |              |
+                     (AFTER ZAP)                   |              |
+78A7:071A 90            NOP         <-----------------------------+
+78A7:071B 90            NOP         <-----------------------------+
+78A7:071C 90            NOP         <-----------------------------+
+78A7:071D 2E            CS:                        |
+78A7:071E 8E163D02      MOV     SS,[023D]          |
+78A7:0722 2E            CS:                        |
+78A7:0723 8B263F02      MOV     SP,[023F]          |
+78A7:0727 1F            POP     DS                 |
+78A7:0728 59            POP     CX                 |
+78A7:0729 880E1300      MOV     [0013],CL          |
+78A7:072D 0C01          OR      AL,01   <----------+
+
+
+
+
+
+
+
+
+<*>End of file<*>
+
+
+Time remaining =  30 min.
+   IMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM;
+   GDDDDDDDDDDDDDDDDDDDDD RBBS-PC FILE MENU DDDDDDDDD
+

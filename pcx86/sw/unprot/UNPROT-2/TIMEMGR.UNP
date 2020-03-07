@@ -1,0 +1,41 @@
+
+UNPROTECT IBM TIME MANAGER (80 Column Version) Version 1.00 -
+
+1. Have a formatted, blank disk ready if copying to a floppy. Hard
+   disk is OK, also.
+
+2. Startup DEBUG from drive A.  Just type  DEBUG  <enter>
+
+3. Place the TIME MANAGER program disk in drive A.
+4. Type   L 600 0 A5 40  <enter>
+5. Type   F 100,600 90   <enter>
+6. Type   RCX            <enter>
+7. Type   8000           <enter>
+
+8. Place the formated, blank floppy in drive B
+
+9. Type   NTM.COM        <enter>
+10. Type  W              <enter>
+11. Type  Q              <enter>
+
+That's it. You now have the 80-column version of Time Manager on the
+disk in Drive B. It is called TM.COM and can be started by simply
+typing TM. 
+
+BE AWARE!!! - the data diskette is non-dos and cannot be placed on a
+hard disk. Also, while the program itself can be loaded from any drive
+letter (A-Z), the data disk can only be on drives A or B.
+The data disk is not protected and may be copied with DISKCOPY.
+
+
+For the 40-column version, replace line4 with:
+
+4. Type   L 600 0 65 40  <enter>
+
+All others steps are the same.
+
+If you wish to have both a 40 and 80 column version, change line 9
+so that the name is descriptive of the version, i.e. NTM40.COM or
+NTM80.COM.
+
+th a 40 and 80 column ve

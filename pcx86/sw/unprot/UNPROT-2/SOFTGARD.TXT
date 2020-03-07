@@ -1,0 +1,928 @@
+************************* DBASE III Ver. 1.10 **********************
+
+                 dBase III version 1.10  -  Unprotect
+                                                    by The Lone Victor
+
+     The following instructions show you how to bypass the SoftGuard
+copy protection scheme used on dBase III version 1.10.  This is the same
+scheme used for FrameWork 1.10 and for Wordstar 2000 1.00.  Wordstar
+2000 version 1.10 does not use a copy protection scheme, while versions
+1.00 of dBase III and FrameWork used ProLock.  To unprotect Prolock disks
+read the file PROLOCK.TXT.
+
+     First, using your valid, original dBase III diskette, install it on
+a fixed disk.  Softguard hides three files in your root directory:
+CML0200.HCL, VDF0200.VDW, and DBASE.EXE.  It also copies DBASE.COM into
+your chosen dBase directory.  DBASE.EXE is the real dBase III program,
+encrypted.  When you run dbase, the program DBASE.COM loads CML0200.HCL
+high in memory and runs it.  CML decrypts itself and reads VDF0200.VDW.
+The VDF file contains some code and data from the fixed disk FAT at the
+time of installation.  By comparing the information in the VDF file with
+the current FAT, CML can tell if the CML, VDF, and DBASE.EXE files are
+in the same place on the disk where they were installed.  If they have
+moved, say from a backup & restore, then dBase will not run.
+
+     Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM, or UNHIDE.COM and HIDE.COM
+found on any BBS.
+
+     Make copies of the three files, and of DBASE.COM, into some other
+directory.
+
+     Hide the three root files again using ALTER or FM.
+
+     Following the dBase instructions, UNINSTALL dBase III.  You can now
+put away your original dBase diskette.  We are done with it.
+
+     Next we will make some patches to CML0200.HCL to allow us to trace
+through the code in DEBUG.  These patches will keep it from killing our
+interrupt vectors.
+
+DEBUG CML0200.HCL
+E 3F9 <CR>  2A.4A <CR>          ; change the 2A to 4A
+E 49D <CR>  F6.16 <CR>          ;  if any of these numbers don't show up
+E 506 <CR>  E9.09 <CR>          ;  it's not working.
+E A79 <CR>  00.20 <CR>          ;
+E AE9 <CR>  00.20 <CR>          ;
+E 73C  97 FA FA F4 F1 7E <CR>   ; this is an encrypted call to 0:300
+W                               ; write out the new CML file
+Q                               ; quit debug
+
+
+     Now copy your four saved files back into the root directory and
+hide the CML0200.HCL, VDF0200.VDW, and DBASE.EXE files using ALTER or FM.
+
+     We can now run DBASE.COM using DEBUG, trace just up to the point
+where it has decrypted DBASE.EXE, then write that file out.
+
+DEBUG DBASE.COM
+R <CR>                          ; write down the value of DS for use below.
+A 0:300 <CR>                    ; we must assemble some code here
+        POP     AX
+        CS:
+        MOV     [320],AX        ; save return address
+        POP     AX
+        CS:
+        MOV     [322],AX
+        PUSH    ES              ; set up stack the way we need it
+        MOV     AX,20
+        MOV     ES,AX
+        MOV     AX,0
+        CS:
+        JMP     FAR PTR [320]   ; jump to our return address
+ <CR>
+G 406                           ; now we can trace CML
+T
+G 177                           ; this stuff just traces past some
+G 1E9                           ;   encryption routines.
+T
+G 54E                           ; wait while reading VDF & FAT
+G=559 569
+G=571 857                       ; DBASE.EXE has been decrypted
+rBX <CR>                        ; length DBASE.EXE = 1AC00 bytes
+:1                              ; set BX to 1
+rCX <CR>
+:AC00                           ; set CX to AC00.
+nDBASE                          ; name of file to write to
+W XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the begining.
+Q                               ; quit debug
+
+     Last, unhide and delete the three root files CML0200.HCL, VDF0200.VDW,
+and DBASE.EXE.  Delete DBASE.COM and rename DBASE to DBASE.EXE.  This is the
+real dBase III program without any SoftGuard code or encryption.  It requires
+only the DBASE.OVL file to run.
+
+     If you have any comments on this unprotect routine or the PROLOCK.UNP
+routine, please leave them on the Atlanta PCUG BBS (404) 634-5731.
+
+                                          The Lone Victor - 4/15/85
+
+
+
+************************* DBASE III PLUS Ver. 1.00 **********************
+
+                How to Unprotect dBase III Plus 1.00
+                                                by the Lone Victor
+
+     This file tells how to remove the Softguard Superlok 2.03 copy
+protection from dBase III Plus version 1.00, on the file DBASE.LD1,
+138752 bytes, dated 12/27/85 6:00.  It will work with this file and
+no others.  If it doesn't work, you probably have a different file.
+
+     With this text file you should find a binary file DBASE.BIN.
+You will need this file, DEBUG, and your dBase System Disk #1.
+
+     Make a new directory on your hard disk or format a new floppy.
+into this empty directory copy the following files from your dBase
+System Disk 1:  CONFIG.DB, DBASE.LD1, DBASE.MSG, DBASEINL.OVL.  Also
+include a copy of the file DBASE.BIN that comes with this text.
+
+     Now, using DEBUG execute the following commands:
+
+        debug dbase.ld1
+        n dbase.bin
+        l
+        rbx <cr>
+        BX 0000                 ;debug response
+        :2
+        rcx
+        CX 2E00                 ;debug response
+        :1e00
+        w
+        Writing 21e00 bytes     ;debug response
+        q
+
+        rename dbase.bin dbase.exe
+        del dbase.ld1
+
+     You now have a complete working copy of dBase III Plus.  There
+is no need to run the INSTALL and UNINSTALL programs.  If you are
+working on a hard disk, also copy all files from System Disk 2 into
+your directory.
+
+     If anyone has trouble with this copy of dbase.exe, please contact
+me on the Atlanta IBM-PCUG BBS at 404-433-0062.
+
+                                                The Lone Victor
+
+
+
+************************* FRAMEWORK II **********************
+
+FRMWRK2.UNP        Breaking Framework II's Softguard 2.03 Protection
+                                  by The Lone Victor
+
+                              Adapted to Framework II by
+                              George V. Hartmann / David Jelen
+
+     United States copyright law SPECIFICALLY grants you the right to
+make copies of programs you buy on magnetic media.  Programs are copy
+protected IN VIOLATION OF YOUR RIGHTS UNDER U.S. LAW.
+
+     Programs that are protected by the Softguard system are distinguished
+by the files CML0203.HCL and VDF0203.VDW which are hidden in the root
+directory when you install the program on your fixed disk.  The 0203
+part of the file names is the Softguard version (2.03) while CML stands
+for Common Loader and VDF is the Volume Descriptor File.  The extensions
+HCL and VDW stand for Hard-disk Common Loader and Verify Descriptor Working
+copy.  In addition, there will be a hidden root file with a .EXE or .LOD
+or some other extension.  This is the REAL program, which has been
+encrypted and hidden.
+
+     The program FW.COM, in the product directory is the Softguard
+miniloader.  All it does is call the Common Loader.  For example, when you
+run FW, the program FW.COM loads CML0203.HCL high in memory and
+runs it.  CML decrypts itself and reads VDF0203.VDW.  The VDF file contains
+some code and data from the fixed disk FAT at the time of installation.  By
+comparing the information in the VDF file with the current FAT, CML can
+tell if the CML, VDF, and FW.A26 files are in the same place on the disk
+where they were installed.  If they have moved, say from a backup &
+restore,then CLIPPER will not run.
+
+     This text file is designed to let you unprotect the most current
+version of Framework, Framework II, which is protected by a variation of
+Softguard 2.03. (not 2.03A)
+
+               -- INSTRUCTIONS --
+
+     First, using your valid, original FRAMEWORK diskette, install it on a
+fixed disk.  You cannot use this text to unprotect the floppy directly!
+Softguard hides three files in your fixed disk root directory: CML0203.HCL,
+VDF0203.VDW, and FW.A26.  It also copies FW.COM into your chosen
+FRAMEWORK directory.  FW.A26 is the real FRAMEWORK program, encrypted.  The
+extension of this file does not matter.  It is really an encrypted .EXE
+file.
+
+     Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM found on any BBS.
+
+     Make copies of the three files, and of FW.COM, into some other
+directory.
+
+     Hide the three root files again using ALTER or FM.
+
+     Following the FRAMEWORK instructions, UNINSTALL FRAMEWORK.  You can
+now put away your original FRAMEWORK diskette.  We are done with it.
+
+     Now copy your four saved files back into the root directory and hide
+the CML0203.HCL, VDF0203.VDW, and FW.A26 files using ALTER or FM.
+
+     We can now run FW.COM using DEBUG, trace just up to the point where it
+has decrypted FW.EXE, then write that file out.
+
+                               LET 'ER RIP!
+
+     Instructions                            Comments
+
+
+debug CLIPPER.com        ; name of file that runs the product
+r <CR>                   ; dump debug's registers
+
+       ****    WRITE DOWN THE VALUE OF DS FOR USE BELOW.  ****
+     ****  THIS VALUE IS DEPENDENT ON YOUR PARTICULAR MACHINE. ****
+
+g 4D7                    ; now we can trace CML
+t
+g 1B5
+t
+e cs:A2
+     74.EB               ; debug reports the 74 here, you enter EB
+e cs:127                 ;
+     E8.90               ; you enter the 90's followed by a space, and
+     D1.90  05.90 <CR>   ; a carriage retirn after the 3rd 90 (no space).
+g 127
+a 185
+     jmp 1C5
+     <CR>                ; this second CR gets you out of the assembler
+a 22B
+     jmp 265
+     <CR>
+a 41F
+     mov ax,22
+     <CR>
+e cs:42F
+     01.89               ; debug reports the 01, you enter 89
+a 4CE
+     mov bl,7A
+     <CR>
+g 4DF
+g 281
+t
+g 24D
+t
+g 5A6                    ; wait while reading VDF & FAT
+g=5B1 5C1
+g=5C9 9DA                ; FW.EXE has been decrypted
+
+d cs:1E7 L8              ; just for grins, here's the password
+
+rBX <CR>
+:3                       ; set BX to 3
+rCX <CR>
+:7600                    ; set CX to 7600
+
+n fw.bin                 ; name of file to write to
+w XXXX:100               ; where XXXX is the value of DS that
+                         ; you wrote down at the beginning.
+q                   ; quit debug
+
+REN FW.BIN FW.EXE
+
+     Now unhide and delete the files FW.A26, VDF0203.VDW and CML0203.HCL.
+FW.COM should also be deleted from the root directory and the product
+directory.  Copy FW.EXE from the root directory to the product directory
+and you are done.  (And so is Ashton-Tate)
+
+NOTE:     The Lone Victor is the author of this method to unprotect
+Softguard protected products, and deserves all the credit.  I adapted his
+method to Framework II and "cleaned-up" a "chain-letter" unprotection file
+that some novices would have had trouble fathoming.  Robert White and Steve
+Diamond had nothing to do with this.  GVH
+
+
+
+***************** OTHER SOFTGUARD Ver. 2.03 Protected programs *******
+
+
+SOFTG203.UNP        Breaking Softguard version 2.03
+                                                    by The Lone Victor
+
+     United States copyright law SPECIFICALLY grants you the right to
+make copies of programs you buy on magnetic media.  Programs are copy
+protected IN VIOLATION OF YOUR RIGHTS UNDER U.S. LAW.
+
+     Programs that are protected by the Softguard system are distinguished
+by the files CML0203.HCL and VDF0203.VDW which are hidden in the root
+directory when you install the program on your fixed disk.  The 0203
+part of the file names is the Softguard version (2.03) while CML stands
+for Common Loader and VDF is the Volume Descriptor File.  The extensions
+HCL and VDW stand for Hard Common Loader and Verify Descriptor Working
+copy.  In addition, there will be a hidden root file with a .EXE or .LOD
+or some other extension.  This is the REAL program, which has been
+encrypted and hidden.
+
+     The program PRODUCT.COM, in the product directory is the Softguard
+miniloader.  All it does is call the Common Loader.  For example, when you
+run CLIPPER, the program CLIPPER.COM loads CML0203.HCL high in memory and
+runs it.  CML decrypts itself and reads VDF0203.VDW.  The VDF file contains
+some code and data from the fixed disk FAT at the time of installation.  By
+comparing the information in the VDF file with the current FAT, CML can tell
+if the CML, VDF, and CLIPPER.L23 files are in the same place on the disk
+where they were installed.  If they have moved, say from a backup & restore,
+then CLIPPER will not run.
+
+     This text file is designed to let you unprotect ANY of the programs
+using the Softguard 2.03 system.  We will use CLIPPER as an example,
+but values for other programs will be included in a table.  This text will
+not unprotect any programs using Softguard 2.00.  To unprotect Softguard
+2.00, see the file SOFTG200.  Versions 1.00 of dBase III and Framework
+used ProLock.  To unprotect Prolock disks read the file PROLOCK.UNP,
+also by yours truly.
+
+     This table is an experiment designed to keep down the number of
+files uploaded to BBS's.  When I started it, this text file was named
+SOFTG203.UN1.  Whenever you add a product to the table (including your
+"name" if desired) increment the file name by one and upload it to your
+local BBS.  Don't worry about the fact that others will be doing the same.
+Higher versions of SOFTG203.UNx will not INSURE that they contain all the
+tabulated products, but will be MORE LIKELY to contain them all.
+Eventually we'll get them all collected.  (Could this be a new type of
+electronic chain letter?)
+
+     If you find a new program to add to the table, just enter the name of
+the encrypted, hidden file in the root directory, and it's size, converted
+to HEX.  Try it out before you upload it to your BBS.
+
+     If you have any comments on this unprotect routine or the PROLOCK.UNP
+routine, please leave them on the Atlanta PCUG BBS (404) 634-5731.
+
+                                          The Lone Victor - 7/14/85
+
+
+
+            TABLE OF VALUES FOR VARIOUS PROTECTED PROGRAMS
+
+                  FILE    FINAL
+PRODUCT  VERSION  NAME     EXT  SIZE:  BX=  CX=        CONTRIBUTOR
+------------------------------------------------------------------------
+
+Clipper     1.00  CLIPPER  EXE  BX = 1  CX = 9800  The Lone Victor 7/14/85
+Spotlight   1.1   SL       EXE  BX = 0  CX = 6600  HARD DISK USER  7/25/85
+Clipper     S85   CLIPPER  EXE  BX = 1  CX = 9200  Hate Protection 9/23/85
+
+
+
+     The following instructions show you how to bypass the SoftGuard copy
+protection scheme using CLIPPER version 1.00 as an example.  To use it
+with other products, simply substitute the values in the table above for
+the values given below.  The only things that change are the file name,
+and the size that goes in the BX:CX register pair.  You can obtain the file
+size by loading the encrypted file (e.g. CLIPPER.L23) with DEBUG and doing
+the Register command.  The file size is in the BX:CX register pair.
+
+
+
+                        -- INSTRUCTIONS --
+
+     First, using your valid, original CLIPPER diskette, install it on a
+fixed disk.  You cannot use this text to unprotect the floppy directly!
+Softguard hides three files in your fixed disk root directory: CML0203.HCL,
+VDF0203.VDW, and CLIPPER.L23.  It also copies CLIPPER.COM into your chosen
+CLIPPER directory.  CLIPPER L23 is the real CLIPPER program, encrypted.  The
+extension of this file does not matter.  It is really an encrypted .EXE file.
+
+     Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM found on any BBS.
+
+     Make copies of the three files, and of CLIPPER.COM, into some other
+directory.
+
+     Hide the three root files again using ALTER or FM.
+
+     Following the CLIPPER instructions, UNINSTALL CLIPPER.  You can now
+put away your original CLIPPER diskette.  We are done with it.
+
+     Now copy your four saved files back into the root directory and hide
+the CML0203.HCL, VDF0203.VDW, and CLIPPER.L23 files using ALTER or FM.
+
+     We can now run CLIPPER.COM using DEBUG, trace just up to the point
+where it has decrypted CLIPPER.EXE, then write that file out.
+
+          ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+     ****  E.G. USE FW.COM INSTEAD OF CLIPPER.COM FOR FRAMEWORK  ****
+
+debug CLIPPER.com               ; name of file that runs the product
+r <CR>                          ; dump debug's registers
+
+          ****  WRITE DOWN THE VALUE OF DS FOR USE BELOW.  ****
+     ****  THIS VALUE IS DEPENDENT ON YOUR PARTICULAR MACHINE.  ****
+
+g 4D7                           ; now we can trace CML
+t
+g 1B5
+t
+e cs:A2
+        74.EB                   ; debug reports the 74 here, you enter EB
+e cs:127
+        E8.90 D2.90 05.90       ; you enter the 90's followed by a space.
+g 127
+a 186
+        jmp 1C6
+        <CR>                    ; this second CR gets you out of the assembler
+a 22C
+        jmp 266
+        <CR>
+a 420
+        mov ax,22
+        <CR>
+e cs:430
+        01.89                   ; debug reports the 01, you enter 89
+a 4CF
+        mov bl,7C
+        <CR>
+g 4E0
+g 282
+t
+g 24D
+t
+g 59F                           ; wait while reading VDF & FAT
+g=5AA 5BA
+g=5C2 9D3                       ; CLIPPER.EXE has been decrypted
+
+d cs:1E0 L8                     ; just for grins, here's the password
+               '44250A15'
+
+              ****  USE THE FILE SIZE LISTED IN THE TABLE ABOVE  ****
+               ****  THE VALUES HERE ARE FOR CLIPPER 1.00 ONLY  ****
+
+rBX <CR>
+:1                              ; set BX to 1 for CLIPPER
+rCX <CR>
+:9800                           ; set CX to 9800 for CLIPPER
+
+              ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+
+nCLIPPER.bin                    ; name of file to write to
+w XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the beginning.
+q                               ; quit debug
+
+     Last, unhide and delete the three root files CML0203.HCL, VDF0203.VDW,
+and CLIPPER.L23.  Delete CLIPPER.COM and rename CLIPPER.BIN to CLIPPER.EXE.
+This is the real CLIPPER program without any SoftGuard code or encryption.
+We could not write it out with the .EXE extension because DEBUG cannot write
+.EXE files.  Every protected program I have seen has the .EXE extention, but
+it is possible to use Softguard to encrypt .COM files too.  See the table
+above for the proper extension to put on the decrypted file.
+
+
+     There is another version of the Softguard system, ALSO labeled 2.03,
+but which differs by one byte in part of the CML file and 7 bytes in
+another.  If you start to apply the above patches and find some of the
+bytes do not match, try the following instructions:
+
+
+
+***  The Summer 85 version responds to the following, but be very careful
+to follow directions EXACTLY.  Start over if any mistakes.  ***
+
+                                            Another Victor
+
+	
+
+debug CLIPPER.com               ; name of file that runs the product
+r <CR>                          ; dump debug's registers
+
+          ****  WRITE DOWN THE VALUE OF DS FOR USE BELOW.  ****
+     ****  THIS VALUE IS DEPENDENT ON YOUR PARTICULAR MACHINE.  ****
+
+g 4D7                           ; now we can trace CML
+t
+g 1B5
+t
+e cs:A2
+        74.EB                   ; debug reports the 74 here, you enter EB
+e cs:127			; HERE START THE 1 BYTE DIFFERENCES
+        E8.90 D1.90 05.90       ; you enter the 90's followed by a space.
+g 127
+a 185
+        jmp 1C5
+        <CR>                    ; this second CR gets you out of the assembler
+a 22B
+        jmp 265
+        <CR>
+a 41F
+        mov ax,22
+        <CR>
+e cs:42F
+        01.89                   ; debug reports the 01, you enter 89
+a 4CE
+        mov bl,7A
+        <CR>
+g 4DF
+g 281
+t
+g 24D
+t				; HERE ARE THE 7 BYTE DIFFERENCES
+g 5A6                           ; wait while reading VDF & FAT
+g=5B1 5C1
+g=5C9 9DA                       ; CLIPPER.EXE has been decrypted
+
+d cs:1E L8                     ; just for grins, here's the password
+               'SUMMER85'
+
+              ****  USE THE FILE SIZE LISTED IN THE TABLE ABOVE  ****
+               ****  THE VALUES HERE ARE FOR CLIPPER 1.00 ONLY  ****
+                ****      SEE ABOVE FOR SUMMER 85 VERSION      ****
+
+rBX <CR>
+:1                              ; set BX to 1 for CLIPPER
+rCX <CR>
+:9200                           ; set CX to 9800 for CLIPPER
+
+              ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+
+nCLIPPER.bin                    ; name of file to write to
+w XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the beginning.
+q                               ; quit debug
+
+REN CLIPPER.BIN CLIPPER.EXE
+                                          The Lone Victor - 9/20/85
+                       
+
+***************** OTHER SOFTGUARD Ver. 2.03 Protected programs *******
+
+SOFTG203.UNP        Breaking Softguard version 2.03 & 2.03A
+version 9                                           by The Lone Victor
+
+     United States copyright law SPECIFICALLY grants you the right to
+make copies of programs you buy on magnetic media.  Programs are copy
+protected IN VIOLATION OF YOUR RIGHTS UNDER U.S. LAW.
+
+     Programs that are protected by the Softguard system are distinguished
+by the files CML0203.HCL and VDF0203.VDW which are hidden in the root
+directory when you install the program on your fixed disk.  The 0203
+part of the file names is the Softguard version (2.03) while CML stands
+for Common Loader and VDF is the Volume Descriptor File.  The extensions
+HCL and VDW stand for Hard-disk Common Loader and Verify Descriptor Working
+copy.  In addition, there will be a hidden root file with a .EXE or .LOD
+or some other extension.  This is the REAL program, which has been
+encrypted and hidden.
+
+     The program <PRODUCT>.COM, in the product directory is the Softguard
+miniloader.  All it does is call the Common Loader.  For example, when you
+run CLIPPER, the program CLIPPER.COM loads CML0203.HCL high in memory and
+runs it.  CML decrypts itself and reads VDF0203.VDW.  The VDF file contains
+some code and data from the fixed disk FAT at the time of installation.  By
+comparing the information in the VDF file with the current FAT, CML can tell
+if the CML, VDF, and CLIPPER.L23 files are in the same place on the disk
+where they were installed.  If they have moved, say from a backup & restore,
+then CLIPPER will not run.
+
+     This text file is designed to let you unprotect ANY of the programs
+using the Softguard 2.03 system.  We will use CLIPPER as an example,
+but values for other programs will be included in a table.  This text will
+not unprotect any programs using Softguard 2.00.  To unprotect Softguard
+2.00, see the file SOFTG200.  Versions 1.00 of dBase III and Framework
+used ProLock.  To unprotect Prolock disks read the file PROLOCK.UNP,
+also by yours truly.
+
+     This table is an experiment designed to keep down the number of
+files uploaded to BBS's.  When I started it, this text file was named
+SOFTG203.UN1.  Whenever you add a product to the table (including your
+"name" if desired) increment the file name by one and upload it to your
+local BBS.  Don't worry about the fact that others will be doing the same.
+Higher versions of SOFTG203.UNx will not INSURE that they contain all the
+tabulated products, but will be MORE LIKELY to contain them all.
+Eventually we'll get them all collected.  (Could this be a new type of
+electronic chain letter?)
+
+     If you find a new program to add to the table, just enter the name of
+the encrypted, hidden file in the root directory, and it's size, converted
+to HEX.  Try it out before you upload it to your BBS.
+
+     If you have any comments on this unprotect routine or the PROLOCK.UNP
+routine, please leave them on the Atlanta PCUG BBS (404) 433-0062.
+
+                                          The Lone Victor - 7/14/85
+
+
+
+            TABLE OF VALUES FOR VARIOUS PROTECTED PROGRAMS
+
+                  FILE    FINAL
+PRODUCT  VERSION  NAME     EXT  SIZE:  BX=  CX=        CONTRIBUTOR
+------------------------------------------------------------------------
+
+Clipper     1.00  CLIPPER  EXE  BX = 1  CX = 9800  The Lone Victor 7/14/85
+Spotlight   1.1   SL       EXE  BX = 0  CX = 6600  HARD DISK USER  7/25/85
+
+
+
+
+        USE THE SECOND UNPROTECT METHOD FOR THE FOLLOWING PROGRAMS
+
+                  FILE    FINAL
+PRODUCT  VERSION  NAME     EXT  SIZE:  BX=  CX=        CONTRIBUTOR
+------------------------------------------------------------------------
+
+Clipper     S85   CLIPPER  EXE  BX = 1  CX = 9200  Hate Protection 9/23/85
+Doubledos   2.1R  DOUBLEDO EXE  BX = 0  CX = 4800  Godfather       10/02/85
+Sprdsht Auditor 2.00   AU  EXE  BX = 2  CX = 9400  The Lone Victor 10/31/85
+
+dBASE III Developer's Release
+                  DBASE    EXE  BX = 1  CX = C000  Vanishing/|\Point 10/85
+dBCODE      1.62  DBC      COM  BX = 0  CX = 5A00  Vanishing/|\Point 10/85
+dBRUN             DBRUN    COM  BX = 1  CX = AC00  <<BOLTAR>>     11/01/85
+
+
+
+
+           USE THE THIRD UNPPROTECT METHOD FOR SOFTGUARD 2.03A
+
+                  FILE    FINAL
+PRODUCT  VERSION  NAME     EXT  SIZE:  BX=  CX=        CONTRIBUTOR
+------------------------------------------------------------------------
+
+123         2.00  123      EXE  BX = 0  CX = 1C00  The Lone Victor 11/ 4/85
+PARADOX     1.00  PARADOX  EXE  BX = 0  CX = 8C30  The Blot        11/12/85
+
+
+
+    The following instructions show you how to bypass the SoftGuard copy
+protection scheme using CLIPPER version 1.00 as an example.  To use it
+with other products, simply substitute the values in the table above for
+the values given below.  The only things that change are the file name,
+and the size that goes in the BX:CX register pair.  You can obtain the file
+size by loading the encrypted file (e.g. CLIPPER.L23) with DEBUG and doing
+the Register command.  The file size is in the BX:CX register pair.
+
+
+
+                        -- INSTRUCTIONS --
+
+     First, using your valid, original CLIPPER diskette, install it on a
+fixed disk.  You cannot use this text to unprotect the floppy directly!
+Softguard hides three files in your fixed disk root directory: CML0203.HCL,
+VDF0203.VDW, and CLIPPER.L23.  It also copies CLIPPER.COM into your chosen
+CLIPPER directory.  CLIPPER L23 is the real CLIPPER program, encrypted.  The
+extension of this file does not matter.  It is really an encrypted .EXE file.
+
+     Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM found on any BBS.
+
+     Make copies of the three files, and of CLIPPER.COM, into some other
+directory.
+
+     Hide the three root files again using ALTER or FM.
+
+     Following the CLIPPER instructions, UNINSTALL CLIPPER.  You can now
+put away your original CLIPPER diskette.  We are done with it.
+
+     Now copy your four saved files back into the root directory and hide
+the CML0203.HCL, VDF0203.VDW, and CLIPPER.L23 files using ALTER or FM.
+
+     We can now run CLIPPER.COM using DEBUG, trace just up to the point
+where it has decrypted CLIPPER.EXE, then write that file out.
+
+          ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+     ****  E.G. USE FW.COM INSTEAD OF CLIPPER.COM FOR FRAMEWORK  ****
+
+debug CLIPPER.com               ; name of file that runs the product
+r <CR>                          ; dump debug's registers
+
+          ****  WRITE DOWN THE VALUE OF DS FOR USE BELOW.  ****
+     ****  THIS VALUE IS DEPENDENT ON YOUR PARTICULAR MACHINE. ****
+
+g 4D7                           ; now we can trace CML
+t
+g 1B5
+t
+e cs:A2
+        74.EB                   ; debug reports the 74 here, you enter EB
+e cs:127
+        E8.90 D2.90 05.90       ; you enter the 90's followed by a space.
+                                ; If you get a D1 instead of D2 skip to
+                                ; the next page for the second version 2.03
+g 127
+a 186
+        jmp 1C6
+        <CR>                    ; this second CR gets you out of the assembler
+a 22C
+        jmp 266
+        <CR>
+a 420
+        mov ax,22
+        <CR>
+e cs:430
+        01.89                   ; debug reports the 01, you enter 89
+a 4CF
+        mov bl,7C
+        <CR>
+g 4E0
+g 282
+t
+g 24D
+t
+g 59F                           ; wait while reading VDF & FAT
+g=5AA 5BA
+g=5C2 9D3                       ; CLIPPER.EXE has been decrypted
+
+d cs:1E0 L8                     ; just for grins, here's the password
+               '44250A15'
+
+              ****  USE THE FILE SIZE LISTED IN THE TABLE ABOVE  ****
+               ****  THE VALUES HERE ARE FOR CLIPPER 1.00 ONLY  ****
+
+rBX <CR>
+:1                              ; set BX to 1 for CLIPPER
+rCX <CR>
+:9800                           ; set CX to 9800 for CLIPPER
+
+              ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+
+nCLIPPER.bin                    ; name of file to write to
+w XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the beginning.
+q                               ; quit debug
+
+     Last, unhide and delete the three root files CML0203.HCL, VDF0203.VDW,
+and CLIPPER.L23.  Delete CLIPPER.COM and rename CLIPPER.BIN to CLIPPER.EXE.
+This is the real CLIPPER program without any SoftGuard code or encryption.
+We could not write it out with the .EXE extension because DEBUG cannot write
+.EXE files.  Every protected program I have seen has the .EXE extention, but
+it is possible to use Softguard to encrypt .COM files too.  See the table
+above for the proper extension to put on the decrypted file.
+
+
+     There is another version of the Softguard system, ALSO labeled 2.03,
+but which differs by one byte in part of the CML file and 7 bytes in
+another.  If you start to apply the above patches and find some of the
+bytes do not match, try the following instructions:
+
+debug CLIPPER.com               ; name of file that runs the product
+r <CR>                          ; dump debug's registers
+
+          ****  WRITE DOWN THE VALUE OF DS FOR USE BELOW.  ****
+     ****  THIS VALUE IS DEPENDENT ON YOUR PARTICULAR MACHINE. ****
+
+g 4D7                           ; now we can trace CML
+t
+g 1B5
+t
+e cs:A2
+        74.EB                   ; debug reports the 74 here, you enter EB
+e cs:127                        ; HERE START THE 1 BYTE DIFFERENCES
+        E8.90 D1.90 05.90       ; you enter the 90's followed by a space.
+g 127
+a 185
+        jmp 1C5
+        <CR>                    ; this second CR gets you out of the assembler
+a 22B
+        jmp 265
+        <CR>
+a 41F
+        mov ax,22
+        <CR>
+e cs:42F
+        01.89                   ; debug reports the 01, you enter 89
+a 4CE
+        mov bl,7A
+g 4DF
+g 281
+t
+g 24D
+t                               ; HERE ARE THE 7 BYTE DIFFERENCES
+g 5A6                           ; wait while reading VDF & FAT
+g=5B1 5C1
+g=5C9 9DA                       ; CLIPPER.EXE has been decrypted
+
+d cs:1E7 L8                     ; just for grins, here's the password
+               'SUMMER85'
+
+              ****  USE THE FILE SIZE LISTED IN THE TABLE ABOVE  ****
+             ****  THE VALUES HERE ARE FOR CLIPPER SUMMER 85 ONLY  ****
+
+rBX <CR>
+:1                              ; set BX to 1 for CLIPPER
+rCX <CR>
+:9200                           ; set CX to 9800 for CLIPPER
+
+              ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+
+nCLIPPER.bin                    ; name of file to write to
+w XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the beginning.
+q                               ; quit debug
+
+REN CLIPPER.BIN CLIPPER.EXE
+                                          The Lone Victor - 9/20/85
+
+
+SOFT203A.UNP        Breaking Softguard version 2.03A
+version 1                                           by The Lone Victor
+
+     There is a THIRD version of the Softguard system, labeled 2.03A,
+which is used by Lotus for 123 release 2.
+
+     First, using your valid, original 123 diskette, install it on a
+fixed disk.  You cannot use this text to unprotect the floppy directly!
+Softguard hides three files in your fixed disk root directory: CML0203A.HCL,
+VDF0203A.VDW, and 123.L2C.  It also copies 123.COM into your chosen 123
+directory.  123.L2C is the real 123 loader, encrypted (it loades the 123.CMP
+file). The extension of this file does not matter.  It is really an
+encrypted .EXE file.
+
+     Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM found on any BBS.
+
+     Make copies of the three files, and of 123.COM, into some other
+directory.
+
+     Hide the three root files again using ALTER or FM.
+
+     Following the 123 instructions, UNINSTALL 123.  You can now
+put away your original 123 diskette.  We are done with it.
+
+     Now copy your four saved files back into the root directory and hide
+the CML0203A.HCL, VDF0203A.VDW, and 123.L2C files using ALTER or FM.
+
+     We can now run 123.COM using DEBUG, trace just up to the point
+where it has decrypted 123.EXE, then write that file out.
+
+          ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+       ****  E.G. USE FW.COM INSTEAD OF 123.COM FOR FRAMEWORK  ****
+
+debug 123.com                   ; name of file that runs the product
+r <CR>                          ; dump debug's registers
+
+          ****  WRITE DOWN THE VALUE OF DS FOR USE BELOW.  ****
+     ****  THIS VALUE IS DEPENDENT ON YOUR PARTICULAR MACHINE. ****
+
+g 4FA                           ; now we can trace CML
+t                               ; this step changes segments into CML
+g 1B5
+t                               ; change segments
+a 7D    mov ax,cs               ; assemble new instruction here over xor ax,ax
+e cs:E9                         ; NOP out a mov ds,cx instruction
+        8E.90 D9.90             ; when debug reports 8E. you enter 90 <space>
+                                ; when debug reports D9. you enter 90 <CR>
+e cs:F5                         ; change a jz instruction into a jmp
+        74.EB                   ; debug reports the 74 here, you enter EB
+e cs:107
+        8E.90 D8.90             ; NOP out a mov ds,ax
+e cs:119
+        8E.90 D9.90             ; NOP out a mov ds,cx
+e cs:1AA
+        CC.90                   ; NOP out an int 3
+g1AA                            ; go to this address
+e cs:1E6
+        CC.90                   ; NOP out an int 3
+e cs:200
+        E8.90 FF.90 03.90       ; NOP out a call 602
+e cs:269
+        26.2E                   ; change an es: to cs:
+e cs:26E                        ; change order of some pop instructions
+        1F.5A 5A.59 5F.5B 5B.5F 5E.5E 59.1F
+e cs:1B6
+        8E.90 DB.90             ; NOP out a mov ds.bx
+e cs:1DD
+        74.EB                   ; change a jz to a jmp
+a 44C
+        jmp 4BF                 ; jump to some code we need
+a 53C
+        jmp 455                 ; jump back into main line code
+a 4E1
+        mov bl,10               ; provide correct checksum value
+e cs:500
+        FE.90 C7.90             ; NOP out an inc bh
+e cs:52B
+        8E.90 D9.90             ; NOP out a mov ds,cx
+g 1E6
+t                               ; trace through two passes
+g 1E6
+g 290
+t                               ; change segments
+g 24D
+t                               ; change segments
+e cs:728
+        8C.90 1F.90             ; NOP out a mov [bx],ds
+e cs:431
+        89.90 07.90             ; NOP out a mov [bx],ds
+e cs:5BD
+        75.90 03.90             ; NOP out a jnz 5C2
+e cs:5F0
+        89.90 17.90             ; NOP out a mov [bx],dx
+e cs:5D8
+        74.EB                   ; change a jz to jmp
+g A41
+g AFA                           ; 123.EXE has been decrypted
+
+d cs:1F1 L8                     ; just for grins, here's the password
+               'LOTUSKEY'
+e XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the beginning.
+        3B.4D 2E.5A             ; programs other than 123 rel 2 may
+                                ; have some numbers here other than 3B 2E
+
+              ****  USE THE FILE SIZE LISTED IN THE TABLE ABOVE  ****
+                 ****  THE VALUES HERE ARE FOR 123 2.00 ONLY  ****
+
+rBX <CR>
+:0                              ; set BX to 0 for 123
+rCX <CR>
+:1C00                           ; set CX to 1C00 for 123
+
+              ****  USE THE FILE NAME LISTED IN THE TABLE ABOVE  ****
+
+n123.bin                        ; name of file to write to
+w XXXX:100                      ; again XXXX is the original DS value
+q                               ; quit debug
+
+     Last, unhide and delete the three root files CML0203A.HCL, VDF0203A.VDW,
+and 123.L2C.  Delete 123.COM and rename 123.BIN to 123.EXE.  This is the
+unprotected 123 loader which runs the 123.CMP program.  We could not write it
+out with the .EXE extension because DEBUG cannot write .EXE files.
+

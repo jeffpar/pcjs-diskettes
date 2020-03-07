@@ -1,0 +1,60 @@
+                       PROKEY  V1.1                    11/84
+
+      Unprotects any program protected by Prolok.   Includes Realia Cobol, all 
+      Ashton/Tate products (dBase 2 and 3, Framework), and Powerbase.  For the 
+      hard disk user, this eliminates the inconvenience of inserting the "key" 
+      diskette every time you run the program.
+
+      In  case  you're not familiar with Prolok,  this is how it  works.   The 
+      original  distribution  diskette you purchased  has  two  elements,  the 
+      program  (put there by the publisher) and a track that was burnt with  a 
+      laser  (put there by Vault Corp.,  the authors of Prolok).  You can copy 
+      the program all you want --- to hard disk,  to backup copies,  etc.  --- 
+      but  you  cannot copy the laser hole.   When you  execute  the  program, 
+      either from hard disk or diskette,  special code written by Vault checks 
+      A:  for  a diskette with a laser hole.   This is the "key" to unlock the 
+      target program.
+
+      PROKEY  is a resident program (put it in your AUTOEXEC.BAT).   The first 
+      time  you  run the target program it would be best if you  had  a  good, 
+      original,  distribution  diskette  in drive A:.   If you are  afraid  of 
+      destroying  the original,  you can put a DISKCOPY of the original in  A: 
+      and PROKEY will do its best to simulate the laser hole.
+
+      PROKEY  is  heuristic (it learns).   The first time PROKEY watches  what 
+      goes by and remembers it.   After that you will not need a diskette  any 
+      more;   PROKEY will simulate it.   When moving to a new machine,  simply 
+      copy the "tailored" PROKEY and the target program.   PROKEY can remember 
+      the keys of up to four programs and will select the correct key automat-
+      ically.
+
+      This is user supported software.  If you are using this program and find 
+      it of value, please send a contribution of $24.95 to:
+
+      Robert Wagner
+      2110 65th Street
+      Lubbock, Tx  79412
+      806-745-5309
+
+      A  special  security  feature of the program encourages you  to  do  so.
+      Whether you pay for it or not, we encourage you to copy PROKEY and share 
+      it with your friends.
+
+      P.S.  Ashton-Tate,  the prime customer of Vault and 20% owner,  has just 
+            pulled  out.   Rumor is that the latest release of Prolok Plus  is 
+            vicious.   If you tamper with it,  it installs a so-called "virus" 
+            or  "worm" in your machine which corrupts or deletes  files.   The 
+            combination  of user backlash,  loss of face (due to  Ashton-Tate) 
+            and very heavy advertising expense should predict the end of Vault 
+            Corp.
+
+
+
+
+
+
+
+
+
+
+                      

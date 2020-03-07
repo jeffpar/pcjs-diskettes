@@ -1,0 +1,60 @@
+
+HOW TO "UNPROTECT" "BAKUP" by Software Integration.
+
+BAKUP is fairly well protected.  You must use a good copy program such
+as COPYWRIT, or a hardware copy device such as the COPY II OPTION BOARD
+to copy the distribution disk. If you use COPYWRIT, you must also run
+RAMKEY before INSTALLING BAKUP.  Because BAKUP is "installed" on the
+hard disk, and makes notes to itself about your system's configuration,
+about the best you can do is to INCREASE the number of allowed installs.
+The way to do this is as follows:
+
+First, copy the distribution disk! NEVER fool around with your original
+disk!
+
+Next, using Norton Utilities on the copy, use SELECT FILE and select the
+ROOT DIRECTORY.  Look at the byte at offset 48 (hex 30). This byte is
+one of the "reserved" bytes for a hidden file whose name is the serial
+number of your copy of BAKUP. For instance, if your serial number is
+04123122442, the file name would be 04123122.442.
+
+On a "new" copy of BAKUP, the value of this byte is 03, indicating 3
+installs. If you've installed the distribution disk once or more times,
+this byte may show 02, 01 or possibly 00.
+
+Move the cursor to the byte, and type "FF" (FF hex, or 255 decimal, the
+largest number that one can put in a byte).  Next hit ESC, and then
+RETURN or F1 to write the new number of "installs" to the diskette.
+
+If you now run the INSTALL program, you will find that BAKUP has
+obligingly granted you 255 installs before you have to repeat this
+procedure for 255 more installs...
+
+For those unfamiliar with Norton's NU program, here's a script of
+keystrokes for doing this. Assume NU is on B: and default drive is A:.
+BAKUP copy is in A:.
+
+A>B:NU<cr>
+F1    <press function key 1>    (change selection)
+F3    <press function key 3>    (select file)
+<cr>  <enter key>               (select root dir)
+F2    <press function key 2>    (explore disk)
+F5    <press function key 5>    (display or modify)
+<cr>                            (change display type)
+<cr>                            (change display type again)
+<press down-arrow twice>        (cursor should be at offset 48, hex 30)
+FF                              (type "FF")
+ESC                             (hit ESCAPE KEY)
+<cr>                            (tell NU to WRITE)
+
+Note: when fooling around with directories, BE CAREFUL! You can easily
+mess up your disk.  REMEMBER: DON'T TRY THIS ON YOUR ORIGINAL DISK!!!
+
+Note also: If you install, then uninstall with the altered install
+count, BAKUP appears not to increment the number of installs. It will
+show 254 installs available after one install/deinstall cycle.  However,
+with this many installs, and the technique outlined here, this should
+hardly present a problem...
+
+LET THERE BE SOFTWARE!
+

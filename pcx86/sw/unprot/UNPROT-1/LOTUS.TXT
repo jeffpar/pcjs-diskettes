@@ -1,0 +1,125 @@
+*************************** LOTUS Ver. 1A & 1A*  *****************
+The LOAD-US routine is a competent and legal method of running Lotus (1A)
+and Symphony (1.0) from your hard disk without a key disk. See LOAD-US.DOC.
+
+*************************** LOTUS Ver. 1A   *****************
+
+Method to unprotect LOTUS 1-2-3 ver. 1A  by
+        Tom Hall, PC Resources Inc.
+        620 Hobart Terrace
+        Santa Clara, CA  95051
+
+A>RENAME B:123.EXE B:123.XXX
+A>DEBUG B:123.XXX
+-F 4EF L6 90
+-W
+-Q
+A>RENAME B:123.XXX B:123.EXE
+
+*************************** LOTUS Ver. 1A   *****************
+
+
+A little while ago, there was a patch for 123.EXE listed here that
+effectively unprotected the copy-protected disk and allowed hard-disk
+to run without the floppy.
+I just received the new version of Lotus 123 and retrofitted the patch
+(it is a different technique). To unprotect 123.EXE Version 1A,
+
+1. Rename 123.EXE 123.XYZ
+2. DEBUG 123.XYZ
+3. type  U ABA9
+4. you should see    INT 13   at that address
+5. type  E ABA9 90 90
+6. type  W
+7. type  Q
+8. Rename 123.XYZ 123.EXE
+
+That's it. Good Luck.
+
+*************************** LOTUS Ver. 1A*  *****************
+
+There is another version of Lotus 123 also called Release 1A
+but with a different copy-protection technique. It can be
+identified by an "*" that displays on the first screen under
+the "s" in the word "Release"
+                                     Release 1A
+                                          *
+
+To unprotect this version so it can be run on a hard disk
+without requiring the SYSTEM DISK in drive A, do the following:
+
+1. RENAME   123.EXE    123.XYZ
+2. DEBUG    123.XYZ
+3. Type     U AB8C     press ENTER
+    You should see  MOV  CX,0002
+    if you don't, something is different and this won't work.
+4. Type     E AB8C C3     press ENTER
+5. Type     W
+6. Type     Q
+7. RENAME   123.XYZ   123.EXE
+
+That's it. It will now run from any drive. As always, this patch
+is provided so that honest people don't have to suffer the
+inconvienences imposed upon them by software manufacturers.
+
+*************************** LOTUS Ver. 1A*  *****************
+
+I have just seen a new copy of Lotus 1-2-3 v1a that has a
+modified protection scheme for which the currently published
+unprotect scheme will not work. Here is a modified unprotect
+that will work properly with both the old and new v1a releases
+......
+1) Rename 123.exe to 123.xyx
+2) Type (to DOS) the command
+  C> debug 123.xyx
+3) Type (to debug) the command
+  -s 100 efff cd 13   (The "-" is a prompt from debug.)
+4) Debug should respond with something like:
+   xxxx:ABA9    where xxxx is a hex number that may vary
+5) Type
+  -e aba9 fb f9   (Use whatever debug gave you in the
+  -w               last step instead of "aba9" if it is
+  -q               different.)
+
+6) Rename 123.xyx to 123.exe
+For those of you who want to understand this, it is
+replacing an "INT 13" instruction that checks the disk
+in drive A: for some funny stuff with STI, STC instructions
+that set the flags to the values that the newer 123's check
+for later to defeat the old patch that only put NOP's there.
+
+*************************** LOTUS Ver. 2.00 *****************
+
+See SOFTGARD.TXT
+
+*************************** And Also   *****************
+
+
+                  UNPROTECTING LOTUS 1-2-3
+
+1-2-3 Release 1-A
+-----------------
+1. Rename 123.exe 123.xyz
+2. DEBUG 123.xyz
+3. Type U ABA9
+4. You should see INT 13 at this address
+5. Type E ABA9 90 90
+6. Type W
+7. Type Q
+8. Rename 123.xyz 123.exe
+
+
+1-2-3 Release 1
+---------------
+1. Rename 123.exe 123.xyz
+2. DEBUG 123.xyz
+3. Type S DS:100 FFFF E8 BE 71
+   The system will respond with xxxx:3666 where xxxx can vary
+4. Type E xxxx:3666 90 90 90  (xxxx is the number from above)
+5. Type W
+6. Type Q
+7. Rename 123.xyz 123.exe
+
+
+       Compliments of THE BIG APPLE BBS (212) 975-0046
+

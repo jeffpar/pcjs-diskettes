@@ -1,0 +1,95 @@
+                 SPOTLIGHT - Unprotect
+                                                    by The Lone Victor
+
+     The following instructions show you how to bypass the SoftGuard
+copy protection scheme used on SPOTLIGHT.
+
+     First, using your valid, original SPOTLIGHT diskette, install it on
+a fixed disk.  Softguard hides three files in your root directory:
+CML0200.HCL, VDF0200.VDW, and SL.EXE.  It also copies SL.COM into
+your chosen dBase directory.  SL.EXE is the real SPOTLIGHT program,
+encrypted.  When you run SL, the program SL.COM loads CML0200.HCL
+high in memory and runs it.  CML decrypts itself and reads VDF0200.VDW.
+The VDF file contains some code and data from the fixed disk FAT at the
+time of installation.  By comparing the information in the VDF file with
+the current FAT, CML can tell if the CML, VDF, and SL.EXE files are
+in the same place on the disk where they were installed.  If they have
+moved, say from a backup & restore, then SPOTLIGHT will not run.
+
+     Second, un-hide the three files in the root directory.  You can do
+this with the programs ALTER.COM or FM.COM found on any BBS.
+
+     Make copies of the three files, and of SL.COM, into some other
+directory.
+
+     Hide the three root files again using ALTER or FM.
+
+     Following the  instructions, UNINSTALL SPOTLIGHT.  You can now
+put away your original diskette.  We are done with it.
+
+     Next we will make some patches to CML0200.HCL to allow us to trace
+through the code in DEBUG.  These patches will keep it from killing our
+interrupt vectors.
+
+debug cml0200.hcl
+e 3F9 <CR>  2A.4A <CR>          ; change the 2A to 4A
+e 49D <CR>  F6.16 <CR>          ;  if any of these numbers don't show up
+e 506 <CR>  E9.09 <CR>          ;  it's not working.
+e A79 <CR>  00.20 <CR>          ;
+e AE9 <CR>  00.20 <CR>          ;
+e 73C  97 FA FA F4 F1 7E <CR>   ; this is an encrypted call to 0:300
+w                               ; write out the new CML file
+q                               ; quit debug
+
+
+     Now copy your four saved files back into the root directory and
+hide the CML0200.HCL, VDF0200.VDW, and SL.EXE files using ALTER or FM.
+
+     We can now run SL.COM using DEBUG, trace just up to the point
+where it has decrypted SL.EXE, then write that file out.
+
+debug sl.com
+r <CR>                          ; write down the value of DS for use below.
+a 0:300 <CR>                    ; we must assemble some code here
+        pop     ax
+        cs:
+        mov     [320],ax        ; save return address
+        pop     ax
+        cs:
+        mov     [322],ax
+        push    es              ; set up stack the way we need it
+        mov     ax,20
+        mov     es,ax
+        mov     ax,0
+        cs:
+        jmp     far ptr [320]   ; jump to our return address
+ <CR>
+g 406                           ; now we can trace CML
+t
+g 177                           ; this stuff just traces past some
+g 1E9                           ;   encryption routines.
+t
+g 54E                           ; wait while reading VDF & FAT
+g=559 569
+g=571 857                       ; SL.EXE has been decrypted
+rBX <CR>                        ; length SL.EXE = 6700 bytes
+:0                              ; set BX to 1
+rCX <CR>
+:6700                           ; set CX to AC00.
+nSL                             ; name of file to write to
+w XXXX:100                      ; where XXXX is the value of DS that
+                                ;   you wrote down at the begining.
+q                               ; quit debug
+
+     Last, unhide and delete the three root files CML0200.HCL, VDF0200.VDW,
+and SL.EXE.  Delete SL.COM and rename SL to SL.EXE.  This is the
+real SPOTLIGHT program without any SoftGuard code or encryption.  It requires
+only that the SPOTLIGHT utilities be in a sub-directory named SPOTLGHT.
+
+
+                                          The Lone Victor - 4/15/85
+
+************************* SPOTLIGHT Ver. 1.1 *************
+
+See SOFTGARD.TXT
+

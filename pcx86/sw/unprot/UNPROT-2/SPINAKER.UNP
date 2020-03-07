@@ -1,0 +1,97 @@
+            HOW TO UNPROTECT "KINDERCOMP" AND "KIDS ON KEYS"
+                     GAMES FROM SPINNAKER SOFTWARE
+                       (by Herb Sorock, 07/01/85)
+
+    These "unprotects" will permit the backing-up of the "Kindercomp" 
+and "Kids on Keys" games as well as permitting hard disk owners to run 
+the games without the original disks in drive A.  Some familiarity with 
+the DEBUG program on the PC-DOS disk is assumed.
+
+                               KINDERCOMP
+                               ----------
+      Note: The procedures below apply to version 1.0 of this game.  
+
+1. Take out the KINDERCOMP disk and make a copy of it on another disk 
+using "COPY A:*.* B:" .  Do not make the copy using DISKCOPY since the 
+disk is protected.  Put the original away in your "archives".
+
+2. Put your DOS diskette in drive A and the KINDERCOMP copy in drive B.  
+
+3. Follow the "script" below.  Lowercase is your input, uppercase is 
+DEBUG's response.  XXXX means the numbers in these spaces will vary 
+depending on your machine's configuration.  Note: if DEBUG shows 
+something other than what is indicated below, you have a different 
+version and this unprotect will not work.
+
+---------------------------------------------------------------------------   
+    A>ren b:kdc_ib.exe *.xxx                       
+
+    A>debug b:kdc_ib.xxx
+    -u 3b54,3b54
+    XXXX:3B54 CD13         INT 13                  
+    -e 3b54
+    XXXX:3B54  CD.eb   13.4a               (note: hit space bar after "eb")
+    -w
+    Writing 3B00 bytes
+    -q
+
+    A>ren b:kdc_ib.xxx *.exe
+---------------------------------------------------------------------------
+
+4. KINDERCOMP is now unprotected.
+
+
+                                 KIDS ON KEYS
+                                 ------------
+
+1. Take out the KIDS ON KEYS disk and make a copy of it on another disk 
+using "COPY A:*.* B:" .  Do not make the copy using DISKCOPY since the 
+disk is protected.  Put the original away in your "archives".
+
+2. Put your DOS diskette in drive A and the KIDS ON KEYS copy in drive B.  
+
+3. Follow the "script" below.  Lowercase is your input, uppercase is 
+DEBUG's response.  XXXX means the numbers in these spaces will vary 
+depending on your machine's configuration.  Note: if DEBUG shows 
+something other than what is indicated below, you have a different 
+version and this unprotect will not work.
+
+---------------------------------------------------------------------------   
+A>ren b:kok_ib_d.exe *.xxx
+
+A>debug b:kok_ib_d.xxx
+-u 12a9,12ac
+XXXX:12A9 CD13          INT     13                                 
+XXXX:12AB 07            POP     ES                                 
+XXXX:12AC 7302          JNB     12B0                               
+-e 12a9
+XXXX:12A9  CD.90   13.90     <-- hit space bar after first "90"
+-e 12ac
+XXXX:12AC  73.eb
+-u 0cff,0d05
+XXXX:0CFF C70624007509  MOV     WORD PTR [0024],0975               
+XXXX:0D05 8C0E2600      MOV     [0026],CS                          
+-f 0cff,0d08 90
+-a 0cff
+XXXX:0CFF call 0c75
+XXXX:0D02      <-- just hit c/r here
+-a 0c75
+XXXX:0C75 push ax
+XXXX:0C76 push ds
+XXXX:0C77 mov ax,0040
+XXXX:0C7A mov ds,ax
+XXXX:0C7C mov byte ptr [0017],40
+XXXX:0C81 pop ds
+XXXX:0C82 pop ax
+XXXX:0C83 ret
+XXXX:0C84     <-- just hit c/r here
+-w
+Writing 8500 bytes
+-q
+
+A>ren b:kok_ib_d.xxx *.exe
+------------------------------------------------------------------------
+
+4. KIDS ON KEYS is now unprotected.  Also, the program no longer refuses 
+to acknowledge ctrl-alt-del so you don't have to turn off the power to 
+run another program.

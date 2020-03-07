@@ -1,0 +1,25 @@
+This patch is for FASTBACK By Fith Generation Ver. 5.0
+this patch allows you to run fastback with out master disk in drive A:
+It will ask you for master disk but any formated floppy will work.
+Make backup copy using diskcopy of master disk.
+then do the following if data doses not match then this might not work
+
+1.	DEBUG FASTBACK.PGM
+	-E 28B2 <CR> 
+	-XXXX:28B2 7D.90 <SP>  2E.90 <CR>
+	-E 28B7 <CR>
+	-XXXX:28B7 7D.90 <SP>  29.90 <CR>
+	-E 2972 <CR>
+	-XXXX:2972 7D.90 <SP>  2F.90 <CR>
+	-E 2977 <CR>
+	-XXXX:2977 7D.90 <SP>  2A.90 <CR>
+	-W
+	Writing blocks xxxx
+	-Q
+	A>  the end !!!!! , 
+		now install it on your hard disk.
+
+	have fun with out the master disk.
+	R. R. S. Orlando FL	10/22/85
+
+

@@ -1,0 +1,54 @@
+
+
+==========================================================================
+              How To Unprotect:  Electric Desk 1.04                 JRE
+==========================================================================
+
+         This information is provided to allow legal owners of the
+    above software to liberate themselves from the dependance of a
+    single floppy diskette.
+
+         Using the below patches, you will be able to make unlimited
+    backups of the floppy, but more importantly, be able to boot the
+    entire system off a hard disk.
+
+         The copy protection method used on this program expects an
+    unusually formatted Track 9.  The easiest way around this was to
+    bypass the entire 'Verify Track 9' routine.
+
+         I assume that you are familiar with DEBUG (found on the 2nd
+    DOS diskette).  Everything displayed below in upper-case will be
+    supplied by the computer; you must type everything that is in
+    lower-case.  Note that the '-' is DEBUG's prompt and should not
+    be typed.  Make a copy of the file 'ELECTRIC.EXE'; never work
+    with you only copy.  Place the program diskette in Drive A,
+    and Debug in Drive B.
+
+                                   /------ Comments -------------------
+   A> ren electric.exe electric    | Debug can't resave an EXE file
+   A> b:debug electric             | Enter Debug
+   -r cs                           | Get CS from debug (always different)
+   CS XXXX                         | Add 2000 to the number returned
+                                   |  by DEBUG. This becomes yyyy.
+   :  <return key>                 | Example: CS 2502, + 2000 = 4502 (yyyy)
+   -s yyyy:0 ff00 b8 00 bf 78      | Use above calculated yyyy in this line.
+   YYYY:D145                       | DEBUG should return this number. If not,
+                                   |  you have a different vers & should quit.
+   -e yyyy:d145 e9 b0 00 00        | Tell prog to skip copy prot. routine.
+   -w                              | Save the program with the changes.
+   Writing 2D230 bytes             | DEBUG displays this message.
+   -q                              | Exit DEBUG
+A> ren electric electric.exe       | REName the file to it's original name
+
+
+   Thats It.  Use 'COPY A:*.* B:' to move all files to a formatted
+diskette and you will have the whole system unprotected and copyable.
+
+
+==========================================================================
+   Originally Uploaded To:    Family Ledgers, Inc.  New York        JRE
+==========================================================================
+
+
+
+

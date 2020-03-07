@@ -1,0 +1,43 @@
+		How to Unprotect dBase III Plus 1.00
+ 						by the Lone Victor
+
+     This file tells how to remove the Softguard Superlok 2.03 copy
+protection from dBase III Plus version 1.00, on the file DBASE.LD1,
+138752 bytes, dated 12/27/85 6:00.  It will work with this file and
+no others.  If it doesn't work, you probably have a different file.
+
+     With this text file you should find a binary file DBASE.BIN.
+You will need this file, DEBUG, and your dBase System Disk #1.
+
+     Make a new directory on your hard disk or format a new floppy.
+into this empty directory copy the following files from your dBase
+System Disk 1:  CONFIG.DB, DBASE.LD1, DBASE.MSG, DBASEINL.OVL.  Also
+include a copy of the file DBASE.BIN that comes with this text.
+
+     Now, using DEBUG execute the following commands:
+
+	debug dbase.ld1
+	n dbase.bin
+	l
+	rbx <cr>
+	BX 0000			;debug response
+	:2
+	rcx
+	CX 2E00			;debug response
+	:1e00
+	w
+	Writing 21e00 bytes	;debug response
+	q
+
+	rename dbase.bin dbase.exe
+	del dbase.ld1
+
+     You now have a complete working copy of dBase III Plus.  There
+is no need to run the INSTALL and UNINSTALL programs.  If you are 
+working on a hard disk, also copy all files from System Disk 2 into 
+your directory.
+
+     If anyone has trouble with this copy of dbase.exe, please contact
+me on the Atlanta IBM-PCUG BBS at 404-433-0062.
+
+						The Lone Victor

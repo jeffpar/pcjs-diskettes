@@ -1,0 +1,57 @@
+HOW TO UNPROTECT VERSION 2.2 of VOLKSWRITER DELUXE
+
+Volkswriter Deluxe, version 2.2, has a serial number embedded in
+the code which is tested during program initialization. If the
+serial number is found to be "corrupted", VX will not start, and
+advises you to "INSTALL before running". Here is how to "corrupt"
+the serial number of Volkswriter Deluxe in such a way that VX
+will still operate:
+
+1. COPY the program onto a fresh diskette. NEVER attempt to
+modify your original!
+
+2. Install the copy as you wish using the CONFIGUR program.
+
+3. Using a disk utility such as Norton Utilities, or with DEBUG,
+find the serial number near the beginning of VX.EXE and modify it
+to suit your own desires. NOTE: if you use DEBUG, you will need
+to RENAME VX.EXE to VX.XEX before this operation so that DEBUG
+will let you write the modified program to disk after you're
+done. Then you can rename the VX.XEX file back to VX.EXE.
+
+4. Using a disk utility such as Norton Utilities, search the file
+VX.EXE for the hexadecimal bytes which follow:
+
+2A E4 29 06 82 2B
+
+NOTE: THIS STRING OF BYTES OCCURS TWICE! WE ARE LOOKING FOR THE
+SECOND OCCURRENCE, NOT THE FIRST!!!
+
+These bytes correspond to the following assembly instructions:
+
+SUB AH,AH
+SUB [2B82],AX
+
+Using your disk zap utility, alter the above bytes to:
+
+B8 00 00 A3 82 2B
+
+These bytes correspond to the following assembly instructions:
+
+MOV AX,0
+MOV [2B82],AX
+
+If you have been careful to select the SECOND occurrence of the
+original byte string, VX.EXE no longer cares what serial number
+is installed in it.
+
+If you have access to some other trace/debug utility, you can of
+course search directly for the code above instead of using a disk
+zap. However, when I tried this with DEBUG, the required bytes
+were not found because they lie in a distant segment from the
+beginning of the program and DEBUG's search terminated before
+finding the bytes.
+
+LET THERE BE SOFTWARE -- YO HO!
+
+

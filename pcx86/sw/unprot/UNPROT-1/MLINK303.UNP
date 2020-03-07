@@ -1,0 +1,40 @@
+  MLINK303.UNP [Rel. 05 Jan 86]
+
+  The following is a method to unprotect MultiLink Advanced Release
+  3.03 to allow booting directly from another disk without the need
+  to insert the MultiLink distribution disk.  This is important if
+  you wish to boot directly from your hard disk.
+
+   ENTER                         COMMENTS
+-------------------------    ---------------------------------------
+C>copy mlink.com mlink.bak   Make a backup first!
+C>debug mlink.com            Start debug session.
+-u 523A  525E                Unassemble from address 523A to 525E.
+                             You should see:
+
+                             xxxx:523A B9EA27        MOV     CX,27EA
+                             xxxx:523D E82200        CALL    5262
+                             xxxx:5240 7331          JNB     5273
+                             xxxx:5242 B90829        MOV     CX,2908
+                             xxxx:5245 E81A00        CALL    5262
+                             xxxx:5248 7329          JNB     5273
+                             xxxx:524A FE0E8541      DEC     BYTE PTR [4185]
+                             xxxx:524E 7FEA          JG      523A
+                             xxxx:5250 FE068441      INC     BYTE PTR [4184]
+                             xxxx:5254 FE061C51      INC     BYTE PTR [511C]
+                             xxxx:5258 803E844101    CMP     BYTE PTR [4184],01
+                             xxxx:525D 76D0          JBE     522F
+
+                             If you don't see this, you have another
+                             version.  If so, enter 'Q' to quit the
+                             debug session.  Otherwise, continue.
+
+The following code needs to be replaced:
+
+-e 521B 59                   Tricks ML into thinking it sees the fingerprint
+-w                           Save the changes to disk
+-q                           End the debug session.
+
+>>>> NOTE:  Since some versions of MS-DOS will not work,
+            (Compaq owners take note) make sure you are running
+  

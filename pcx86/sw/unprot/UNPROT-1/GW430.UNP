@@ -1,0 +1,91 @@
+HOW TO UNPROTECT "GRAPHWRITER" v 4.3 by Graphic Communications
+
+
+First, make a copy of the Graphwriter "System Batch" disk. NEVER
+mess around with your original distribution disk!
+
+
+The copy protection for Graphwriter is contained in the file
+GW10.OLY. We will use DEBUG on this file.
+
+Debug GW10.OLY
+
+-s cs:000 l ffff 25 00 ff              [search for beginning of
+                                       test sequence]
+
+xxxx:1D67
+-u 1d67 l 40
+xxxx:1D67 2500FF        AND	AX,FF00
+xxxx:1D6A 0BC0          OR	AX,AX
+xxxx:1D6C 7531          JNZ	1D9F                 <--NOTE This Jump
+xxxx:1D6E 80BE00FE47    CMP	BYTE PTR [BP+FE00],47
+xxxx:1D73 752A          JNZ	1D9F
+xxxx:1D75 80BE01FE57    CMP	BYTE PTR [BP+FE01],57
+xxxx:1D7A 7523          JNZ	1D9F
+xxxx:1D7C 80BE02FE04    CMP	BYTE PTR [BP+FE02],04
+xxxx:1D81 751C          JNZ	1D9F
+xxxx:1D83 80BE03FE01    CMP	BYTE PTR [BP+FE03],01
+xxxx:1D88 7515          JNZ	1D9F
+xxxx:1D8A 80BE04FE52    CMP	BYTE PTR [BP+FE04],52
+xxxx:1D8F 750E          JNZ	1D9F
+xxxx:1D91 80BE05FE42    CMP	BYTE PTR [BP+FE05],42
+xxxx:1D96 7507          JNZ	1D9F
+xxxx:1D98 80BE06FE4A    CMP	BYTE PTR [BP+FE06],4A
+xxxx:1D9D 7457          JZ	1DF6                    <--NOTE this
+                                                      address!
+
+The last jump address in the sequence is the place where Graphwriter goes once
+it has satisfied itself that it has a valid original in drive A:.  We will
+just persuade it to go there a little bit early:
+
+
+-a 1d6c
+xxxx:1D6C JMP 1DF6                          <--assemble a new
+xxxx:xxxx <cr>    ;to end assembly             jump at the first
+                                               jump location!
+
+So GW never gets to test for the goodness of the diskette...
+
+Next, search for a diskette interrupt:
+
+-s cs:0 l ffff cd 13
+xxxx:1E19
+
+-u 1e10
+xxxx:1E10 8A460E        MOV	AL,[BP+0E]
+xxxx:1E13 8A6610        MOV	AH,[BP+10]
+xxxx:1E16 8B5E12        MOV	BX,[BP+12]
+xxxx:1E19 CD13          INT	13                   <--Here it is!
+xxxx:1E1B 8BF0          MOV	SI,AX
+xxxx:1E1D 8BC6          MOV	AX,SI
+xxxx:1E1F 5E            POP	SI
+xxxx:1E20 5D            POP	BP
+xxxx:1E21 C3            RET	
+xxxx:1E22 55            PUSH	BP
+xxxx:1E23 56            PUSH	SI
+xxxx:1E24 8BEC          MOV	BP,SP
+xxxx:1E26 81EC0400      SUB	SP,0004
+xxxx:1E2A C746FC0100    MOV	WORD PTR [BP-04],0001
+xxxx:1E2F EB03          JMP	1E34
+
+Now, let's get rid of the nasty thing:
+
+-a 1E19
+xxxx:1E19 nop
+xxxx:1E1A nop
+xxxx:1E1B <cr>    ;to break out of assembly
+
+Now GW won't even bother to check drive A: at all!
+
+-w
+Writing 693A bytes
+-q
+
+Graphwriter has been unprotected. It may now be freely copied, run from a hard
+or ram disk, etc.  NOTE: you may have to run the hard disk install or use an
+ASSIGN a=c statement in order to keep Graphwriter from looking for overlays on
+drive A:...
+
+LET THERE BE SOFTWARE!
+<Gosh, this is fun!>
+

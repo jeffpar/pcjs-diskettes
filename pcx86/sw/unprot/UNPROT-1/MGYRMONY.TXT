@@ -1,0 +1,111 @@
+****************************** Managing Your Money Ver. 1.5 *******
+
+  Those people who have Andrew Tobias' MANAGING YOUR MONEY and a
+  Hard Disk find it very inconvenient to put Disk 1 in Drive A
+  to start up MYM.  Below is an update to MYM Version 1.5 for
+  people with Hard Disks to bypass this problem.  If you have
+  only floppy disks drives, this procedure won't help much.
+
+  First, make sure you run INSTALL and specify MYM is to be run
+  using a Hard Disk.
+
+  Second, make a copy of MYM.EXE using the following DOS command
+  making sure that MYM.EXE is on your Hard Disk:
+    COPY MYM.EXE MYM.PGM /V
+
+  Third, run DEBUG against MYM.PGM as follows with your input to
+  DEBUG shown by the arrow "-->" :
+
+  -->  C>debug mym.pgm
+  -->  -d 4709 470d
+       XXXX:4709  B8 01 02 CD 13
+  -->  -d 4744 4745
+       XXXX:4744  75 CF
+  -->  -d efd0 efdf
+       XXXX:EFD0  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00
+  -->  -r cx
+       CX EFD0
+  -->  :  <cr>
+
+  If the above 4 displays do not show the same output, you are
+  probability at a different level of MYM and will have to figure
+  out a corresponding update using data from above and below.
+
+  -->  -a 4709
+  -->  XXXX:4709 jmp efd0
+  -->  XXXX:470C xor ax,ax
+  -->  XXXX:470E  <cr>
+  -->  -a 4744
+  -->  XXXX:4744 nop
+  -->  XXXX:4745 nop
+  -->  XXXX:4746  <cr>
+  -->  -a efd0
+  -->  XXXX:EFD0 push bx
+  -->  XXXX:EFD1 mov ax,1453
+  -->  XXXX:EFD4 mov [bx],al
+  -->  XXXX:EFD6 inc bx
+  -->  XXXX:EFD7 dec ah
+  -->  XXXX:EFD9 jnz efd4
+  -->  XXXX:EFDB pop bx
+  -->  XXXX:EFDC jmp 470c
+  -->  XXXX:EFDF  <cr>
+  -->  -r cx
+       CX EFD0
+  -->  :efe0
+  -->  -w
+       Writing EFE0 bytes
+  -->  -q
+       C>
+
+  Finally, rename MYM.EXE to MYM.BAK .   Then rename MYM.PGM to
+  MYM.EXE .   MYM.BAK is now your unmodified, original MYM program.
+  Save it incase the new version does not work.  Your should no
+  longer need to put Disk 1 in Drive A again.
+
+  NOTE:  if you run the updated version of MYM.EXE from a floppy
+  disk, you will be prompted to put Disk 1,2 or 3 in other drives.
+  This new version must be installed using INSTALL specifying a
+  Hard Disk and must executed from a Hard Disk to work.
+
+
+****************************** Managing Your Money Ver. 2.0 *******
+
+
+               HOW TO RUN "MANAGING YOUR MONEY(tm)" FROM A
+                  HARD DISK WITHOUT THE "KEY" DISK AND
+                      WITHOUT PROGRAM MODIFICATIONS
+
+         If you wish to run "Managing Your Money" (including version
+     2.0) from a hard disk, but are annoyed by the requirement for
+     having the original disk 1 in drive A, then read on....
+
+         Part of this ARC file is the program "MYMFIX.COM".  All you have to
+     do is to include this program in your "autoexec" file when running
+     Managing Your Money.  For instance, your "autoexec.bat" might look like
+     this:
+
+         DATE
+         TIME
+         MYMFIX  (to install "MYMFIX")
+         MYM
+         MYMFIX  (to uninstall "MYMFIX")
+
+         That's all there is to it.  MYM will no longer look for the key
+     disk in drive A.  If you are using version 2.0 of MYM, when the
+     request is made to put the key disk in drive A, simply proceed as
+     though you had actually inserted the disk.
+
+     A request:
+
+         If you find this program of value and wish to encourage the
+     availability of similar programs in the future, then you may wish
+     to contribute $10 to the author at the address below:
+
+                 Herbert Sorock
+                 2241 Thornwood Avenue
+                 Wilmette, IL  60091
+
+     ------------------------------------------------------------------------
+     "Managing Your Money" is a registered trademarks of Micro Education
+     Corporation of America.
+

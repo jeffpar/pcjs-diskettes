@@ -1,0 +1,49 @@
+In the spirit of a recent patch to unprotect LOTUS 1-2-3, I discovered
+the same logic can be applied to unprotect MEMORY/SHIFT.
+
+1. Rename MS.EXE MS.XYZ
+2. DEBUG MS.XYZ
+3. type  U 1565
+4. you should see    INT 21   at that address
+5. type  E 1565 90 90
+   type  E 1567 90 90
+6. type  W
+7. type  Q
+8. Rename MS.XYZ MS.EXE
+
+Finally, make sure command.com resides on the disk where MEMORY/
+SHIFT  is initiated.
+
+***************************** MEMORY-SHIFT Ver. 2.1 ***************
+
+How to Unprotect MEMORY-SHIFT, Version 2.1
+
+Prepare a fresh diskette via:
+A>FORMAT b:/s/v
+
+With Memory Shift Master in drive A: and your fresh diskette in B:
+A>COPY A:*.*,B:
+
+Replace the Memory Shift Master in drive A: with your DOS diskette
+A>RENAME B:MS.EXE,B:MS.XXX
+A>DEBUG B:MS.XXX
+-s 0 l 8000 e8 22 00 72     <- look for this string in memory
+xxxx:7F68                   <- one occurance should be found
+-e 7F68
+xxxx:7F68  E8.eb  22.08 <CR>
+-e 80ec
+xxxx:80EC  AD.e9  AB.9e  AD.fe <CR>
+-e 7f8d
+xxxx:7F8D  06.b8  1E.00  B8.01
+xxxx:7F90  40.ab  00.b8  8E.f0  D8.ff  BF.01  3E.d8  00.ab  8A.b8
+xxxx:7F98  95.d0  04.40  00.89  80.c1  E2.b8  03.b8  8E.03  46.e9
+xxxx:7FA0  00.54  33.01
+-w
+Writing 8000 bytes
+-q
+
+A>RENAME B:MS.XXX,B:MS.EXE
+
+That is all there is to it!
+December 28, 1983
+

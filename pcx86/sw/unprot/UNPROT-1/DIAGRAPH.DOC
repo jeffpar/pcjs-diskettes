@@ -1,0 +1,52 @@
+The MARY BURKOFF Auto-Loader for DIAGRAPH Version 3.31...
+Revision 3 (JUNE, 1986)
+
+DIAGRAPH is a fine product, but the package includes a free copy of the
+"COMPUTER SUPPORT APPLICATIONS MANAGER", a thinly disguised, poorly written
+loader for PROLOCK in its latest, ugliest form. I was especially offended by
+the Hard Disk Installation and the fact that it DELIBERATELY, VISCIOUSLY
+crashes such innocuous programs as the Norton Utilities. I therefore decided
+to develop a substitute for the CSAM.COM loader. The Result is DIAGRAPH.COM.
+
+This package contains DIAGRAPH.COM which is used to load DIAGRAPH.EXE
+in place of CSAM.COM and CSAMODI.EXE. DIAGRAPH.COM is a LOADER, not a resident
+program. It has no RESIDENT effect on DOS. No changes to DIAGRAPH are needed.
+Just make certain that DIAGRAPH.EXE and its supporting files are in
+the DEFAULT drive and directory with DIAGRAPH.COM and:
+
+type DIAGRAPH <CR>
+
+You no longer need the files CSAM.COM or CSAMODI.EXE.
+You no longer need to INSTALL diagraph on the fixed disk.
+You no longer need any key disk.
+You DO NEED about 384K MINIMUM of RAM to run DIAGRAPH.EXE with DOS 3.0+.
+
+DIAGRAPH.COM works with DIAGRAPH version 3.31. I'm not sure of any others,
+but it's worth a try. DIAGRAPH.COM replaces CSAM.COM, CSAMODI.EXE, and
+HDUTIL.EXE.
+
+DIAGRAPH can't be patched, since a fairly large subroutine is needed
+at INT 60h (provided by DIAGRAPH.COM).
+
+CONFIG.COM is the Loader for CONFIG.EXE, in exactly the same way, without 
+int 60h.
+
+Debugging DIAGRAPH was more fun than Adventure
+Games any day. This is a REALLY DIFFICULT copy protect!!!
+
+If anyone uses DIAGRAPH without buying it, may God (and ADAPSO) forgive
+you. You will forever rot in hell for your sins!
+
+TECHNICAL NOTE: DIAGRAPH.EXE requires a KEY to be installed at
+0000:04F0h-0000:04FFh and the I/O subroutine at INT 60h to run.
+It is otherwise a standard ".EXE" file, except for encryption.
+DIAGRAPH Also requires CONFIG.PIC to be loaded in RAM with a doubleword
+vector at 0000:04F8h
+DIAGRAPH.COM does just this, then loads and runs DIAGRAPH.EXE.
+
+Happy Computing!
+
+Sincerely,
+
+Mary Burkoff
+

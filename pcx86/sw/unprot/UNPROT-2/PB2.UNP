@@ -1,0 +1,58 @@
+How to unprotect version 2.01 of "Professional Basic".
+
+The new Professional Basic uses essentially the same scheme as
+the old version. However, now there are two versions of PB, one
+for 8087-equipped systems (PB.EXE) and one for non-8087 systems
+(PB8.EXE).
+
+Both versions will not run if their serial number is "corrupted".
+Here is how to modify the serial numbers without letting the
+program find out:
+
+First, copy the program to a blank disk using any convenient
+method. Then, using the new copy, NOT the original, perform the
+following steps:
+
+A. PB.EXE (8087 version):
+
+Using a "disk snoop/zap" utility such as Norton's SM program,
+find the 290th sector of PB.EXE. Move the cursor to offser 379
+decimal (17B hex). This is the beginning of a nine digit serial
+number. This will be the serial number which you see when you
+start the program. Modify this serial number to be anything you
+want. However, make sure that you change EXACTLY nine bytes, and
+WRITE DOWN what you changed them to.
+
+Now go to sector 370 of PB.EXE and move the cursor to offset 171
+decimal (AB hex). This is the encoded (key) serial number. The
+method of encoding is as follows: The original "plain text"
+serial number is rotated LEFT four bytes and one (1) is added to
+each byte.
+
+In order to "correct" this serial number to "match" your new
+serial number, you must do the same operation on your new S.N.
+
+For example, if you chose YO HO HO! as your new serial number,
+you would proceed as follows:
+
+Start:        YO HO HO!
+Rotate:       O HO!YO H
+
+Hex equiv:    4F 20 48 4F 21 59 4F 20 48
+Add 1:        50 21 49 50 22 5A 50 21 49
+
+Ascii equiv:  P!IP"ZP!I
+
+So you replace the existing encoded serial number with the bytes
+shown above.
+
+For PB8.EXE, the equivalent sectors and offsets are:
+
+Serial number:          Sector 299, offset 97 decimal (61 hex)
+Key:                    Sector 380, offset 64 decimal (40 hex)
+
+The procedure for PB8.EXE is identical to that given for PB.EXE.
+
+LET THERE BE SOFTWARE!
+
+

@@ -1,0 +1,33 @@
+This one works friends....
+
+	Print Shop has TWO different protection schemes.. the first looks
+for a special floppy in drive A:, the second works for the harddrive install
+(that a simple backup/restore will cause your install to be wiped out..)
+
+
+
+>debug psinit.ovr
+-a 2a3                    Step 1: Floppy protection
+xxxx:02a3 mov ax,0000             this eliminates the look for the floppy....
+xxxx: ..  jmp 0315
+xxxx: ..(cr)
+
+-a 222                    Step 2: Harddrive protection
+xxxx:0222 jmp 025f                (very simple, always go for the floppy)
+xxxx: ..(cr)
+-w
+-q
+
+all done..
+
+    Now you should be able to copy *.* from your diskette to another diskette
+or a hard disk subdirectory and program will run without a diskette in a: or
+without having to go thru the PSBACKUP program to put it on the hard disk. 
+The program will turn on the A: drive light but does not check to see if there
+is even a diskette in A:
+
+    If you have any problems or questions call:
+                DOC'S OFFICE - RBBS BULLETIN BOARD
+                (214)/463-6581
+                2400/1200 BAUD 24 HOURS/DAY
+

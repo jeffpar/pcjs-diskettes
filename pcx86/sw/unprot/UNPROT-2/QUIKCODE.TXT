@@ -1,0 +1,3 @@
+The dBASE III version 1.10 unprotect by the Lone Victor on file
+SOFTGARD.TXT reportedly works on Quickcode 1.10 & QuickReport 1.00
+

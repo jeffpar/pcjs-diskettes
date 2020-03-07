@@ -1,0 +1,30 @@
+
+Thå  followinç  fileó iî conjunctioî witè youò dBASÅ IIÉ  versioî  
+1.°  fileó  wilì providå yoõ witè aî executablå backuğ ® 
+
+        1)Db3zap.Unp (instructions for procedure)
+        2)Db3zap.Bat (batch file that does the patching)
+        3)Db3zap.Bin (overlay needed by the batch file)
+
+Formaô  á ne÷ disë anä placå thå followinç fileó oî iô usinç  thå 
+DOÓ "copy¢ command®  Dï noô applù thió patcè tï youò original¡ 
+
+        dBASE.Exe  (from your dBASE III distribution disk)
+        dB3ZAP.Bat (the zap procedure)
+        dB3UNP.Bin (overlay for zap procedure)
+        Debug.Com  (from your DOS distribution disk)
+
+Ensurå  thaô therå ió aô leasô 6Ë oæ freå spacå oî thå ne÷  disk®  
+Placå  thå  ne÷ diskettå intï  thå  defaulô drivå anä  issuå  thå 
+batcè commanä "DB3ZAP"® 
+
+
+
+
+                    		Good Luck
+                    		Ranger Rick (SCB) 
+END OF TRANSFER - PRESS ENTER TO RETURN TO MENU
+
+                    		Good Luck
+                    		Ranger Rick (SCB) 
+END OF TRAN

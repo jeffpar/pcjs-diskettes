@@ -1,0 +1,170 @@
+     The following procedure can be used to unprotect MULTIPLAN ver 1.0.
+The steps required can be complicated if you are not accustomed to
+using DEBUG, however, if followed exactly an unprotected version can
+be produced.  If you prefer the process has been automated as explained
+in Step 7 below.
+
+             MULTIPLAN is copy protected in two ways.  First, track
+11 sector 8 has been formatted as track 11 (0B) sector 61 (3D).  We
+will trace through the program until this sector is loaded into
+memory then write it back out to disk into a file name HIDDEN.DTA.
+Secondly, one sector of the file MP1 is read into memory using an
+Absoulute Disk Read (DOS interupt 25H) from a specific location.
+Again, we will trace through the program until that point is reached,
+and write the data loaded into memory back out to disk into a file
+name HIDDEN.DT2.
+
+     Using DEBUG, we will then create a short program named MPX.COM
+that will take care of loading the above files into memory at
+the proper time. Changes will be made to the Multiplan file MP80.COM
+so it will load MPX.COM and to look for further files on the
+default drive rather than Drive A:.  Finally, we will make changes
+to the file MP1 so that control is transfered to MPX.COM when the
+hidden data is to be loaded.
+
+      The following instructions assume we are using a dual drive
+PC.  If you are using a hard disk, make the appropriate substitutions
+(C: for B:) and skip the first step.
+
+      It is also recommended that no resident programs be loaded at
+boot time prior to this procedure (such as Sidekick, etc.).  The reason
+being we will use a few memory locations around 64K and do not want to
+overwrite DEBUG or the operating system.
+
+  1.  Format a blank disk in drive B: (the \S option for system
+      files and single or double sided formating is optional)
+
+  2.  Copy DEBUG.COM onto drive B:
+
+  3.  Copy MP.UNP onto drive B:
+
+  4.  Place your MULTIPLAN Ver 1.0 backup diskette in drive A: with
+      the write protect tab in place.
+
+  5.  Set the default drive to A:
+
+  6.  A> COPY MP80.COM B:
+         COPY MP1 B:        (When the Abort, Retry, Ignore message
+                            apprears press I for ignore)
+         COPY MP2 B:
+         COPY MPMODE.COM B:
+         COPY MP.SYS B:
+         COPY MP.HLP B:      (This file is optional)
+
+  7.  Issue the folowing command:   A> B:DEBUG < B:MP.UNP
+
+                       - OR -
+
+      You may do the same thing manually by following these
+      instructions:
+
+     A> B:DEBUG
+       -N MP80.COM       'Name of the file we are working on
+       -L                'Load into memory
+       -G 11E
+       -G 15b
+       -G 2686
+       -G 1799           'Trace through the program
+       -G 17A4
+       -R CX             'Change the value of the BX and CX
+       CX 0B3D           'registers to the number of bytes
+       :0200             'we wish to write to disk.
+       -R BX
+       BX 0100
+       :0000
+       -N B:HIDDEN.DTA   'Name the file
+       -W ES:100         'Write it to drive B:
+       Writing 0200 bytes
+       -R BX             'Change the BX and CX registers back
+       BX 0000           'to their original values.
+       :0100
+       -R CX
+       CX 0200
+       :0B3D
+       -G 17F0           'Continue tracing through the program.
+       -R BX
+       BX 660F           'If the value is different make a note
+       :0000             'of it to replace later.
+       -R CX
+       CX 0000           'Same holds true for CX
+       :0200             'Number of bytes to write
+       -N B:HIDDEN.DT2
+       -W DS:660F        'If BX was different use it here.
+       Writing 0200 bytes
+       -R BX
+       BX 0000
+       :660F             'and here!
+       -R CX
+       CX 0200           'Replace CX with its orignal value.
+       :0000
+
+                         'Now to make changes in the file MP80.COM
+                         'with the E for enter into memory.  An xx
+                         'represents a memory value about which we
+                         'are not concerned. Press the space bar
+                         'after each entry to bring up the next and
+                         'press enter after finished.  If you make an
+                         'error simply reenter the command (i.e. E 100)
+                         'When reviewing your entries and the values
+                         'are correct simply press the space bar as
+                         'it is not necessary to re-enter a correct
+                         'value.  Consult your DOS manual under DEBUG
+                         'for a further explanation.
+       -N MP80.COM
+       -L
+       -E 100
+       xxxx:0100  BA.E9  41.3E  03.02
+       -E 1A2
+       xxxx:01A2  01.00
+       -E 341
+       xxxx:0341  xx.EB  xx.09  xx.90  xx.4D  xx.50  xx.58  xx.2E
+       xxxx:0348  xx.43  xx.4F  xx.4D  xx.00  xx.50  xx.53  xx.51  xx.52
+       xxxx:0350  xx.B8  xx.00  xx.3D  xx.BA  xx.44  xx.03  xx.CD  xx.21
+       xxxx:0358  xx.8B  xx.D8  xx.B4  xx.3F  xx.BA  xx.00  xx.C7  xx.B9
+       xxxx:0360  xx.00  xx.02  xx.CD  xx.21  xx.5A  xx.59  xx.5B  xx.58
+       xxxx:0368  xx.BA  xx.41  xx.03  xx.E9  xx.95  xx.FD  xx.90
+       -R CX
+       CX 0241
+       :026E
+       -R BX
+       BX xxxx
+       :0000
+       -N B:MP80.COM
+       -W
+       Writing 026E bytes
+
+                                     'With the following entries we
+                                      will create the file MPX.COM
+       -N B:MPX.COM
+       -E 1000:0
+       1000:0000  xx.EB  xx.0C  xx.90  xx.48  xx.49  xx.44  xx.44  xx.45
+       1000:0000  xx.4E  xx.2E  xx.44  xx.54  xx.41  xx.00  xx.1E  xx.B8
+       1000:0000  xx.00  xx.3D  xx.BA  xx.03  xx.C7  xx.CD  xx.21  xx.BB
+       1000:0000  xx.00  xx.00  xx.8E  xx.DB  xx.8B  xx.D8  xx.B4  xx.3F
+       1000:0000  xx.BA  xx.00  xx.01  xx.B9  xx.00  xx.02  xx.CD  xx.21
+       1000:0000  xx.B8  xx.00  xx.00  xx.BB  xx.00  xx.01  xx.1F  xx.E9
+       1000:0000  xx.7D  xx.50  xx.00  xx.00  xx.EB  xx.0C  xx.90  xx.48
+       1000:0000  xx.49  xx.44  xx.44  xx.45  xx.4E  xx.2E  xx.44  xx.54
+       1000:0000  xx.32  xx.00  xx.53  xx.B8  xx.00  xx.3D  xx.BA  xx.37
+       1000:0000  xx.C7  xx.CD  xx.21  xx.8B  xx.D8  xx.B4  xx.3F  xx.5A
+       1000:0000  xx.52  xx.90  xx.B9  xx.00  xx.02  xx.CD  xx.21  xx.5B
+       1000:0000  xx.B8  xx.06  xx.F2  xx.50  xx.E9  xx.93  xx.50  xx.90
+       -R CX
+       CX xxxx
+       :0062
+       -W 1000:0
+                                          'And last of all a few changes
+                                           to MP1
+       -N MP1
+       -L
+       E 179F
+       xxxx:179F  E9.E9  06.64  00.AF
+       E 17ED
+       xxxx:17ED  E9.E9  04.4A  00.AF
+       -W
+       -Q
+
+    To execute MULTIPLAN type  MP80 <Enter>.  I trust this will work
+for you.  Any suggestions or comments may be sent to Fred Buse
+BBS # (404) 546-0583.
+

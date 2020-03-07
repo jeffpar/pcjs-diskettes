@@ -1,0 +1,37 @@
+********************** DBASE III PLUS  1.0  ****************
+
+
+The  following  files in conjunction with your dBASE III  version
+1.0  files  will provide you with an executable backup .
+
+        1)Db3zap.Bat (batch file that does the patching)
+        2)Db3zap.Bin (overlay needed by the batch file)
+
+Format  a new disk and place the following files on it using  the
+DOS "copy" command.  Do not apply this patch to your original!
+
+        dBASE.Exe  (from your dBASE III distribution disk)
+        dB3ZAP.Bat (the zap procedure)
+        dB3UNP.Bin (overlay for zap procedure)
+        Debug.Com  (from your DOS distribution disk)
+
+Ensure  that there is at least 6K of free space on the new  disk.
+Place  the  new diskette into  the  default drive and  issue  the
+batch command "DB3ZAP".
+
+
+
+
+                                Good Luck
+                                Ranger Rick (SCB)
+
+
+
+********************** DBASE III Ver. 1.10 *********************
+********************** DBASE III Developer's Release ***********
+********************** DBASE III PLUS Ver. 1.0  ****************
+********************** DBCODE **********************************
+********************** DBRUN ***********************************
+
+See file SOFTGARD.TXT for all these files.x
+

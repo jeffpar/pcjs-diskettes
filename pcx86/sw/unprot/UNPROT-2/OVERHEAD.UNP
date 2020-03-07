@@ -1,0 +1,108 @@
+*****************  UNPROTECT OVERHEAD EXPRESS VER. 1.0  *********************
+
+To unprotect Overhead Express 1.0 you have to remove the "key disk" check
+from three (3) programs.
+
+The original code is the same in all three programs so I have only displayed
+it once for you to verify versions.
+
+The three copy-protected files are OE.EXE, OEPRINT.EXE. & OEEDIT.EXE.
+
+Copy system disk files to a blank formatted disk.
+
+A>ren oe.exe oe.xxx                        ; so Debug can write file
+A>debug oe.xxx
+-s 0 f000 cd 13                            ; search for INT 13 (disk check)
+xxxx:23D7
+xxxx:23EE
+xxxx:240F
+xxxx:2426
+xxxx:8564
+xxxx:857B
+xxxx:859C
+xxxx:85B3
+-u 23d7
+xxxx:23D7 CD13          INT     13        ; nop out this disk check
+xxxx:23D9 B402          MOV     AH,02
+xxxx:23DB B001          MOV     AL,01
+xxxx:23DD 8B4E06        MOV     CX,[BP+06]
+xxxx:23E0 B500          MOV     CH,00
+xxxx:23E2 8B5604        MOV     DX,[BP+04]
+xxxx:23E5 B600          MOV     DH,00
+xxxx:23E7 8CD3          MOV     BX,SS
+xxxx:23E9 8EC3          MOV     ES,BX
+xxxx:23EB 8B5E08        MOV     BX,[BP+08]
+xxxx:23EE CD13          INT     13        ; nop out this disk check
+xxxx:23F0 7206          JB      23F8      ; nop out this jmp
+xxxx:23F2 B80000        MOV     AX,0000
+xxxx:23F5 EB0A          JMP     2401
+-e 23d7
+xxxx:23D7  CD.90                          ; this is same as first disk check
+xxxx:23D8  13.90 
+-e 23ee
+xxxx:23EE  CD.90   13.90                  ; this is same as disk check 
+xxxx:23F0  72.90   06.90                  ; followed by jmp
+-e 240f
+xxxx:240F  CD.90                          ; repeat same methodology
+xxxx:2410  13.90                          ; for all three files.
+-e 2426                                   ; unassembled code looks
+xxxx:2426  CD.90   13.90                  ; the same in all three files.
+xxxx:2428  72.90   06.90
+-e 8564
+xxxx:8564  CD.90   13.90
+-e 857b
+xxxx:857B  CD.90   13.90   72.90   06.90
+-e 859c
+xxxx:859C  CD.90   13.90
+-e 85b3
+xxxx:85B3  CD.90   13.90   72.90   06.90
+-w
+Writing 7680 bytes
+-q
+A>ren oe.xxx oe.exe
+===========================================================================
+A>ren oeprint.exe oeprint.xxx
+A>debug oeprint.xxx
+-s 0 f000 cd 13
+xxxx:6513
+xxxx:652A
+xxxx:654B
+xxxx:6562
+-e 6513
+xxxx:6513  CD.90   13.90
+-e 652a
+xxxx:652A  CD.90   13.90   72.90   06.90
+-e 654b
+xxxx:654B  CD.90   13.90
+-e 6562
+xxxx:6562  CD.90   13.90   72.90   06.90
+-w
+Writing B980 bytes
+-q
+A>ren oeprint.xxx oeprint.exe
+===========================================================================
+A>ren oeedit.exe oeedit.xxx
+A>debug oeedit.xxx
+-s 0 f000 cd 13
+xxxx:B664
+xxxx:B67B
+xxxx:B69C
+xxxx:B6B3
+-e b664
+xxxx:B664  CD.90   13.90
+-e b67b
+xxxx:B67B  CD.90   13.90   72.90   06.90
+-e b69c
+xxxx:B69C  CD.90   13.90
+-e b6b3
+xxxx:B6B3  CD.90   13.90   72.90   06.90
+-w
+Writing 14580 bytes
+-q
+A>ren oeedit.xxx oeedit.exe
+===========================================================================
+
+That's it.  All copy protection is removed and you may copy diskette with
+standard DOS commands.
+                                ---- The Blot
+E CD13          INT   
