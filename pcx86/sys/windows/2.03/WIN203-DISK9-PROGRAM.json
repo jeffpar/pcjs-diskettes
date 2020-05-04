@@ -38,6 +38,8 @@
   {"hash":"b7ce592cd474ff286bed94b9c6492f39","path":"/PRACTICE.WRI","attr":"0x20","date":"1987-08-14 10:56:48","size":2944},
   {"hash":"39c94bc0ab51964d832749e68c38f5b9","path":"/PIFEDIT.EXE","attr":"0x20","date":"1987-11-12 13:07:56","size":30672,"module":{"name":"PIFEDIT","description":"Program Information File Editor","segments":{"1":{"offStart":1600,"offEnd":12792,"ordinals":{"1":{"o":2971,"s":"PIFWNDPROC"},"2":{"o":5265,"s":"FNOPEN"},"3":{"o":6304,"s":"FNSAVE"},"4":{"o":6958,"s":"FNABOUT"},"5":{"o":7224,"s":"FNHELP"},"6":{"o":2879,"s":"PIFHELPWNDPROC"}}},"2":{"offStart":13648,"offEnd":13853,"ordinals":{"7":{"o":0}}},"254":{"offStart":0,"offEnd":0}}}},
   {"path":"/PIF","attr":"0x10","date":"1987-11-16 04:18:30"},
+  {"path":"/PIF/.","attr":"0x10","date":"1987-11-16 04:18:30"},
+  {"path":"/PIF/..","attr":"0x10","date":"1987-11-16 04:18:30"},
   {"hash":"2ff2044afc3cdbe7274f0903949b2596","path":"/PIF/123.PIF","attr":"0x20","date":"1987-11-12 13:11:24","size":369},
   {"hash":"b7c161a1df28542f8a26d0162cbcedd7","path":"/PIF/ACCESS.PIF","attr":"0x20","date":"1987-11-12 13:11:06","size":369},
   {"hash":"60d7ab98d0bb7283836895110ad50667","path":"/PIF/BASIC.PIF","attr":"0x20","date":"1987-11-12 13:11:08","size":369},

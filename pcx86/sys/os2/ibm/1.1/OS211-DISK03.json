@@ -57,6 +57,8 @@
   {"hash":"b3589718e188b055eae381d0630b4007","path":"/SPLPRMAP.DL@","attr":"0x20","date":"1988-10-26 12:00:00","size":2110},
   {"hash":"a233f04f1a229b7d0c2e5420f0b8cc7c","path":"/SPOOLCP.DL@","attr":"0x20","date":"1988-10-26 12:00:00","size":7339},
   {"path":"/INTRO","attr":"0x10","date":"1988-10-26 12:00:00"},
+  {"path":"/INTRO/.","attr":"0x10","date":"1988-10-26 12:00:00"},
+  {"path":"/INTRO/..","attr":"0x10","date":"1988-10-26 12:00:00"},
   {"hash":"46001b4a453f0ea041a698dea27405c3","path":"/INTRO/INTROE.EX@","attr":"0x20","date":"1988-10-26 12:00:00","size":56684},
   {"hash":"598ae2ba136b0d67ed08589d2a33f262","path":"/INTRO/INTROI.TU@","attr":"0x20","date":"1988-10-26 12:00:00","size":24995},
   {"hash":"255f8da8bfa9e5747f98f714670ead4d","path":"/INTRO/INTROS.TU@","attr":"0x20","date":"1988-10-26 12:00:00","size":12791}

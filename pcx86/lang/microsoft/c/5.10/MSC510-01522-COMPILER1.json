@@ -38,6 +38,8 @@
   {"hash":"3f09668d138e5480698860c4db0da4b1","path":"/C3.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":125221},
   {"hash":"f114d5aa5eacd8a52e73877fe5d3d500","path":"/ERRMSG.DOC","attr":"0x20","date":"1988-03-07 05:10:00","size":17293},
   {"hash":"298401b62c7899f028bb3e2a5a147ca8","path":"/FPEXCEPT.DOC","attr":"0x20","date":"1988-03-07 05:10:00","size":16254},
+  {"path":"/PATCH/.","attr":"0x10","date":"1988-03-07 05:10:00"},
+  {"path":"/PATCH/..","attr":"0x10","date":"1988-03-07 05:10:00"},
   {"hash":"19fa9c7a102124e7165b6562ff93cec2","path":"/PATCH/PATCH87.DOC","attr":"0x20","date":"1988-03-07 05:10:00","size":3937},
   {"hash":"c3c9a5c8e22b600941598f014dad1ba6","path":"/PATCH/PATCH87.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":4206},
   {"hash":"6d5dc07d0ffe2dd78cfaf9b66b6bf6cf","path":"/PATCH/STKPAT.BAT","attr":"0x20","date":"1988-03-07 05:10:00","size":94},

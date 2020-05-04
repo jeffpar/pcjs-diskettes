@@ -42,6 +42,8 @@
   {"hash":"92f30cb2d8c06a011197dfbc0001cfb7","path":"/COUR.EXE","attr":"0x20","date":"1985-07-24 11:29:44","size":42896,"module":{"name":"COUR","description":"FONTRES Courier."}},
   {"hash":"84aaf5e3c97a4c4e67225eca9598dc09","path":"/HELV.EXE","attr":"0x20","date":"1985-07-24 11:28:20","size":37376,"module":{"name":"HELV","description":"FONTRES Helv."}},
   {"hash":"2f91185e266363236dcd2b5d0a449148","path":"/RAMDRIVE.SYS","attr":"0x20","date":"1985-07-12 16:42:46","size":6459},
+  {"path":"/PIF/.","attr":"0x10","date":"1985-07-02 09:52:56"},
+  {"path":"/PIF/..","attr":"0x10","date":"1985-07-02 09:52:56"},
   {"hash":"d63ba7c3b5d414e8ca86be887ce77ef0","path":"/PIF/123.PIF","attr":"0x20","date":"1980-01-03 15:08:52","size":369},
   {"hash":"36ecdf701b61bc36d0887440cb79a988","path":"/PIF/ACCESS.PIF","attr":"0x20","date":"1985-07-23 11:23:58","size":369},
   {"hash":"2bc313dadd9a18d8dc61966ae9f3cfb3","path":"/PIF/BASCOM.PIF","attr":"0x20","date":"1980-01-03 15:33:10","size":369},

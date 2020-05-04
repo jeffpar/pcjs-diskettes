@@ -75,6 +75,8 @@
   {"hash":"e882fdb8824577bb842d74b58b562941","path":"/Z1ACART0.FNT","attr":"0x20","date":"1990-06-29 12:00:00","size":16136},
   {"hash":"6a792b40d36f72339e16353eaa534b37","path":"/ZMICROS0.FNT","attr":"0x20","date":"1990-06-29 12:00:00","size":16112},
   {"path":"/PS2","attr":"0x10","date":"1990-07-05 12:55:02"},
+  {"path":"/PS2/.","attr":"0x10","date":"1990-07-05 12:55:02"},
+  {"path":"/PS2/..","attr":"0x10","date":"1990-07-05 12:55:02"},
   {"hash":"3e40d381cf41f397c48fd37683afa214","path":"/PS2/ABIOS.SYS","attr":"0x20","date":"1990-06-29 12:00:00","size":13},
   {"hash":"3d53af166c94d062c341f576f686317f","path":"/PS2/BASEDD02.SYS","attr":"0x20","date":"1990-06-29 12:00:00","size":64780}
 ],

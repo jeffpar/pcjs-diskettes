@@ -33,6 +33,8 @@
 ],
 "fileTable": [
   {"path":"/COMM","attr":"0x10","date":"1986-02-03 13:29:52"},
+  {"path":"/COMM/.","attr":"0x10","date":"1986-02-03 13:29:52"},
+  {"path":"/COMM/..","attr":"0x10","date":"1986-02-03 13:29:52"},
   {"hash":"b36907d3ef28e5fdd89c9827388c6766","path":"/COMM/COMTEST.C","attr":"0x20","date":"1985-06-23 18:50:30","size":2470},
   {"hash":"d0aa920c291f51496691045f7f713cb0","path":"/COMM/INS8250.INC","attr":"0x20","date":"1985-09-10 13:25:52","size":3597},
   {"hash":"1d750b0c8bacaf5022983b2fa8c79522","path":"/COMM/COMM.CNF","attr":"0x20","date":"1985-07-30 16:01:56","size":37},

@@ -36,6 +36,8 @@
   {"hash":"4d0b9e7d5a07d71723e725c2bb07fb82","path":"/QBASIC.HLP","attr":"0x00","date":"1994-05-31 06:22:00","size":130881},
   {"path":"/A.","attr":"0x0f","date":"1979-11-30 00:03:08"},
   {"path":"/FSEVEN~1","attr":"0x12","date":"2017-09-13 15:51:54"},
+  {"path":"/FSEVEN~1/.","attr":"0x32","date":"2017-09-13 16:31:42"},
+  {"path":"/FSEVEN~1/..","attr":"0x10","date":"2017-09-13 15:51:54"},
   {"path":"/FSEVEN~1/Bd.ÿÿÿ","attr":"0x0f","date":"2107-12-31 23:59:59"},
   {"hash":"e157a9fd6aa986ff36ac941c508ae6e2","path":"/FSEVEN~1/\u0001f","attr":"0x0f","date":"1980-03-21 00:01:26","size":6881397},
   {"hash":"b1092d48d90a5278f65d56961cb86462","path":"/FSEVEN~1/FSEVEN~1","attr":"0x20","date":"2017-09-13 16:31:42","size":36},

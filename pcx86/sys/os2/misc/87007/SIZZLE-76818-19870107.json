@@ -68,6 +68,8 @@
   {"hash":"cb03647e1e2cb09b2ab2b7971a10e3f5","path":"/CONFIG.SYS","attr":"0x20","date":"1987-01-05 15:42:46","size":138},
   {"path":"/DOS3TOOL","attr":"0x10","date":"1987-01-07 14:21:14"},
   {"hash":"7232a39bff57c064d0906c9b4a130a5b","path":"/TEMP.BAT","attr":"0x20","date":"1987-01-10 16:41:36","size":13},
+  {"path":"/DOS3TOOL/.","attr":"0x10","date":"1987-01-07 14:21:14"},
+  {"path":"/DOS3TOOL/..","attr":"0x10","date":"1987-01-07 14:21:14"},
   {"hash":"3e7ea848a6810694a96b3c0df143e679","path":"/DOS3TOOL/MSC.EXE","attr":"0x20","date":"1986-02-10 10:12:34","size":29428},
   {"hash":"2a01c71f9fd5421df0c870fe6bfc8667","path":"/DOS3TOOL/CL.EXE","attr":"0x20","date":"1986-12-07 15:49:24","size":27655},
   {"hash":"9a281126b937bff2703994066c1394b2","path":"/DOS3TOOL/P1.EXE","attr":"0x20","date":"1986-12-07 15:49:00","size":130969},

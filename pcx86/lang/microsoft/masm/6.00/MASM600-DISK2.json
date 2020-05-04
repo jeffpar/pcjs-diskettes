@@ -40,6 +40,8 @@
   {"hash":"162ce8ad7b139c97cb5b69d7c4693dc0","path":"/NMAKE.EX$","attr":"0x00","date":"1991-03-22 15:55:32","size":48860},
   {"hash":"91b75f834e0f0d7b9f411e2484a26f31","path":"/QH.EX$","attr":"0x00","date":"1991-02-07 10:49:24","size":44590},
   {"path":"/DISK 2","attr":"0x08","date":"1999-12-13 16:12:08"},
+  {"path":"/BINB/.","attr":"0x10","date":"1999-12-13 16:12:04"},
+  {"path":"/BINB/..","attr":"0x10","date":"1999-12-13 16:12:04"},
   {"hash":"2f2fc932b01dfcd09db94ff02da4be37","path":"/BINB/H2INC.ER$","attr":"0x00","date":"1991-01-31 03:20:44","size":7025},
   {"hash":"bff15fa99ea69f2eccf4e37acfac7ae2","path":"/BINB/H2INC.EX$","attr":"0x00","date":"1991-04-03 08:38:36","size":87543},
   {"hash":"95a110490998a22532549f9065f261c2","path":"/BINB/MASM.EX$","attr":"0x00","date":"1991-04-02 13:52:12","size":13774}

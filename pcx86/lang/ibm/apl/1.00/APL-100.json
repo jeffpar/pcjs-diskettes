@@ -93,6 +93,8 @@
   {"hash":"aad145c6e2460e1499802e1d447a0c44","path":"/AP440.COM","attr":"0x20","date":"1983-05-23 12:00:00","size":1419},
   {"path":"/A.","attr":"0x0f","date":"1980-02-13 00:02:30"},
   {"hash":"62bf76369e5a3fe8eaa439ac75e8b318","path":"/_AP44~1.COM","attr":"0x22","date":"2018-12-31 10:31:26","size":4096},
+  {"path":"/FSEVEN~1/.","attr":"0x32","date":"2018-12-31 10:31:36"},
+  {"path":"/FSEVEN~1/..","attr":"0x10","date":"2018-12-31 10:30:52"},
   {"path":"/FSEVEN~1/Bd.ÿÿÿ","attr":"0x0f","date":"2107-12-31 23:59:59"},
   {"hash":"e157a9fd6aa986ff36ac941c508ae6e2","path":"/FSEVEN~1/\u0001f","attr":"0x0f","date":"1980-03-21 00:01:26","size":6881397},
   {"hash":"99b2200551729848fa4776da58651240","path":"/FSEVEN~1/FSEVEN~1","attr":"0x20","date":"2018-12-31 10:31:36","size":36},

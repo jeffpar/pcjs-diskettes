@@ -48,6 +48,8 @@
   {"hash":"7d3f8c6c369e9aa48f164a90228da1bd","path":"/MNL0203.HML","attr":"0x02","date":"1986-01-15 12:00:00","size":1840},
   {"path":"/SGS0203.SUP","attr":"0x02","date":"1986-03-17 17:08:48"},
   {"hash":"5a84fc105ccaf454a979897a3a65a984","path":"/CAROUSEL.COM","attr":"0x20","date":"1986-01-15 12:00:00","size":2016},
+  {"path":"/ETC/.","attr":"0x10","date":"1986-03-17 17:09:52"},
+  {"path":"/ETC/..","attr":"0x10","date":"1986-03-17 17:09:52"},
   {"hash":"868ecca4055b74edcd9a19cecdd0fe59","path":"/ETC/ETC.DOC","attr":"0x20","date":"1986-03-14 16:00:42","size":1408},
   {"hash":"661fe9cff79444c94d612d995062c137","path":"/ETC/INT15.COM","attr":"0x20","date":"1986-03-10 09:48:48","size":32},
   {"hash":"975982d42f7c68eacf31972ecb4e6e72","path":"/ETC/SWITCHC.ASM","attr":"0x20","date":"1986-03-12 10:34:24","size":4369},

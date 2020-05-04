@@ -49,6 +49,8 @@
   {"hash":"d975431a116de87dfa6739ae272986a6","path":"/README.DOC","attr":"0x20","date":"1989-05-05 10:14:24","size":2405},
   {"hash":"2d2348c164b7e4214758ee42ef3a4d6f","path":"/SETUP.EXE","attr":"0x00","date":"1989-05-05 05:23:08","size":54263},
   {"hash":"e7134e6f80c5f136cace3df6d381e554","path":"/PACKING.LST","attr":"0x20","date":"1989-05-02 23:20:16","size":2866},
+  {"path":"/SAMPLES/.","attr":"0x10","date":"1989-05-05 11:17:40"},
+  {"path":"/SAMPLES/..","attr":"0x10","date":"1989-05-05 11:17:40"},
   {"hash":"5ba5698b62147f9ab8310cdb8caf9c35","path":"/SAMPLES/BIGHEAP.PAS","attr":"0x00","date":"1989-04-20 14:27:56","size":8399},
   {"hash":"c387a734530e4e6d31f60dc123ae7d3c","path":"/SAMPLES/BIGMEM.PAS","attr":"0x00","date":"1989-04-20 14:28:48","size":1380},
   {"hash":"66b48b45c36b23b66e999572d3f7f344","path":"/SAMPLES/MOUSE.PAS","attr":"0x00","date":"1989-05-02 08:38:44","size":17973},

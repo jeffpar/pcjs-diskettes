@@ -73,6 +73,8 @@
   {"hash":"326fd3c3bf3363719a255b03e4c70d94","path":"/TIME.H","attr":"0x20","date":"1986-06-27 04:00:42","size":2387},
   {"hash":"433c31f81793d20cfd816178a0d11dc7","path":"/V2TOV3.H","attr":"0x20","date":"1986-06-27 04:00:44","size":1705},
   {"hash":"e30e19cb5622f8c654b34c342858bba6","path":"/VARARGS.H","attr":"0x20","date":"1986-06-27 04:00:46","size":391},
+  {"path":"/SYS/.","attr":"0x10","date":"1986-06-27 04:00:04"},
+  {"path":"/SYS/..","attr":"0x10","date":"1986-06-27 04:00:04"},
   {"hash":"e7979e5af37aa74729de145e43d8bc86","path":"/SYS/LOCKING.H","attr":"0x20","date":"1986-06-27 04:00:48","size":375},
   {"hash":"01cd66043768825586bf0670cad4c4cb","path":"/SYS/STAT.H","attr":"0x20","date":"1986-06-27 04:00:50","size":1390},
   {"hash":"c0b3f0ddf0a83c9cb691d21e1affdfe2","path":"/SYS/TIMEB.H","attr":"0x20","date":"1986-06-27 04:00:50","size":886},

@@ -51,6 +51,8 @@
   {"hash":"353472a7d9a5ca979ec01c65729a3314","path":"/ABC.TXT","attr":"0x20","date":"1987-08-14 10:56:38","size":42},
   {"hash":"6b417ad6594473612825b70631f63fab","path":"/DOTHIS.TXT","attr":"0x20","date":"1987-08-14 10:56:44","size":493},
   {"hash":"b7ce592cd474ff286bed94b9c6492f39","path":"/PRACTICE.WRI","attr":"0x20","date":"1987-08-14 10:56:48","size":2944},
+  {"path":"/PIF/.","attr":"0x10","date":"1987-11-16 03:03:32"},
+  {"path":"/PIF/..","attr":"0x10","date":"1987-11-16 03:03:32"},
   {"hash":"2ff2044afc3cdbe7274f0903949b2596","path":"/PIF/123.PIF","attr":"0x20","date":"1987-11-14 10:20:24","size":369},
   {"hash":"2854afb5adde6a8c9acbf8b46b70af9f","path":"/PIF/ACCESS.PIF","attr":"0x20","date":"1987-11-14 10:20:24","size":369},
   {"hash":"60d7ab98d0bb7283836895110ad50667","path":"/PIF/BASIC.PIF","attr":"0x20","date":"1987-11-14 10:20:24","size":369},

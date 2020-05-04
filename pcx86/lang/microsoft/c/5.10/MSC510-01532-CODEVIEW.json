@@ -34,6 +34,8 @@
 "fileTable": [
   {"path":"/SAMPLE","attr":"0x10","date":"1988-03-07 05:10:02"},
   {"hash":"e95601011699466f65de9f1a4c4aa5d9","path":"/CV.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":232896},
+  {"path":"/SAMPLE/.","attr":"0x10","date":"1988-03-07 05:10:02"},
+  {"path":"/SAMPLE/..","attr":"0x10","date":"1988-03-07 05:10:02"},
   {"hash":"fc9633068b8da45ee4dbae8f550d5aa2","path":"/SAMPLE/CODEVIEW.DOC","attr":"0x20","date":"1988-03-07 05:10:00","size":12928},
   {"hash":"fadfb5bd830fc12ecef3422bece8e638","path":"/SAMPLE/ADAPT.BAT","attr":"0x20","date":"1988-03-07 05:10:00","size":133},
   {"hash":"8a781f46e55bf8154f54576f57046eda","path":"/SAMPLE/DEMOB.BAT","attr":"0x20","date":"1988-03-07 05:10:00","size":254},

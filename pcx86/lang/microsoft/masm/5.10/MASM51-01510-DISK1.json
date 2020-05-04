@@ -42,6 +42,8 @@
   {"hash":"fd4312a8a38c638a0e43b05d113c1aee","path":"/SHOW.EXE","attr":"0x20","date":"1988-01-31 23:00:00","size":4964,"module":{"name":"SHOWS","description":"SHOWS.EXE","segments":{"1":{"offStart":2560,"offEnd":4076},"2":{"offStart":4608,"offEnd":4963},"254":{"offStart":0,"offEnd":0}}}},
   {"path":"/MIXED","attr":"0x10","date":"1988-01-31 23:00:00"},
   {"path":"/MASM","attr":"0x28","date":"1988-01-31 23:00:00"},
+  {"path":"/MIXED/.","attr":"0x10","date":"1988-01-31 23:00:00"},
+  {"path":"/MIXED/..","attr":"0x10","date":"1988-01-31 23:00:00"},
   {"hash":"854ea76fd52dff1eed7518e530214a13","path":"/MIXED/MIXED.INC","attr":"0x20","date":"1988-01-31 23:00:00","size":3179},
   {"hash":"6759a7bec2ed34a081d71163153c2c3f","path":"/MIXED/CAMAIN.C","attr":"0x20","date":"1988-01-31 23:00:00","size":111},
   {"hash":"0cff3c0a6964e002ca9193180848c4ba","path":"/MIXED/PAMAIN.PAS","attr":"0x20","date":"1988-01-31 23:00:00","size":164},

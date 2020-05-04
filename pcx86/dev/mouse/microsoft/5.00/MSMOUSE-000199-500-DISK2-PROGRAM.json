@@ -60,6 +60,8 @@
   {"hash":"a88e517a5e34301b31e282c4d79e3fdc","path":"/COMPUTER.FNT","attr":"0x20","date":"1985-04-12 14:56:32","size":3058},
   {"hash":"1d3b3d734bf1443b00f37742ab14405f","path":"/README2.DOC","attr":"0x20","date":"1985-09-15 21:28:50","size":231},
   {"path":"/MOUSE6","attr":"0x10","date":"1986-09-14 00:12:28"},
+  {"path":"/MOUSE6/.","attr":"0x10","date":"1986-09-14 00:12:28"},
+  {"path":"/MOUSE6/..","attr":"0x10","date":"1986-09-14 00:12:28"},
   {"hash":"58e8352d385e61bdaf73f487cde28b00","path":"/MOUSE6/MOUSE.COM","attr":"0x20","date":"1986-08-14 12:25:30","size":11541},
   {"hash":"859f33f6d6de3baa7e9f2ec1f817b5cd","path":"/MOUSE6/MOUSE.HLP","attr":"0x20","date":"1986-08-14 10:04:12","size":2231},
   {"hash":"c3950fa2c5da6812bb04f05b8fc77977","path":"/MOUSE6/CPANEL.COM","attr":"0x20","date":"1986-08-12 09:07:36","size":7308},

@@ -39,6 +39,8 @@
   {"hash":"32566136d3c05f8e8804f04655ce852d","path":"/README.WRI","attr":"0x20","date":"1990-06-01 03:00:00","size":58624},
   {"hash":"7e7a9f2f9c9f587f32fbb46204b2d099","path":"/TIPS.TXT","attr":"0x20","date":"1990-06-01 03:00:00","size":29539},
   {"path":"/WIN30SDK.06","attr":"0x28","date":"1990-06-01 12:47:18"},
+  {"path":"/CLIB/.","attr":"0x10","date":"1990-06-01 12:45:16"},
+  {"path":"/CLIB/..","attr":"0x10","date":"1990-06-01 12:45:16"},
   {"hash":"0f0dba39ac1e25f512843ec34a3d601d","path":"/CLIB/CDLLCW0.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":13457},
   {"hash":"53973a0686ff35fc56146d5b34dfcfba","path":"/CLIB/CLIBCW.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":100935},
   {"hash":"d181c1adbcfca8c5131bebb0c87a7ff0","path":"/CLIB/CLIBFAW.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":60061},
@@ -47,6 +49,8 @@
   {"hash":"e05d27f8460ef797e9cd205807e1be1a","path":"/CLIB/LLIBCW.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":102983},
   {"hash":"f220bd72a8c8021434220dc7acc0a566","path":"/CLIB/LLIBFAW.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":62621},
   {"hash":"234d9a346a315485629d1f71a945def0","path":"/CLIB/LLIBFPW.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":77221},
+  {"path":"/WINMEM32/.","attr":"0x10","date":"1990-06-01 12:46:20"},
+  {"path":"/WINMEM32/..","attr":"0x10","date":"1990-06-01 12:46:20"},
   {"hash":"e3fab067b8a94de15ff6b2c81904133c","path":"/WINMEM32/WINMEM32.DLL","attr":"0x20","date":"1990-06-01 03:00:00","size":4672,"module":{"name":"WINMEM32","description":"Windows 32 bit memory manager version 1.00","segments":{"1":{"offStart":1472,"offEnd":4361,"ordinals":{"1":{"o":2551,"s":"GETWINMEM32VERSION"},"2":{"o":0,"s":"GLOBAL32ALLOC"},"3":{"o":528,"s":"GLOBAL32REALLOC"},"4":{"o":1209,"s":"GLOBAL32FREE"},"5":{"o":1521,"s":"GLOBAL16POINTERALLOC"},"6":{"o":2025,"s":"GLOBAL16POINTERFREE"},"7":{"o":2222,"s":"GLOBAL32CODEALIAS"},"8":{"o":2388,"s":"GLOBAL32CODEALIASFREE"},"9":{"o":2585,"s":"WEP"}}},"2":{"offStart":4608,"offEnd":4649},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"e165a948dd6d8e6501f4ebc2d13c780a","path":"/WINMEM32/WINMEM32.H","attr":"0x20","date":"1990-06-01 03:00:00","size":837},
   {"hash":"12de90d61e256b8035116786469d6e5b","path":"/WINMEM32/WINMEM32.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":1536}

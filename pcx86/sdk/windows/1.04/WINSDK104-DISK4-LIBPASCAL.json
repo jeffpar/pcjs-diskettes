@@ -39,6 +39,8 @@
   {"hash":"e65a6e42e62e9760411ce395538a0e01","path":"/PASLIBW.LIB","attr":"0x20","date":"1986-09-30 18:16:12","size":56832},
   {"hash":"ac2a9fabf71c7d1de9df8d445a66490b","path":"/103PATCH.BAT","attr":"0x20","date":"1986-10-09 14:57:10","size":119},
   {"hash":"f4065ee14636acbe1d90af8bdecb5693","path":"/WINDOWS.INC","attr":"0x20","date":"1987-03-18 12:51:48","size":125659},
+  {"path":"/MUZZLE/.","attr":"0x10","date":"1987-04-22 16:34:44"},
+  {"path":"/MUZZLE/..","attr":"0x10","date":"1987-04-22 16:34:44"},
   {"hash":"896604227de9a86e3fb0fe7666e18ac6","path":"/MUZZLE/MUZZLE","attr":"0x20","date":"1986-09-30 17:13:14","size":262},
   {"hash":"6a27ae820a9e5a28d6a1319b0204c995","path":"/MUZZLE/MUZZLE.INC","attr":"0x20","date":"1986-08-29 11:26:46","size":1757},
   {"hash":"84f045bbfaef234e530c22fbb949f9cc","path":"/MUZZLE/MUZZLE.RC","attr":"0x20","date":"1986-08-29 11:26:46","size":707},

@@ -44,6 +44,8 @@
   {"hash":"815e9aeb300f60bf6b4f07e1f57e4538","path":"/MOUSE.SYS","attr":"0x20","date":"1986-06-27 04:00:08","size":9048},
   {"hash":"f953c0b57616841f308ee81701a18101","path":"/SETENV.EXE","attr":"0x20","date":"1986-06-27 04:00:12","size":9012},
   {"hash":"62a1b32ba13b3b4047895a61fe6c5c2d","path":"/README.DOC","attr":"0x20","date":"1986-06-27 04:00:10","size":41655},
+  {"path":"/PATCH/.","attr":"0x10","date":"1986-06-27 04:00:04"},
+  {"path":"/PATCH/..","attr":"0x10","date":"1986-06-27 04:00:04"},
   {"hash":"9da6ec3fc65ec7a03d5f92a4c18b0645","path":"/PATCH/SETRHS.EXE","attr":"0x20","date":"1986-06-27 04:00:16","size":543},
   {"hash":"35d2a291abbc6ee83406b0eefd578e19","path":"/PATCH/RMRHS.EXE","attr":"0x20","date":"1986-06-27 04:00:16","size":543},
   {"hash":"6d5dc07d0ffe2dd78cfaf9b66b6bf6cf","path":"/PATCH/STKPAT.BAT","attr":"0x20","date":"1986-06-27 04:00:18","size":94},

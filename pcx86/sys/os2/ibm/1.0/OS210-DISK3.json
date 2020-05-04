@@ -55,6 +55,8 @@
   {"hash":"f3bc23ae2a8f2594be44f53355c25030","path":"/SETCOM40.EXE","attr":"0x20","date":"1987-10-21 12:00:00","size":8654},
   {"path":"/INTRO","attr":"0x10","date":"1987-10-21 14:10:46"},
   {"path":"/VENDOR-#.DO1","attr":"0x22","date":"1983-07-04 00:00:00"},
+  {"path":"/INTRO/.","attr":"0x10","date":"1987-10-21 14:10:46"},
+  {"path":"/INTRO/..","attr":"0x10","date":"1987-10-21 14:10:46"},
   {"hash":"2098b134a3dcd0c5410cf4ca1e8ffe8f","path":"/INTRO/INTA.MSG","attr":"0x20","date":"1987-10-21 12:00:00","size":879},
   {"hash":"4ab9475a278cdd1d54e627e6fc450334","path":"/INTRO/INTB.MSG","attr":"0x20","date":"1987-10-21 12:00:00","size":1469},
   {"hash":"9ef291e28e002653d6bd945a0e37ac7f","path":"/INTRO/INTC.MSG","attr":"0x20","date":"1987-10-21 12:00:00","size":1076},

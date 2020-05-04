@@ -69,6 +69,8 @@
   {"hash":"d5019a057ad4bfed5c2285c5f9145350","path":"/UDHRC9.EGA","attr":"0x20","date":"1991-08-23 06:00:00","size":46592},
   {"hash":"6ceb66f3fe79d25bba34516d626593f6","path":"/UDUNI9.VGA","attr":"0x20","date":"1991-08-23 06:00:00","size":53248},
   {"path":"/NETWARE","attr":"0x10","date":"1991-08-23 11:53:50"},
+  {"path":"/NETWARE/.","attr":"0x10","date":"1991-08-23 11:53:50"},
+  {"path":"/NETWARE/..","attr":"0x10","date":"1991-08-23 11:53:50"},
   {"hash":"44d28a3191091be44cc91a19c497cfe5","path":"/NETWARE/MAP.EXE","attr":"0x20","date":"1991-08-23 06:00:00","size":27449},
   {"hash":"c9d0027105661b8b2d14a75de1dd7fbf","path":"/NETWARE/EMSNETX.EXE","attr":"0x20","date":"1991-08-23 06:00:00","size":63838},
   {"hash":"f6bf11edb58acf075550ac6b51d608fd","path":"/NETWARE/XMSNETX.EXE","attr":"0x20","date":"1991-08-23 06:00:00","size":60307},

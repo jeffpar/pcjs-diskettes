@@ -50,6 +50,8 @@
   {"hash":"72a9b1ad826df937252beee852945c2c","path":"/ROMAN.FON","attr":"0x20","date":"1986-01-15 18:00:12","size":11120},
   {"hash":"46b6068af2333aac39cf42caa8610c3a","path":"/SCRIPT.FON","attr":"0x20","date":"1986-01-15 18:00:14","size":10256},
   {"hash":"bc71ed3cffb6640c9ea691a1540854b0","path":"/MODERN.FON","attr":"0x20","date":"1986-01-15 18:00:12","size":7568},
+  {"path":"/PIF/.","attr":"0x10","date":"1986-01-15 17:37:06"},
+  {"path":"/PIF/..","attr":"0x10","date":"1986-01-15 17:37:06"},
   {"hash":"4f5bfc89c414699bdfd88575ab8d69d4","path":"/PIF/PIFEDIT.EXE","attr":"0x20","date":"1986-01-15 18:00:50","size":28528,"module":{"name":"PIFEDIT","description":"Program Information File Editor","segments":{"1":{"offStart":1552,"offEnd":10980,"ordinals":{"1":{"o":2952,"s":"PIFWNDPROC"},"2":{"o":4984,"s":"FNOPEN"},"3":{"o":5982,"s":"FNSAVE"},"4":{"o":6594,"s":"FNABOUT"},"5":{"o":6797,"s":"FNHELP"},"6":{"o":2860,"s":"PIFHELPWNDPROC"}}},"2":{"offStart":11816,"offEnd":12013},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"b129133f578218839efb5b7519099356","path":"/PIF/123.PIF","attr":"0x20","date":"1986-01-15 18:00:08","size":369},
   {"hash":"c4bbb73d4a4d8233050b62027a9ac3d5","path":"/PIF/123-2.PIF","attr":"0x20","date":"1986-01-15 18:00:08","size":369},

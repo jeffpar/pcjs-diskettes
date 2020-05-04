@@ -57,6 +57,8 @@
   {"hash":"1c8eb0f5b38f473885a6254a6c35e7e6","path":"/SPLPRMAP.DL@","attr":"0x20","date":"1989-02-20 12:00:02","size":2110},
   {"hash":"ed9512ff13059df812dc88a30f1677c1","path":"/SPOOLCP.DL@","attr":"0x20","date":"1989-02-20 12:00:02","size":7339},
   {"hash":"1445d0052efe602e320a8c0120558d5b","path":"/VIOHELP.EX@","attr":"0x20","date":"1989-02-20 12:00:02","size":4042},
+  {"path":"/INTRO/.","attr":"0x10","date":"1989-10-30 13:33:42"},
+  {"path":"/INTRO/..","attr":"0x10","date":"1989-10-30 13:33:42"},
   {"hash":"9567f7d8aec57a44c9b3ff8ce417a118","path":"/INTRO/ACLOCK.EX@","attr":"0x20","date":"1989-02-20 12:00:06","size":7979},
   {"hash":"fc7dd82c2b8ef0f383c98046c5bfbc6b","path":"/INTRO/APLTREE.BR@","attr":"0x20","date":"1989-02-20 12:00:06","size":506},
   {"hash":"e1c77cea11c7a460b8d7408eb2391bbd","path":"/INTRO/ATHENS.BR@","attr":"0x20","date":"1989-02-20 12:00:06","size":3308},

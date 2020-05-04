@@ -46,6 +46,8 @@
   {"hash":"2c937de256f120e6cd2f55e9f8ba1723","path":"/AUTOEXEC.BAT","attr":"0x20","date":"2013-03-10 00:01:30","size":62},
   {"path":"/BIN","attr":"0x10","date":"2013-03-10 00:08:02"},
   {"hash":"da0134138f656d44f841f42af6971cbd","path":"/README.TXT","attr":"0x20","date":"2018-03-08 00:01:24","size":62},
+  {"path":"/BIN/.","attr":"0x10","date":"2013-03-10 00:08:02"},
+  {"path":"/BIN/..","attr":"0x10","date":"2013-03-10 00:08:02"},
   {"hash":"4ade992330192dc48e41fe3465e63b36","path":"/BIN/ASSIGN.EXE","attr":"0x20","date":"1985-11-26 23:03:22","size":5344,"module":{"name":"ASSIGN","description":"assign.exe","segments":{"1":{"offStart":512,"offEnd":3808},"2":{"offStart":4096,"offEnd":5343},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"8cfd15f0ac877a32f9c960f3925310e2","path":"/BIN/CHKDSK.EXE","attr":"0x20","date":"1985-11-26 23:03:34","size":9280},
   {"hash":"9bfc16270d676594bf1334bb619af240","path":"/BIN/COMMAND.COM","attr":"0x20","date":"1986-02-24 11:42:32","size":37488},

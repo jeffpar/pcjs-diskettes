@@ -48,6 +48,8 @@
   {"hash":"8a178229acafd818723579450264f375","path":"/CRTEXE.OBJ","attr":"0x20","date":"1988-03-07 05:10:00","size":1089},
   {"hash":"acb5cad819713b4e6bba18564691123b","path":"/CRTDLL.OBJ","attr":"0x20","date":"1988-03-07 05:10:00","size":577},
   {"hash":"a7222165f3c115ae1b5903dcc1a25776","path":"/CRTLIB.OBJ","attr":"0x20","date":"1988-03-07 05:10:00","size":1177},
+  {"path":"/EXAMPLE/.","attr":"0x10","date":"1988-03-07 05:10:02"},
+  {"path":"/EXAMPLE/..","attr":"0x10","date":"1988-03-07 05:10:02"},
   {"hash":"219c7736e07ddf5cad6dc16dfd0cc761","path":"/EXAMPLE/MHELLO.C","attr":"0x20","date":"1988-03-07 05:10:00","size":2990},
   {"hash":"09dd8c539213d9fcc9f40b06622d9314","path":"/EXAMPLE/MKMHELLO.CMD","attr":"0x20","date":"1988-03-07 05:10:00","size":433},
   {"hash":"141e522c38d5812b4c3e1d27ed42f07a","path":"/EXAMPLE/STMAIN.C","attr":"0x20","date":"1988-03-07 05:10:00","size":825},

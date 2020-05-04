@@ -35,6 +35,8 @@
   {"path":"/WINDEV1","attr":"0x28","date":"1985-11-15 12:49:00"},
   {"hash":"c0b295ae99f658c708c931d25a2241af","path":"/README.TXT","attr":"0x20","date":"1985-12-05 14:22:08","size":9540},
   {"path":"/BIN","attr":"0x10","date":"1985-11-15 12:49:06"},
+  {"path":"/BIN/.","attr":"0x10","date":"1985-11-15 12:49:06"},
+  {"path":"/BIN/..","attr":"0x10","date":"1985-11-15 12:49:06"},
   {"hash":"d44ebb7a756003954862550335d93d4b","path":"/BIN/RC.EXE","attr":"0x20","date":"1985-11-05 10:50:32","size":50195},
   {"hash":"ab58354eeeb9c36b35d8b621c28f8500","path":"/BIN/RCPP.EXE","attr":"0x20","date":"1984-12-20 10:54:46","size":31864},
   {"hash":"fe51cceb0b7379a07a2306f2a492d302","path":"/BIN/IMPLIB.EXE","attr":"0x20","date":"1985-03-21 12:38:28","size":16128},

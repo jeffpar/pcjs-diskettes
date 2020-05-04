@@ -38,6 +38,8 @@
   {"hash":"68e092e9c5ec1b408d7662f4295be80d","path":"/FIXSHIFT.COM","attr":"0x20","date":"1987-10-15 05:00:00","size":690},
   {"hash":"91c11b8e358ce7a07a734134a46e5714","path":"/LIBBUILD.EXE","attr":"0x20","date":"1987-10-15 05:00:00","size":27091},
   {"path":"/SOURCE","attr":"0x10","date":"1987-10-18 12:58:40"},
+  {"path":"/SOURCE/.","attr":"0x10","date":"1987-10-18 12:58:40"},
+  {"path":"/SOURCE/..","attr":"0x10","date":"1987-10-18 12:58:40"},
   {"hash":"7afe701e2fe39a1997c571c35fbdc0b5","path":"/SOURCE/DEMO.C","attr":"0x20","date":"1987-10-15 05:00:00","size":419},
   {"hash":"f02520e56fccc26a701a6b5c98fdd502","path":"/SOURCE/CFLOW.C","attr":"0x20","date":"1987-10-15 05:00:00","size":36841},
   {"hash":"fe901760293f67b0b9d1c41ba8b79ae4","path":"/SOURCE/SIEVE.C","attr":"0x20","date":"1987-10-15 05:00:00","size":788},

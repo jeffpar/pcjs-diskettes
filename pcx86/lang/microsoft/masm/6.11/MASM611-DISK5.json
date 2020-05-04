@@ -34,6 +34,8 @@
 "fileTable": [
   {"path":"/MASM611_.05","attr":"0x28","date":"1993-10-18 13:43:20"},
   {"path":"/HELP","attr":"0x10","date":"1993-10-18 13:43:22"},
+  {"path":"/HELP/.","attr":"0x10","date":"1993-10-18 13:43:22"},
+  {"path":"/HELP/..","attr":"0x10","date":"1993-10-18 13:43:22"},
   {"hash":"e9f6fbeaf8eb67bd402152029f221c41","path":"/HELP/ADVISOR.HL$","attr":"0x00","date":"1992-03-03 21:52:36","size":23363},
   {"hash":"dc8c369f57a61f9e5e7523d1c34d27e2","path":"/HELP/ALANG.HL$","attr":"0x00","date":"1992-11-15 19:57:44","size":575809},
   {"hash":"9514f935654a6d6a629ef2c02632aa57","path":"/HELP/LINK.HL$","attr":"0x00","date":"1992-03-04 00:16:36","size":119842},

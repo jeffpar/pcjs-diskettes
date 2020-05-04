@@ -37,6 +37,8 @@
   {"hash":"abc7fe4a6913eab80dc038a0e488912c","path":"/C3.EXE","attr":"0x20","date":"1987-10-15 05:00:00","size":117403},
   {"hash":"023a78a35f1520a614f2918c0191a1da","path":"/C23.ERR","attr":"0x20","date":"1987-10-15 05:00:00","size":3062},
   {"path":"/PATCH","attr":"0x10","date":"1987-10-18 12:45:00"},
+  {"path":"/PATCH/.","attr":"0x10","date":"1987-10-18 12:45:00"},
+  {"path":"/PATCH/..","attr":"0x10","date":"1987-10-18 12:45:00"},
   {"hash":"9da6ec3fc65ec7a03d5f92a4c18b0645","path":"/PATCH/SETRHS.EXE","attr":"0x20","date":"1987-10-15 05:00:00","size":543},
   {"hash":"35d2a291abbc6ee83406b0eefd578e19","path":"/PATCH/RMRHS.EXE","attr":"0x20","date":"1987-10-15 05:00:00","size":543},
   {"hash":"6d5dc07d0ffe2dd78cfaf9b66b6bf6cf","path":"/PATCH/STKPAT.BAT","attr":"0x20","date":"1987-10-15 05:00:00","size":94},

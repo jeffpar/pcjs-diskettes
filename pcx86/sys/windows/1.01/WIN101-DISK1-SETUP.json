@@ -61,6 +61,8 @@
   {"hash":"e0ed6334da69572e86f536828a82c6fe","path":"/EMM.PC","attr":"0x20","date":"1985-07-30 17:15:28","size":12898},
   {"hash":"bb94da89048e5e95cc4916146df1720f","path":"/EMM.AT","attr":"0x20","date":"1985-07-30 17:33:12","size":12874},
   {"hash":"5f0a7d6bb899fa15d37c557b246f77e9","path":"/WRITE.DAT","attr":"0x20","date":"1985-11-15 05:42:04","size":43},
+  {"path":"/PIF/.","attr":"0x10","date":"1985-11-14 15:10:56"},
+  {"path":"/PIF/..","attr":"0x10","date":"1985-11-14 15:10:56"},
   {"hash":"8cd02f58b95e27cae68ead98ccdcd2aa","path":"/PIF/PIFEDIT.EXE","attr":"0x20","date":"1985-11-15 05:42:14","size":28464,"module":{"name":"PIFEDIT","description":"Program Information File Editor","segments":{"1":{"offStart":1552,"offEnd":10932,"ordinals":{"1":{"o":2965,"s":"PIFWNDPROC"},"2":{"o":4995,"s":"FNOPEN"},"3":{"o":5934,"s":"FNSAVE"},"4":{"o":6546,"s":"FNABOUT"},"5":{"o":6749,"s":"FNHELP"},"6":{"o":2873,"s":"PIFHELPWNDPROC"}}},"2":{"offStart":11760,"offEnd":11941},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"b129133f578218839efb5b7519099356","path":"/PIF/123.PIF","attr":"0x20","date":"1985-11-15 05:42:06","size":369},
   {"hash":"c4bbb73d4a4d8233050b62027a9ac3d5","path":"/PIF/123-2.PIF","attr":"0x20","date":"1985-11-15 05:42:06","size":369},

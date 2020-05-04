@@ -43,6 +43,8 @@
   {"hash":"57253f6dcafa5377e37cbcdbb1a51936","path":"/OS2.LI$","attr":"0x00","date":"1990-03-29 15:41:26","size":51492},
   {"hash":"597f882ebaf13447f01766cb94efd972","path":"/QH.EX$","attr":"0x00","date":"1991-02-07 10:48:14","size":39474},
   {"path":"/DISK 3","attr":"0x08","date":"1999-12-13 16:12:28"},
+  {"path":"/INCLUDE/.","attr":"0x10","date":"1999-12-13 16:12:22"},
+  {"path":"/INCLUDE/..","attr":"0x10","date":"1999-12-13 16:12:22"},
   {"hash":"2650d269668977f5e9eb70403944f108","path":"/INCLUDE/BSE.IN$","attr":"0x00","date":"1991-02-28 16:06:44","size":583},
   {"hash":"effa956170780af9e9ac2300996e6b78","path":"/INCLUDE/BSEDEV.IN$","attr":"0x00","date":"1991-02-28 16:06:46","size":4330},
   {"hash":"2bf73314db1f6cff8d19056d2db9fca7","path":"/INCLUDE/BSEDOS.IN$","attr":"0x00","date":"1991-02-28 16:06:48","size":15717},

@@ -35,6 +35,8 @@
   {"path":"/LIB","attr":"0x10","date":"1987-12-15 00:00:58"},
   {"hash":"30c64a81c773f849068bb6b04d00e4ed","path":"/CLIB2.CTL","attr":"0x22","date":"1987-12-11 15:30:00","size":7},
   {"path":"/OS2CLIB2","attr":"0x28","date":"1987-12-11 15:30:02"},
+  {"path":"/LIB/.","attr":"0x10","date":"1987-12-15 00:00:58"},
+  {"path":"/LIB/..","attr":"0x10","date":"1987-12-15 00:00:58"},
   {"hash":"d7ea41e7a5259c6deebd7fbfb9a71785","path":"/LIB/CLIBC.LIB","attr":"0x20","date":"1987-12-15 00:00:02","size":94271},
   {"hash":"f67f8eb3f8443d47b6e9c3c4617c6cc6","path":"/LIB/CLIBC3.LIB","attr":"0x20","date":"1987-12-15 00:00:02","size":46957},
   {"hash":"29ae09054abb1d2f91dc5a976338374f","path":"/LIB/LLIBC.LIB","attr":"0x20","date":"1987-12-15 00:00:02","size":95295},

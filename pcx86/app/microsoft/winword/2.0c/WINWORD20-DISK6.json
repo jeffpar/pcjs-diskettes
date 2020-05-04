@@ -35,6 +35,8 @@
   {"path":"/WW20BUS1.44","attr":"0x28","date":"1992-08-31 06:00:02"},
   {"hash":"98d08a5ce71d764547986443365366eb","path":"/WINWORD.HL$","attr":"0x20","date":"1992-08-31 12:00:00","size":729741},
   {"path":"/WINWORD.CBT","attr":"0x10","date":"1992-08-31 06:00:00"},
+  {"path":"/WINWORD.CBT/.","attr":"0x10","date":"1992-08-31 06:00:00"},
+  {"path":"/WINWORD.CBT/..","attr":"0x10","date":"1992-08-31 06:00:00"},
   {"hash":"360c0dfcc050d23af61e9129878ac090","path":"/WINWORD.CBT/BUSLET.DO$","attr":"0x20","date":"1992-08-31 12:00:00","size":1692},
   {"hash":"856b45621e39af91e242c82dcb799425","path":"/WINWORD.CBT/BUSREP.DO$","attr":"0x20","date":"1992-08-31 12:00:00","size":3247},
   {"hash":"7de23b9f01f69121c5e143d65ccc4da0","path":"/WINWORD.CBT/CAROUSEL.DO$","attr":"0x20","date":"1992-08-31 12:00:00","size":8433},

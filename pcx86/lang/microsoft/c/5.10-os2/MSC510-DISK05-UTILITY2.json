@@ -42,6 +42,8 @@
   {"hash":"35a5f9c9b8515b6f27bc3f0d45bde0ad","path":"/MEGREP.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":31915,"module":{"name":"SDKGREP","description":"BINP\\SDKGREP.EXE","segments":{"1":{"offStart":11776,"offEnd":28061},"2":{"offStart":28672,"offEnd":31904},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"f4e4bdacd02ceecc2678c412e5f0ab23","path":"/RM.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":24884,"module":{"name":"RM","description":"BINB\\RM.EXE","segments":{"1":{"offStart":13312,"offEnd":22289},"2":{"offStart":22528,"offEnd":24873},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"af2b883191561a9ea0d3b5a4019cd99a","path":"/UNDEL.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":30046,"module":{"name":"UNDEL","description":"BINP\\UNDEL.EXE","segments":{"1":{"offStart":12800,"offEnd":26746},"2":{"offStart":27136,"offEnd":30035},"254":{"offStart":0,"offEnd":0}}}},
+  {"path":"/EXT/.","attr":"0x10","date":"1988-03-07 05:10:00"},
+  {"path":"/EXT/..","attr":"0x10","date":"1988-03-07 05:10:00"},
   {"hash":"a9b63c822d2bdb6db10d8ea48758a4a9","path":"/EXT/EXT.DOC","attr":"0x20","date":"1988-03-07 05:10:00","size":15877},
   {"hash":"8d3e0d01d15c395c594738800ef9a6d9","path":"/EXT/EXT.H","attr":"0x20","date":"1988-03-07 05:10:00","size":8730},
   {"hash":"e6ede6982fe8b36765307659112114c7","path":"/EXT/EXTHDR.OBJ","attr":"0x20","date":"1988-03-07 05:10:00","size":1893},
@@ -50,6 +52,8 @@
   {"hash":"0baaaf5d17f424470780eadef019f9c9","path":"/EXT/SKEL.DEF","attr":"0x20","date":"1988-03-07 05:10:00","size":211},
   {"hash":"b26deedacde08c71843b506ce1d08ef8","path":"/EXT/WS.DLL","attr":"0x20","date":"1988-03-07 05:10:00","size":2609,"module":{"name":"WS","description":"C:\\OS2\\WS.DLL","segments":{"1":{"offStart":512,"offEnd":1647,"ordinals":{"2":{"o":920,"s":"EntryPoint"}}},"2":{"offStart":2048,"offEnd":2558,"ordinals":{"1":{"o":0,"s":"_ModInfo"}}},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"b93b9eb7e11b2450f01cf70ad7b3b2f8","path":"/EXT/WS.ZXT","attr":"0x20","date":"1988-03-07 05:10:00","size":2084},
+  {"path":"/INI/.","attr":"0x10","date":"1988-03-07 05:10:02"},
+  {"path":"/INI/..","attr":"0x10","date":"1988-03-07 05:10:02"},
   {"hash":"a28952d3e7cdd362f7a92e1c5c89f888","path":"/INI/BRIEF.INI","attr":"0x20","date":"1988-03-07 05:10:00","size":2094},
   {"hash":"600842832f3940b4b9305a216b48a0ca","path":"/INI/EPSILON.INI","attr":"0x20","date":"1988-03-07 05:10:00","size":978},
   {"hash":"91594a63d01d44755fcf59e4db8cab90","path":"/INI/QUICK.INI","attr":"0x20","date":"1988-03-07 05:10:00","size":1058}

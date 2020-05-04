@@ -64,6 +64,8 @@
   {"hash":"c2d81329b0928cf5a7ce4bb9441824b3","path":"/MAIN.EXE","attr":"0x20","date":"1986-11-14 12:44:16","size":32482},
   {"path":"/DELETED","attr":"0x16","date":"1987-02-20 17:10:04"},
   {"hash":"f9f1c63f2349358f0176664701208efd","path":"/CPGREP.EXE","attr":"0x20","date":"1986-10-21 21:08:06","size":25286,"module":{"name":"CPGREP","description":"CPGREP.EXE","segments":{"1":{"offStart":7680,"offEnd":22024,"ordinals":{"1":{"o":1347},"2":{"o":1261}}},"2":{"offStart":22528,"offEnd":25285,"ordinals":{"3":{"o":0}}},"254":{"offStart":0,"offEnd":0}}}},
+  {"path":"/DELETED/.","attr":"0x10","date":"1987-02-20 17:10:04"},
+  {"path":"/DELETED/..","attr":"0x10","date":"1987-02-20 17:10:04"},
   {"hash":"727de967a5dfffbe24fc4c86cfd5d5b0","path":"/DELETED/INDEX","attr":"0x20","date":"1987-02-20 17:12:50","size":32},
   {"hash":"3974f91c90981236fbaa95d7eaf188a6","path":"/DELETED/DELETED.000","attr":"0x20","date":"1987-02-20 15:47:26","size":121},
   {"hash":"fbdcab6cbf7de105f68974aebf459da9","path":"/DELETED/DELETED.001","attr":"0x20","date":"1987-02-20 17:10:04","size":113}

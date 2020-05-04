@@ -57,6 +57,8 @@
   {"hash":"7d3f8c6c369e9aa48f164a90228da1bd","path":"/MNL0203.HML","attr":"0x02","date":"1985-05-21 16:05:30","size":1840},
   {"path":"/SGS0203.SUP","attr":"0x02","date":"1985-10-21 14:09:18"},
   {"hash":"5a84fc105ccaf454a979897a3a65a984","path":"/DDOS","attr":"0x20","date":"1985-04-18 10:01:06","size":2016},
+  {"path":"/PATCHES/.","attr":"0x10","date":"1985-10-21 14:12:02"},
+  {"path":"/PATCHES/..","attr":"0x10","date":"1985-10-21 14:12:02"},
   {"hash":"f7fbc06c2728dbe791debde5dce8857a","path":"/PATCHES/DBLDM32B.BAT","attr":"0x20","date":"1985-05-21 13:52:12","size":415},
   {"hash":"4214da4326d2289f7dc4a8fd4f93a07f","path":"/PATCHES/DBLDSC11.BAT","attr":"0x20","date":"1985-05-21 11:36:12","size":405},
   {"hash":"81224bfcb9a596af3c7d929bc318248b","path":"/PATCHES/DBLDPFS.BAT","attr":"0x20","date":"1984-08-13 09:14:04","size":336},

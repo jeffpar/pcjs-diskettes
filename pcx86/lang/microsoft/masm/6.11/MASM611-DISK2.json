@@ -34,6 +34,8 @@
 "fileTable": [
   {"path":"/MASM611_.02","attr":"0x28","date":"1993-10-18 13:26:00"},
   {"path":"/BIN","attr":"0x10","date":"1993-10-18 13:26:02"},
+  {"path":"/BIN/.","attr":"0x10","date":"1993-10-18 13:26:02"},
+  {"path":"/BIN/..","attr":"0x10","date":"1993-10-18 13:26:02"},
   {"hash":"6225c65adca8fac120cffa0c897ebc14","path":"/BIN/BSCMAKE.EX$","attr":"0x00","date":"1992-03-07 08:39:32","size":53029},
   {"hash":"c732f000e6fcaabe6fa69c397dbc3865","path":"/BIN/BSCMAKEV.EX$","attr":"0x00","date":"1992-03-07 08:39:38","size":55260},
   {"hash":"f84fd1c63c286d8ea892501eb974d879","path":"/BIN/CREF.DO$","attr":"0x00","date":"1992-01-27 13:45:18","size":3374},

@@ -34,6 +34,8 @@
 "fileTable": [
   {"path":"/MASM611_.03","attr":"0x28","date":"1993-10-18 13:30:30"},
   {"path":"/BIN","attr":"0x10","date":"1993-10-18 13:30:32"},
+  {"path":"/BIN/.","attr":"0x10","date":"1993-10-18 13:30:32"},
+  {"path":"/BIN/..","attr":"0x10","date":"1993-10-18 13:30:32"},
   {"hash":"b348bbf92d2fd5ab226118a86a96c3ce","path":"/BIN/MASM.EX$","attr":"0x00","date":"1993-08-19 09:50:52","size":28230},
   {"hash":"1ba4836ddb058dda8c9b9f1ab034d34a","path":"/BIN/MASM.GR$","attr":"0x00","date":"1992-08-19 19:26:08","size":1639},
   {"hash":"98ad36652261fc63ece3aa51877fcb04","path":"/BIN/MOUSE.CO$","attr":"0x00","date":"1992-03-10 08:20:00","size":27407},

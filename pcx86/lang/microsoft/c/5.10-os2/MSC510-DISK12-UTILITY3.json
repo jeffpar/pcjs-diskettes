@@ -38,6 +38,8 @@
   {"hash":"cba08d02fe01a53444e32bb48068d132","path":"/EXEC.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":9299},
   {"hash":"487882463360658cf878a98f3c6db021","path":"/CV.HLP","attr":"0x20","date":"1988-03-07 05:10:00","size":21552},
   {"hash":"c80167951574b457c8b31b940dd55113","path":"/CVPACK.EXE","attr":"0x20","date":"1988-03-07 05:10:00","size":49400,"module":{"name":"CVPACK","description":"CVPACKP.EXE","segments":{"1":{"offStart":11264,"offEnd":43837},"2":{"offStart":44544,"offEnd":45038},"3":{"offStart":45056,"offEnd":48773},"254":{"offStart":0,"offEnd":0}}}},
+  {"path":"/SOURCE/.","attr":"0x10","date":"1988-03-07 05:10:00"},
+  {"path":"/SOURCE/..","attr":"0x10","date":"1988-03-07 05:10:00"},
   {"hash":"fc958eb6d47e48b211c43d50df385ea1","path":"/SOURCE/SAMPLES.DOC","attr":"0x20","date":"1988-03-07 05:10:00","size":1760},
   {"hash":"67d6989fa16cfe7ab2767ac8eb43d9de","path":"/SOURCE/CFLOW.C","attr":"0x20","date":"1988-03-07 05:10:00","size":44796},
   {"hash":"166383067c533b6b2995c65e40e1d875","path":"/SOURCE/CFLOW.DOC","attr":"0x20","date":"1988-03-07 05:10:00","size":3764},

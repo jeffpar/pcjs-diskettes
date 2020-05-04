@@ -52,6 +52,8 @@
   {"hash":"11659b36ab998389ed7b9e2c7d69b208","path":"/QB.PIF","attr":"0x20","date":"1987-08-18 13:45:12","size":369},
   {"hash":"a0f12cfb11f553ab506d53a3594f0bd1","path":"/QB.BI","attr":"0x20","date":"1987-06-18 08:11:46","size":2005},
   {"path":"/SOURCE","attr":"0x10","date":"1980-01-01 01:00:10"},
+  {"path":"/SOURCE/.","attr":"0x10","date":"1980-01-01 01:00:10"},
+  {"path":"/SOURCE/..","attr":"0x10","date":"1980-01-01 01:00:10"},
   {"hash":"55cf9a9e93f70af1293e9853ce308c61","path":"/SOURCE/INDEX.BAS","attr":"0x20","date":"1987-09-22 23:05:14","size":9975},
   {"hash":"8ecb4cdcbc077c7b644c21d3f5237fa6","path":"/SOURCE/CAL.BAS","attr":"0x20","date":"1987-09-22 23:05:06","size":5429},
   {"hash":"cd0c99c03db672aceefae4e4e642d091","path":"/SOURCE/CUBE.BAS","attr":"0x20","date":"1987-09-22 23:05:10","size":726},

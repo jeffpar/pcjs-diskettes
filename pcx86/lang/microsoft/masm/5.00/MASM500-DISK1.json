@@ -50,6 +50,8 @@
   {"hash":"781113d15ee597108af0cde54bd1698d","path":"/MASM.EXE","attr":"0x20","date":"1987-07-31 00:00:00","size":103175},
   {"hash":"cc2a7683c31554cd9049d83cc25517da","path":"/SETENV.EXE","attr":"0x20","date":"1987-07-31 00:00:00","size":10601},
   {"hash":"9d79db9a9dad3ee692afb51523549e02","path":"/MAKE.EXE","attr":"0x20","date":"1987-07-31 00:00:00","size":24199},
+  {"path":"/MIXED/.","attr":"0x10","date":"1987-07-31 00:04:10"},
+  {"path":"/MIXED/..","attr":"0x10","date":"1987-07-31 00:04:10"},
   {"hash":"2f75ba2cdad153af653034ef63b7f37a","path":"/MIXED/BA.ASM","attr":"0x20","date":"1987-07-31 00:00:00","size":1138},
   {"hash":"ba3f68095c71013c9031bf9d317c4f6b","path":"/MIXED/CA.ASM","attr":"0x20","date":"1987-07-31 00:00:00","size":298},
   {"hash":"0e6c0485d9d08f04a8b3e8c85787e0d4","path":"/MIXED/FA.ASM","attr":"0x20","date":"1987-07-31 00:00:00","size":426},

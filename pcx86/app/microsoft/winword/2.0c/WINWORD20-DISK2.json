@@ -35,6 +35,8 @@
   {"path":"/WW20CUS1.44","attr":"0x28","date":"1992-11-18 06:00:02"},
   {"path":"/MSGRAPH","attr":"0x10","date":"1992-11-18 06:00:00"},
   {"hash":"d13ae7d864a25a24035e825f85c70744","path":"/WINWORD.EX$","attr":"0x20","date":"1992-11-18 12:00:00","size":930429},
+  {"path":"/MSGRAPH/.","attr":"0x10","date":"1992-11-18 06:00:00"},
+  {"path":"/MSGRAPH/..","attr":"0x10","date":"1992-11-18 06:00:00"},
   {"hash":"c5cb63a17ae923e538ca44ce75da5832","path":"/MSGRAPH/GRAPH.EX$","attr":"0x20","date":"1992-11-18 12:00:00","size":364891},
   {"hash":"d231395a3aa0d74cdbca856e4719735f","path":"/MSGRAPH/MSGRAPH.HL$","attr":"0x20","date":"1992-11-18 12:00:00","size":110307}
 ],

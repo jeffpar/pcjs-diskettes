@@ -42,6 +42,8 @@
   {"hash":"9ffae71e085b220716d863950579a372","path":"/SETUP.EXE","attr":"0x00","date":"1991-04-03 08:53:14","size":95155,"module":{"name":"setup","description":"setup.exe","segments":{"1":{"offStart":19968,"offEnd":47633},"2":{"offStart":48128,"offEnd":80546},"3":{"offStart":80896,"offEnd":87929},"4":{"offStart":88064,"offEnd":95071},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"a32283a29bb07cfdb793ac9eaab1d7ba","path":"/TOOLS.PR$","attr":"0x00","date":"1990-08-07 12:01:34","size":1485},
   {"path":"/DISK 1","attr":"0x08","date":"1999-12-13 16:11:46"},
+  {"path":"/BINB/.","attr":"0x10","date":"1999-12-13 16:11:38"},
+  {"path":"/BINB/..","attr":"0x10","date":"1999-12-13 16:11:38"},
   {"hash":"3ba618cb1928f1fc5dd7f93e52120faf","path":"/BINB/BIND.EX$","attr":"0x00","date":"1990-02-20 05:21:20","size":25614},
   {"hash":"cb7330d370c56854f688521f7d7db9c6","path":"/BINB/CVPACK.EX$","attr":"0x00","date":"1990-02-13 08:59:36","size":30769},
   {"hash":"34ecbe3b097cc3086f07337ccb788066","path":"/BINB/EXEHDR.EX$","attr":"0x00","date":"1990-02-20 17:12:10","size":28904},

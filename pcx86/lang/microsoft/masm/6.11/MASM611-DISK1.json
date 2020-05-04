@@ -43,6 +43,8 @@
   {"hash":"fa9d127cde033f2f16fb68f17c7c033d","path":"/SETUP.INF","attr":"0x00","date":"1993-09-29 09:59:40","size":60068},
   {"hash":"1b35ef780bfa9d206f4e434eb547c133","path":"/SUPPORT.TX$","attr":"0x00","date":"1993-09-21 10:22:12","size":2632},
   {"path":"/BIN","attr":"0x10","date":"1993-10-19 11:49:52"},
+  {"path":"/BIN/.","attr":"0x10","date":"1993-10-19 11:49:52"},
+  {"path":"/BIN/..","attr":"0x10","date":"1993-10-19 11:49:52"},
   {"hash":"08318a5f4789f42390103a90d728882e","path":"/BIN/CV.EX$","attr":"0x00","date":"1992-07-16 16:43:44","size":270756},
   {"hash":"d1bd367a16b9d7306259a713ef953624","path":"/BIN/CV.IC$","attr":"0x00","date":"1992-01-15 18:16:18","size":629},
   {"hash":"7958c6d72428fbce3f08a1e2c06bea75","path":"/BIN/CVPACK.EX$","attr":"0x00","date":"1992-07-07 14:29:06","size":70136},

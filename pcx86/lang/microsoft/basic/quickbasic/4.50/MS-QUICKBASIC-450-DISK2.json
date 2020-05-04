@@ -49,6 +49,8 @@
   {"hash":"41b242546901ecec188afd4ca354ea19","path":"/MOUSE.CO$","attr":"0x20","date":"1990-08-20 11:00:00","size":10839},
   {"hash":"d11d7bd686ba889d70cb8a575375dce9","path":"/QB45ADVR.HL$","attr":"0x20","date":"1990-08-20 11:00:00","size":318871},
   {"path":"/ADVR_EX","attr":"0x10","date":"1990-08-20 11:00:02"},
+  {"path":"/ADVR_EX/.","attr":"0x10","date":"1990-08-20 11:00:02"},
+  {"path":"/ADVR_EX/..","attr":"0x10","date":"1990-08-20 11:00:02"},
   {"hash":"5babf97b1f40c0ae1d40b72176c8fca8","path":"/ADVR_EX/CALL_EX.BA$","attr":"0x20","date":"1990-08-20 11:00:00","size":1126},
   {"hash":"b1ded48c5b552890414b04f9198c58d8","path":"/ADVR_EX/CHR_EX.BA$","attr":"0x20","date":"1990-08-20 11:00:00","size":567},
   {"hash":"763491707cead895a272c0d7ae4e9eb1","path":"/ADVR_EX/CMD_EX.BA$","attr":"0x20","date":"1990-08-20 11:00:00","size":1013},
