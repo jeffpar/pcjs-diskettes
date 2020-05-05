@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS330-DISK2.img",
+  "format": "PC360K",
   "hash": "e0868a5ba87a7c80a07c5c54f002ecb2",
   "checksum": 1407783356,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,77,83,68,79,83,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS330-DISK2.img --output MSDOS330-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

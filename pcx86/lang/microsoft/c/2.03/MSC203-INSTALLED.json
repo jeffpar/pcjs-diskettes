@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSC203-INSTALLED.img",
+  "format": "PC360K",
   "hash": "f8f7538eda49de2920d15992b058970b",
   "checksum": 1761426986,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSC203-INSTALLED.img --output MSC203-INSTALLED.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

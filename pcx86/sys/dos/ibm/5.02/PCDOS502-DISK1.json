@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDOS502-DISK1.img",
+  "format": "PC720K",
   "hash": "4adc0d8464dd0ffd88eab36e3febf008",
   "checksum": -973630592,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,60,144,73,66,77,32,32,53,46,48,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDOS502-DISK1.img --output PCDOS502-DISK1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

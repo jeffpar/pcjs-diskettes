@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-MASM-200.img",
+  "format": "PC320K",
   "hash": "dbfe738a6a439e33b010549aa4a674db",
   "checksum": 1221162469,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 327680,
   "bootSector": "[0,235,39,144,3,1,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk IBM-MASM-200.img --output IBM-MASM-200.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

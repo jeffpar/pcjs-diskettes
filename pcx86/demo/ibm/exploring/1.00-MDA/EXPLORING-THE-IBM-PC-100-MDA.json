@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "EXPLORING-THE-IBM-PC-100-MDA.img",
+  "format": "PC160K",
   "hash": "991a8608de0d8fe816588028c3f62f0c",
   "checksum": -1381239432,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk EXPLORING-THE-IBM-PC-100-MDA.img --output EXPLORING-THE-IBM-PC-100-MDA.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

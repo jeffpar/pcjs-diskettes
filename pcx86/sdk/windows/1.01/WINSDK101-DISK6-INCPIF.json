@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WINSDK101-DISK6-INCPIF.img",
+  "format": "PC360K",
   "hash": "907757e314ed6a4f8096adaa5687454d",
   "checksum": -630214446,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,41,144,73,66,77,32,32,51,46,49,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WINSDK101-DISK6-INCPIF.img --output WINSDK101-DISK6-INCPIF.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

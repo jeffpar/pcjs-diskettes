@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "UNDOC-DOS-2ED-BIN",
+  "format": "PC1200K",
   "hash": "none",
   "checksum": -1525868831,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir UNDOC-DOS-2ED-BIN --output UNDOC-DOS-2ED-BIN.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

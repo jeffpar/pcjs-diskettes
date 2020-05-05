@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "OS210-88286.img",
+  "format": "PC1200K",
   "hash": "b9d1e31aaba071e6e87beb3b8d81d29a",
   "checksum": 575482080,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,41,144,57,102,94,90,108,73,72,67,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk OS210-88286.img --output OS210-88286.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DRDOS333.img",
+  "format": "PC360K",
   "hash": "5a710d6a8b867355d2d57845dd20f90a",
   "checksum": 910091428,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DRDOS333.img --output DRDOS333.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSOS2121-DISK06-INSTALLA.img",
+  "format": "PC1440K",
   "hash": "050168d196f2e199cb675cf9461f1b31",
   "checksum": -1106487398,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,42,66,105,125,108,73,72,67,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSOS2121-DISK06-INSTALLA.img --output MSOS2121-DISK06-INSTALLA.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

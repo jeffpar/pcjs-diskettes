@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "OMNIVIEW386-430",
+  "format": "PC1200K",
   "hash": "none",
   "checksum": 1652140054,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir OMNIVIEW386-430 --output OMNIVIEW386-430.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

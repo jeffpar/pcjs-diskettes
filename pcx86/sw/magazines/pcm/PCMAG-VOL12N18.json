@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCMAG-VOL12N18",
+  "format": "PC1440K",
   "hash": "none",
   "checksum": 872640603,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1474560,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PCMAG-VOL12N18 --output PCMAG-VOL12N18.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

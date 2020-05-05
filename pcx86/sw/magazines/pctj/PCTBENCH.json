@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCTBENCH",
+  "format": "PC1200K",
   "hash": "none",
   "checksum": -1904336484,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PCTBENCH --output PCTBENCH.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

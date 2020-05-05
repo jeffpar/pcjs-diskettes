@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MULTIPLAN-IBM100-TUTORIAL.img",
+  "format": "PC160K",
   "hash": "0d8f5680e3c16becda520bbc5bbbd355",
   "checksum": 332222401,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,47,20,0,0,0,96,0,32,55,45,77,97,121,45,56,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MULTIPLAN-IBM100-TUTORIAL.img --output MULTIPLAN-IBM100-TUTORIAL.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

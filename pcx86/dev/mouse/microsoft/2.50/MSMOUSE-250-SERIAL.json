@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSMOUSE-250-SERIAL.img",
+  "format": "PC160K",
   "hash": "617f75a97b0c9abfe1ccbddb41b25bce",
   "checksum": 2053809009,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSMOUSE-250-SERIAL.img --output MSMOUSE-250-SERIAL.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

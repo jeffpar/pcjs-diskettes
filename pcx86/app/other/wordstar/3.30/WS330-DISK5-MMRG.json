@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WS330-DISK5-MMRG.img",
+  "format": "PC160K",
   "hash": "b61b5eadc6cc7d766128c2cefc399fe7",
   "checksum": -2131093099,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,47,20,0,0,0,96,0,32,55,45,77,97,121,45,56,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WS330-DISK5-MMRG.img --output WS330-DISK5-MMRG.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

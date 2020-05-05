@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PASCALMT311-DISK2.img",
+  "format": "PC160K",
   "hash": "9177fead7f50c7fea91d96972e645c4f",
   "checksum": 962668656,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PASCALMT311-DISK2.img --output PASCALMT311-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

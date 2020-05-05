@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCMAG-VOL07N07",
+  "format": "PC160K",
   "hash": "none",
   "checksum": -2029444659,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PCMAG-VOL07N07 --output PCMAG-VOL07N07.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

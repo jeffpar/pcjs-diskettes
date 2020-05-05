@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "NU500-DISK2.img",
+  "format": "PC360K",
   "hash": "bea802f610609004664d17aa3b62612e",
   "checksum": -238926656,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,40,144,73,66,77,32,80,78,67,73,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk NU500-DISK2.img --output NU500-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

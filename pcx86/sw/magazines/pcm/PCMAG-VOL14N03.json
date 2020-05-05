@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCMAG-VOL14N03",
+  "format": "PC320K",
   "hash": "none",
   "checksum": -462436607,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PCMAG-VOL14N03 --output PCMAG-VOL14N03.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

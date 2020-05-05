@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSC510-DISK04-UTILITY1.img",
+  "format": "PC360K",
   "hash": "2c1c71ba6bf655e89d6e732d6434f7e5",
   "checksum": 105840752,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSC510-DISK04-UTILITY1.img --output MSC510-DISK04-UTILITY1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

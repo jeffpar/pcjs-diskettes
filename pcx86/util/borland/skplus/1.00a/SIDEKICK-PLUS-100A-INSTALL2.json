@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "SIDEKICK-PLUS-100A-INSTALL2.img",
+  "format": "PC360K",
   "hash": "3564ea0d1a98f4e4309775acd2699c18",
   "checksum": 261297402,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk SIDEKICK-PLUS-100A-INSTALL2.img --output SIDEKICK-PLUS-100A-INSTALL2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

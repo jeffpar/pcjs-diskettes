@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "5150-DIAG-207.img",
+  "format": "PC180K",
   "hash": "a82df4eec463ec7455962f487bcce873",
   "checksum": 1339911529,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 184320,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,1,1,0,2,64,0,104,1,252,2,0,9,0,1,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk 5150-DIAG-207.img --output 5150-DIAG-207.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

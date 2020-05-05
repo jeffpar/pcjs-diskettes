@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DBII-240-ODT2.img",
+  "format": "PC160K",
   "hash": "e49532dc97b1796de79c0f782a3290d1",
   "checksum": -608922743,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DBII-240-ODT2.img --output DBII-240-ODT2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

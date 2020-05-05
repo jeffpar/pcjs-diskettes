@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "NU201-1983-11-03-SIDEA.img",
+  "format": "PC160K",
   "hash": "7cb1e99906e5b535dc93e6dde6cf572d",
   "checksum": -1899062153,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk NU201-1983-11-03-SIDEA.img --output NU201-1983-11-03-SIDEA.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

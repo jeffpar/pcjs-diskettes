@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "NU300-1984-12-07.img",
+  "format": "PC160K",
   "hash": "ef5948f3a8dcb51256941ff62b92e027",
   "checksum": 1033555394,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk NU300-1984-12-07.img --output NU300-1984-12-07.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

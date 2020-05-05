@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MASM-016014-301.img",
+  "format": "PC360K",
   "hash": "735369258e50b1de1240d33789a4d170",
   "checksum": 1021263414,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,42,144,73,66,77,32,32,51,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,20,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MASM-016014-301.img --output MASM-016014-301.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

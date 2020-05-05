@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WINSDK101-DISK4-LIBLARGE.img",
+  "format": "PC360K",
   "hash": "ab38deb2ef861a85ba02e688eb089989",
   "checksum": 1372644858,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,42,144,73,66,77,32,32,51,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,20,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WINSDK101-DISK4-LIBLARGE.img --output WINSDK101-DISK4-LIBLARGE.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

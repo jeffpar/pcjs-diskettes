@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS620-1200K-SUPPDISK.img",
+  "format": "PC1200K",
   "hash": "46a6ba5c08e33d48a2e8489f04f921e2",
   "checksum": -1698528727,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,60,144,77,83,68,79,83,53,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS620-1200K-SUPPDISK.img --output MSDOS620-1200K-SUPPDISK.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

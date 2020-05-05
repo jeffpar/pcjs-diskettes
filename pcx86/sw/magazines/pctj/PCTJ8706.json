@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCTJ8706",
+  "format": "PC160K",
   "hash": "none",
   "checksum": -1548976063,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PCTJ8706 --output PCTJ8706.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

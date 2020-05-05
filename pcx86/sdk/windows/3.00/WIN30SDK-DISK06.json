@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN30SDK-DISK06.img",
+  "format": "PC720K",
   "hash": "8b87da4b4a7fe1a622c76674f31c040a",
   "checksum": 1516554132,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN30SDK-DISK06.img --output WIN30SDK-DISK06.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

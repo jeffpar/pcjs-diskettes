@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN95-DISK13.img",
+  "format": "Unknown",
   "hash": "40c5970f44ad040690a2db570b3a9a40",
   "checksum": -1281895932,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1720320,
   "bootSector": "[0,235,60,144,77,83,68,77,70,51,46,50,0,2,4,1,0,2,16,0,32,13,240,3,0,21,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN95-DISK13.img --output WIN95-DISK13.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

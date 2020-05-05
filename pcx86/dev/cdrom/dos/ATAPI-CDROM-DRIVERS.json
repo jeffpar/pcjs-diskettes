@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "ATAPI-CDROM-DRIVERS",
+  "format": "PC360K",
   "hash": "none",
   "checksum": -613370183,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir ATAPI-CDROM-DRIVERS --output ATAPI-CDROM-DRIVERS.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

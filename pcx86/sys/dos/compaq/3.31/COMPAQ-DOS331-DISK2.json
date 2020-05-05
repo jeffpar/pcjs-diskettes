@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "COMPAQ-DOS331-DISK2.img",
+  "format": "PC720K",
   "hash": "e7a92e5d49cfcbce27c76a76e41cef38",
   "checksum": 334797437,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,40,144,73,66,77,32,32,51,46,51,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk COMPAQ-DOS331-DISK2.img --output COMPAQ-DOS331-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

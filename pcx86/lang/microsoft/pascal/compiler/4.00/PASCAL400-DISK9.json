@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PASCAL400-DISK9",
+  "format": "PC320K",
   "hash": "none",
   "checksum": -1010777003,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PASCAL400-DISK9 --output PASCAL400-DISK9.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

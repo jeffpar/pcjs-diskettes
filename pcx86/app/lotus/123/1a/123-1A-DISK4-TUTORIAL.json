@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "123-1A-DISK4-TUTORIAL.img",
+  "format": "PC320K",
   "hash": "349b0f5363360af76cd8ae88cbcf1425",
   "checksum": -2072171963,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 327680,
   "bootSector": "[0,235,44,144,42,83,121,55,89,73,72,67,0,2,2,1,0,2,112,0,128,2,255,1,0,8,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk 123-1A-DISK4-TUTORIAL.img --output 123-1A-DISK4-TUTORIAL.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

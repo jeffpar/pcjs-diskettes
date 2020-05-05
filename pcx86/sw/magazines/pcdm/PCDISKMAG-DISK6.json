@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDISKMAG-DISK6.img",
+  "format": "PC160K",
   "hash": "6c451444a80dffc2c9a66965fd0f1d8b",
   "checksum": 743527664,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDISKMAG-DISK6.img --output PCDISKMAG-DISK6.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

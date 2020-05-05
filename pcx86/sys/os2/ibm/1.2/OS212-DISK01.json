@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "OS212-DISK01.img",
+  "format": "PC1440K",
   "hash": "084b56eb978f3151205067e01a54000c",
   "checksum": 801775639,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,73,66,77,32,49,48,46,50,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk OS212-DISK01.img --output OS212-DISK01.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

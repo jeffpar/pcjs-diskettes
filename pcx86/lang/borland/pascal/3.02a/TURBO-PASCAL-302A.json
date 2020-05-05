@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "TURBO-PASCAL-302A.img",
+  "format": "PC360K",
   "hash": "8c1d05fe6d40bce2a2ceeb8a1cdea351",
   "checksum": 759725660,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk TURBO-PASCAL-302A.img --output TURBO-PASCAL-302A.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "APL-100.img",
+  "format": "PC360K",
   "hash": "2edd4a22f74aa1ae8a5f63f1e74f8f48",
   "checksum": 1093007360,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk APL-100.img --output APL-100.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

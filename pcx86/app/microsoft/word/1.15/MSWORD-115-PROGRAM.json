@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSWORD-115-PROGRAM.img",
+  "format": "Unknown*",
   "hash": "ca3aeb5aa4fbc7eb9b6086d8c7a419ef",
   "checksum": 519510535,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 367872,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSWORD-115-PROGRAM.img --output MSWORD-115-PROGRAM.json --suppData=/software/pcx86/app/microsoft/word/1.15/debugger/index.md"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

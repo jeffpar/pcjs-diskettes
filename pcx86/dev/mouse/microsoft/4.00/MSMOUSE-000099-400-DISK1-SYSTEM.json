@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSMOUSE-000099-400-DISK1-SYSTEM.img",
+  "format": "PC360K",
   "hash": "f9013f4e8071a1628a9ada60d27cd781",
   "checksum": -1336638192,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,41,144,73,66,77,32,32,51,46,49,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSMOUSE-000099-400-DISK1-SYSTEM.img --output MSMOUSE-000099-400-DISK1-SYSTEM.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

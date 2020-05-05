@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "VGABIN",
+  "format": "PC160K",
   "hash": "none",
   "checksum": 1860296184,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir VGABIN --output VGABIN.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

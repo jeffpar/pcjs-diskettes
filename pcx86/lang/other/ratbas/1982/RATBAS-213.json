@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "RATBAS-213.img",
+  "format": "PC160K",
   "hash": "e7d98dd3d0de9121fbb56fb2af72d1c7",
   "checksum": 1492582602,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk RATBAS-213.img --output RATBAS-213.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

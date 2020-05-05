@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "NU400-ADV-DISK1.img",
+  "format": "PC360K",
   "hash": "f10242b26ceaa8e1051ee374148b56ca",
   "checksum": 284139699,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,42,144,32,78,111,114,116,111,110,32,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk NU400-ADV-DISK1.img --output NU400-ADV-DISK1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

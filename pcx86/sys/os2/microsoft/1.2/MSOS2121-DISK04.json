@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSOS2121-DISK04.img",
+  "format": "PC1440K",
   "hash": "ec94d3f672153184d59939c64843b1cb",
   "checksum": 651934235,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,51,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSOS2121-DISK04.img --output MSOS2121-DISK04.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

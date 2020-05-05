@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "UNAUTH-W95S",
+  "format": "PC1200K",
   "hash": "none",
   "checksum": -1367267359,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir UNAUTH-W95S --output UNAUTH-W95S.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

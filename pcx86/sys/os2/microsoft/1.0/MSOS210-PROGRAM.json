@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSOS210-PROGRAM.img",
+  "format": "PC1200K",
   "hash": "e513da95619ff79b7888da08e26c2f29",
   "checksum": -226700889,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,41,144,79,83,50,32,49,48,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSOS210-PROGRAM.img --output MSOS210-PROGRAM.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WINWORD20-DISK3.img",
+  "format": "PC1440K",
   "hash": "d18c31da61339895daa9d95d82e56785",
   "checksum": -1463109070,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,41,116,52,56,106,73,72,67,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WINWORD20-DISK3.img --output WINWORD20-DISK3.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

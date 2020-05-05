@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN210-386-DISK5.img",
+  "format": "PC1200K",
   "hash": "44941349156862df588bbf2833e7037a",
   "checksum": 1044910111,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN210-386-DISK5.img --output WIN210-386-DISK5.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "SCBC-1990.img",
+  "format": "PC360K",
   "hash": "26eeb6963eb9b06e2c0290491e21d81f",
   "checksum": 1695575752,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,40,144,73,66,77,32,32,51,46,51,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk SCBC-1990.img --output SCBC-1990.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

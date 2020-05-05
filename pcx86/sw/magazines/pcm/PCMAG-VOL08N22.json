@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCMAG-VOL08N22",
+  "format": "PC160K",
   "hash": "none",
   "checksum": -1861681079,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PCMAG-VOL08N22 --output PCMAG-VOL08N22.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

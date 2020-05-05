@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "UNDOC-DOS-DISK2.img",
+  "format": "PC1200K",
   "hash": "d35c9141a554b4854bb635173e72a999",
   "checksum": -732419594,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk UNDOC-DOS-DISK2.img --output UNDOC-DOS-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

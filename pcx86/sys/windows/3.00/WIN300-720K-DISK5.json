@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN300-720K-DISK5.img",
+  "format": "PC720K",
   "hash": "a8192459926dc6fdcc7b6ca74388a99f",
   "checksum": -1728411937,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,52,144,77,83,68,79,83,51,46,51,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN300-720K-DISK5.img --output WIN300-720K-DISK5.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

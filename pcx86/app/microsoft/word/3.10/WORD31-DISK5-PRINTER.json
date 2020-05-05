@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WORD31-DISK5-PRINTER.img",
+  "format": "PC360K",
   "hash": "52b513f65a38135d12b4a88c4442898b",
   "checksum": 2125693923,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,41,48,45,78,52,73,72,67,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WORD31-DISK5-PRINTER.img --output WORD31-DISK5-PRINTER.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

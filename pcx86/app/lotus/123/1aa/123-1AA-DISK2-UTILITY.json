@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "123-1AA-DISK2-UTILITY.img",
+  "format": "PC320K",
   "hash": "a678293b5514905e82f3bd839e0a454a",
   "checksum": 2090659520,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk 123-1AA-DISK2-UTILITY.img --output 123-1AA-DISK2-UTILITY.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

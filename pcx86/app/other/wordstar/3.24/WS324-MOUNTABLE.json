@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WS324-MOUNTABLE.img",
+  "format": "PC160K",
   "hash": "3127ce782680b32aa35b6d388e8f8778",
   "checksum": -1595023568,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WS324-MOUNTABLE.img --output WS324-MOUNTABLE.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "EMPTY-1200K.img",
+  "format": "PC1200K",
   "hash": "16e48d48fa8603e6a28839840cef8a86",
   "checksum": 1746783696,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk EMPTY-1200K.img --output EMPTY-1200K.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

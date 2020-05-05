@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN101-DISK1-SETUP.img",
+  "format": "PC360K",
   "hash": "a0a01cfa3d4683a1190bdf0a1da554a0",
   "checksum": -1217413450,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN101-DISK1-SETUP.img --output WIN101-DISK1-SETUP.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WORD31-DISK4-UTILITIES.img",
+  "format": "PC360K",
   "hash": "3b11d6096006d3a5020183b95414c2b9",
   "checksum": 1945976572,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WORD31-DISK4-UTILITIES.img --output WORD31-DISK4-UTILITIES.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DRDOS600-STARTUP.img",
+  "format": "PC1200K",
   "hash": "c6b1d5607c0c1d7f4810f0356a7a8d17",
   "checksum": 744647140,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,63,144,73,66,77,32,32,51,46,51,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DRDOS600-STARTUP.img --output DRDOS600-STARTUP.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

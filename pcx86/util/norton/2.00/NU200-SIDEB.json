@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "NU200-SIDEB.img",
+  "format": "PC160K",
   "hash": "6146030b41283c23669d50a51c5725f1",
   "checksum": 36287250,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk NU200-SIDEB.img --output NU200-SIDEB.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

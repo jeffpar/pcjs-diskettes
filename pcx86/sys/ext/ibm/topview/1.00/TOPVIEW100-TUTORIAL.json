@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "TOPVIEW100-TUTORIAL.img",
+  "format": "PC360K",
   "hash": "3740ee8cf15cfe75f66d7d97f9a9540d",
   "checksum": 926006377,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk TOPVIEW100-TUTORIAL.img --output TOPVIEW100-TUTORIAL.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

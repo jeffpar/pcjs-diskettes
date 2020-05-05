@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "OS210-DISK3.img",
+  "format": "PC1440K",
   "hash": "fd80ec4dc815bcdacf7879c50b7aa44a",
   "checksum": 2095925340,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,41,144,73,66,77,32,49,48,46,48,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk OS210-DISK3.img --output OS210-DISK3.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "COMPAQ-DOS310-PERSONAL.img",
+  "format": "PC1200K",
   "hash": "df312165dc2303aab9417677a50df477",
   "checksum": -529775492,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,33,144,73,66,77,32,32,51,46,49,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,196]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk COMPAQ-DOS310-PERSONAL.img --output COMPAQ-DOS310-PERSONAL.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

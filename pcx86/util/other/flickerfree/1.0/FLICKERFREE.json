@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "FLICKERFREE.img",
+  "format": "PC180K",
   "hash": "f4d6055fa14adffc754c2fadee04ac82",
   "checksum": -173067981,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 184320,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk FLICKERFREE.img --output FLICKERFREE.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

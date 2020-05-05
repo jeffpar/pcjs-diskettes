@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDOS700-DISK1.img",
+  "format": "PC1440K",
   "hash": "2a3736d2acbb7730965b7cb6d3f16d00",
   "checksum": 959723804,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,73,66,77,32,32,55,46,48,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDOS700-DISK1.img --output PCDOS700-DISK1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

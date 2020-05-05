@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSMOUSE-250.img",
+  "format": "PC320K",
   "hash": "9e0a5171ce76c04f749b8a205c345897",
   "checksum": 2083757593,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 327680,
   "bootSector": "[0,235,39,144,3,1,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSMOUSE-250.img --output MSMOUSE-250.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

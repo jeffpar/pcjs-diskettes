@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MULTIPLAN200",
+  "format": "PC320K",
   "hash": "none",
   "checksum": 123043527,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir MULTIPLAN200 --output MULTIPLAN200.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

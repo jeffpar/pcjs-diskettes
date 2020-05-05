@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDOS200-DISK1.img",
+  "format": "PC180K",
   "hash": "d57ceef82122790d1c0ff7bebc12f90a",
   "checksum": 1874449887,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 184320,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,1,1,0,2,64,0,104,1,252,2,0,9,0,1,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDOS200-DISK1.img --output PCDOS200-DISK1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

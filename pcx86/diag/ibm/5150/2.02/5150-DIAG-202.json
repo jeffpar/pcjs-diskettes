@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "5150-DIAG-202.img",
+  "format": "PC160K",
   "hash": "514ccec037b620d139fb5f29344ac7c5",
   "checksum": -1651585643,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,1,1,0,2,64,0,64,1,254,1,0,8,0,1,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk 5150-DIAG-202.img --output 5150-DIAG-202.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

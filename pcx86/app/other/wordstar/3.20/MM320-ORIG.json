@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MM320-ORIG.img",
+  "format": "PC160K",
   "hash": "1f156432b7ceec173a75c06a300745ec",
   "checksum": -2046675859,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MM320-ORIG.img --output MM320-ORIG.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

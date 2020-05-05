@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSWORD-115-UTILITIES.img",
+  "format": "PC360K",
   "hash": "b95449825fc7afbf98baadda49714440",
   "checksum": -693731765,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,53,144,67,67,67,32,32,50,46,49,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,223,2,37,2,9,42]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSWORD-115-UTILITIES.img --output MSWORD-115-UTILITIES.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DRDOS341-DISK2.img",
+  "format": "PC360K",
   "hash": "e8e8237864021c54c168bf8b2ec58c20",
   "checksum": 206165310,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,54,144,68,73,71,73,84,65,76,32,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,18,0,10,0,24]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DRDOS341-DISK2.img --output DRDOS341-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

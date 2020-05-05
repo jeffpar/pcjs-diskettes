@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DOUBLEDOS-21F.img",
+  "format": "PC160K",
   "hash": "c518b97fc395b7ed7369ef97d83e9ab8",
   "checksum": -882215810,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DOUBLEDOS-21F.img --output DOUBLEDOS-21F.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

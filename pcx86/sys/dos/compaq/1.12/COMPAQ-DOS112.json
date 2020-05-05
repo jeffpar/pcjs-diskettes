@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "COMPAQ-DOS112.img",
+  "format": "PC320K",
   "hash": "78669dbfd2c3a23e30353788fcbabdef",
   "checksum": 2023556787,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk COMPAQ-DOS112.img --output COMPAQ-DOS112.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

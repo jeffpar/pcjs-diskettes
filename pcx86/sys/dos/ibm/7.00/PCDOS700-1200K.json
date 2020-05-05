@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDOS700-1200K.img",
+  "format": "PC1200K",
   "hash": "83cee8e9ae62d9d6b921f27dc238b90b",
   "checksum": -1262568435,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,60,144,73,66,77,32,32,55,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDOS700-1200K.img --output PCDOS700-1200K.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "TURBO-PASCAL-550-INSTALL.img",
+  "format": "PC360K",
   "hash": "ed61829de9936a4f3f3afdb42cb7c095",
   "checksum": -1085150190,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk TURBO-PASCAL-550-INSTALL.img --output TURBO-PASCAL-550-INSTALL.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

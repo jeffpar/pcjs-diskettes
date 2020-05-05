@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSOS2-SDK102-DISK12.img",
+  "format": "PC720K",
   "hash": "fa70ed5d9be6e8baaa53132342340bd0",
   "checksum": 1207188623,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,41,144,79,83,50,32,49,48,46,48,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSOS2-SDK102-DISK12.img --output MSOS2-SDK102-DISK12.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

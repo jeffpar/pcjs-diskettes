@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MASM51-03159-DISK5.img",
+  "format": "PC1200K",
   "hash": "4c859bcc62806d3371f22b909803edfc",
   "checksum": 153748489,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,52,144,77,83,68,79,83,51,46,51,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MASM51-03159-DISK5.img --output MASM51-03159-DISK5.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

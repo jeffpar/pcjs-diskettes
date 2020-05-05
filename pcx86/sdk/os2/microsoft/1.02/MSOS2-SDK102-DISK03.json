@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSOS2-SDK102-DISK03.img",
+  "format": "PC1440K",
   "hash": "78e9b7eb522c5fdaf5ecf1a5620f3af5",
   "checksum": -60578523,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,41,144,79,83,50,32,49,48,46,48,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSOS2-SDK102-DISK03.img --output MSOS2-SDK102-DISK03.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

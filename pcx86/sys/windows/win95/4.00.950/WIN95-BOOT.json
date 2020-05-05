@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN95-BOOT.img",
+  "format": "PC1440K",
   "hash": "666f0f99b650468aaba0eb4ca17d519d",
   "checksum": 1878919467,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,62,144,39,67,49,71,65,73,72,67,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN95-BOOT.img --output WIN95-BOOT.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

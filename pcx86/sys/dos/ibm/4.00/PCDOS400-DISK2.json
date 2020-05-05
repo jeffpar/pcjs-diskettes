@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDOS400-DISK2.img",
+  "format": "PC360K",
   "hash": "91403cee04802a0b28ccfd3e22511c72",
   "checksum": 2103121295,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,60,144,73,66,77,32,32,52,46,48,0,2,1,1,0,2,112,0,208,2,253,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDOS400-DISK2.img --output PCDOS400-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

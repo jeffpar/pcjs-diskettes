@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PASCAL331-DISK1.img",
+  "format": "PC360K",
   "hash": "e87c0d3cab9011f450fb68ea8012b4aa",
   "checksum": 1742532580,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,42,144,73,66,77,32,32,51,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,20,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PASCAL331-DISK1.img --output PASCAL331-DISK1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

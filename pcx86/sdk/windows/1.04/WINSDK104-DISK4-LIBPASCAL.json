@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WINSDK104-DISK4-LIBPASCAL.img",
+  "format": "PC360K",
   "hash": "fb85f6f592d1cc86a32b0ba2d73a119e",
   "checksum": -1665791931,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WINSDK104-DISK4-LIBPASCAL.img --output WINSDK104-DISK4-LIBPASCAL.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

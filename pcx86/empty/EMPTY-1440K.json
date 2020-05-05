@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "EMPTY-1440K.img",
+  "format": "PC1440K",
   "hash": "96259c3620e5cbde6ea831b37f806da5",
   "checksum": 1210041539,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1474560,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk EMPTY-1440K.img --output EMPTY-1440K.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSC510-01526-INCLUDE.img",
+  "format": "PC360K",
   "hash": "99bab9e13817b43149dd9e075a41ebdf",
   "checksum": -612746054,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,41,144,73,66,77,32,49,48,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSC510-01526-INCLUDE.img --output MSC510-01526-INCLUDE.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

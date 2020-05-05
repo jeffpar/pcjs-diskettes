@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-DEBUG-100.img",
+  "format": "PC180K",
   "hash": "dadc61fc8b55764b765da2d3da11e609",
   "checksum": 231684115,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 184320,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,1,1,0,2,64,0,104,1,252,2,0,9,0,1,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk IBM-DEBUG-100.img --output IBM-DEBUG-100.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

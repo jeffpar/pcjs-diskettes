@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSOS2-SDK102-DISK15.img",
+  "format": "PC360K",
   "hash": "51b40d098260cdc4ed787c0eeef11497",
   "checksum": -1383742048,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSOS2-SDK102-DISK15.img --output MSOS2-SDK102-DISK15.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

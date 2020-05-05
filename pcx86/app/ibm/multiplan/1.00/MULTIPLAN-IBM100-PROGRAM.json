@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MULTIPLAN-IBM100-PROGRAM-BACKUP.img",
+  "format": "PC160K*",
   "hash": "5df55f6f82537c447e4ec0092b7d25ed",
   "checksum": -876035782,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MULTIPLAN-IBM100-PROGRAM-BACKUP.img --output MULTIPLAN-IBM100-PROGRAM-BACKUP.json --sectorID=11:0:8:61"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

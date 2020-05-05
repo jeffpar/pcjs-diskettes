@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDOS090.img",
+  "format": "PC160K",
   "hash": "ff2d0f7dfce153f4b2d4601fcdd7c667",
   "checksum": 1369019902,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,47,20,0,0,0,96,0,32,55,45,77,97,121,45,56,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDOS090.img --output PCDOS090.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

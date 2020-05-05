@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSOS2121-DISK08-DRIVER1.img",
+  "format": "PC1440K",
   "hash": "99296e5103c8fc6ffac44197c4051343",
   "checksum": -714841788,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,73,66,77,32,49,48,46,50,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSOS2121-DISK08-DRIVER1.img --output MSOS2121-DISK08-DRIVER1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

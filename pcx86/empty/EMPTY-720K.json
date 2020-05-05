@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "EMPTY-720K.img",
+  "format": "PC720K",
   "hash": "dd28525be693f32a0ffe6ecf77006cf6",
   "checksum": -1474757994,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 737280,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk EMPTY-720K.img --output EMPTY-720K.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

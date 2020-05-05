@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WORD30-DISK4-PRINTER.img",
+  "format": "PC360K",
   "hash": "a15131fe73097ac52bcc15beeba451f3",
   "checksum": 1193887130,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,42,144,73,66,77,32,32,51,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,20,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WORD30-DISK4-PRINTER.img --output WORD30-DISK4-PRINTER.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

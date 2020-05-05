@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS401-720K-DISK2.img",
+  "format": "PC720K",
   "hash": "1ed35cdf88463c632ee2d9fbb8d74da5",
   "checksum": 1535171846,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,60,144,41,89,113,126,55,73,72,67,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS401-720K-DISK2.img --output MSDOS401-720K-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "VB100-DISK2.img",
+  "format": "PC1200K",
   "hash": "a5c9ad4ec3c402b5ded077d35332ad43",
   "checksum": -1851727044,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,40,144,73,66,77,32,32,51,46,51,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk VB100-DISK2.img --output VB100-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

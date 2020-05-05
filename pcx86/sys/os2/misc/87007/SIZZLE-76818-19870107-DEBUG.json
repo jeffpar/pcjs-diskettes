@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "SIZZLE-76818-19870107-DEBUG.img",
+  "format": "PC1200K",
   "hash": "c0bc3c29cf5cd319b2104ea091090cf3",
   "checksum": 270111809,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,41,144,73,66,77,32,32,53,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk SIZZLE-76818-19870107-DEBUG.img --output SIZZLE-76818-19870107-DEBUG.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

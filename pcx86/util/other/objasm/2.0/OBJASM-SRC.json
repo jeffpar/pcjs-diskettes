@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "OBJASM-SRC",
+  "format": "PC320K",
   "hash": "none",
   "checksum": 1000412085,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir OBJASM-SRC --output OBJASM-SRC.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

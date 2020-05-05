@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSC510-DISK10-CVDOS.img",
+  "format": "PC360K",
   "hash": "234b6a1d949cb252641830d4f1f14d9f",
   "checksum": 1308973066,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,41,144,73,66,77,32,49,48,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSC510-DISK10-CVDOS.img --output MSC510-DISK10-CVDOS.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

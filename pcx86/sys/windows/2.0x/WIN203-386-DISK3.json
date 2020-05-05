@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN203-386-DISK3.img",
+  "format": "PC720K",
   "hash": "6343a6aa3779be3abbfe23d72e3fa529",
   "checksum": -2102515247,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN203-386-DISK3.img --output WIN203-386-DISK3.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

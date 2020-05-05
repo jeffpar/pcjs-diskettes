@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "CPUTESTS",
+  "format": "PC160K",
   "hash": "none",
   "checksum": -238488523,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir CPUTESTS --output CPUTESTS.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

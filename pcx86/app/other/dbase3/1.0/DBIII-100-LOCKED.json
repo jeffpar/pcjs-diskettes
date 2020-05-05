@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DBIII-100-LOCKED.img",
+  "format": "PC360K*",
   "hash": "e7c73904362b5298b49a67402d2b00a5",
   "checksum": -1181877065,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DBIII-100-LOCKED.img --output DBIII-100-LOCKED.json --sectorError=39:0:5:204"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

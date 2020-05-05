@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DOS-INTERN.img",
+  "format": "PC1200K",
   "hash": "bc8cdc0887473c7cd081107408c12579",
   "checksum": 1915851468,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DOS-INTERN.img --output DOS-INTERN.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "TURBO-PASCAL-301A-8087-BCD.img",
+  "format": "PC360K",
   "hash": "1cbba1863d125b7f13699a800c9f8808",
   "checksum": 1246856169,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk TURBO-PASCAL-301A-8087-BCD.img --output TURBO-PASCAL-301A-8087-BCD.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

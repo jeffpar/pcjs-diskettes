@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "SM106",
+  "format": "PC160K",
   "hash": "none",
   "checksum": -1482387714,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir SM106 --output SM106.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

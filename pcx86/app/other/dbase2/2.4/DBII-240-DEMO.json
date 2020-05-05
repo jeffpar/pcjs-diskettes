@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DBII-240-DEMO.img",
+  "format": "PC160K",
   "hash": "7c13473f3b168a4de4f696154b82d478",
   "checksum": 227152989,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DBII-240-DEMO.img --output DBII-240-DEMO.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

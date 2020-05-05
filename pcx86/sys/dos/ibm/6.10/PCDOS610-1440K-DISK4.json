@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCDOS610-1440K-DISK4.img",
+  "format": "PC1440K",
   "hash": "72d1faf196a0dfb6ca3e409727d79a38",
   "checksum": -2070289786,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,42,39,114,118,123,73,72,67,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCDOS610-1440K-DISK4.img --output PCDOS610-1440K-DISK4.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

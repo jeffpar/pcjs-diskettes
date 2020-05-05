@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSMOUSE-200--1983-12-31.img",
+  "format": "PC320K",
   "hash": "def41725cd43375f39fac8c1e619e933",
   "checksum": 1066493291,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 327680,
   "bootSector": "[0,235,39,144,3,1,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSMOUSE-200--1983-12-31.img --output MSMOUSE-200--1983-12-31.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

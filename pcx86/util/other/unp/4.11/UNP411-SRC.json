@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "UNP411-SRC",
+  "format": "PC1200K",
   "hash": "none",
   "checksum": -1606878764,
   "cylinders": 80,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir UNP411-SRC --output UNP411-SRC.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

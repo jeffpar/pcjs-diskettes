@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DESQVIEW-102.img",
+  "format": "PC360K",
   "hash": "b62d4d0b9a379b8d223ed79940630d09",
   "checksum": 833727876,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,51,144,67,67,67,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,223,2,37,2,9,42]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DESQVIEW-102.img --output DESQVIEW-102.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

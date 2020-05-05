@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN310-DISK7.img",
+  "format": "PC1200K",
   "hash": "5a404333acda46186e1574ca5f713dc2",
   "checksum": 1521651842,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,60,144,77,83,68,79,83,52,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN310-DISK7.img --output WIN310-DISK7.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "NU201-1983-07-04-SIDEB.img",
+  "format": "PC160K",
   "hash": "4cf7e38af1a48dc72203069c48412f16",
   "checksum": -1502145804,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk NU201-1983-07-04-SIDEB.img --output NU201-1983-07-04-SIDEB.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

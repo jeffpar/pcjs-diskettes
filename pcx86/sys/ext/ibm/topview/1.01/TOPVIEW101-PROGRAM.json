@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "TOPVIEW101-PROGRAM.img",
+  "format": "PC360K",
   "hash": "f0c3c77316db88e4c39a947afc098590",
   "checksum": -1566075168,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk TOPVIEW101-PROGRAM.img --output TOPVIEW101-PROGRAM.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

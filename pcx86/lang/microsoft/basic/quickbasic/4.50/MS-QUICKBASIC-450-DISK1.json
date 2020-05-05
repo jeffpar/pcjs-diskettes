@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MS-QUICKBASIC-450-DISK1.img",
+  "format": "PC720K",
   "hash": "9e3db31ea4eacd367f37ae84cb5dbbbb",
   "checksum": -311151528,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,52,144,77,83,68,79,83,51,46,51,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MS-QUICKBASIC-450-DISK1.img --output MS-QUICKBASIC-450-DISK1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

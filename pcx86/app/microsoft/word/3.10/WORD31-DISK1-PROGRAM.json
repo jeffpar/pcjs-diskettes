@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WORD31-DISK1-PROGRAM.img",
+  "format": "PC360K",
   "hash": "1c370c3abc240dbd20d87af6cd0902e2",
   "checksum": 1831403359,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WORD31-DISK1-PROGRAM.img --output WORD31-DISK1-PROGRAM.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

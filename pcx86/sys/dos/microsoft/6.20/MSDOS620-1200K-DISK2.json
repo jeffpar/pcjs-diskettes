@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS620-1200K-DISK2.img",
+  "format": "PC1200K",
   "hash": "72699a962691daefb043bd607eaee00d",
   "checksum": -159176375,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,60,144,77,83,68,79,83,53,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS620-1200K-DISK2.img --output MSDOS620-1200K-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

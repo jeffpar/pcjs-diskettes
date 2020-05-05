@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCMAG-UTIL-VOL1-1986.img",
+  "format": "PC320K",
   "hash": "6ec57c799fdbef4088b85f689c4e64bc",
   "checksum": -312858934,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk PCMAG-UTIL-VOL1-1986.img --output PCMAG-UTIL-VOL1-1986.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

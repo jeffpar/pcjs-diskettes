@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WINSDK103-DISK7-SAMPLES2.img",
+  "format": "PC360K",
   "hash": "b9dee536f77b390ad95307f7ca397a6e",
   "checksum": -713230726,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,47,144,73,66,77,32,32,51,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WINSDK103-DISK7-SAMPLES2.img --output WINSDK103-DISK7-SAMPLES2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

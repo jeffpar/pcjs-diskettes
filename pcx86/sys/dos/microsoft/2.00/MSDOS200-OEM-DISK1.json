@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS200-OEM-DISK1.img",
+  "format": "PC160K",
   "hash": "fa58ae5df813d8606f341c76ca42db21",
   "checksum": 1692335522,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS200-OEM-DISK1.img --output MSDOS200-OEM-DISK1.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

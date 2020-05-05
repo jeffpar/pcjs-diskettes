@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "COMPAQ-DOS211.img",
+  "format": "PC360K",
   "hash": "a34b2be9af1f9f76df91d228e4b188bc",
   "checksum": -1616468551,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,53,144,67,67,67,32,32,50,46,49,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,223,2,37,2,9,42]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk COMPAQ-DOS211.img --output COMPAQ-DOS211.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

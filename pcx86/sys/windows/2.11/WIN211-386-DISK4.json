@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN211-386-DISK4.img",
+  "format": "PC1200K",
   "hash": "bedae83e8e777e65602f8fd180794195",
   "checksum": 853132992,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,52,144,77,83,68,79,83,51,46,51,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN211-386-DISK4.img --output WIN211-386-DISK4.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

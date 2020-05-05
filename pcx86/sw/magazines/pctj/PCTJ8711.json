@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "PCTJ8711",
+  "format": "PC160K",
   "hash": "none",
   "checksum": 1973047424,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--dir PCTJ8711 --output PCTJ8711.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

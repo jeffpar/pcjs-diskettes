@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSC510-DISK14-CVOS2.img",
+  "format": "PC1200K",
   "hash": "a9eebea1f09d2c2e029de468577649aa",
   "checksum": 923155359,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,41,144,73,66,77,32,49,48,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSC510-DISK14-CVOS2.img --output MSC510-DISK14-CVOS2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSMOUSE-624-SETUP.img",
+  "format": "PC360K",
   "hash": "a7cb1940d1988e364087a3f0b9acfd2a",
   "checksum": -1894400991,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,77,83,68,79,83,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSMOUSE-624-SETUP.img --output MSMOUSE-624-SETUP.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

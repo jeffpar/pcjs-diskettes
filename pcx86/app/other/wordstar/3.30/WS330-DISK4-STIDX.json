@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WS330-DISK4-STIDX.img",
+  "format": "PC160K",
   "hash": "33c1a2728d74cad5329d5adced701799",
   "checksum": -1372015895,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,39,144,8,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WS330-DISK4-STIDX.img --output WS330-DISK4-STIDX.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

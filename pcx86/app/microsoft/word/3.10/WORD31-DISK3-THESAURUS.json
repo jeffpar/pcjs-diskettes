@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WORD31-DISK3-THESAURUS.img",
+  "format": "PC360K",
   "hash": "a27129a4549ac43e15dcffb39deb1e12",
   "checksum": -645742109,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WORD31-DISK3-THESAURUS.img --output WORD31-DISK3-THESAURUS.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN203-DISK1-SETUP.img",
+  "format": "PC360K",
   "hash": "3c022ce0b1ac4e1156f0b84195f3368b",
   "checksum": 1563139084,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,40,144,73,66,77,32,32,51,46,51,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN203-DISK1-SETUP.img --output WIN203-DISK1-SETUP.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS400M-DISK2.img",
+  "format": "PC360K",
   "hash": "37c5bbad4ff5bcc0b6394dbdb8f9e918",
   "checksum": -1334562869,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,36,144,73,66,77,32,32,52,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS400M-DISK2.img --output MSDOS400M-DISK2.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS500-360K-DISK3.img",
+  "format": "PC360K",
   "hash": "adcfcbcf89f3f11f3b98040f702ff42b",
   "checksum": 1093449515,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,60,144,43,52,115,41,56,73,72,67,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS500-360K-DISK3.img --output MSDOS500-360K-DISK3.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

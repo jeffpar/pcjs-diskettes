@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "123-1AA-DISK1-SYSTEM-PATCHED.img",
+  "format": "PC320K",
   "hash": "11263d3659dae492e1458be084a91529",
   "checksum": -30339765,
   "cylinders": 40,
@@ -10,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 327680,
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk 123-1AA-DISK1-SYSTEM-PATCHED.img --output 123-1AA-DISK1-SYSTEM-PATCHED.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

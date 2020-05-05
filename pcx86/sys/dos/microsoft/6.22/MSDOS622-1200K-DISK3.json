@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MSDOS622-1200K-DISK3.img",
+  "format": "PC1200K",
   "hash": "9da423d075fbd7f164f99ae09f2d1298",
   "checksum": 1340564286,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,60,144,77,83,68,79,83,53,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk MSDOS622-1200K-DISK3.img --output MSDOS622-1200K-DISK3.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

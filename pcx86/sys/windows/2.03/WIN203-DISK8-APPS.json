@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "WIN203-DISK8-APPS.img",
+  "format": "PC360K",
   "hash": "272a839b7d625d74b9b43fa35f28d8b2",
   "checksum": 1772172465,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk WIN203-DISK8-APPS.img --output WIN203-DISK8-APPS.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "FOOTBALL-76817.img",
+  "format": "PC1200K",
   "hash": "3825dc8053f904c266b1ce98dbf1e981",
   "checksum": 1268849209,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,41,144,73,66,77,32,32,53,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk FOOTBALL-76817.img --output FOOTBALL-76817.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

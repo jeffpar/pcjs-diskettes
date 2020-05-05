@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "COMPAQ-UTILS-072789.img",
+  "format": "PC720K",
   "hash": "931554c9bdec9c26ca3e7c301b7df10f",
   "checksum": -161106670,
   "cylinders": 80,
@@ -11,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,66,144,73,66,77,32,32,52,46,48,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk COMPAQ-UTILS-072789.img --output COMPAQ-UTILS-072789.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {

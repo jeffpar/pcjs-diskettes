@@ -2,6 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "DRDOS600-DISK3.img",
+  "format": "PC360K",
   "hash": "4c78c8d0b13ffe3bb3decc5e4fe97cd5",
   "checksum": -1746430290,
   "cylinders": 40,
@@ -11,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,52,144,41,77,38,50,122,73,72,67,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.00",
-  "repository": "pcjs.org",
-  "diskdump.js": "--disk DRDOS600-DISK3.img --output DRDOS600-DISK3.json"
+  "repository": "pcjs.org"
 },
 "volTable": [
   {
