@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-XENIX-100-EXT1.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "0736697ede748d7e889801acda74745d",
   "checksum": 756639326,
   "cylinders": 80,

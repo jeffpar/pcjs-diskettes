@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-XENIX-100-SDK3.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "15fabfbd2e97ae560ede389890c79e5c",
   "checksum": 931219657,
   "cylinders": 80,

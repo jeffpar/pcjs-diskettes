@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-XENIX-200-DISK3.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "6828563077becd90b16952b3f083a5db",
   "checksum": 42847345,
   "cylinders": 80,

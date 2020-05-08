@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-XENIX-200-SDK2.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "01b3bf922f2ea7f48714ff5c03cab627",
   "checksum": 69154343,
   "cylinders": 80,

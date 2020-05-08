@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-XENIX-200-INSTALL.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "e34e9160e8685863521e1592dcf53c5d",
   "checksum": 1408156218,
   "cylinders": 80,

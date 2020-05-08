@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-XENIX-100-BOOT.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "db86492fce79f3f93f7a719032ddc1be",
   "checksum": 372351727,
   "cylinders": 80,
