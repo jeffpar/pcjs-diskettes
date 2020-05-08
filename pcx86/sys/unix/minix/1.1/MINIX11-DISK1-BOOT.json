@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MINIX11-DISK1-BOOT.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "9b291bfcaa4e5827498a695f367a1ba3",
   "checksum": -1210429737,
   "cylinders": 80,

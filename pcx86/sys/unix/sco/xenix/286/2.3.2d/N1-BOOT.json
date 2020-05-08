@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "N1-BOOT.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "2a52c26a048883f8e21c6b3c6f473964",
   "checksum": 1615214974,
   "cylinders": 80,

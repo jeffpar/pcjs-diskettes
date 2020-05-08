@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "SYSTEMV23-DISK12.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "0fd28b9b7110a2455fa32ce94fb24905",
   "checksum": -2113065805,
   "cylinders": 80,

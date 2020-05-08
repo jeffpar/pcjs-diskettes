@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "IBM-CPM86-100.img",
-  "format": "PC160K",
+  "format": "Unknown",
   "hash": "8e61390d8a6f965543e3cb2ecb08cb89",
   "checksum": 1402371983,
   "cylinders": 40,

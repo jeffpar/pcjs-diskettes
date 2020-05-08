@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MINIX11-DISK3-USR.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "3da7a86d60b21354fab6cf6740101fa6",
   "checksum": -1538068028,
   "cylinders": 80,

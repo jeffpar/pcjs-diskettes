@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "CPM86-DISK2.img",
-  "format": "PC320K",
+  "format": "Unknown",
   "hash": "604c3e60c3a044e19bb22d15184bc22c",
   "checksum": 797380269,
   "cylinders": 40,

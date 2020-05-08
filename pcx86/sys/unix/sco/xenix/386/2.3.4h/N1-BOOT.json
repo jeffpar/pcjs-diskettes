@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "N1-BOOT.img",
-  "format": "PC1440K",
+  "format": "Unknown",
   "hash": "f8e95b51f04a9808fd9fd2e967e1f771",
   "checksum": 318307869,
   "cylinders": 80,

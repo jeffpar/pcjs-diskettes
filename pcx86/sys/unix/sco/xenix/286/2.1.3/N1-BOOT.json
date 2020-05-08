@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "N1-BOOT.img",
-  "format": "PC360K",
+  "format": "Unknown",
   "hash": "731aeb1997b41066bc56832e866e668a",
   "checksum": -852344382,
   "cylinders": 40,

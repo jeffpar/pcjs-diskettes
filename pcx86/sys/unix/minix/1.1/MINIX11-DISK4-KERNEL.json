@@ -2,7 +2,7 @@
 "imageInfo": {
   "type": "CHS",
   "name": "MINIX11-DISK4-KERNEL.img",
-  "format": "PC1200K",
+  "format": "Unknown",
   "hash": "552a6429014163771bf6a3d5e70df212",
   "checksum": 96229142,
   "cylinders": 80,
