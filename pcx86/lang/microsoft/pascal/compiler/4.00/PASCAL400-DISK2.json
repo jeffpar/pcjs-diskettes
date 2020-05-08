@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/PASCAL40.0","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/PASCAL400","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"f875c7e5dab3d09ffba63fc9dc78c2aa","path":"/MAKE.EXE","attr":"0x20","date":"1988-01-29 11:26:00","size":38613,"module":{"name":"MAKE","description":"CPMAKE5.EXE","segments":{"1":{"offStart":13312,"offEnd":34267},"2":{"offStart":34816,"offEnd":35741},"3":{"offStart":35840,"offEnd":38602},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"18b30d4454000f873e4e0e24fd44af3d","path":"/PAS1.EXE","attr":"0x20","date":"1988-04-22 00:05:18","size":139623,"module":{"name":"PAS1P","description":"PAS1P.EXE","segments":{"1":{"offStart":11264,"offEnd":19056},"2":{"offStart":19968,"offEnd":82973},"3":{"offStart":83968,"offEnd":122377},"4":{"offStart":123904,"offEnd":123923},"5":{"offStart":124416,"offEnd":127765},"6":{"offStart":128000,"offEnd":139508},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"c8c8898fff5cac9749063256233090c3","path":"/PAS2.EXE","attr":"0x20","date":"1988-04-22 00:05:44","size":131199,"module":{"name":"PAS2P","description":"PAS2P.EXE","segments":{"1":{"offStart":11264,"offEnd":39941},"2":{"offStart":40960,"offEnd":106400},"3":{"offStart":107008,"offEnd":111522},"4":{"offStart":112128,"offEnd":131156},"254":{"offStart":0,"offEnd":0}}}},

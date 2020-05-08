@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Disk 4of.8","attr":"0x08","date":"1991-08-13 11:48:22"},
+  {"path":"/Disk 4of8","attr":"0x08","date":"1991-08-13 11:48:22"},
   {"hash":"16b557b9d1108c50dc8444bd2519338b","path":"/SYSINFO.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":91561},
   {"hash":"c5ce494805e123e0b928be6f0c842828","path":"/NCC.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":65737},
   {"hash":"540e92cf5c45d5b17913474d29d4e72a","path":"/SPEEDISK.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":81225},

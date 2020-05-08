@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU 5.0 2.of6","attr":"0x08","date":"1990-09-25 17:08:38"},
+  {"path":"/NU 5.0 2of6","attr":"0x08","date":"1990-09-25 17:08:38"},
   {"hash":"6dde75e78dad4e8ba0c3c3e95708af79","path":"/CALIBRAT.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":124760},
   {"hash":"092c9d01f4032f64c2ccccd994a86cc3","path":"/FILEFIX.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":137216},
   {"hash":"4334a99c735d1e2047e318638627698f","path":"/IMAGE.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":12168},

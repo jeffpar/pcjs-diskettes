@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/C LIB M.C","attr":"0x28","date":"1986-06-27 04:00:04"},
+  {"path":"/C LIB M C","attr":"0x28","date":"1986-06-27 04:00:04"},
   {"hash":"70afad2f5df0d165ef640a48041aa72d","path":"/CLIBC.LIB","attr":"0x20","date":"1986-06-27 04:00:00","size":112640},
   {"hash":"c673a846f62346b82733e3d369eff8cc","path":"/CLIBFP.LIB","attr":"0x20","date":"1986-06-27 04:00:02","size":31744},
   {"hash":"37cdcf2cd3c605615efcfebe5ef8afb7","path":"/CSETARGV.OBJ","attr":"0x20","date":"1986-06-27 04:00:02","size":1082},

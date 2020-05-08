@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/EGA-UTIL.S","attr":"0x08","date":"2018-03-26 17:23:24"},
+  {"path":"/EGA-UTILS","attr":"0x08","date":"2018-03-26 17:23:24"},
   {"hash":"c70ef4c62a5c4f5581816805fe0545fe","path":"/ALAMODE.COM","attr":"0x20","date":"2018-02-28 14:40:10","size":1562},
   {"hash":"41d08d1382e5091b97ea9fe90af7cb8d","path":"/DAZZLE.COM","attr":"0x20","date":"2018-02-28 14:40:10","size":4546},
   {"hash":"c15188fd29010a77288c8de198a093d3","path":"/EATER.COM","attr":"0x20","date":"2018-02-28 14:40:10","size":181},

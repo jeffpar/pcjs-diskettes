@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/MP201INS.T","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/MP201INST","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"17ff4b7824527bd49159515719f673c2","path":"/CONVERTD.EXE","attr":"0x20","date":"1986-02-10 12:00:00","size":34944},
   {"hash":"64215461b053c281547429b80b5d6372","path":"/IBMSETUP.COM","attr":"0x20","date":"1987-01-05 16:24:44","size":19808},
   {"hash":"4aa53c9928a3741c5a8b8501f8da1b53","path":"/INSTALL.COM","attr":"0x20","date":"1986-02-10 12:00:00","size":6934},

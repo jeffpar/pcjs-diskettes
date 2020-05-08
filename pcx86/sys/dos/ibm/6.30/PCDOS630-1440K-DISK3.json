@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/DISK.3","attr":"0x08","date":"2003-12-21 22:15:22"},
+  {"path":"/DISK      3","attr":"0x08","date":"2003-12-21 22:15:22"},
   {"hash":"9eb9e3e7a40d266458abcdf27bd63d46","path":"/CPB1.OVL","attr":"0x00","date":"1993-12-31 00:00:00","size":10425},
   {"hash":"b4f4ab03c9f827420dbe3e48c0b2d27b","path":"/CPB2.OVL","attr":"0x00","date":"1993-12-31 00:00:00","size":8495},
   {"hash":"8d2392a2a027b081b8431405a00a62a9","path":"/CPB3.OVL","attr":"0x00","date":"1993-12-31 00:00:00","size":28277},

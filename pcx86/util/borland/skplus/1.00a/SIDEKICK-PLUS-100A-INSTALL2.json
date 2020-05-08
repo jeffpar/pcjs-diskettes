@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/INSTALL_.2","attr":"0x08","date":"1988-03-10 01:00:02"},
+  {"path":"/INSTALL_2","attr":"0x08","date":"1988-03-10 01:00:02"},
   {"hash":"03565d56f1f71f999da9b8fcd9d18d14","path":"/PART2.SKL","attr":"0x20","date":"1988-03-10 01:00:00","size":303980},
   {"hash":"036aa35df41c461dfe45eb9b75cb3e9c","path":"/SKBAT.COM","attr":"0x20","date":"1988-03-10 01:00:00","size":358},
   {"hash":"8906398add6e78447d5e317ba39ac415","path":"/SKCONV.COM","attr":"0x20","date":"1988-03-10 01:00:00","size":40228},

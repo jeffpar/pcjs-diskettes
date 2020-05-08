@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/THINKTAN.K","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/THINKTANK","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"50b68f3f99eda119c661b2b50cb9f4de","path":"/AUTOEXEC.BAT","attr":"0x20","date":"2012-11-20 15:29:40","size":6},
   {"hash":"3355afbc122700f13647ee0d1bbf9ed7","path":"/READ_ME.DB","attr":"0x20","date":"2012-11-20 15:29:34","size":8192},
   {"hash":"8b989397eb275032eb8cf929def9c6cc","path":"/READ_ME.SAV","attr":"0x20","date":"2012-11-20 15:29:30","size":512},

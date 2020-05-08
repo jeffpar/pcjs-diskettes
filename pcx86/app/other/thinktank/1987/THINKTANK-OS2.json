@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/THINKTAN.K","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/THINKTANK","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"50b68f3f99eda119c661b2b50cb9f4de","path":"/AUTOEXEC.BAT","attr":"0x20","date":"2012-11-20 15:29:40","size":6},
   {"path":"/OS2","attr":"0x10","date":"2012-11-21 09:56:02"},
   {"hash":"a6e098b183352d5f52382215a36a059e","path":"/OS2INST.BAT","attr":"0x20","date":"2012-11-20 15:29:14","size":3239},

@@ -66,7 +66,7 @@
   {"hash":"d1489bb564c472a2960e63c2a039a8e9","path":"/SSERIFF.FO_","attr":"0x20","date":"1992-03-10 03:10:00","size":27627},
   {"hash":"3f890320b1b5ba9f24fcca86303528c8","path":"/SYSEDIT.EX_","attr":"0x20","date":"1992-03-10 03:10:00","size":10761},
   {"hash":"3061a880c114a8b2dd096e32a6948724","path":"/TOOLHELP.DL_","attr":"0x20","date":"1992-03-10 03:10:00","size":10372},
-  {"path":"/WIN31DIS.K5","attr":"0x08","date":"1992-03-10 03:10:00"},
+  {"path":"/WIN31DISK5","attr":"0x08","date":"1992-03-10 03:10:00"},
   {"hash":"d02c9b73bfcf004b9a8413f120e565da","path":"/WIN386.EX_","attr":"0x20","date":"1992-03-10 03:10:00","size":284215},
   {"hash":"0a4e51c83193e4aaf2113411671a50fd","path":"/WINOLDAP.MO_","attr":"0x20","date":"1992-03-10 03:10:00","size":16879},
   {"hash":"27df1cbcea88d7d37d5020f96c04c729","path":"/WINVER._","attr":"0x20","date":"1992-03-10 03:10:00","size":1820},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/UTIL2_FO.NTS","attr":"0x28","date":"1989-03-13 19:34:00"},
+  {"path":"/UTIL2_FONTS","attr":"0x28","date":"1989-03-13 19:34:00"},
   {"hash":"e41c9d6e736d8c0fef54fc0951b85d04","path":"/A4TRAY.TXT","attr":"0x20","date":"1989-03-13 00:00:02","size":944},
   {"hash":"0bdf4eae8841b2411c5a00a6eefeb5a0","path":"/AEMM.TXT","attr":"0x20","date":"1989-03-13 00:00:02","size":1764},
   {"hash":"a010b08a623a8e9daa657c6f55f620f3","path":"/AEMM.SYS","attr":"0x20","date":"1989-03-13 00:00:02","size":14643},

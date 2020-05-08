@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.3","attr":"0x28","date":"1989-10-30 13:33:42"},
+  {"path":"/OS2 DISK 3","attr":"0x28","date":"1989-10-30 13:33:42"},
   {"path":"/INTRO","attr":"0x10","date":"1989-10-30 13:33:42"},
   {"hash":"3993f231fccdb9f26277e418bdf95aa4","path":"/COURIER.FO@","attr":"0x20","date":"1989-02-20 12:00:02","size":162745},
   {"hash":"b83333abd7f8b51cacdcb6d0e68f90d6","path":"/OS2.INI","attr":"0x20","date":"1989-02-20 12:00:02","size":7489},

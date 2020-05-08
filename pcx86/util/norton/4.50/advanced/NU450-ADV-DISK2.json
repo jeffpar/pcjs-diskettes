@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU AE 4..5 2","attr":"0x08","date":"1988-10-16 16:50:00"},
+  {"path":"/NU AE 4.5 2","attr":"0x08","date":"1988-10-16 16:50:00"},
   {"hash":"ef8ca2a5ef550a043e2ac1b03e2f0cd9","path":"/DS.EXE","attr":"0x21","date":"1988-10-16 16:50:00","size":36000},
   {"hash":"a61ec4c3ed8c927e7bfba6420df69d04","path":"/DT.EXE","attr":"0x21","date":"1988-10-16 16:50:00","size":21080},
   {"hash":"65898fb07d74e8fbc6c1d3760908927e","path":"/FF.EXE","attr":"0x21","date":"1988-10-16 16:50:00","size":9020},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/SET_BLD_.DSP","attr":"0x28","date":"1989-03-16 18:23:00"},
+  {"path":"/SET_BLD_DSP","attr":"0x28","date":"1989-03-16 18:23:00"},
   {"hash":"80aff5398331ddbe5bbde7cc9b9c0ea4","path":"/8514.FON","attr":"0x20","date":"1989-03-13 00:00:02","size":11360},
   {"hash":"42e8f0346f461b9067120a98928af864","path":"/8514.DRV","attr":"0x20","date":"1989-03-13 00:00:02","size":37328,"module":{"name":"DISPLAY","description":"DISPLAY : 100, 96, 96 : IBM 8514 Display Adapter at 1024 by 768","segments":{"1":{"offStart":2048,"offEnd":16759,"ordinals":{"1":{"o":938,"s":"BITBLT"},"2":{"o":10438,"s":"COLORINFO"},"3":{"o":10502,"s":"CONTROL"},"10":{"o":10048,"s":"REALIZEOBJECT"},"11":{"o":3743,"s":"STRBLT"},"13":{"o":11281,"s":"DEVICEMODE"},"14":{"o":2498,"s":"EXTTEXTOUT"},"15":{"o":8494,"s":"GETCHARWIDTH"},"16":{"o":11218,"s":"DEVICEBITMAP"},"17":{"o":11260,"s":"FASTBORDER"},"18":{"o":11239,"s":"SETATTRIBUTE"},"92":{"o":13130,"s":"SAVESCREENBITMAP"},"102":{"o":10670,"s":"SETCURSOR"},"103":{"o":12946,"s":"MOVECURSOR"},"104":{"o":13072,"s":"CHECKCURSOR"}}},"2":{"offStart":16816,"offEnd":17542,"ordinals":{"4":{"o":347,"s":"DISABLE"},"5":{"o":280,"s":"ENABLE"},"6":{"o":257,"s":"ENUMDFONTS"},"7":{"o":0,"s":"ENUMOBJ"},"101":{"o":412,"s":"INQUIRE"}}},"3":{"offStart":17584,"offEnd":21569,"ordinals":{"8":{"o":478,"s":"OUTPUT"},"9":{"o":8,"s":"PIXEL"}}},"4":{"offStart":21632,"offEnd":23094,"ordinals":{"12":{"o":1032,"s":"SCANLR"}}},"5":{"offStart":23120,"offEnd":27284},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"b6c1228545c59554f0f6cde67ecc527d","path":"/8514US.FON","attr":"0x20","date":"1989-03-13 00:00:02","size":12672},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DRIV.ER2","attr":"0x28","date":"1990-07-05 12:50:58"},
+  {"path":"/OS2 DRIVER2","attr":"0x28","date":"1990-07-05 12:50:58"},
   {"hash":"58028af9d73126695360964142d675ce","path":"/ACOURIE0.FNT","attr":"0x20","date":"1990-06-29 12:00:00","size":1011},
   {"hash":"b1baadc616dd74b9484296761b111ad0","path":"/BARCODE0.FNT","attr":"0x20","date":"1990-06-29 12:00:00","size":1012},
   {"hash":"8f569e93dfcfc54621447dc63a5b7cf5","path":"/BTMSRMN0.FNT","attr":"0x20","date":"1990-06-29 12:00:00","size":4965},

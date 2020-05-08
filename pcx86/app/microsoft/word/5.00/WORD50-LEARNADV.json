@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/LRNADV_V.50","attr":"0x28","date":"1989-04-21 18:08:18"},
+  {"path":"/LRNADV_V50","attr":"0x28","date":"1989-04-21 18:08:18"},
   {"hash":"042a38f502f5f73aacd1eacf38d98b65","path":"/KEYTWO.CTX","attr":"0x21","date":"1989-04-21 18:09:26","size":102322},
   {"hash":"a75afd53501f9292aa5afdd670cc2bc0","path":"/KEYTWO.SCN","attr":"0x21","date":"1989-04-21 18:09:26","size":36776},
   {"hash":"4630bd5515f5953f632a83d68f04522e","path":"/KEYTWO.SOB","attr":"0x21","date":"1989-04-21 18:09:26","size":38207},

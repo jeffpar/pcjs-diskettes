@@ -37,7 +37,7 @@
   {"hash":"a4b6f1444f3ab8dc271f90a4b63f559e","path":"/INSTALL.INF","attr":"0x20","date":"1990-06-01 03:00:00","size":15885},
   {"hash":"86ba0ab25228da935623db7a55e570e4","path":"/LIB.EXE","attr":"0x20","date":"1990-06-01 03:00:00","size":49661,"module":{"name":"LIB","description":"Microsoft Library Manager","segments":{"1":{"offStart":11776,"offEnd":44445},"2":{"offStart":45056,"offEnd":47061},"3":{"offStart":47104,"offEnd":49650},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"8fb1617787e061837f240f902f0ea7c7","path":"/README.TXT","attr":"0x20","date":"1990-06-01 03:00:00","size":8193},
-  {"path":"/WIN30SDK.01","attr":"0x28","date":"1990-06-05 21:00:58"},
+  {"path":"/WIN30SDK01","attr":"0x28","date":"1990-06-05 21:00:58"},
   {"path":"/RESTOOLS/.","attr":"0x10","date":"1990-06-05 20:59:10"},
   {"path":"/RESTOOLS/..","attr":"0x10","date":"1990-06-05 20:59:10"},
   {"hash":"3625acb8a4c153b586c8be9d4f2d2a32","path":"/RESTOOLS/ATRM1111.FNT","attr":"0x20","date":"1990-06-01 03:00:00","size":6446},

@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/PASCAL40.0","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/PASCAL400","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"034a600449fece6446ce0294430d6e78","path":"/87.EXE","attr":"0x20","date":"1987-07-23 15:34:44","size":8798,"module":{"name":"87","description":"87.EXE","segments":{"1":{"offStart":8192,"offEnd":8474},"2":{"offStart":8704,"offEnd":8797},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"73b98fcbf4ae4691394c3f186ef4d607","path":"/BIND.EXE","attr":"0x20","date":"1987-10-26 17:01:18","size":36946,"module":{"name":"BINDX","description":"BINDX.EXE","segments":{"1":{"offStart":13824,"offEnd":33521},"2":{"offStart":33792,"offEnd":36945,"ordinals":{"1":{"o":0}}},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"e1e04f079de368484ba99270fa2b3526","path":"/ECH.EXE","attr":"0x20","date":"1987-11-16 11:22:26","size":19351,"module":{"name":"ECH","description":"D:BINP\\ECH.EXE","segments":{"1":{"offStart":10752,"offEnd":17549},"2":{"offStart":17920,"offEnd":19340},"254":{"offStart":0,"offEnd":0}}}},

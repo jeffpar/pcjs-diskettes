@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/C COMPIL.ER","attr":"0x28","date":"1986-06-27 04:00:02"},
+  {"path":"/C COMPILER","attr":"0x28","date":"1986-06-27 04:00:02"},
   {"hash":"86cd40c64c0b01f69a283e98bce4d905","path":"/MSC.EXE","attr":"0x20","date":"1986-06-27 04:00:04","size":27269},
   {"hash":"ec7f0d3b51fe1e705e5b68657dc9d363","path":"/C1.EXE","attr":"0x20","date":"1986-06-27 04:00:00","size":130757},
   {"hash":"480f8381e68d4c06cfe64c47baf67062","path":"/C2.EXE","attr":"0x20","date":"1986-06-27 04:00:02","size":116991},

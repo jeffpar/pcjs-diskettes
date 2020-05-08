@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/WIN PBRU.SH","attr":"0x28","date":"1987-01-15 12:01:40"},
+  {"path":"/WIN PBRUSH","attr":"0x28","date":"1987-01-15 12:01:40"},
   {"hash":"418cfc903d932ada747ae0541b547d37","path":"/MSETUP.COM","attr":"0x20","date":"1988-01-15 12:00:20","size":36899},
   {"hash":"bb10e311bb1f1d18dd3ff8a81974af26","path":"/MOUSE.COM","attr":"0x20","date":"1988-01-15 12:00:20","size":14551},
   {"hash":"d5cb76d3cfeec7bc74be86d92f7b2908","path":"/MOUSE.SYS","attr":"0x20","date":"1988-01-15 12:00:20","size":14394},

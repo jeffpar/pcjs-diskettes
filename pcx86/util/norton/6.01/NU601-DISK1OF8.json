@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Disk 1of.8","attr":"0x08","date":"1991-08-13 11:42:32"},
+  {"path":"/Disk 1of8","attr":"0x08","date":"1991-08-13 11:42:32"},
   {"hash":"aed348efd7194c24bd637ece00292ec4","path":"/INSTALL.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":63865},
   {"hash":"b78d0e10ed2bc9a313081579c93a892c","path":"/INSTALL.CFG","attr":"0x20","date":"1991-08-05 06:01:00","size":8399},
   {"hash":"e7a79bc8f20099d036cb5008a9e2de43","path":"/READ.ME","attr":"0x20","date":"1991-08-05 06:01:00","size":25921},

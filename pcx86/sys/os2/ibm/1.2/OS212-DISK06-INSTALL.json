@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 INST.ALL","attr":"0x28","date":"1989-08-31 12:00:00"},
+  {"path":"/OS2 INSTALL","attr":"0x28","date":"1989-08-31 12:00:00"},
   {"hash":"f509ebccb692727be9d2662d10080c09","path":"/OS2LDR","attr":"0x22","date":"1989-08-31 12:00:00","size":14336},
   {"hash":"4ddc210116021e832ffa4e7f0eec0682","path":"/OS2KRNL","attr":"0x22","date":"1989-08-31 12:00:00","size":339770},
   {"hash":"0d1185fc24ba6c10cf7a17cea14c3c11","path":"/ABIOS.SYS","attr":"0x20","date":"1989-08-31 12:00:00","size":120},

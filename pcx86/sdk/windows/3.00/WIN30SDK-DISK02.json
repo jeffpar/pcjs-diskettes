@@ -36,7 +36,7 @@
   {"path":"/CONVERT","attr":"0x10","date":"1990-06-01 08:55:40"},
   {"path":"/DBGTOOLS","attr":"0x10","date":"1990-06-01 08:56:24"},
   {"path":"/RESTOOLS","attr":"0x10","date":"1990-06-01 08:55:24"},
-  {"path":"/WIN30SDK.02","attr":"0x28","date":"1990-06-01 08:58:00"},
+  {"path":"/WIN30SDK02","attr":"0x28","date":"1990-06-01 08:58:00"},
   {"path":"/ANALYSIS/.","attr":"0x10","date":"1990-06-01 08:55:56"},
   {"path":"/ANALYSIS/..","attr":"0x10","date":"1990-06-01 08:55:56"},
   {"hash":"5367795c376084076f6135b819c2cb49","path":"/ANALYSIS/HEAPWALK.EXE","attr":"0x20","date":"1990-06-01 03:00:00","size":36304,"module":{"name":"HEAPWALK","description":"Windows Local/Global Heap Walker","segments":{"1":{"offStart":1536,"offEnd":21819,"ordinals":{"1":{"o":10254,"s":"HWWNDPROC"},"2":{"o":514,"s":"BYTESWNDPROC"},"3":{"o":8468,"s":"LOCALWNDPROC"},"4":{"o":9785,"s":"HWHOOKPROC"},"5":{"o":7347,"s":"HWSETSWAP"},"6":{"o":7598,"s":"HWFREEXK"},"7":{"o":9296}}},"2":{"offStart":22880,"offEnd":33736,"ordinals":{"8":{"o":0}}},"254":{"offStart":0,"offEnd":0}}}},

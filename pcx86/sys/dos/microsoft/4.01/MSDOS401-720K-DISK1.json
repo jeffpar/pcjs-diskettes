@@ -35,7 +35,7 @@
   {"hash":"ca31c8de3343915b168defbd29ca81ee","path":"/IO.SYS","attr":"0x27","date":"1989-04-07 00:00:04","size":33337},
   {"hash":"57cfe7d82b339c335a686cdc45202aab","path":"/MSDOS.SYS","attr":"0x27","date":"1989-04-07 00:00:04","size":37376},
   {"hash":"97167e1a711525b8e174d898416c8bdd","path":"/COMMAND.COM","attr":"0x20","date":"1989-04-07 00:00:04","size":37557},
-  {"path":"/INST V40.1","attr":"0x28","date":"1989-09-21 11:43:02"},
+  {"path":"/INST V401","attr":"0x28","date":"1989-09-21 11:43:02"},
   {"hash":"042cd56a70ca4685ce0d3e4e3560a1a9","path":"/4201.CPI","attr":"0x20","date":"1989-04-07 00:00:04","size":6404},
   {"hash":"fde82179633e06b055a463c4617fa9ce","path":"/4208.CPI","attr":"0x20","date":"1989-04-07 00:00:04","size":720},
   {"hash":"6223263495da40fd6e671ab6d3e624c5","path":"/5202.CPI","attr":"0x20","date":"1989-04-07 00:00:04","size":370},

@@ -34,7 +34,7 @@
 "fileTable": [
   {"path":"/CLIB","attr":"0x10","date":"1990-06-01 09:05:16"},
   {"path":"/WLIB","attr":"0x10","date":"1990-06-01 09:06:26"},
-  {"path":"/WIN30SDK.05","attr":"0x28","date":"1990-06-01 09:07:50"},
+  {"path":"/WIN30SDK05","attr":"0x28","date":"1990-06-01 09:07:50"},
   {"path":"/CLIB/.","attr":"0x10","date":"1990-06-01 09:05:16"},
   {"path":"/CLIB/..","attr":"0x10","date":"1990-06-01 09:05:16"},
   {"hash":"3efa0957d8d3b5ff0c5e48da96aaffb2","path":"/CLIB/DLLCW.BAT","attr":"0x20","date":"1990-06-01 03:00:00","size":541},

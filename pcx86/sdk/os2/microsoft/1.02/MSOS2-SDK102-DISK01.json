@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2INSTA.LL","attr":"0x08","date":"1987-12-15 12:41:54"},
+  {"path":"/OS2INSTALL","attr":"0x08","date":"1987-12-15 12:41:54"},
   {"hash":"88e5c249bf7d45921fbd156821caaf64","path":"/OS2BIO.COM","attr":"0x20","date":"1987-12-15 00:00:02","size":7168},
   {"hash":"31fe3909a775c00dcb644a7e91e6f104","path":"/OS2DOS.COM","attr":"0x20","date":"1987-12-15 00:00:02","size":262930},
   {"hash":"9c689c41652374e413f9dc6442d4d4d0","path":"/ANSICALL.DLL","attr":"0x20","date":"1987-12-15 00:00:02","size":3637,"module":{"name":"ANSICALL","description":"Microsoft OS/2 Version x.xx Protect Mode ANSI","segments":{"1":{"offStart":512,"offEnd":2947,"ordinals":{"1":{"o":821,"s":"ANSIINJECT"},"2":{"o":1803,"s":"ANSIKEYDEF"},"3":{"o":349,"s":"ANSIINTERP"}}},"2":{"offStart":3072,"offEnd":3142},"3":{"offStart":3584,"offEnd":3636},"254":{"offStart":0,"offEnd":0}}}},

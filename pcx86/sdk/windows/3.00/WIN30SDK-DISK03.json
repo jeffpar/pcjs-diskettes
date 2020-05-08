@@ -34,7 +34,7 @@
 "fileTable": [
   {"path":"/DBGTOOLS","attr":"0x10","date":"1990-06-01 08:58:48"},
   {"path":"/DEBUG","attr":"0x10","date":"1990-06-01 08:59:36"},
-  {"path":"/WIN30SDK.03","attr":"0x28","date":"1990-06-01 09:00:22"},
+  {"path":"/WIN30SDK03","attr":"0x28","date":"1990-06-01 09:00:22"},
   {"path":"/DBGTOOLS/.","attr":"0x10","date":"1990-06-01 08:58:48"},
   {"path":"/DBGTOOLS/..","attr":"0x10","date":"1990-06-01 08:58:48"},
   {"hash":"bdaad8e1296eeb573e58f806a224aa62","path":"/DBGTOOLS/CVW.EXE","attr":"0x20","date":"1990-06-01 03:00:00","size":390192,"module":{"name":"CVW","description":"CodeView Windows 3.00    ","segments":{"1":{"offStart":2048,"offEnd":59032},"2":{"offStart":60928,"offEnd":122261},"3":{"offStart":125952,"offEnd":183180},"4":{"offStart":183808,"offEnd":247132},"5":{"offStart":248832,"offEnd":290794},"6":{"offStart":291840,"offEnd":338148},"7":{"offStart":338432,"offEnd":343527},"8":{"offStart":343552,"offEnd":343696},"9":{"offStart":344064,"offEnd":350891},"10":{"offStart":351232,"offEnd":352131},"11":{"offStart":352256,"offEnd":354945},"12":{"offStart":355328,"offEnd":389346},"254":{"offStart":0,"offEnd":0}}}},

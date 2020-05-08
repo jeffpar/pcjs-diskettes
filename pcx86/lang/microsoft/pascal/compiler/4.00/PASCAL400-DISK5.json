@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/PASCAL40.0","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/PASCAL400","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"f206fd8318f7e0d2cf5bad722458492c","path":"/8087.LIB","attr":"0x20","date":"1988-01-14 16:54:54","size":24849},
   {"hash":"67c6eb864db220bafe22615f40451a4e","path":"/ALTMATH.LIB","attr":"0x20","date":"1988-01-14 16:55:06","size":41989},
   {"hash":"7be501685b9d40a2d10b3663f3ea39af","path":"/DECMATH.LIB","attr":"0x20","date":"1988-01-14 16:55:14","size":27969},

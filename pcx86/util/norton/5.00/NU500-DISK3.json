@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU 5.0 3.of6","attr":"0x08","date":"1990-09-25 17:09:40"},
+  {"path":"/NU 5.0 3of6","attr":"0x08","date":"1990-09-25 17:09:40"},
   {"hash":"339c767d89e15a4f694f735dc01e7121","path":"/DISKEDIT.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":216512},
   {"hash":"aaea90b51411580352e46333786b5619","path":"/DISKTOOL.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":122898}
 ],

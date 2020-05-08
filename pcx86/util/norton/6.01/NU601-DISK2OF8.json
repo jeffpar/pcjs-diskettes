@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Disk 2of.8","attr":"0x08","date":"1991-08-13 11:46:06"},
+  {"path":"/Disk 2of8","attr":"0x08","date":"1991-08-13 11:46:06"},
   {"hash":"1554ea0632289931f2281e611e1b7a89","path":"/NDD.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":117113},
   {"hash":"f80c17386de613d81bb18a2401113cc7","path":"/UNFORMAT.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":60025},
   {"hash":"77917c58df7c5c1c1db6eb884cf6fe8b","path":"/DISKTOOL.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":82137},

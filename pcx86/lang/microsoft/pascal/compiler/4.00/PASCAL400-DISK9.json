@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/PASCAL40.0","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/PASCAL400","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"8e6089ffae51857da37fcdd3db42a7a5","path":"/BRKCTL.INC","attr":"0x20","date":"1988-02-09 23:08:56","size":784},
   {"hash":"49b394ede2c380ac5016a845bf2aa4dc","path":"/CHKSTK.ASM","attr":"0x20","date":"1988-02-21 19:54:02","size":2044},
   {"hash":"63852ab13af7e9f4ab00e1ee722e8d69","path":"/CHKSUM.ASM","attr":"0x20","date":"1988-02-09 23:09:14","size":3524},

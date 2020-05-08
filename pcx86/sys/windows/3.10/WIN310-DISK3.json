@@ -91,7 +91,7 @@
   {"hash":"bb141a8ee67a2e0cd2bf827fbbb5e869","path":"/VPOWERD.38_","attr":"0x20","date":"1992-03-10 03:10:00","size":2224},
   {"hash":"1ee727dc2ebb7cb19822c6507ac89daa","path":"/VSBD.38_","attr":"0x20","date":"1992-03-10 03:10:00","size":2463},
   {"hash":"d16453ec3a9dc2ea56022e663e253e0e","path":"/VTDAPI.38_","attr":"0x20","date":"1992-03-10 03:10:00","size":1824},
-  {"path":"/WIN31DIS.K3","attr":"0x08","date":"1992-03-10 03:10:00"},
+  {"path":"/WIN31DISK3","attr":"0x08","date":"1992-03-10 03:10:00"},
   {"hash":"4d95e85feb91cd01434ad2c82d53a760","path":"/WINDOWS.LO_","attr":"0x20","date":"1992-03-10 03:10:00","size":878},
   {"hash":"a9716cd00f9128b3e960f030af563bfa","path":"/WINFILE.HL_","attr":"0x20","date":"1992-03-10 03:10:00","size":56961},
   {"hash":"6179d317a37cd2d380d371b525b279e0","path":"/WINHELP.HL_","attr":"0x20","date":"1992-03-10 03:10:00","size":20313},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/XNS-OS2-.2","attr":"0x28","date":"1989-05-02 11:20:20"},
+  {"path":"/XNS-OS2-2","attr":"0x28","date":"1989-05-02 11:20:20"},
   {"hash":"db03cf2a477624707d7876badebf9ee5","path":"/LANMAN.DAT","attr":"0x20","date":"1989-02-13 11:05:36","size":14},
   {"path":"/LANMAN","attr":"0x10","date":"1989-05-02 11:21:38"},
   {"hash":"b659f47937b336cfbf3f8d5c8d0a8a5a","path":"/C00275E.NID","attr":"0x20","date":"1989-05-11 12:50:52","size":135},

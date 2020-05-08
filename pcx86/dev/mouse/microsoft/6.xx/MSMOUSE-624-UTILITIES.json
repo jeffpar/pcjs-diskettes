@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/UTILITIE.S","attr":"0x28","date":"1988-08-01 01:31:14"},
+  {"path":"/UTILITIES","attr":"0x28","date":"1988-08-01 01:31:14"},
   {"hash":"bbb2f8d93bddd494126361332d1eb4fe","path":"/ATT.DEV","attr":"0x20","date":"1988-08-01 00:00:02","size":1857},
   {"hash":"4a1fcd80df59f5d73662827bff865991","path":"/BIT5X8.FNT","attr":"0x20","date":"1988-08-01 00:00:02","size":1282},
   {"hash":"7a817a6994f7b82b133a9151becdd556","path":"/BIT9X14.FNT","attr":"0x20","date":"1988-08-01 00:00:02","size":7426},

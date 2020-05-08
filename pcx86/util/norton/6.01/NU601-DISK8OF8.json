@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Disk 8of.8","attr":"0x08","date":"1991-08-13 11:53:34"},
+  {"path":"/Disk 8of8","attr":"0x08","date":"1991-08-13 11:53:34"},
   {"hash":"586f043ab832cddf4e39f3f121d29716","path":"/FA.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":9097},
   {"hash":"5316938d69b9940b7d9a3fd7af03b8b0","path":"/FD.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":9865},
   {"hash":"736069ac6c14099177d263f0bcbc91df","path":"/FL.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":8937},

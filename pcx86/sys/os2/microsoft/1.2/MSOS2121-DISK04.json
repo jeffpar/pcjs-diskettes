@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.4","attr":"0x08","date":"1990-05-19 17:16:10"},
+  {"path":"/OS2 DISK 4","attr":"0x08","date":"1990-05-19 17:16:10"},
   {"hash":"f366b3c489251b2b5c4842e2981c8024","path":"/COURIER.FO@","attr":"0x20","date":"1990-06-29 12:00:00","size":170239},
   {"hash":"7a0fa0cc222e891c1615a2666b109f29","path":"/MAKEINI.EX@","attr":"0x20","date":"1990-06-29 12:00:00","size":44372},
   {"hash":"e4aabefe185042914e0852f7c132716e","path":"/MOVESPL.EX@","attr":"0x20","date":"1990-06-29 12:00:00","size":28703},

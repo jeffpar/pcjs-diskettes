@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Disk 6of.8","attr":"0x08","date":"1991-08-13 11:50:54"},
+  {"path":"/Disk 6of8","attr":"0x08","date":"1991-08-13 11:50:54"},
   {"hash":"53b9f9a649cf1919f7d8dcda4b28d24c","path":"/NDOS.COM","attr":"0x20","date":"1991-08-05 06:01:00","size":11855},
   {"hash":"e24e0cdd7210f3e722276f1b8b880155","path":"/NDOS.OVL","attr":"0x20","date":"1991-08-05 06:01:00","size":73510},
   {"hash":"272ad2ce18164ea39f4394cf47ebbce5","path":"/NDOS2E.COM","attr":"0x20","date":"1991-08-05 06:01:00","size":1268},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/APPS_WRI.TE","attr":"0x28","date":"1989-03-21 10:55:00"},
+  {"path":"/APPS_WRITE","attr":"0x28","date":"1989-03-21 10:55:00"},
   {"path":"/PIF","attr":"0x10","date":"1989-03-13 00:00:58"},
   {"hash":"003e993ef3345a3f8ee69d6efbc5212e","path":"/8514.386","attr":"0x20","date":"1989-03-13 00:00:02","size":142432},
   {"hash":"0daef4aae3a6980c495c9cfe35928ffa","path":"/8514.GRB","attr":"0x20","date":"1989-03-13 00:00:02","size":10861},

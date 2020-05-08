@@ -45,7 +45,7 @@
   {"hash":"e826c1d938f44a3bc50d2fd3a69b7d8e","path":"/IBMCGA.DL@","attr":"0x20","date":"1991-11-15 00:00:02","size":76900},
   {"hash":"71a202fb5d4ee854051e8f419ce4d23c","path":"/IBMEGA.DL@","attr":"0x20","date":"1991-11-15 00:00:02","size":85468},
   {"hash":"773b2b71bffe8350df8179184663a552","path":"/IBMVGA.DL@","attr":"0x20","date":"1991-11-15 00:00:02","size":98378},
-  {"path":"/OS2 DISK.5","attr":"0x08","date":"1991-11-14 16:27:44"},
+  {"path":"/OS2 DISK 5","attr":"0x08","date":"1991-11-14 16:27:44"},
   {"hash":"9ee9a743fae31e82c9effd8a9cb7b106","path":"/PMAVIO.DL@","attr":"0x20","date":"1991-11-15 00:00:02","size":4126},
   {"hash":"fe45f5df86cb14276b9e2ac226d2f269","path":"/PMBIND.DL@","attr":"0x20","date":"1991-11-15 00:00:02","size":34414},
   {"hash":"1775d996144cf4445c9f8a5fe86fdd40","path":"/PMDD.SY@","attr":"0x20","date":"1991-11-15 00:00:02","size":2871},

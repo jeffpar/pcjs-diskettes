@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/PRINTER1._V5","attr":"0x28","date":"1989-04-06 07:11:26"},
+  {"path":"/PRINTER1_V5","attr":"0x28","date":"1989-04-06 07:11:26"},
   {"hash":"6bb5bd0bcd91eb9a81dfc67e68379e77","path":"/ALQ20018.PRD","attr":"0x20","date":"1989-04-11 11:48:20","size":8393},
   {"hash":"8314695c9bc0a388737c3a0579628b14","path":"/ALQ20024.PRD","attr":"0x20","date":"1989-04-11 11:48:22","size":6932},
   {"hash":"bfe99e1230bc64d38fb4cc71ba0c8c0e","path":"/ASTTURBO.INI","attr":"0x20","date":"1989-04-11 11:48:22","size":966},

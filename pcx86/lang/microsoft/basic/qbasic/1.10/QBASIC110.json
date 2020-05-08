@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/QBASIC11.0","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/QBASIC110","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"f84f0bf74b830603a29f77b11b9e4833","path":"/QBASIC.EXE","attr":"0x20","date":"1994-05-31 06:22:00","size":194309},
   {"hash":"4d0b9e7d5a07d71723e725c2bb07fb82","path":"/QBASIC.HLP","attr":"0x20","date":"1994-05-31 06:22:00","size":130881}
 ],

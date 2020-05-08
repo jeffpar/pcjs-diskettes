@@ -33,7 +33,7 @@
 ],
 "fileTable": [
   {"path":"/HELPWIN","attr":"0x10","date":"1990-06-01 09:32:56"},
-  {"path":"/WIN30SDK.10","attr":"0x28","date":"1990-06-01 09:34:14"},
+  {"path":"/WIN30SDK10","attr":"0x28","date":"1990-06-01 09:34:14"},
   {"path":"/HELPWIN/.","attr":"0x10","date":"1990-06-01 09:32:56"},
   {"path":"/HELPWIN/..","attr":"0x10","date":"1990-06-01 09:32:56"},
   {"hash":"617db0b6f34ab08ee36e7dfe41cfb4a8","path":"/HELPWIN/SDKWIN.HL$","attr":"0x20","date":"1990-06-01 03:00:00","size":685389}

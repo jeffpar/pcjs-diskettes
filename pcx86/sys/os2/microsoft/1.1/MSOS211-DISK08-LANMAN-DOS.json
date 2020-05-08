@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/XNS-DOS-.2H","attr":"0x28","date":"1989-05-02 14:26:22"},
+  {"path":"/XNS-DOS-2H","attr":"0x28","date":"1989-05-02 14:26:22"},
   {"hash":"db03cf2a477624707d7876badebf9ee5","path":"/LANMAN.DAT","attr":"0x20","date":"1989-02-12 20:28:32","size":14},
   {"path":"/DRIVERS","attr":"0x10","date":"1989-05-02 14:43:10"},
   {"hash":"7822a8f154c367e4c1861c5e59918d19","path":"/D00494E.NID","attr":"0x20","date":"1989-05-11 12:51:20","size":137},

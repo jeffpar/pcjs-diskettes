@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/INSTALL_.1","attr":"0x08","date":"1988-03-10 01:00:02"},
+  {"path":"/INSTALL_1","attr":"0x08","date":"1988-03-10 01:00:02"},
   {"hash":"52f1d1f0692e78cd1d1a1e84b9e2c935","path":"/README.COM","attr":"0x20","date":"1988-03-10 01:00:00","size":4066},
   {"hash":"779a9f213325f198b9859874c5977367","path":"/README","attr":"0x20","date":"1988-03-10 01:00:00","size":15651},
   {"hash":"6d5d631cd479ba6de1424cd677f6c681","path":"/INSTALL.EXE","attr":"0x20","date":"1988-03-10 01:00:00","size":135632},

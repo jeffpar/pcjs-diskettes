@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/UTILITIE.S","attr":"0x28","date":"1986-04-04 12:02:36"},
+  {"path":"/UTILITIES","attr":"0x28","date":"1986-04-04 12:02:36"},
   {"hash":"390a6921802fbefd4cc3b5ede7e16684","path":"/SETUP.EXE","attr":"0x00","date":"1986-04-04 12:00:00","size":54762},
   {"hash":"5e1f0a900d2b069ce72f7b602e2895e8","path":"/README.DOC","attr":"0x00","date":"1986-04-04 12:00:00","size":9728},
   {"hash":"93e8065b167784a91c83858785485f5a","path":"/RFTOWORD.EXE","attr":"0x00","date":"1986-04-04 12:00:00","size":57272},

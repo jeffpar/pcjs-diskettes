@@ -35,7 +35,7 @@
   {"hash":"7f1b8bcb77133f3c8a181534167ad45d","path":"/IBMBIO.COM","attr":"0x27","date":"1983-03-08 12:00:00","size":4608},
   {"hash":"2c2dac9e4bc95f943a1cef5e6d1eb5f1","path":"/IBMDOS.COM","attr":"0x27","date":"1983-03-08 12:00:00","size":17152},
   {"hash":"69d4de7f90933de48be463b108c1ad4f","path":"/COMMAND.COM","attr":"0x20","date":"1983-10-21 09:00:04","size":3582},
-  {"path":"/DIAGS V2.05","attr":"0x08","date":"1983-11-29 09:19:22"},
+  {"path":"/DIAGS V205","attr":"0x08","date":"1983-11-29 09:19:22"},
   {"hash":"c0a4368f871a253c653f49d98f39bf34","path":"/DCOPY.COM","attr":"0x20","date":"1983-10-21 09:04:02","size":2302},
   {"hash":"6b30815bc7a73ad400f6e7aa53e4ba41","path":"/DFORMAT.COM","attr":"0x20","date":"1983-10-21 09:05:12","size":872},
   {"hash":"d4dfc5bd372783f024e45af430c45be9","path":"/DIAGS.COM","attr":"0x20","date":"1983-10-21 09:10:38","size":3585},

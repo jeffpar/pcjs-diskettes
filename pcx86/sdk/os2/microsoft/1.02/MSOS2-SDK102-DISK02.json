@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2PROGR.AM","attr":"0x08","date":"1987-12-15 12:44:08"},
+  {"path":"/OS2PROGRAM","attr":"0x08","date":"1987-12-15 12:44:08"},
   {"hash":"88e5c249bf7d45921fbd156821caaf64","path":"/OS2BIO.COM","attr":"0x20","date":"1987-12-15 00:00:02","size":7168},
   {"hash":"31fe3909a775c00dcb644a7e91e6f104","path":"/OS2DOS.COM","attr":"0x20","date":"1987-12-15 00:00:02","size":262930},
   {"hash":"c5ddf486d2083cad72e84a0574cf46e8","path":"/4201.DCP","attr":"0x20","date":"1987-12-15 00:00:02","size":17081},

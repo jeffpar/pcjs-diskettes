@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 FONT.1","attr":"0x08","date":"1990-11-02 12:00:00"},
+  {"path":"/OS2 FONT 1","attr":"0x08","date":"1990-11-02 12:00:00"},
   {"hash":"d2f77de478e8dd657074e36acb18a689","path":"/COU.AFM","attr":"0x20","date":"1990-11-02 12:00:00","size":23654},
   {"hash":"5d76552e54a60872d810ea0424b6417d","path":"/COU.PFB","attr":"0x20","date":"1990-11-02 12:00:00","size":45692},
   {"hash":"0d1a2b66163d5b3bd0d8558778a8a9a3","path":"/COUB.AFM","attr":"0x20","date":"1990-11-02 12:00:00","size":23591},

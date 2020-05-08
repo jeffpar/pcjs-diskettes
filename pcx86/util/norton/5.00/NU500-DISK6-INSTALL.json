@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU 5.0 6.of6","attr":"0x08","date":"1990-09-25 17:13:02"},
+  {"path":"/NU 5.0 6of6","attr":"0x08","date":"1990-09-25 17:13:02"},
   {"hash":"153479d0fc9e732908ac75deefa657cb","path":"/INSTALL.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":111721},
   {"hash":"bd75b6d05f45e56bebf0f99756c6bbf2","path":"/NU5_ARC3.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":226472},
   {"hash":"51d8450132e0b7e3c67709c61b170b01","path":"/READ.ME","attr":"0x20","date":"1990-09-25 17:00:00","size":22505}

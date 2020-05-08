@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Disk 3of.8","attr":"0x08","date":"1991-08-13 11:47:20"},
+  {"path":"/Disk 3of8","attr":"0x08","date":"1991-08-13 11:47:20"},
   {"hash":"2c66fd40e71f959b9637f7ac2aaf6570","path":"/UNERASE.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":112985},
   {"hash":"d6869db0104ffe8df3577e3bcaa58a12","path":"/FILEFIX.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":90921},
   {"hash":"0d514b976de1c8a8c28309b5372b62e3","path":"/DISKEDIT.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":133401}

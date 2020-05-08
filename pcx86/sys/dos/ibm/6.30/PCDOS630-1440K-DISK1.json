@@ -43,7 +43,7 @@
   {"hash":"4f25fa1359d4e27526d91d629fe40da6","path":"/CHKDSK.COM","attr":"0x00","date":"1993-12-31 00:00:00","size":13302},
   {"hash":"1c4cb81b6dba7f3b6aca6ffa8b2ef26b","path":"/CHOICE.COM","attr":"0x00","date":"1993-12-31 00:00:00","size":1586},
   {"hash":"df8d394dad7fd29c4504f38cc249bba7","path":"/CMOSCLK.SYS","attr":"0x00","date":"1993-12-31 00:00:00","size":855},
-  {"path":"/DISK.1","attr":"0x08","date":"1991-05-09 12:00:00"},
+  {"path":"/DISK      1","attr":"0x08","date":"1991-05-09 12:00:00"},
   {"hash":"69f16069d29b0887e2cde92618e14d99","path":"/COMP.COM","attr":"0x00","date":"1993-12-31 00:00:00","size":8561},
   {"hash":"cf5458cd8931f5425250912a4c0f376f","path":"/CONFIG.SYS","attr":"0x00","date":"1993-12-31 00:00:00","size":23},
   {"hash":"bcfd88305807b7f77c21f2cbe4d0f228","path":"/COUNTRY.SYS","attr":"0x00","date":"1993-12-31 00:00:00","size":18142},

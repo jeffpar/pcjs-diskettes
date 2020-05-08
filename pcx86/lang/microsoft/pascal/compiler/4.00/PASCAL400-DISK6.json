@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/PASCAL40.0","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/PASCAL400","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"5c15b2e1d30638ad014f1e672fef7f88","path":"/CV.EXE","attr":"0x20","date":"1988-03-09 02:54:58","size":263890},
   {"hash":"23ca7c3a701c64b355e710b5090f7954","path":"/CV.HLP","attr":"0x20","date":"1988-01-12 17:57:02","size":22444},
   {"hash":"c80167951574b457c8b31b940dd55113","path":"/CVPACK.EXE","attr":"0x20","date":"1988-03-01 01:07:04","size":49400,"module":{"name":"CVPACK","description":"CVPACKP.EXE","segments":{"1":{"offStart":11264,"offEnd":43837},"2":{"offStart":44544,"offEnd":45038},"3":{"offStart":45056,"offEnd":48773},"254":{"offStart":0,"offEnd":0}}}},

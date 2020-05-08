@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/QEMM386-.513","attr":"0x08","date":"1991-04-22 05:13:22"},
+  {"path":"/QEMM386-513","attr":"0x08","date":"1991-04-22 05:13:22"},
   {"hash":"0363097654d5128f271a48fce04524b4","path":"/INSTALL.EXE","attr":"0x20","date":"1991-04-22 05:13:02","size":41377},
   {"hash":"3c4eec7264c065a64c66927850bd58dd","path":"/MCA.ADL","attr":"0x20","date":"1991-04-22 05:13:02","size":36357},
   {"hash":"872a655ac40553eb2f32ebe660229719","path":"/TECHSUP.BAT","attr":"0x20","date":"1991-04-22 05:13:02","size":276},

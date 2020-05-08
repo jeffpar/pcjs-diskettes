@@ -60,7 +60,7 @@
   {"hash":"a9ec2dd82c147b1072125f35cadd422b","path":"/THINUS.F16","attr":"0x20","date":"1989-07-27 12:00:00","size":4096},
   {"hash":"397a1d73c3d9bc01d413770328accfd3","path":"/KEYBOARD.SYS","attr":"0x20","date":"1989-07-27 12:00:00","size":41144},
   {"hash":"0d1949815d021c4cde12339cfa1d46e1","path":"/VDISK.SYS","attr":"0x20","date":"1989-07-27 12:00:00","size":7946},
-  {"path":"/USER 072.789","attr":"0x28","date":"1989-07-27 12:01:56"},
+  {"path":"/USER 072789","attr":"0x28","date":"1989-07-27 12:01:56"},
   {"hash":"49406c4fea87a527711ff896589ab41c","path":"/ADAPT.CFG","attr":"0x20","date":"1980-01-01 00:15:14","size":4},
   {"hash":"d2b2168cc17709b5f088f3e235b7c6be","path":"/DOS","attr":"0x20","date":"1989-09-11 08:09:20","size":890},
   {"path":"/CONFIG.SYS","attr":"0x20","date":"1989-09-17 13:43:00"},

@@ -45,7 +45,7 @@
   {"path":"/FILEOPEN","attr":"0x10","date":"1990-06-01 09:15:02"},
   {"path":"/GENERIC","attr":"0x10","date":"1990-06-01 09:14:50"},
   {"path":"/INC","attr":"0x10","date":"1990-06-01 09:15:58"},
-  {"path":"/WIN30SDK.07","attr":"0x28","date":"1990-06-01 09:20:58"},
+  {"path":"/WIN30SDK07","attr":"0x28","date":"1990-06-01 09:20:58"},
   {"path":"/BITMAP/.","attr":"0x10","date":"1990-06-01 09:15:20"},
   {"path":"/BITMAP/..","attr":"0x10","date":"1990-06-01 09:15:20"},
   {"hash":"657d4e2866f92147b8e1a8ce6cccefbb","path":"/BITMAP/BITMAP","attr":"0x20","date":"1990-06-01 03:00:00","size":325},

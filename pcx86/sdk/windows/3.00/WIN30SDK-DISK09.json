@@ -33,7 +33,7 @@
 ],
 "fileTable": [
   {"path":"/HELPADV","attr":"0x10","date":"1990-06-01 09:31:22"},
-  {"path":"/WIN30SDK.09","attr":"0x28","date":"1990-06-01 09:32:42"},
+  {"path":"/WIN30SDK09","attr":"0x28","date":"1990-06-01 09:32:42"},
   {"path":"/HELPADV/.","attr":"0x10","date":"1990-06-01 09:31:22"},
   {"path":"/HELPADV/..","attr":"0x10","date":"1990-06-01 09:31:22"},
   {"hash":"8f081b8b6a0f9d0ffa5c4ac20b530c60","path":"/HELPADV/SDKADV.HL$","attr":"0x20","date":"1990-06-01 03:00:00","size":688486}

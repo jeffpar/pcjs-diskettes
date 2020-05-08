@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/MP201PRO.G","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/MP201PROG","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"03bf23d7409ac5ef95b150698c79318f","path":"/AMOR.MOD","attr":"0x20","date":"1986-02-10 12:00:04","size":7184},
   {"hash":"973a7181ee022ef69fa2aeac2330f436","path":"/DEPREC.MOD","attr":"0x20","date":"1986-02-10 12:00:04","size":7480},
   {"hash":"17435bb9638892537b7d061793c02f7f","path":"/LINKMC.COM","attr":"0x20","date":"1986-02-10 12:00:04","size":928},

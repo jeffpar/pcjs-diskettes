@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/DESQview.102","attr":"0x08","date":"1986-01-15 01:02:00"},
+  {"path":"/DESQview102","attr":"0x08","date":"1986-01-15 01:02:00"},
   {"hash":"9892fb301210c177fa8e4ca164a9ea07","path":"/ASK.COM","attr":"0x20","date":"1986-01-15 01:02:00","size":8448},
   {"hash":"1b2d09cb187334f4388b5d7363a0f212","path":"/INSTALL.BAT","attr":"0x20","date":"1986-01-15 01:02:00","size":3072},
   {"hash":"1e6730901b493cb58ecfa76dd3128ba5","path":"/INST0.BAT","attr":"0x20","date":"1986-01-15 01:02:00","size":6272},

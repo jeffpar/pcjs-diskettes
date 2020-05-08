@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/SET_BLD_.DSP","attr":"0x28","date":"1989-03-16 18:12:00"},
+  {"path":"/SET_BLD_DSP","attr":"0x28","date":"1989-03-16 18:12:00"},
   {"hash":"9e13b2a012f80a12ae06d04d73341f33","path":"/386LOGO.LGD","attr":"0x20","date":"1989-03-13 00:00:02","size":2574},
   {"hash":"a8997eb167c326e05d03f1f33e0010e5","path":"/CGA.386","attr":"0x20","date":"1989-03-13 00:00:02","size":122836},
   {"hash":"fa9b5c49fa82187514da2ae1ded54867","path":"/CGA.3EX","attr":"0x20","date":"1989-03-13 00:00:02","size":37148},

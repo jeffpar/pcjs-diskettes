@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.4","attr":"0x28","date":"1989-10-31 12:43:54"},
+  {"path":"/OS2 DISK 4","attr":"0x28","date":"1989-10-31 12:43:54"},
   {"hash":"781ddc4b6a930fd40261e93f3b0e252b","path":"/ANSWER.EX@","attr":"0x20","date":"1989-04-13 10:34:52","size":10925},
   {"hash":"04d77ffa446d43d9d6f40f49d5cc2c4f","path":"/CRTSAVER.EX@","attr":"0x20","date":"1989-10-23 20:25:18","size":18382},
   {"hash":"5f411434281cdbed884ec7663278e791","path":"/EGA.DL@","attr":"0x20","date":"1989-02-20 12:00:02","size":70654},

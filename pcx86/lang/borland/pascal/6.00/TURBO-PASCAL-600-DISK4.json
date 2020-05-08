@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/UTILITIE.S","attr":"0x28","date":"1990-10-23 06:00:30"},
+  {"path":"/UTILITIES","attr":"0x28","date":"1990-10-23 06:00:30"},
   {"hash":"2e0a3b999410409f6d4ee1e6d5b85558","path":"/BGI.ZIP","attr":"0x20","date":"1990-10-23 06:00:00","size":91197},
   {"hash":"6b6efead46ccd24ef6f02e5ba4930275","path":"/UTILS.ZIP","attr":"0x20","date":"1990-10-23 06:00:00","size":81131},
   {"hash":"0036abafd520c42baea420fc31b1e0f5","path":"/DOCDEMOS.ZIP","attr":"0x20","date":"1990-10-23 06:00:00","size":45884},

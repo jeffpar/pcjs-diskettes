@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/DISK.4","attr":"0x08","date":"2003-12-21 22:15:00"},
+  {"path":"/DISK      4","attr":"0x08","date":"2003-12-21 22:15:00"},
   {"hash":"8f8a83e5e738efa7471fe1670d229484","path":"/ADMIN.PRF","attr":"0x00","date":"1993-12-31 00:00:00","size":715},
   {"hash":"1113e7fd6ac3b7cc7d47389601e3eb90","path":"/AUTORUN.PR_","attr":"0x00","date":"1993-12-31 00:00:00","size":160},
   {"hash":"21dfdc432fe6287cae9be3575aecb6ea","path":"/CONTACT.LS_","attr":"0x00","date":"1993-12-31 00:00:00","size":519},

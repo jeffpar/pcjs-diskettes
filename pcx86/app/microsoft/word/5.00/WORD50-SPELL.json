@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/SPELL_V5.0","attr":"0x28","date":"1989-04-26 09:45:40"},
+  {"path":"/SPELL_V50","attr":"0x28","date":"1989-04-26 09:45:40"},
   {"hash":"5e054b6553281c529bb9ddbd2b4609a3","path":"/SPELL.OVL","attr":"0x20","date":"1989-04-26 14:54:36","size":47959},
   {"hash":"2f20e1135e1d84fcb51f6e6e07a9b229","path":"/SPELL-AM.LEX","attr":"0x20","date":"1989-04-26 14:54:34","size":184371},
   {"hash":"b8eaab3a3d4eaa50b5e1790ccf097b8e","path":"/TYPOS.DOC","attr":"0x20","date":"1989-04-26 14:54:36","size":2560},

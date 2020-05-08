@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU-2.01,.#1","attr":"0x08","date":"1983-07-04 14:01:00"},
+  {"path":"/NU-2.01, #1","attr":"0x08","date":"1983-07-04 14:01:00"},
   {"hash":"fa3300db75754a516c0b86a22496eec1","path":"/DISKLOOK.BAT","attr":"0x00","date":"1983-07-04 14:01:00","size":384},
   {"hash":"5d80e6fec35ab736c49349f13861f846","path":"/BATHIDE.COM","attr":"0x00","date":"1983-07-04 14:01:00","size":7632},
   {"hash":"50461c155193f5a6de51455fe0bcd024","path":"/BEEP.COM","attr":"0x00","date":"1983-07-04 14:01:00","size":154},

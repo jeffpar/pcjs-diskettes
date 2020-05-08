@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.3","attr":"0x28","date":"1988-10-28 11:46:56"},
+  {"path":"/OS2 DISK 3","attr":"0x28","date":"1988-10-28 11:46:56"},
   {"hash":"c9be6243a5e3bca8d4208250dd9d5992","path":"/PMGPI.DL@","attr":"0x20","date":"1988-10-26 12:00:00","size":135872},
   {"hash":"52a3598eb4119f70ce846cf3f9953730","path":"/PMSPL.DL@","attr":"0x20","date":"1988-10-26 12:00:00","size":9853},
   {"hash":"54fef11dafe4c74528186fbb7244f341","path":"/PMDD.SY@","attr":"0x20","date":"1988-10-26 12:00:00","size":2986},

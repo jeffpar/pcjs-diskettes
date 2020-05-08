@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/PASCAL40.0","attr":"0x08","date":"1989-09-27 03:00:00"},
+  {"path":"/PASCAL400","attr":"0x08","date":"1989-09-27 03:00:00"},
   {"hash":"a28952d3e7cdd362f7a92e1c5c89f888","path":"/BRIEF.INI","attr":"0x20","date":"1988-01-14 23:38:40","size":2094},
   {"hash":"ef373cfe841816b828cde2781fa53540","path":"/CALLTREE.EXE","attr":"0x20","date":"1987-12-29 17:03:18","size":31233,"module":{"name":"CALLTREE","description":"CALLTREE.EXE","segments":{"1":{"offStart":11536,"offEnd":27745},"2":{"offStart":27904,"offEnd":31222},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"600842832f3940b4b9305a216b48a0ca","path":"/EPSILON.INI","attr":"0x20","date":"1988-01-14 23:42:40","size":978},

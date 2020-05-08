@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/C WINDOW.S","attr":"0x28","date":"1986-07-18 04:00:08"},
+  {"path":"/C WINDOWS","attr":"0x28","date":"1986-07-18 04:00:08"},
   {"hash":"7b6899c94a74d47b6c6a987fbfe6a8f0","path":"/README.DOC","attr":"0x20","date":"1986-07-18 04:00:04","size":5134},
   {"hash":"7bf78921e87f1227d04fe17ee248d236","path":"/SWINLIBC.LIB","attr":"0x20","date":"1986-07-18 04:00:10","size":14336},
   {"hash":"b68348e8526d82857337d71e97007de6","path":"/MWINLIBC.LIB","attr":"0x20","date":"1986-07-18 04:00:10","size":14848},

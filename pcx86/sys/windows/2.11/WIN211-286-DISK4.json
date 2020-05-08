@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/APPS_WRI.TE","attr":"0x28","date":"1989-03-15 10:56:00"},
+  {"path":"/APPS_WRITE","attr":"0x28","date":"1989-03-15 10:56:00"},
   {"path":"/PIF","attr":"0x10","date":"1989-03-13 00:00:58"},
   {"hash":"353472a7d9a5ca979ec01c65729a3314","path":"/ABC.TXT","attr":"0x20","date":"1989-03-13 00:00:02","size":42},
   {"hash":"db0cfd8bf4c6549c47a2d8b2c4781f5f","path":"/APPLETLK.DLL","attr":"0x20","date":"1989-03-13 00:00:02","size":19136,"module":{"name":"ATALK","description":"AppleTalk Interface Module:100,300,300","segments":{"1":{"offStart":4096,"offEnd":4530,"ordinals":{"103":{"o":65},"104":{"o":16},"107":{"o":231},"109":{"o":125},"114":{"o":185}}},"2":{"offStart":4608,"offEnd":4961},"3":{"offStart":5120,"offEnd":15583,"ordinals":{"1":{"o":3244,"s":"ATSELECT"},"2":{"o":1404,"s":"ATMESSAGE"},"3":{"o":2466,"s":"ATOPENSTATUSWND"},"4":{"o":2425,"s":"ATCLOSESTATUSWND"},"5":{"o":3816,"s":"ATOPEN"},"6":{"o":4377,"s":"ATWRITE"},"7":{"o":5122,"s":"ATCLOSE"},"8":{"o":4854,"s":"ATSENDEOF"},"9":{"o":1449,"s":"ATCHOOSER"},"100":{"o":1552,"s":"FNATDIALOG"},"101":{"o":2653,"s":"FNATSTATUS"},"102":{"o":3087,"s":"FNATDEFAULT"},"108":{"o":6064},"110":{"o":8425},"111":{"o":7470},"112":{"o":6338},"113":{"o":6997},"115":{"o":575},"116":{"o":1197},"117":{"o":882},"118":{"o":673},"119":{"o":303}}},"4":{"offStart":16384,"offEnd":16418},"5":{"offStart":16896,"offEnd":16983,"ordinals":{"105":{"o":45},"106":{"o":0}}},"6":{"offStart":17408,"offEnd":17483},"254":{"offStart":0,"offEnd":0}}}},

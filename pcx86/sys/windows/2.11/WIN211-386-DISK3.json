@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/UTIL2_FO.NTS","attr":"0x28","date":"1989-03-13 20:02:00"},
+  {"path":"/UTIL2_FONTS","attr":"0x28","date":"1989-03-13 20:02:00"},
   {"hash":"e41c9d6e736d8c0fef54fc0951b85d04","path":"/A4TRAY.TXT","attr":"0x20","date":"1989-03-13 00:00:02","size":944},
   {"hash":"d0ef7d7e3850d29f4c7b369384061b0c","path":"/CGA40.FON","attr":"0x20","date":"1989-03-13 00:00:02","size":6544},
   {"hash":"7de5f03a007b8ee98b7a55797ef0c78e","path":"/CGA80.FON","attr":"0x20","date":"1989-03-13 00:00:02","size":4512},

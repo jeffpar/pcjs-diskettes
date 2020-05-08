@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.3","attr":"0x08","date":"1990-05-18 17:10:42"},
+  {"path":"/OS2 DISK 3","attr":"0x08","date":"1990-05-18 17:10:42"},
   {"hash":"900d2a687b07870df7e8701c71274e8b","path":"/CMDREF.IN@","attr":"0x20","date":"1990-06-29 12:00:00","size":113356},
   {"hash":"adad5be1197875faa4768c014d2246da","path":"/CPISPFPC.DL@","attr":"0x20","date":"1990-06-29 12:00:00","size":88252},
   {"hash":"017f4da340ef285e6001a787b11f96bc","path":"/CREATEDD.EX@","attr":"0x20","date":"1990-06-29 12:00:00","size":21070},

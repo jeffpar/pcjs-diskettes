@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/C UTILIT.IES","attr":"0x28","date":"1986-06-27 04:00:02"},
+  {"path":"/C UTILITIES","attr":"0x28","date":"1986-06-27 04:00:02"},
   {"path":"/PATCH","attr":"0x10","date":"1986-06-27 04:00:04"},
   {"hash":"bdbaddc2f940c892bc6e9612279899b3","path":"/CL.EXE","attr":"0x20","date":"1986-06-27 04:00:02","size":27381},
   {"hash":"31ef62748891b18dcb3779881758eecd","path":"/CV.EXE","attr":"0x20","date":"1986-08-23 23:10:40","size":141631},

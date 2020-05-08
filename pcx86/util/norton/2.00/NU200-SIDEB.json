@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU-2.00,.#2","attr":"0x08","date":"1983-06-01 14:00:00"},
+  {"path":"/NU-2.00, #2","attr":"0x08","date":"1983-06-01 14:00:00"},
   {"hash":"00b1a2e404524e94cb702479372fba0e","path":"/DISKLOOK.BAT","attr":"0x00","date":"1983-06-01 14:00:00","size":384},
   {"hash":"37ec9fedbb1a73bf7178977bdbce60e0","path":"/HU.COM","attr":"0x00","date":"1983-06-02 14:00:00","size":27490},
   {"hash":"27aeb572441fba058883b95caf8b0eb9","path":"/LABEL.COM","attr":"0x00","date":"1983-06-01 14:00:00","size":8063},

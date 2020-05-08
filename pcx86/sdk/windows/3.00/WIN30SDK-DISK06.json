@@ -38,7 +38,7 @@
   {"hash":"bd6df7604c31159dd2900c3316de80da","path":"/PWBINFO.WRI","attr":"0x20","date":"1990-06-01 03:00:00","size":22144},
   {"hash":"32566136d3c05f8e8804f04655ce852d","path":"/README.WRI","attr":"0x20","date":"1990-06-01 03:00:00","size":58624},
   {"hash":"7e7a9f2f9c9f587f32fbb46204b2d099","path":"/TIPS.TXT","attr":"0x20","date":"1990-06-01 03:00:00","size":29539},
-  {"path":"/WIN30SDK.06","attr":"0x28","date":"1990-06-01 12:47:18"},
+  {"path":"/WIN30SDK06","attr":"0x28","date":"1990-06-01 12:47:18"},
   {"path":"/CLIB/.","attr":"0x10","date":"1990-06-01 12:45:16"},
   {"path":"/CLIB/..","attr":"0x10","date":"1990-06-01 12:45:16"},
   {"hash":"0f0dba39ac1e25f512843ec34a3d601d","path":"/CLIB/CDLLCW0.LIB","attr":"0x20","date":"1990-06-01 03:00:00","size":13457},

@@ -61,7 +61,7 @@
   {"hash":"019509c40963f434ce25f3d0343eac76","path":"/SETUP.MSG","attr":"0x20","date":"1993-03-10 06:00:00","size":1290},
   {"hash":"d15aae64ee050a2d40c056231ac365ab","path":"/SYS.COM","attr":"0x20","date":"1993-03-10 06:00:00","size":9379},
   {"hash":"acc51c467657abb841b372fc1e4b2c0b","path":"/UNFORMAT.COM","attr":"0x20","date":"1993-03-10 06:00:00","size":12738},
-  {"path":"/DISK.1","attr":"0x08","date":"1993-03-10 06:00:00"},
+  {"path":"/DISK      1","attr":"0x08","date":"1993-03-10 06:00:00"},
   {"hash":"9866e2a7c92635eb7ca2bea4d621c867","path":"/VIDE-CDD.SYS","attr":"0x20","date":"1998-02-17 10:28:02","size":11188},
   {"hash":"fd10e823642b099ae8e3c72db394c053","path":"/README","attr":"0x20","date":"1995-08-01 08:40:18","size":4261},
   {"hash":"877f527d8757adea2283baa02158c081","path":"/CONFIG.625","attr":"0x20","date":"1993-03-10 06:00:00","size":13},

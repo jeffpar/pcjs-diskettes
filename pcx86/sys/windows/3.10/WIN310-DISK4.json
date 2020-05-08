@@ -75,7 +75,7 @@
   {"hash":"0c356e3b9e74f063b7acc327412ffd3d","path":"/TERMINAL.EX_","attr":"0x20","date":"1992-03-10 03:10:00","size":84383},
   {"hash":"d8463c7dbfbfd3cf9210befb734d3f56","path":"/TERMINAL.HL_","attr":"0x20","date":"1992-03-10 03:10:00","size":25674},
   {"hash":"7f59515da4eee31790aa378ebe077a12","path":"/THATCH.BM_","attr":"0x20","date":"1992-03-10 03:10:00","size":210},
-  {"path":"/WIN31DIS.K4","attr":"0x08","date":"1992-03-10 03:10:00"},
+  {"path":"/WIN31DISK4","attr":"0x08","date":"1992-03-10 03:10:00"},
   {"hash":"94fa02183ea6cc26e3327d74a51c138d","path":"/WIN87EM.DL_","attr":"0x20","date":"1992-03-10 03:10:00","size":8973},
   {"hash":"1e32abadb259b190b5993713897d38d5","path":"/WINFILE.EX_","attr":"0x20","date":"1992-03-10 03:10:00","size":89663},
   {"hash":"aad59756f92d1d634266dc01216076cb","path":"/WINLOGO.BM_","attr":"0x20","date":"1992-03-10 03:10:00","size":12211},

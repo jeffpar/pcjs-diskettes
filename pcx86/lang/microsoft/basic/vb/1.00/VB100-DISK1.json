@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/VB 100 D.1","attr":"0x28","date":"1991-05-13 18:07:22"},
+  {"path":"/VB 100 D1","attr":"0x28","date":"1991-05-13 18:07:22"},
   {"hash":"b280a2c4c70b7f6cebe89ef5032c27e2","path":"/CONSTANT.TX$","attr":"0x20","date":"1991-05-10 01:00:00","size":3877},
   {"hash":"835d22128509427dd9e87407b836b3e8","path":"/DECOMP.DLL","attr":"0x20","date":"1991-05-10 01:00:00","size":14816,"module":{"name":"DECOMP","description":"DECOMP - Copyright Microsoft Corp. 1990-1991","segments":{"1":{"offStart":1344,"offEnd":4327,"ordinals":{"6":{"o":2964,"s":"___EXPORTEDSTUB"}}},"2":{"offStart":4480,"offEnd":8568},"3":{"offStart":8640,"offEnd":8673},"4":{"offStart":8736,"offEnd":11951,"ordinals":{"1":{"o":444,"s":"WEP"},"2":{"o":0,"s":"DECOMPFILE"},"3":{"o":2880,"s":"DISKSPACEFREE"},"4":{"o":2966,"s":"SETTIME"},"5":{"o":3144,"s":"ALLOCUNIT"}}},"5":{"offStart":12096,"offEnd":14791},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"23bf3e756f8042bda8aa9cee94b82487","path":"/PACKING.LST","attr":"0x20","date":"1991-05-10 01:00:00","size":5540},

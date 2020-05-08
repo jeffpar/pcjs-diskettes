@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.1","attr":"0x28","date":"1989-10-30 13:19:38"},
+  {"path":"/OS2 DISK 1","attr":"0x28","date":"1989-10-30 13:19:38"},
   {"hash":"289710a981f983a1569f5dff345115a0","path":"/ANSI.SY@","attr":"0x20","date":"1989-02-20 12:00:02","size":1846},
   {"hash":"92c705e017b33a768a53d8f810c7ea87","path":"/ASSIGN.CO@","attr":"0x20","date":"1989-02-20 12:00:02","size":1673},
   {"hash":"104de9339bbc6e0ce70303b69280c125","path":"/BACKUP.CO@","attr":"0x20","date":"1989-02-20 12:00:02","size":40514},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/UTIL1_V5.0","attr":"0x28","date":"1989-04-25 09:12:40"},
+  {"path":"/UTIL1_V50","attr":"0x28","date":"1989-04-25 09:12:40"},
   {"hash":"03690fa81d0c37cb935184fa3fa79955","path":"/README.DOC","attr":"0x20","date":"1989-04-25 10:01:04","size":18520},
   {"hash":"2645e97bad3626ffea80ad44b227201e","path":"/SETUP.EXE","attr":"0x21","date":"1989-04-25 10:01:06","size":189706,"module":{"name":"SETUP","description":"SETUP.EXE","segments":{"1":{"offStart":118784,"offEnd":160586},"2":{"offStart":161280,"offEnd":189679},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"9dc41bd777180384dc3d3fec5b03e802","path":"/MW.HLP","attr":"0x20","date":"1989-04-25 10:01:04","size":105691},

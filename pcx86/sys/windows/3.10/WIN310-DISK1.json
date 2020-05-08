@@ -52,7 +52,7 @@
   {"hash":"9f650cf974865fb26d05ab8765b21192","path":"/VGA.3G_","attr":"0x20","date":"1992-03-10 03:10:00","size":11256},
   {"hash":"8eb670c03c46316b4837c6a4edb2f03c","path":"/WIN.CN_","attr":"0x20","date":"1992-03-10 03:10:00","size":10101},
   {"hash":"50421eda71cfb310deb919bf8417a6a7","path":"/WIN.SR_","attr":"0x20","date":"1992-03-10 03:10:00","size":1666},
-  {"path":"/WIN31DIS.K1","attr":"0x08","date":"1992-03-10 03:10:00"},
+  {"path":"/WIN31DISK1","attr":"0x08","date":"1992-03-10 03:10:00"},
   {"hash":"2162a898d714587eb68c78f9ef24155b","path":"/WINHELP.EX_","attr":"0x20","date":"1992-03-10 03:10:00","size":163861},
   {"hash":"09792b9e131b0950d95d32b63ee08026","path":"/XGA.DR_","attr":"0x20","date":"1992-03-10 03:10:00","size":55181},
   {"hash":"545aa2ca830dfdcf6ec5fdfc19ee5e05","path":"/XLAT850.BI_","attr":"0x20","date":"1992-03-10 03:10:00","size":440},

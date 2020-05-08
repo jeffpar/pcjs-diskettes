@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.2","attr":"0x28","date":"1989-08-31 12:00:00"},
+  {"path":"/OS2 DISK 2","attr":"0x28","date":"1989-08-31 12:00:00"},
   {"hash":"a212af496758c0ef6b3daa5fc18993e4","path":"/BASIC.CO@","attr":"0x20","date":"1989-08-31 12:00:00","size":479},
   {"hash":"3f38192dc71a25af07dec2e0bf06e015","path":"/BASICA.CO@","attr":"0x20","date":"1989-08-31 12:00:00","size":35573},
   {"hash":"75fb9683518fd061d0961fc9445ea0a5","path":"/COM01.SY@","attr":"0x20","date":"1989-08-31 12:00:00","size":6221},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/MASM611_.01","attr":"0x28","date":"1993-10-19 11:49:20"},
+  {"path":"/MASM611_01","attr":"0x28","date":"1993-10-19 11:49:20"},
   {"hash":"4a722871a563a98eb480714ff04e0e44","path":"/CV.TX$","attr":"0x00","date":"1993-09-29 08:37:10","size":4804},
   {"hash":"4d018f308108e6cbdd6f38e50e06148d","path":"/DECOMP.EXE","attr":"0x00","date":"1990-12-11 10:27:32","size":35921,"module":{"name":"decomp","description":"decomp.exe","segments":{"1":{"offStart":13312,"offEnd":32161},"2":{"offStart":32768,"offEnd":35920},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"10f21de82e80ec5a8e8edb1a4c162b6e","path":"/ERRMSG.TX$","attr":"0x00","date":"1993-09-29 08:55:42","size":3460},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/C INC LI.B S","attr":"0x28","date":"1986-06-27 04:00:02"},
+  {"path":"/C INC LIB S","attr":"0x28","date":"1986-06-27 04:00:02"},
   {"path":"/SYS","attr":"0x10","date":"1986-06-27 04:00:04"},
   {"hash":"609f414a49d83b866e5edb3b7028eb9e","path":"/LINK.EXE","attr":"0x20","date":"1986-06-27 04:00:18","size":47547},
   {"hash":"dadfa99ea24f6dca8a859627dc94f80f","path":"/87.LIB","attr":"0x20","date":"1986-06-27 04:00:02","size":4096},

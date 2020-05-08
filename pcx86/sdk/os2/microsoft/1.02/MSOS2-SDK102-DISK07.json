@@ -33,7 +33,7 @@
 ],
 "fileTable": [
   {"path":"/TOOLS","attr":"0x10","date":"1987-12-15 00:00:58"},
-  {"path":"/OS2UTILI.TY2","attr":"0x28","date":"1987-12-11 15:30:02"},
+  {"path":"/OS2UTILITY2","attr":"0x28","date":"1987-12-11 15:30:02"},
   {"hash":"30c64a81c773f849068bb6b04d00e4ed","path":"/UTILITY2.CTL","attr":"0x22","date":"1987-12-11 15:30:00","size":7},
   {"path":"/TOOLS/.","attr":"0x10","date":"1987-12-15 00:00:58"},
   {"path":"/TOOLS/..","attr":"0x10","date":"1987-12-15 00:00:58"},

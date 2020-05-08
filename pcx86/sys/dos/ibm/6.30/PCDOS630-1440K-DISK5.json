@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/DISK.5","attr":"0x08","date":"2003-12-21 22:15:32"},
+  {"path":"/DISK      5","attr":"0x08","date":"2003-12-21 22:15:32"},
   {"hash":"84596226f52921994ecf6f145f42c898","path":"/ADDHELP.OV_","attr":"0x00","date":"1993-12-31 00:00:00","size":6883},
   {"hash":"1e5dc100a48ecc51492bebcc1cd019d9","path":"/DBLSPACE.BI_","attr":"0x00","date":"1993-12-31 00:00:00","size":28962},
   {"hash":"7d0e4e564924050b07c05703cadca35c","path":"/DBLSPACE.SYS","attr":"0x00","date":"1993-12-31 00:00:00","size":302},

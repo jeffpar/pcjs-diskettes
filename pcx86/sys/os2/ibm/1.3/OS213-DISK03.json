@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.2","attr":"0x08","date":"1990-11-02 12:00:00"},
+  {"path":"/OS2 DISK 2","attr":"0x08","date":"1990-11-02 12:00:00"},
   {"hash":"f038cc92b4e413259dc69b9d68b9a014","path":"/ANSI.EX@","attr":"0x20","date":"1990-11-02 12:00:00","size":7245},
   {"hash":"a39bd234d404cc3f46e9ba9f3cf2cb4a","path":"/BMSCALLS.DL@","attr":"0x20","date":"1990-11-02 12:00:00","size":3376},
   {"hash":"e7ffb527c17c941d7fe0b33b78baf8ef","path":"/COM01.SY@","attr":"0x20","date":"1990-11-02 12:00:00","size":6180},

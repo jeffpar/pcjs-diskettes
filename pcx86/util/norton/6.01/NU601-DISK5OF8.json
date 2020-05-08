@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Disk 5of.8","attr":"0x08","date":"1991-08-13 11:49:32"},
+  {"path":"/Disk 5of8","attr":"0x08","date":"1991-08-13 11:49:32"},
   {"hash":"e48a57b5311f8b4be4b53f70919e0929","path":"/FILEFIND.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":74777},
   {"hash":"ba2e19c84b8a09970f6a9ddf975dff7d","path":"/IMAGE.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":11049},
   {"hash":"e482db45ff3bedba4a677b367bbc5903","path":"/LP.EXE","attr":"0x20","date":"1991-08-05 06:01:00","size":12793},

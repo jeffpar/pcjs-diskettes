@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.2","attr":"0x08","date":"1990-05-23 10:22:22"},
+  {"path":"/OS2 DISK 2","attr":"0x08","date":"1990-05-23 10:22:22"},
   {"hash":"7b352d0dd864348bba7295b7cc17e18d","path":"/BOOT.CO@","attr":"0x20","date":"1990-06-29 12:00:00","size":31447},
   {"hash":"bcd1a5bbe2540f30716dc73712aae36d","path":"/COM01.SY@","attr":"0x20","date":"1990-06-29 12:00:00","size":6281},
   {"hash":"60f2f96dd76b0cb95ece82b90f90c887","path":"/COM02.SY@","attr":"0x20","date":"1990-06-29 12:00:00","size":7090},

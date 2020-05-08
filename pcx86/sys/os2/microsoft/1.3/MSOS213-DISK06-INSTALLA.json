@@ -58,7 +58,7 @@
   {"hash":"51db7fdb1bafbc31bbfcd3ab25bd0b78","path":"/FLOPPY02.SYS","attr":"0x20","date":"1991-11-15 00:00:00","size":16644},
   {"hash":"a12c9eb177f338ed2470b28a62b50a37","path":"/HARDERR.EXE","attr":"0x20","date":"1991-11-15 00:00:00","size":11392,"module":{"name":"harderr","description":"IBM Personal Computer DOS  Version 0.00  Harderr","segments":{"1":{"offStart":368,"offEnd":642},"2":{"offStart":656,"offEnd":3175},"3":{"offStart":3504,"offEnd":11369},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"09404ab4566ce69899c7f2567e745390","path":"/HPFS.IFS","attr":"0x20","date":"1991-11-15 00:00:00","size":102842},
-  {"path":"/INSTALL.A","attr":"0x08","date":"1991-11-29 18:22:32"},
+  {"path":"/INSTALL A","attr":"0x08","date":"1991-11-29 18:22:32"},
   {"hash":"050a9f434249b07186d73063c414d271","path":"/IOCFG01.SYS","attr":"0x20","date":"1991-11-15 00:00:00","size":4607},
   {"hash":"bc44a2cd1cfa683fdae679797296fe49","path":"/IOCFG02.SYS","attr":"0x20","date":"1991-11-15 00:00:00","size":4607},
   {"hash":"75c26711994ba4da182f05b3422f4ab9","path":"/IORUN.SYS","attr":"0x20","date":"1991-11-15 00:00:00","size":1359},

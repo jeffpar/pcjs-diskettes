@@ -47,7 +47,7 @@
   {"path":"/SHOWDIB","attr":"0x10","date":"1990-06-01 09:23:54"},
   {"path":"/SHOWFONT","attr":"0x10","date":"1990-06-01 09:24:40"},
   {"path":"/TTY","attr":"0x10","date":"1990-06-01 09:25:06"},
-  {"path":"/WIN30SDK.08","attr":"0x28","date":"1990-06-01 09:30:42"},
+  {"path":"/WIN30SDK08","attr":"0x28","date":"1990-06-01 09:30:42"},
   {"path":"/HELPEX/.","attr":"0x10","date":"1990-06-01 09:25:54"},
   {"path":"/HELPEX/..","attr":"0x10","date":"1990-06-01 09:25:54"},
   {"hash":"d4ad96fab5c26bd936d2fe4fa5215901","path":"/HELPEX/BULLET.BMP","attr":"0x20","date":"1990-06-01 03:00:00","size":342},

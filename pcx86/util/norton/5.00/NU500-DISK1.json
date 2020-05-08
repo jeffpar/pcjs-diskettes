@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU 5.0 1.of6","attr":"0x08","date":"1990-09-25 17:07:24"},
+  {"path":"/NU 5.0 1of6","attr":"0x08","date":"1990-09-25 17:07:24"},
   {"hash":"edd3f0f1da0ddbbde7e7a0f15e995dd6","path":"/NDD.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":188062},
   {"hash":"ec89ab1dc04f54497efb9ece755e1687","path":"/UNERASE.EXE","attr":"0x20","date":"1990-09-25 17:00:00","size":171297}
 ],

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/UTILITIE.S","attr":"0x08","date":"1988-02-01 13:00:54"},
+  {"path":"/UTILITIES","attr":"0x08","date":"1988-02-01 13:00:54"},
   {"hash":"c80167951574b457c8b31b940dd55113","path":"/CVPACK.EXE","attr":"0x20","date":"1988-02-01 13:00:00","size":49400,"module":{"name":"CVPACK","description":"CVPACKP.EXE","segments":{"1":{"offStart":11264,"offEnd":43837},"2":{"offStart":44544,"offEnd":45038},"3":{"offStart":45056,"offEnd":48773},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"c6a86509dfb07ae576525e01332c9864","path":"/ERROUT.EXE","attr":"0x20","date":"1988-02-01 13:00:00","size":10729},
   {"hash":"ee878c7ab6f11681cd76dd756111ec67","path":"/EXEHDR.EXE","attr":"0x20","date":"1988-02-01 13:00:00","size":29942,"module":{"name":"EXEHDR","description":"EXEHDR.EXE","segments":{"1":{"offStart":11264,"offEnd":25609},"2":{"offStart":26112,"offEnd":29931},"254":{"offStart":0,"offEnd":0}}}},

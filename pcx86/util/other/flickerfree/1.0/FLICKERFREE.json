@@ -31,7 +31,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/FlickerF.ree","attr":"0x08","date":"1986-04-01 00:00:00"},
+  {"path":"/FlickerFree","attr":"0x08","date":"1986-04-01 00:00:00"},
   {"hash":"b3188ea3dc9b0b881c97a23328351d3e","path":"/FF.COM","attr":"0x20","date":"1986-04-01 00:00:00","size":22330},
   {"hash":"1fbf53d3871dc06d97fe92fa13e2950f","path":"/FPA.COM","attr":"0x20","date":"1986-04-01 00:00:00","size":5438},
   {"hash":"fc68d0795825c0e69ff2bac859648374","path":"/FFIX.COM","attr":"0x20","date":"1986-04-01 00:00:00","size":3590},

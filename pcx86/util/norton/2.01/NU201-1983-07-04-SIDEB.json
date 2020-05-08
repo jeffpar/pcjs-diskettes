@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/NU-2.01,.#2","attr":"0x08","date":"1983-07-04 14:01:00"},
+  {"path":"/NU-2.01, #2","attr":"0x08","date":"1983-07-04 14:01:00"},
   {"hash":"249840eaa685729aeac732e637e9cb43","path":"/HU.COM","attr":"0x20","date":"1983-07-04 14:01:00","size":27628},
   {"hash":"c377019bff908cb70b146af0b3b798c8","path":"/LABEL.COM","attr":"0x20","date":"1983-07-04 14:01:00","size":8340},
   {"hash":"bebac2ffa85e81ab46751ac17d4c1460","path":"/LPRINT.COM","attr":"0x20","date":"1983-07-04 14:01:00","size":24405},

@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/Norton 3..10","attr":"0x08","date":"1986-01-21 15:10:06"},
+  {"path":"/Norton 3.10","attr":"0x08","date":"1986-01-21 15:10:06"},
   {"hash":"b989f9487cab0e1a5d3c223a0baf387e","path":"/READ.ME","attr":"0x21","date":"1986-01-21 15:10:02","size":404},
   {"hash":"0d1ac336f73199ecb737654b60df175a","path":"/DEMO.BAT","attr":"0x21","date":"1986-01-21 15:10:02","size":2471},
   {"hash":"190ce5499109f2dfe7ceab3cc6831f90","path":"/BEEP.COM","attr":"0x21","date":"1986-01-21 15:10:02","size":2604},

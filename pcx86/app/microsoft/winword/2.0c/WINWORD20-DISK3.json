@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/WW20BUS1.44","attr":"0x28","date":"1992-08-31 06:00:00"},
+  {"path":"/WW20BUS144","attr":"0x28","date":"1992-08-31 06:00:00"},
   {"hash":"67d11eb8dad9f2d499dc3d4dc009b55e","path":"/ARTICLE2.DT$","attr":"0x20","date":"1992-08-31 12:00:00","size":6305},
   {"hash":"2704e35a038dcbd2e7577c32e9d96e11","path":"/DATAFILE.DT$","attr":"0x20","date":"1992-08-31 12:00:00","size":28024},
   {"hash":"c9e672727983266254c122c7ed10288c","path":"/DISSERT2.DT$","attr":"0x20","date":"1992-08-31 12:00:00","size":11944},

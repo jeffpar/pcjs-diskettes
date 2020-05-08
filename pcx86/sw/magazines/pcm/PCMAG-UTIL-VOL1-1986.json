@@ -33,7 +33,7 @@
 "fileTable": [
   {"hash":"4072783b8efb99a9e5817067d68f61c6","path":"/IBMBIO.COM","attr":"0x26","date":"1986-08-11 13:21:16","size":12288},
   {"hash":"cf845a781c107ec1346e849c9dd1b7e8","path":"/IBMDOS.COM","attr":"0x26","date":"1986-08-11 13:21:22","size":28672},
-  {"path":"/PC_UTILI.TY","attr":"0x28","date":"1986-07-28 12:55:16"},
+  {"path":"/PC_UTILITY","attr":"0x28","date":"1986-07-28 12:55:16"},
   {"hash":"7cc582f3069b71c44f52c998f80b0b49","path":"/BOOTSCRN","attr":"0x20","date":"1986-08-01 17:10:06","size":2048},
   {"hash":"915a216e5cc9d412b16cb9f12f09e8df","path":"/ATSIZE.COM","attr":"0x20","date":"1986-07-10 08:21:00","size":640},
   {"hash":"d7664a1e6c5fc750af90a9a9efbd9ea9","path":"/ATTR.COM","attr":"0x20","date":"1986-03-17 14:46:00","size":627},

@@ -36,7 +36,7 @@
   {"hash":"2e2e4ca4b25c7f898dcd7e51a7c3b1fc","path":"/MSDOS.SYS","attr":"0x27","date":"1995-07-11 09:50:00","size":4},
   {"hash":"ea923fa01468598ff2c54c90620fd450","path":"/COMMAND.COM","attr":"0x20","date":"1995-07-11 09:50:00","size":92870},
   {"hash":"0fbf3c72b014235bf332a08935a9689f","path":"/AUTOEXEC.BAT","attr":"0x20","date":"1995-07-11 09:50:00","size":25},
-  {"path":"/BOOT_DIS.K","attr":"0x28","date":"1995-07-13 08:40:20"},
+  {"path":"/BOOT_DISK","attr":"0x28","date":"1995-07-13 08:40:20"},
   {"hash":"75d99ecc0c692de4138568f2b04466f4","path":"/CONFIG.SYS","attr":"0x20","date":"1995-07-11 09:50:00","size":40},
   {"hash":"1d667ae36912bef3b1c373de2ff68af8","path":"/COUNTRY.SYS","attr":"0x20","date":"1995-07-11 09:50:00","size":27094},
   {"hash":"4b85a9ada7e4a77f61adcf5759f9dae1","path":"/DISPLAY.SYS","attr":"0x20","date":"1995-07-11 09:50:00","size":17175},

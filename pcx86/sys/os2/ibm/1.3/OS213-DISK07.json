@@ -32,7 +32,7 @@
   }
 ],
 "fileTable": [
-  {"path":"/OS2 DISK.6","attr":"0x08","date":"1990-11-02 12:00:00"},
+  {"path":"/OS2 DISK 6","attr":"0x08","date":"1990-11-02 12:00:00"},
   {"hash":"d17bc9e1a0bc977b65a17b62e942f6f4","path":"/DISK6.SCD","attr":"0x20","date":"1990-11-02 12:00:00","size":1740},
   {"hash":"b3db0673ec429ee3c217b23669d9716f","path":"/4201.DC@","attr":"0x20","date":"1990-11-02 12:00:00","size":5151},
   {"hash":"9431a69bbed0a033a86e2c1721fadb7d","path":"/5202.DC@","attr":"0x20","date":"1990-11-02 12:00:00","size":330},
