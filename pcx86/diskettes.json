@@ -1,0 +1,4823 @@
+{
+  "@server": "/diskettes",
+  "empty": {
+    "@hidden": true,
+    "@title": "Empty Diskettes",
+    "@versions": {
+      "": {
+        "@media": [
+          {
+            "@title": "Empty Diskette (160K)",
+            "@diskette": "EMPTY-160K.json",
+            "@format": "PC160K"
+          },
+          {
+            "@title": "Empty Diskette (320K)",
+            "@diskette": "EMPTY-320K.json",
+            "@format": "PC320K"
+          },
+          {
+            "@title": "Empty Diskette (180K)",
+            "@diskette": "EMPTY-180K.json",
+            "@format": "PC180K"
+          },
+          {
+            "@title": "Empty Diskette (360K)",
+            "@diskette": "EMPTY-360K.json",
+            "@format": "PC360K"
+          },
+          {
+            "@title": "Empty Diskette (720K)",
+            "@diskette": "EMPTY-720K.json",
+            "@format": "PC720K"
+          },
+          {
+            "@title": "Empty Diskette (1.2M)",
+            "@diskette": "EMPTY-1200K.json",
+            "@format": "PC1200K"
+          },
+          {
+            "@title": "Empty Diskette (1.44M)",
+            "@diskette": "EMPTY-1440K.json",
+            "@format": "PC1440K"
+          }
+        ]
+      }
+    }
+  },
+  "dev": {
+    "@title": "Devices",
+    "cdrom": {
+      "@title": "CD-ROM",
+      "@hidden": true,
+      "@versions": {
+        "dos": {
+          "@title": "CD-ROM DOS Drivers",
+          "@media": [
+            {
+              "@title": "DOS Drivers: ATAPI Boot",
+              "@diskette": "ATAPI-CDROM-BOOT.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "DOS Drivers: ATAPI CD-ROM",
+              "@diskette": "ATAPI-CDROM-DRIVERS.json",
+              "@format": "PC360K",
+              "@archive": "folder"
+            }
+          ]
+        }
+      }
+    },
+    "mouse": {
+      "@title": "Mouse",
+      "microsoft": {
+        "@title": "Microsoft Mouse",
+        "@versions": {
+          "2.00": {
+            "@title": "MS Mouse 2.00",
+            "@hardware": {
+              "config": "none",
+              "options": "mouse"
+            },
+            "@media": [
+              {
+                "@title": "MS Mouse 2.00",
+                "@diskette": "MSMOUSE-200--1983-12-31.json",
+                "@photo": ".jpg",
+                "@format": "PC320K"
+              }
+            ]
+          },
+          "2.50": {
+            "@title": "MS Mouse 2.50",
+            "@hardware": {
+              "config": "none",
+              "options": "mouse"
+            },
+            "@media": [
+              {
+                "@title": "MS Mouse 2.50 (Bus)",
+                "@diskette": "MSMOUSE-250.json",
+                "@photo": ".jpg",
+                "@format": "PC320K"
+              },
+              {
+                "@title": "MS Mouse 2.50 (Serial)",
+                "@diskette": "MSMOUSE-250-SERIAL.json",
+                "@format": "PC160K",
+                "@archive": "folder"
+              }
+            ]
+          },
+          "4.00": {
+            "@title": "MS Mouse 4.00",
+            "@hardware": {
+              "options": "mouse"
+            },
+            "@media": [
+              {
+                "@title": "MS Mouse 4.00 (SYSTEM)",
+                "@diskette": "MSMOUSE-000099-400-DISK1-SYSTEM.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS Mouse 4.00 (PROGRAM)",
+                "@diskette": "MSMOUSE-000099-400-DISK2-PROGRAM.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "5.00": {
+            "@title": "MS Mouse 5.00",
+            "@hardware": {
+              "options": "mouse"
+            },
+            "@media": [
+              {
+                "@title": "MS Mouse 5.00 (SYSTEM)",
+                "@diskette": "MSMOUSE-000199-500-DISK1-SYSTEM.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS Mouse 5.00 (PROGRAM)",
+                "@diskette": "MSMOUSE-000199-500-DISK2-PROGRAM.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "6.xx": {
+            "@title": "MS Mouse 6.xx",
+            "@hardware": {
+              "options": "mouse"
+            },
+            "@media": [
+              {
+                "@title": "MS Mouse 6.14 (SETUP)",
+                "@diskette": "MSMOUSE-614-SETUP.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS Mouse 6.24 (SETUP)",
+                "@diskette": "MSMOUSE-624-SETUP.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS Mouse 6.24 (PROGRAM)",
+                "@diskette": "MSMOUSE-624-PROGRAM.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS Mouse 6.24 (UTILITIES)",
+                "@diskette": "MSMOUSE-624-UTILITIES.json",
+                "@format": "PC360K"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rom": {
+      "@title": "ROM",
+      "ibm": {
+        "@title": "IBM PC ROMs",
+        "@versions": {
+          "5150": {
+            "@title": "IBM PC BIOS Sources",
+            "@media": [
+              {
+                "@title": "IBM PC BIOS Sources (V1)",
+                "@diskette": "IBM-BIOS-SRC-5150V1.json",
+                "@format": "PC320K",
+                "@archive": "folder",
+                "@label": "5150V1"
+              },
+              {
+                "@title": "IBM PC BIOS Sources (V2)",
+                "@diskette": "IBM-BIOS-SRC-5150V2.json",
+                "@format": "PC320K",
+                "@archive": "folder",
+                "@label": "5150V2"
+              },
+              {
+                "@title": "IBM PC BIOS Sources (V3)",
+                "@diskette": "IBM-BIOS-SRC-5150V3.json",
+                "@format": "PC320K",
+                "@archive": "folder",
+                "@label": "5150V3"
+              }
+            ]
+          },
+          "5160": {
+            "@title": "IBM PC XT BIOS Sources",
+            "@media": [
+              {
+                "@title": "IBM PC XT BIOS Sources (V1)",
+                "@diskette": "IBM-BIOS-SRC-5160V1.json",
+                "@format": "PC320K",
+                "@archive": "folder",
+                "@label": "5160V1"
+              },
+              {
+                "@title": "IBM PC XT BIOS Sources (V2)",
+                "@diskette": "IBM-BIOS-SRC-5160V2.json",
+                "@format": "PC360K",
+                "@archive": "folder",
+                "@label": "5160V2"
+              },
+              {
+                "@title": "IBM PC XT BIOS Sources (V3)",
+                "@diskette": "IBM-BIOS-SRC-5160V3.json",
+                "@format": "PC360K",
+                "@archive": "folder",
+                "@label": "5160V3"
+              }
+            ]
+          },
+          "5170": {
+            "@title": "IBM PC AT BIOS Sources",
+            "@media": [
+              {
+                "@title": "IBM PC AT BIOS Sources (V1)",
+                "@diskette": "IBM-BIOS-SRC-5170V1.json",
+                "@format": "PC1200K",
+                "@archive": "folder",
+                "@label": "5170V1"
+              },
+              {
+                "@title": "IBM PC AT BIOS Sources (V2)",
+                "@diskette": "IBM-BIOS-SRC-5170V2.json",
+                "@format": "PC1200K",
+                "@archive": "folder",
+                "@label": "5170V2"
+              },
+              {
+                "@title": "IBM PC AT BIOS Sources (V3)",
+                "@diskette": "IBM-BIOS-SRC-5170V3.json",
+                "@format": "PC1200K",
+                "@archive": "folder",
+                "@label": "5170V3"
+              }
+            ]
+          },
+          "ega": {
+            "@title": "IBM EGA BIOS Sources",
+            "@media": [
+              {
+                "@title": "IBM EGA BIOS Source (V1)",
+                "@diskette": "IBM-BIOS-SRC-EGAV1.json",
+                "@format": "PC1200K",
+                "@archive": "folder",
+                "@label": "EGAV1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "windows": {
+      "@title": "Windows",
+      "@hidden": true,
+      "@versions": {
+        "wincomm/1985": {
+          "@title": "Windows COMM Driver (1985)",
+          "@media": [
+            {
+              "@title": "WINCOMM",
+              "@diskette": "WINCOMM.json",
+              "@format": "PC360K"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "diag": {
+    "@title": "Diagnostics",
+    "compaq": {
+      "@title": "COMPAQ",
+      "@versions": {
+        "5.02": {
+          "@title": "COMPAQ Diagnostics 5.02",
+          "@hardware": {
+            "options": "compaq,deskpro386"
+          },
+          "@media": [
+            {
+              "@title": "COMPAQ Diagnostics 5.02",
+              "@diskette": "COMPAQ-DIAGS-502-051987-REVC.json",
+              "@photo": ".jpg",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "COMPAQ User Programs 5.02",
+              "@diskette": "COMPAQ-UTILS-502-052087-REVC.json",
+              "@photo": ".jpg",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "5.08": {
+          "@title": "COMPAQ Diagnostics 5.08",
+          "@bootable": true,
+          "@hardware": {
+            "options": "compaq,deskpro386"
+          },
+          "@media": [
+            {
+              "@diskette": "COMPAQ-DIAGS-508-012988-REVK.json",
+              "@photo": ".jpg",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "6.12": {
+          "@title": "COMPAQ Diagnostics 6.12",
+          "@bootable": true,
+          "@media": [
+            {
+              "@diskette": "COMPAQ-DIAGS-612-062189.json",
+              "@format": "PC720K"
+            }
+          ]
+        },
+        "1986": {
+          "@title": "COMPAQ DeskPro 386 (1986)",
+          "@bootable": true,
+          "@hardware": {
+            "options": "compaq,deskpro386"
+          },
+          "@media": [
+            {
+              "@diskette": "COMPAQ-DESKPRO386-SUPP-1986-08-08.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1987": {
+          "@title": "COMPAQ User Programs (1987)",
+          "@bootable": true,
+          "@hardware": {
+            "options": "compaq,deskpro386"
+          },
+          "@media": [
+            {
+              "@diskette": "COMPAQ-UTILS-506-110387-REVG.json",
+              "@photo": ".jpg",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1989": {
+          "@title": "COMPAQ User Programs (1989)",
+          "@bootable": true,
+          "@hardware": {
+            "options": "compaq,deskpro386"
+          },
+          "@media": [
+            {
+              "@diskette": "COMPAQ-UTILS-072789.json",
+              "@format": "PC720K"
+            }
+          ]
+        },
+        "1990": {
+          "@title": "COMPAQ SystemPro",
+          "@hardware": {
+            "options": "compaq,systempro"
+          },
+          "@media": [
+            {
+              "@title": "SystemPro Configuration Files 1.03",
+              "@diskette": "COMPAQ-CONFLIB-1.03-071090.json",
+              "@photo": ".jpg",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "SystemPro Diagnostics 7.08",
+              "@diskette": "COMPAQ-DIAGS-708-092590.json",
+              "@photo": ".jpg",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "SystemPro Owner Registration 3.05",
+              "@diskette": "COMPAQ-OWNREG-3.05-100890.json",
+              "@photo": ".jpg",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "SystemPro EISA Configuration 1.15",
+              "@diskette": "COMPAQ-SYSCONFIG-1.15-082790.json",
+              "@photo": ".jpg",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "SystemPro User Programs 7.05 (Disk 1)",
+              "@diskette": "COMPAQ-USER_1-7.05-092890.json",
+              "@photo": ".jpg",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "SystemPro User Programs 7.05 (Disk 2)",
+              "@diskette": "COMPAQ-USER_2-7.05-092890.json",
+              "@photo": ".jpg",
+              "@format": "PC1440K"
+            }
+          ]
+        }
+      }
+    },
+    "ibm": {
+      "@title": "IBM Diagnostics",
+      "5150": {
+        "@title": "IBM PC",
+        "@versions": {
+          "1.00": {
+            "@title": "IBM PC Diagnostics 1.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-DIAG-100.json",
+                "@format": "PC160K"
+              }
+            ]
+          },
+          "1.02": {
+            "@title": "IBM PC Diagnostics 1.02",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-DIAG-102.json",
+                "@format": "PC160K"
+              }
+            ]
+          },
+          "1.02A": {
+            "@title": "IBM PC Diagnostics 1.02 (Adv)",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-DIAG-102A.json",
+                "@format": "PC160K"
+              }
+            ]
+          },
+          "2.02": {
+            "@title": "IBM PC Diagnostics 2.02",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-DIAG-202.json",
+                "@format": "PC160K"
+              }
+            ]
+          },
+          "2.05": {
+            "@title": "IBM PC Diagnostics 2.05",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-DIAG-205.json",
+                "@photo": ".jpg",
+                "@format": "PC180K"
+              }
+            ]
+          },
+          "2.05A": {
+            "@title": "IBM PC Diagnostics 2.05 (Adv)",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-DIAG-205A.json",
+                "@photo": ".jpg",
+                "@format": "PC180K"
+              }
+            ]
+          },
+          "2.07": {
+            "@title": "IBM PC Diagnostics 2.07",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-DIAG-207.json",
+                "@format": "PC180K"
+              }
+            ]
+          },
+          "2.20A": {
+            "@title": "IBM PC Diagnostics 2.20 (Adv)",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5150-5155-5160-DIAG-220A.json",
+                "@format": "PC180K"
+              }
+            ]
+          }
+        }
+      },
+      "5170": {
+        "@title": "IBM PC AT",
+        "@versions": {
+          "1.01A": {
+            "@title": "IBM PC AT Diagnostics 1.01 (Adv)",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5170-DIAG-101A.json",
+                "@photo": ".jpg",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "1.02": {
+            "@title": "IBM PC AT Diagnostics 1.02",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5170-DIAG-102.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "2.00": {
+            "@title": "IBM PC AT Diagnostics 2.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5170-DIAG-200.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "2.07A": {
+            "@title": "IBM PC AT Diagnostics 2.07 (Adv)",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "5170-DIAG-207A.json",
+                "@format": "PC360K"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "sdk": {
+    "@title": "SDKs",
+    "os2": {
+      "@title": "OS/2 SDKs",
+      "microsoft": {
+        "@title": "Microsoft",
+        "@versions": {
+          "1.02": {
+            "@title": "MS OS/2 SDK 1.02",
+            "@media": [
+              {
+                "@title": "MS OS/2 SDK 1.02 (INSTALL)",
+                "@diskette": "MSOS2-SDK102-DISK01.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (PROGRAM)",
+                "@diskette": "MSOS2-SDK102-DISK02.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (SUPP)",
+                "@diskette": "MSOS2-SDK102-DISK03.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (TOOLKIT1)",
+                "@diskette": "MSOS2-SDK102-DISK04.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (TOOLKIT2)",
+                "@diskette": "MSOS2-SDK102-DISK05.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (UTILITY1)",
+                "@diskette": "MSOS2-SDK102-DISK06.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (UTILITY2)",
+                "@diskette": "MSOS2-SDK102-DISK07.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (CBIN1)",
+                "@diskette": "MSOS2-SDK102-DISK08.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (CBIN2)",
+                "@diskette": "MSOS2-SDK102-DISK09.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (CLIB1)",
+                "@diskette": "MSOS2-SDK102-DISK10.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (CLIB2)",
+                "@diskette": "MSOS2-SDK102-DISK11.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (MASM)",
+                "@diskette": "MSOS2-SDK102-DISK12.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (EXAMPLE1)",
+                "@diskette": "MSOS2-SDK102-DISK13.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (EXAMPLE2)",
+                "@diskette": "MSOS2-SDK102-DISK14.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 SDK 1.02 (NETWORK)",
+                "@diskette": "MSOS2-SDK102-DISK15.json",
+                "@format": "PC360K"
+              }
+            ],
+            "@documents": [
+              {
+                "@title": "MS OS/2 Programmer's Guide (1987 PRE)",
+                "@file": "MSOS2-1X-PROG-GUIDE-PRE-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heByLK4yD3LMUrUZeg?e=ZDS8vx",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/prog-guide-pre-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 Programmer's Reference (1987 PRE)",
+                "@file": "MSOS2-1X-PROG-REF-PRE-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBkzN9GkH4pGKLGUQ?e=fnCCp0",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/prog-ref-pre-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 Programmer's Reference (1987 UPD)",
+                "@file": "MSOS2-1X-PROG-REF-UPD-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heB4uBFyjS8qbAlE4Q?e=1FeQKt",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/prog-ref-upd-1987.pdf"
+              },
+              {
+                "@title": "Mixed-Language Programming Guide (1987)",
+                "@file": "MSOS2-1X-MIXED-LANG-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heB-zQ8KvVCz72fa5A?e=ghjkZ9",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/ms-c-5.0-rtl-os2-upd-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Utilities (1987 PRE)",
+                "@file": "MSOS2-1X-SDK-UTILS-PRE-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBxzQFYAMgKkv0mAw?e=3DlK1z",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/codeview-tools-pre-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Utilities (1987 PRE UPD)",
+                "@file": "MSOS2-1X-SDK-UTILS-PRE-UPD-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heB84U7oa6yvxEPDtA?e=0cdxuL",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/sdk-utils-pre-upd-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Utilities (1987)",
+                "@file": "MSOS2-1X-SDK-UTILS-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBoqwgG7GICG1lOhQ?e=OTpGqS",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/codeview-tools-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Utilities (1987 UPD)",
+                "@file": "MSOS2-1X-SDK-UTILS-UPD-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBq44aXH4eNRAsPng?e=Vacg3z",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/sdk-utils-upd-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Utilities (1988 UPD)",
+                "@file": "MSOS2-1X-SDK-UTILS-UPD-1988.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBp1qtO5yK6MkUiYA?e=Tq2D9J",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/sdk-utils-upd-1988.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Editor (1987 PRE)",
+                "@file": "MSOS2-1X-SDKED-PRE-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBrl3fCpQI7o_CQwg?e=xHCqkn",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/sdked-pre-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Editor (1987)",
+                "@file": "MSOS2-1X-SDKED-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBhiFg-xpbBxixJ5g?e=S2x5pU",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/sdked-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 SDK Editor User's Guide (1988)",
+                "@file": "MSOS2-1X-MSED-UGUIDE-1988.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBwZpUd3NsdaT-o0A?e=cUh5tH",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/msed-ug-1988.pdf"
+              },
+              {
+                "@title": "MS OS/2 Toolkit Welcome (1988)",
+                "@file": "MSOS2-1X-TOOLKIT-WELCOME-1988.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBhiFg-xpbBxixJ5g?e=hSG6kG",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210ptk/os2-1.0-ptk-welcome-1988.pdf"
+              },
+              {
+                "@title": "MS OS/2 Toolkit Tools (1988)",
+                "@file": "MSOS2-1X-TOOLKIT-TOOLS-1988.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBc72s8FJGmaDswYA?e=Jdf7O6",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210ptk/os2-1.0-ptk-tools-1988.pdf"
+              },
+              {
+                "@title": "MS OS/2 Toolkit Learning Guide (1988)",
+                "@file": "MSOS2-1X-TOOLKIT-LGUIDE-1988.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBbjwpQwUBA27h4Yg?e=TuJ18b",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210ptk/os2-1.0-ptk-lguide-1988.pdf"
+              },
+              {
+                "@title": "MS OS/2 Toolkit Reference (1988)",
+                "@file": "MSOS2-1X-TOOLKIT-PRGREF-1988.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBdhrbD40X4SFWKAw?e=UB7mdb",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210ptk/os2-1.0-ptk-prgref-1988.pdf"
+              },
+              {
+                "@title": "MS OS/2 Device Drivers Guide (1987 PRE)",
+                "@file": "MSOS2-1X-DDK-GUIDE-PRE-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heB_E2rigeNegTPjAw?e=c3S8RL",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/os2-1.0-ddk-pre-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 Device Drivers Guide (1987)",
+                "@file": "MSOS2-1X-DDK-GUIDE-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBed0ezBU5eN2z2jg?e=6lqfrD",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/os2-1.0-ddk-guide-1987.pdf"
+              },
+              {
+                "@title": "MS OS/2 Device Drivers Guide (1987 UPD)",
+                "@file": "MSOS2-1X-DDK-GUIDE-UPD-1987.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heBmG1h1dzstiTa0GA?e=KUf0UQ",
+                "@cover": ".jpg",
+                "@source": "http://www.os2museum.com/files/docs/os210sdk/os2-1.0-ddk-upd-1987.pdf"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "windows": {
+      "@title": "Windows SDKs",
+      "@versions": {
+        "1.01": {
+          "@title": "Windows SDK 1.01",
+          "@media": [
+            {
+              "@title": "Windows SDK 1.01 (Disk 1)",
+              "@diskette": "WINSDK101-DISK1-UTILITIES.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.01 (Disk 2)",
+              "@diskette": "WINSDK101-DISK2-LIBSMALL.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.01 (Disk 3)",
+              "@diskette": "WINSDK101-DISK3-LIBMEDIUM.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.01 (Disk 4)",
+              "@diskette": "WINSDK101-DISK4-LIBLARGE.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.01 (Disk 5)",
+              "@diskette": "WINSDK101-DISK5-LIBPASCAL.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.01 (Disk 6)",
+              "@diskette": "WINSDK101-DISK6-INCPIF.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.01 (Disk 7)",
+              "@diskette": "WINSDK101-DISK7-SAMPLES.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.01 (C UPDATE)",
+              "@diskette": "WINSDK101-CUPDATE.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows Runtime 1.01 (SETUP)",
+              "@diskette": "WINRUN101-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows Runtime 1.01 (BUILD)",
+              "@diskette": "WINRUN101-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows Runtime 1.01 (UTILITY)",
+              "@diskette": "WINRUN101-DISK3-UTILITIES.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows Runtime 1.01 (APPS)",
+              "@diskette": "WINRUN101-DISK4-SAMPLES.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1.03": {
+          "@title": "Windows SDK 1.03 ",
+          "@media": [
+            {
+              "@title": "Windows SDK 1.03 (Disk 1)",
+              "@diskette": "WINSDK103-DISK1-UTILS1.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.03 (Disk 2)",
+              "@diskette": "WINSDK103-DISK2-UTILS2.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.03 (Disk 3)",
+              "@diskette": "WINSDK103-DISK3-LIBC.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.03 (Disk 4)",
+              "@diskette": "WINSDK103-DISK4-LIBPASCAL.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.03 (Disk 5)",
+              "@diskette": "WINSDK103-DISK5-SYMBOLS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.03 (Disk 6)",
+              "@diskette": "WINSDK103-DISK6-SAMPLES1.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.03 (Disk 7)",
+              "@diskette": "WINSDK103-DISK7-SAMPLES2.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1.04": {
+          "@title": "Windows SDK 1.04",
+          "@media": [
+            {
+              "@title": "Windows SDK 1.04 (UTIL 1)",
+              "@diskette": "WINSDK104-DISK1-UTILS1.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.04 (UTIL 2)",
+              "@diskette": "WINSDK104-DISK2-UTILS2.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.04 (LIB C)",
+              "@diskette": "WINSDK104-DISK3-LIBC.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.04 (LIB PASCAL)",
+              "@diskette": "WINSDK104-DISK4-LIBPASCAL.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.04 (SYMBOLS)",
+              "@diskette": "WINSDK104-DISK5-SYMBOLS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.04 (SAMPLE1)",
+              "@diskette": "WINSDK104-DISK6-SAMPLES1.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows SDK 1.04 (SAMPLE2)",
+              "@diskette": "WINSDK104-DISK7-SAMPLES2.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "2.03": {
+          "@title": "Windows SDK 2.03",
+          "@hidden": true,
+          "@media": [
+            {
+              "@title": "Windows SDK 2.03 (Disk 1)",
+              "@diskette": "WINSDK203-DISK1-DEV.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows SDK 2.03 (Disk 2)",
+              "@diskette": "WINSDK203-DISK2-UTILS.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows SDK 2.03 (Disk 3)",
+              "@diskette": "WINSDK203-DISK3-SAMPLES.json",
+              "@format": "PC1200K"
+            }
+          ]
+        },
+        "3.00": {
+          "@title": "Windows SDK 3.00",
+          "@hidden": true,
+          "@media": [
+            {
+              "@title": "Windows SDK 3.00 (Disk 01)",
+              "@diskette": "WIN30SDK-DISK01.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 02)",
+              "@diskette": "WIN30SDK-DISK02.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 03)",
+              "@diskette": "WIN30SDK-DISK03.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 04)",
+              "@diskette": "WIN30SDK-DISK04.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 05)",
+              "@diskette": "WIN30SDK-DISK05.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 06)",
+              "@diskette": "WIN30SDK-DISK06.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 07)",
+              "@diskette": "WIN30SDK-DISK07.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 08)",
+              "@diskette": "WIN30SDK-DISK08.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 09)",
+              "@diskette": "WIN30SDK-DISK09.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows SDK 3.00 (Disk 10)",
+              "@diskette": "WIN30SDK-DISK10.json",
+              "@format": "PC720K"
+            }
+          ]
+        },
+        "3.10": {
+          "@title": "Windows SDK 3.10",
+          "@hidden": true,
+          "@media": [
+            {
+              "@title": "Windows SDK 3.10 (Disk 01)",
+              "@diskette": "WIN31SDK-DISK01.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 02)",
+              "@diskette": "WIN31SDK-DISK02.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 03)",
+              "@diskette": "WIN31SDK-DISK03.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 04)",
+              "@diskette": "WIN31SDK-DISK04.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 05)",
+              "@diskette": "WIN31SDK-DISK05.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 06)",
+              "@diskette": "WIN31SDK-DISK06.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 07)",
+              "@diskette": "WIN31SDK-DISK07.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 08)",
+              "@diskette": "WIN31SDK-DISK08.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 09)",
+              "@diskette": "WIN31SDK-DISK09.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 10)",
+              "@diskette": "WIN31SDK-DISK10.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows SDK 3.10 (Disk 11)",
+              "@diskette": "WIN31SDK-DISK11.json",
+              "@format": "PC1440K"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sys": {
+    "@title": "Systems",
+    "cpm": {
+      "@title": "CP/M-86",
+      "@versions": {
+        "1.00": {
+          "@title": "CP/M-86 1.00",
+          "@media": [
+            {
+              "@title": "IBM CP/M-86 1.00",
+              "@diskette": "IBM-CPM86-100.json",
+              "@format": "PC160K"
+            }
+          ]
+        },
+        "1.1b": {
+          "@title": "CP/M-86 1.1B",
+          "@media": [
+            {
+              "@title": "Eagle CP/M-86 1.1B (Disk 1)",
+              "@diskette": "CPM86-DISK1.json",
+              "@format": "PC320K"
+            },
+            {
+              "@title": "Eagle CP/M-86 1.1B (Disk 2)",
+              "@diskette": "CPM86-DISK2.json",
+              "@format": "PC320K"
+            },
+            {
+              "@title": "PCjs CP/M-86 (Disk 1)",
+              "@diskette": "CPM86-DISK1-PCJS.json",
+              "@format": "PC320K",
+              "@archive": ".dsk"
+            },
+            {
+              "@title": "PCjs CP/M-86 (Disk 2)",
+              "@diskette": "CPM86-DISK2-PCJS.json",
+              "@format": "PC320K",
+              "@archive": ".dsk"
+            }
+          ]
+        }
+      }
+    },
+    "dos": {
+      "@title": "DOS",
+      "compaq": {
+        "@title": "COMPAQ",
+        "@versions": {
+          "1.10": {
+            "@title": "COMPAQ MS-DOS 1.10",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 1.10 Rev B",
+                "@diskette": "COMPAQ-DOS110B.json",
+                "@photo": ".jpg",
+                "@format": "PC320K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 1.10 Rev E",
+                "@diskette": "COMPAQ-DOS110E.json",
+                "@photo": ".jpg",
+                "@format": "PC320K"
+              }
+            ],
+            "@documents": [
+              {
+                "@title": "COMPAQ MS-DOS Reference Guide (Dec 1982)",
+                "@file": "COMPAQ_MS-DOS_Reference_Guide_1982-12.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEYeGrszUBthjRnkg",
+                "@cover": ".jpg",
+                "@source": "PCjs"
+              },
+              {
+                "@title": "COMPAQ BASIC Reference Guide (Dec 1982)",
+                "@file": "COMPAQ_BASIC_Reference_Guide_1982-12.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEZTO1wyEcsBJ1Njg",
+                "@cover": ".jpg",
+                "@source": "PCjs"
+              }
+            ]
+          },
+          "1.11": {
+            "@title": "COMPAQ MS-DOS 1.11",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 1.11",
+                "@diskette": "COMPAQ-DOS111.json",
+                "@format": "PC320K"
+              }
+            ]
+          },
+          "1.12": {
+            "@title": "COMPAQ MS-DOS 1.12",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 1.12",
+                "@diskette": "COMPAQ-DOS112.json",
+                "@format": "PC320K"
+              }
+            ]
+          },
+          "2.11": {
+            "@title": "COMPAQ MS-DOS 2.11",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 2.11",
+                "@diskette": "COMPAQ-DOS211.json",
+                "@format": "PC360K"
+              }
+            ],
+            "@documents": [
+              {
+                "@title": "COMPAQ MS-DOS Version 2 Reference Guide (Oct 1984)",
+                "@file": "COMPAQ_MS-DOS_Version_2_Reference_Guide_1984-10.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEdqkIuA2P-Pu5H3Q",
+                "@cover": ".jpg",
+                "@source": "PCjs"
+              },
+              {
+                "@title": "COMPAQ BASIC Version 2 Reference Guide (Oct 1984)",
+                "@file": "COMPAQ_BASIC_Version_2_Reference_Guide_1984-10.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEf6q02GrNLZPiW9A",
+                "@cover": ".jpg",
+                "@source": "PCjs"
+              },
+              {
+                "@title": "COMPAQ Operations Guide (Oct 1984)",
+                "@file": "COMPAQ_Operations_Guide_1984-10.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEh-kj32tUiZmeiug",
+                "@cover": ".jpg",
+                "@source": "PCjs"
+              }
+            ]
+          },
+          "2.12": {
+            "@title": "COMPAQ MS-DOS 2.12",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 2.12",
+                "@diskette": "COMPAQ-DOS212.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.00": {
+            "@title": "COMPAQ MS-DOS 3.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 3.00 (Disk 1)",
+                "@diskette": "COMPAQ-DOS300-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.00 (Disk 2)",
+                "@diskette": "COMPAQ-DOS300-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.10": {
+            "@title": "COMPAQ MS-DOS 3.10",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (Disk 1)",
+                "@diskette": "COMPAQ-DOS310-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (Disk 2)",
+                "@diskette": "COMPAQ-DOS310-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (12-17-85)",
+                "@diskette": "COMPAQ-DOS310-PERSONAL.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "COMPAQ PC DOS 3.20 Support",
+                "@diskette": "COMPAQ-PCDOS320-SUPP.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.31": {
+            "@title": "COMPAQ MS-DOS 3.31",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "COMPAQ MS-DOS 3.31 (Disk 1)",
+                "@diskette": "COMPAQ-DOS331-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.31 (Disk 2)",
+                "@diskette": "COMPAQ-DOS331-DISK2.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.31 (Disk 3)",
+                "@diskette": "COMPAQ-DOS331-DISK3.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.31G (Disk 1)",
+                "@diskette": "COMPAQ-DOS331-REVG-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.31G (Disk 2)",
+                "@diskette": "COMPAQ-DOS331-REVG-DISK2.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.31G (Disk 3)",
+                "@diskette": "COMPAQ-DOS331-REVG-DISK3.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.31 (1987)",
+                "@diskette": "COMPAQ-DOS331-1987.json",
+                "@format": "PC1200K"
+              }
+            ]
+          }
+        }
+      },
+      "dresearch": {
+        "@title": "Digital Research",
+        "@versions": {
+          "3.31": {
+            "@title": "DR DOS 3.31",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 3.31",
+                "@diskette": "DRDOS331.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.32": {
+            "@title": "DR DOS 3.32",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 3.32",
+                "@diskette": "DRDOS332.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.33": {
+            "@title": "DR DOS 3.33",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 3.33",
+                "@diskette": "DRDOS333.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.34": {
+            "@title": "DR DOS 3.34",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 3.34",
+                "@diskette": "DRDOS334.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.40": {
+            "@title": "DR DOS 3.40",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 3.40 (Disk 1)",
+                "@diskette": "DRDOS340-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 3.40 (Disk 2)",
+                "@diskette": "DRDOS340-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.41": {
+            "@title": "DR DOS 3.41",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 3.41 (Disk 1)",
+                "@diskette": "DRDOS341-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 3.41 (Disk 2)",
+                "@diskette": "DRDOS341-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "5.00": {
+            "@title": "DR DOS 5.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 5.00 (Disk 1)",
+                "@diskette": "DRDOS500-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 5.00 (Disk 2)",
+                "@diskette": "DRDOS500-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 5.00 (Disk 3)",
+                "@diskette": "DRDOS500-DISK3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 5.00 (Disk 4)",
+                "@diskette": "DRDOS500-DISK4.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "6.00": {
+            "@title": "DR DOS 6.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "DR DOS 6.00 (360K Disk 1)",
+                "@diskette": "DRDOS600-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (360K Disk 2)",
+                "@diskette": "DRDOS600-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (360K Disk 3)",
+                "@diskette": "DRDOS600-DISK3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (360K Disk 4)",
+                "@diskette": "DRDOS600-DISK4.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (360K Disk 5)",
+                "@diskette": "DRDOS600-DISK5.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (360K Disk 6)",
+                "@diskette": "DRDOS600-DISK6.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (1.2M StartUp)",
+                "@diskette": "DRDOS600-STARTUP.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "DR DOS 6.00 (1.2M ViewMAX)",
+                "@diskette": "DRDOS600-VIEWMAX.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "DR DOS 6.00 (1991 Update 1)",
+                "@diskette": "DRDOS600-UPDATE-1991-12-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (1991 Update 2)",
+                "@diskette": "DRDOS600-UPDATE-1991-12-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (1992 Update 1)",
+                "@diskette": "DRDOS600-UPDATE-1992-04-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 6.00 (1992 Update 2)",
+                "@diskette": "DRDOS600-UPDATE-1992-04-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          }
+        }
+      },
+      "ibm": {
+        "@title": "IBM",
+        "@versions": {
+          "0.90": {
+            "@title": "PC DOS 0.90",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "PCDOS090.json",
+                "@format": "PC160K"
+              }
+            ]
+          },
+          "1.00": {
+            "@title": "PC DOS 1.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "PCDOS100.json",
+                "@format": "PC160K"
+              }
+            ],
+            "@documents": [
+              {
+                "@title": "IBM PC Disk Operating System 1.00",
+                "@file": "IBM_PC_DOS_100_6172220_1982-01.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEi84GkvjPy-tDSwQ?e=xnTObo",
+                "@cover": ".jpg",
+                "@source": ""
+              }
+            ]
+          },
+          "1.10": {
+            "@title": "PC DOS 1.10",
+            "@bootable": true,
+            "@media": [
+              {
+                "@diskette": "PCDOS110.json",
+                "@format": "PC160K"
+              }
+            ],
+            "@documents": [
+              {
+                "@title": "IBM PC Disk Operating System 1.10",
+                "@file": "IBM_PC_DOS_110_1982-05.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEj1CyrhetlatOblw?e=Typ1Pm",
+                "@cover": ".jpg",
+                "@source": "PCjs"
+              },
+              {
+                "@title": "IBM Personal Computer BASIC 1.10",
+                "@file": "IBM_PC_BASIC_110_1982-05.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqEkirObzIHz6seCgw?e=g83PKw",
+                "@cover": ".jpg",
+                "@source": "PCjs"
+              }
+            ]
+          },
+          "2.00": {
+            "@title": "PC DOS 2.00",
+            "@bootable": true,
+            "@hardware": {
+              "machine": "/machines/pcx86/ibm/5160/cga/"
+            },
+            "@todo": "Need an Explorer UI option that defaults to the software's own page, but also allows you to launch it with an appropriate hardware url; for now, the hardware 'url' is disabled, by renaming it to 'machine' instead.",
+            "@media": [
+              {
+                "@title": "PC DOS 2.00 (Disk 1)",
+                "@diskette": "PCDOS200-DISK1.json",
+                "@format": "PC180K"
+              },
+              {
+                "@title": "PC DOS 2.00 (Disk 2)",
+                "@diskette": "PCDOS200-DISK2.json",
+                "@format": "PC180K"
+              }
+            ],
+            "@documents": [
+              {
+                "@title": "IBM PC Disk Operating System 2.00",
+                "@file": "IBM_PC_DOS_200_1983-01.pdf",
+                "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9heM4flDGLNdR1f_90w?e=0WbXAb",
+                "@cover": ".jpg",
+                "@source": "http://bitsavers.org/pdf/ibm/pc/dos/6936752_DOS_2.00_Jan83.pdf"
+              }
+            ]
+          },
+          "2.10": {
+            "@title": "PC DOS 2.10",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 2.10 (Disk 1)",
+                "@diskette": "PCDOS210-DISK1.json",
+                "@format": "PC180K"
+              },
+              {
+                "@title": "PC DOS 2.10 (Disk 2)",
+                "@diskette": "PCDOS210-DISK2.json",
+                "@format": "PC180K"
+              }
+            ]
+          },
+          "3.00": {
+            "@title": "PC DOS 3.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 3.00 (Disk 1)",
+                "@diskette": "PCDOS300-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 3.00 (Disk 2)",
+                "@diskette": "PCDOS300-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.10": {
+            "@title": "PC DOS 3.10",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 3.10 (Disk 1)",
+                "@diskette": "PCDOS310-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 3.10 (Disk 2)",
+                "@diskette": "PCDOS310-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 3.10 (Patched Disk 1)",
+                "@diskette": "PCDOS310-DISK1-PATCHED.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.20": {
+            "@title": "PC DOS 3.20",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 3.20 (Disk 1)",
+                "@diskette": "PCDOS320-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 3.20 (Disk 2)",
+                "@diskette": "PCDOS320-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 3.20 (720K)",
+                "@diskette": "PCDOS320-720K-DISK1.json",
+                "@format": "PC720K"
+              }
+            ]
+          },
+          "3.30": {
+            "@title": "PC DOS 3.30",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 3.30 (Disk 1)",
+                "@diskette": "PCDOS330-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 3.30 (Disk 2)",
+                "@diskette": "PCDOS330-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 3.30 (720K)",
+                "@diskette": "PCDOS330-720K-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "PC DOS 3.30 (TechRef)",
+                "@diskette": "PCDOS330-TECHREF.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "4.00": {
+            "@title": "PC DOS 4.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 4.00 (Disk 1)",
+                "@diskette": "PCDOS400-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 4.00 (Disk 2)",
+                "@diskette": "PCDOS400-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 4.00 (Disk 3)",
+                "@diskette": "PCDOS400-DISK3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 4.00 (Disk 4)",
+                "@diskette": "PCDOS400-DISK4.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 4.00 (Disk 5)",
+                "@diskette": "PCDOS400-DISK5.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "PC DOS 4.00 (TechRef)",
+                "@diskette": "PCDOS400-TECHREF.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "4.01": {
+            "@title": "PC DOS 4.01",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 4.01 (Disk 1)",
+                "@diskette": "PCDOS401-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "PC DOS 4.01 (Disk 2)",
+                "@diskette": "PCDOS401-DISK2.json",
+                "@format": "PC720K"
+              }
+            ]
+          },
+          "5.00": {
+            "@title": "PC DOS 5.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 5.00 (Disk 1)",
+                "@diskette": "PCDOS500-720K-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "PC DOS 5.00 (Disk 2)",
+                "@diskette": "PCDOS500-720K-DISK2.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "PC DOS 5.00 (Disk 3)",
+                "@diskette": "PCDOS500-720K-DISK3.json",
+                "@format": "PC720K"
+              }
+            ]
+          },
+          "5.02": {
+            "@title": "PC DOS 5.02",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 5.02 (Disk 1)",
+                "@diskette": "PCDOS502-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "PC DOS 5.02 (Disk 2)",
+                "@diskette": "PCDOS502-DISK2.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "PC DOS 5.02 (Disk 3)",
+                "@diskette": "PCDOS502-DISK3.json",
+                "@format": "PC720K"
+              }
+            ]
+          },
+          "6.10": {
+            "@title": "PC DOS 6.10",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 6.10 (Disk 1)",
+                "@diskette": "PCDOS610-1440K-DISK1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 6.10 (Disk 2)",
+                "@diskette": "PCDOS610-1440K-DISK2.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 6.10 (Disk 3)",
+                "@diskette": "PCDOS610-1440K-DISK3.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 6.10 (Disk 4)",
+                "@diskette": "PCDOS610-1440K-DISK4.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "6.30": {
+            "@title": "PC DOS 6.30",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 6.30 (Disk 1)",
+                "@diskette": "PCDOS630-1440K-DISK1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 6.30 (Disk 2)",
+                "@diskette": "PCDOS630-1440K-DISK2.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 6.30 (Disk 3)",
+                "@diskette": "PCDOS630-1440K-DISK3.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 6.30 (Disk 4)",
+                "@diskette": "PCDOS630-1440K-DISK4.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 6.30 (Disk 5)",
+                "@diskette": "PCDOS630-1440K-DISK5.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "7.00": {
+            "@title": "PC DOS 7.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "PC DOS 7.00 (Disk 1)",
+                "@diskette": "PCDOS700-DISK1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "PC DOS 7.00 (Disk 2)",
+                "@diskette": "PCDOS700-DISK2.json",
+                "@format": "PC1840K"
+              },
+              {
+                "@title": "PC DOS 7.00 (Disk 3)",
+                "@diskette": "PCDOS700-DISK3.json",
+                "@format": "PC1840K"
+              },
+              {
+                "@title": "PC DOS 7.00 (Disk 4)",
+                "@diskette": "PCDOS700-DISK4.json",
+                "@format": "PC1840K"
+              },
+              {
+                "@title": "PC DOS 7.00 (Disk 5)",
+                "@diskette": "PCDOS700-DISK5.json",
+                "@format": "PC1840K"
+              },
+              {
+                "@title": "PC DOS 7.00 (1.2M Boot)",
+                "@diskette": "PCDOS700-1200K.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "PC DOS 7.00 (1.44M Boot)",
+                "@diskette": "PCDOS700-1440K.json",
+                "@format": "PC1440K"
+              }
+            ]
+          }
+        }
+      },
+      "microsoft": {
+        "@title": "MS-DOS",
+        "@versions": {
+          "2.00": {
+            "@title": "MS-DOS 2.00",
+            "@media": [
+              {
+                "@title": "MS-DOS 2.00 OEM (Disk 1)",
+                "@diskette": "MSDOS200-OEM-DISK1.json",
+                "@format": "PC160K"
+              },
+              {
+                "@title": "MS-DOS 2.00 OEM (Disk 2)",
+                "@diskette": "MSDOS200-OEM-DISK2.json",
+                "@format": "PC160K"
+              },
+              {
+                "@title": "MS-DOS 2.00 OEM (Disk 3)",
+                "@diskette": "MSDOS200-OEM-DISK3.json",
+                "@format": "PC160K"
+              },
+              {
+                "@title": "MS-DOS 2.00 OEM (Disk 4)",
+                "@diskette": "MSDOS200-OEM-DISK4.json",
+                "@format": "PC160K"
+              },
+              {
+                "@title": "MS-DOS 2.00 OEM (Disk 5)",
+                "@diskette": "MSDOS200-OEM-DISK5.json",
+                "@format": "PC160K"
+              }
+            ]
+          },
+          "3.20": {
+            "@title": "MS-DOS 3.20",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 3.20 (Disk 1)",
+                "@diskette": "MSDOS320-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 3.20 (Disk 2)",
+                "@diskette": "MSDOS320-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 3.20 (ProgRef 1)",
+                "@diskette": "MSDOS320-DISK3-PROGREF1.json",
+                "@photo": ".jpg",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 3.20 (ProgRef 2)",
+                "@diskette": "MSDOS320-DISK4-PROGREF2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.21": {
+            "@title": "MS-DOS 3.21",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 3.21 (Disk 1)",
+                "@diskette": "MSDOS321-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 3.21 (Disk 2)",
+                "@diskette": "MSDOS321-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.30": {
+            "@title": "MS-DOS 3.30",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 3.30 (Disk 1)",
+                "@diskette": "MSDOS330-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 3.30 (Disk 2)",
+                "@diskette": "MSDOS330-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "3.31": {
+            "@title": "MS-DOS 3.31",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 3.31 (1.44M Disk)",
+                "@diskette": "MSDOS331-1440K.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "4.00": {
+            "@title": "MS-DOS 4.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 4.00 (Disk 1)",
+                "@diskette": "MSDOS400-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.00 (Disk 2)",
+                "@diskette": "MSDOS400-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.00 (Disk 3)",
+                "@diskette": "MSDOS400-DISK3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.00 (Disk 4)",
+                "@diskette": "MSDOS400-DISK4.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.00 (Disk 5)",
+                "@diskette": "MSDOS400-DISK5.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.00 (Disk 6)",
+                "@diskette": "MSDOS400-DISK6.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "4.01": {
+            "@title": "MS-DOS 4.01",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 4.01 (360K Disk 1)",
+                "@diskette": "MSDOS401-360K-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (360K Disk 2)",
+                "@diskette": "MSDOS401-360K-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (360K Disk 3)",
+                "@diskette": "MSDOS401-360K-DISK3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (360K Disk 4)",
+                "@diskette": "MSDOS401-360K-DISK4.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (360K Disk 5)",
+                "@diskette": "MSDOS401-360K-DISK5.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (360K Disk 6)",
+                "@diskette": "MSDOS401-360K-DISK6.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (720K Disk 1)",
+                "@diskette": "MSDOS401-720K-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (720K Disk 2)",
+                "@diskette": "MSDOS401-720K-DISK2.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS-DOS 4.01 (720K Disk 3)",
+                "@diskette": "MSDOS401-720K-DISK3.json",
+                "@format": "PC720K"
+              }
+            ]
+          },
+          "4.0M": {
+            "@title": "MS-DOS 4.0M",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 4.0M (Disk 1)",
+                "@diskette": "MSDOS400M-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 4.0M (Disk 2)",
+                "@diskette": "MSDOS400M-DISK2.json",
+                "@format": "PC360K"
+              }
+            ]
+          },
+          "5.00": {
+            "@title": "MS-DOS 5.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 5.00 (360K Disk 1)",
+                "@diskette": "MSDOS500-360K-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 5.00 (360K Disk 2)",
+                "@diskette": "MSDOS500-360K-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 5.00 (360K Disk 3)",
+                "@diskette": "MSDOS500-360K-DISK3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 5.00 (360K Disk 4)",
+                "@diskette": "MSDOS500-360K-DISK4.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 5.00 (360K Disk 5)",
+                "@diskette": "MSDOS500-360K-DISK5.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MS-DOS 5.00 (720K Disk 1)",
+                "@diskette": "MSDOS500-720K-DISK1.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS-DOS 5.00 (720K Disk 2)",
+                "@diskette": "MSDOS500-720K-DISK2.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS-DOS 5.00 (720K Disk 3)",
+                "@diskette": "MSDOS500-720K-DISK3.json",
+                "@format": "PC720K"
+              }
+            ]
+          },
+          "6.00": {
+            "@title": "MS-DOS 6.00",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 6.00 (1.2M Disk 1)",
+                "@diskette": "MSDOS600-1200K-DISK1.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.00 (1.2M Disk 2)",
+                "@diskette": "MSDOS600-1200K-DISK2.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.00 (1.2M Disk 3)",
+                "@diskette": "MSDOS600-1200K-DISK3.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.00 (1.2M Disk 4)",
+                "@diskette": "MSDOS600-1200K-DISK4.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.00 (1.44M Disk 1)",
+                "@diskette": "MSDOS600-1440K-DISK1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.00 (1.44M Disk 2)",
+                "@diskette": "MSDOS600-1440K-DISK2.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.00 (1.44M Disk 3)",
+                "@diskette": "MSDOS600-1440K-DISK3.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "6.20": {
+            "@title": "MS-DOS 6.20",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 6.20 (1.2M Disk 1)",
+                "@diskette": "MSDOS620-1200K-DISK1.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.2M Disk 2)",
+                "@diskette": "MSDOS620-1200K-DISK2.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.2M Disk 3)",
+                "@diskette": "MSDOS620-1200K-DISK3.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.2M Disk 4)",
+                "@diskette": "MSDOS620-1200K-DISK4.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.2M Supp)",
+                "@diskette": "MSDOS620-1200K-SUPPDISK.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.44M Disk 1)",
+                "@diskette": "MSDOS620-1440K-DISK1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.44M Disk 2)",
+                "@diskette": "MSDOS620-1440K-DISK2.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.44M Disk 3)",
+                "@diskette": "MSDOS620-1440K-DISK3.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.20 (1.44M Supp)",
+                "@diskette": "MSDOS620-1440K-SUPPDISK.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "6.22": {
+            "@title": "MS-DOS 6.22",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "MS-DOS 6.22 (1.2M Boot)",
+                "@diskette": "MSDOS622-1200K-BOOT.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.2M Disk 1)",
+                "@diskette": "MSDOS622-1200K-DISK1.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.2M Disk 2)",
+                "@diskette": "MSDOS622-1200K-DISK2.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.2M Disk 3)",
+                "@diskette": "MSDOS622-1200K-DISK3.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.2M Disk 4)",
+                "@diskette": "MSDOS622-1200K-DISK4.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.44M Disk 1)",
+                "@diskette": "MSDOS622-1440K-DISK1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.44M Disk 2)",
+                "@diskette": "MSDOS622-1440K-DISK2.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.44M Disk 3)",
+                "@diskette": "MSDOS622-1440K-DISK3.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS-DOS 6.22 (1.44M Supp)",
+                "@diskette": "MSDOS622-1440K-SUPPDISK.json",
+                "@format": "PC1440K"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ext": {
+      "@title": "DOS Extensions",
+      "ibm": {
+        "@title": "IBM",
+        "topview": {
+          "@title": "TopView",
+          "@versions": {
+            "1.00": {
+              "@title": "TopView 1.00",
+              "@media": [
+                {
+                  "@title": "IBM TopView 1.00 (Program)",
+                  "@diskette": "TOPVIEW100-PROGRAM.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "IBM TopView 1.00 (Tutorial)",
+                  "@diskette": "TOPVIEW100-TUTORIAL.json",
+                  "@format": "PC360K"
+                }
+              ]
+            },
+            "1.01": {
+              "@title": "TopView 1.01",
+              "@media": [
+                {
+                  "@title": "IBM TopView 1.01 (Program)",
+                  "@diskette": "TOPVIEW101-PROGRAM.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "IBM TopView 1.01 (Tutorial)",
+                  "@diskette": "TOPVIEW101-TUTORIAL.json",
+                  "@format": "PC360K"
+                }
+              ]
+            },
+            "1.10": {
+              "@title": "TopView 1.10",
+              "@media": [
+                {
+                  "@title": "IBM TopView 1.10",
+                  "@diskette": "TOPVIEW110.json",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "microsoft": {
+        "@title": "Microsoft",
+        "dosmgr": {
+          "@title": "MS-DOS Manager",
+          "@versions": {
+            "1.00": {
+              "@title": "MS-DOS Manager 1.00",
+              "@autoType": "\\r\\rB:\\rMANAGER\\r",
+              "@hardware": {
+                "machine": "/machines/pcx86/ibm/5170/cga/"
+              },
+              "@media": [
+                {
+                  "@title": "MS-DOS Manager 1.00",
+                  "@diskette": "MSDOSMGR100.json",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "quarterdeck": {
+        "@title": "Quarterdeck",
+        "desqview": {
+          "@title": "DESQview",
+          "@versions": {
+            "1.02": {
+              "@title": "DESQview 1.02",
+              "@media": [
+                {
+                  "@title": "DESQview 1.02",
+                  "@diskette": "DESQVIEW-102.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K"
+                }
+              ],
+              "@documents": [
+                {
+                  "@title": "DESQview 1.02 (AST Edition)",
+                  "@file": "DESQVIEW-102-AST.pdf",
+                  "@link": "https://1drv.ms/b/s!ArcO_mFRe1Z9gqF0lnH5iJKNMTatvA?e=QD3Sxl",
+                  "@cover": ".jpg",
+                  "@source": "OS/2 Museum"
+                }
+              ]
+            }
+          }
+        },
+        "qemm386": {
+          "@title": "QEMM-386",
+          "@versions": {
+            "4.10": {
+              "@title": "QEMM-386 4.10",
+              "@hardware": {
+                "options": "compaq,deskpro386",
+                "autoType": ""
+              },
+              "@media": [
+                {
+                  "@title": "QEMM-386 4.10",
+                  "@diskette": "QEMM386-410.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K"
+                }
+              ]
+            },
+            "4.23": {
+              "@title": "QEMM-386 4.23",
+              "@hardware": {
+                "options": "compaq,deskpro386",
+                "autoType": ""
+              },
+              "@media": [
+                {
+                  "@title": "QEMM-386 4.23",
+                  "@diskette": "QEMM386-423.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K"
+                }
+              ]
+            },
+            "5.13": {
+              "@title": "QEMM-386 5.13",
+              "@hardware": {
+                "options": "compaq,deskpro386",
+                "autoType": ""
+              },
+              "@media": [
+                {
+                  "@title": "QEMM-386 5.13",
+                  "@diskette": "QEMM386-513.json",
+                  "@format": "PC720K"
+                }
+              ]
+            },
+            "6.02": {
+              "@title": "QEMM-386 6.02",
+              "@hardware": {
+                "options": "compaq,deskpro386",
+                "autoType": ""
+              },
+              "@media": [
+                {
+                  "@title": "QEMM-386 6.02",
+                  "@diskette": "QEMM386-602.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "softlogic": {
+        "@title": "SoftLogic",
+        "carousel": {
+          "@title": "Software Carousel",
+          "@versions": {
+            "2.0.3": {
+              "@title": "Software Carousel 2.0.3",
+              "@media": [
+                {
+                  "@title": "Software Carousel 2.0.3",
+                  "@diskette": "SOFTWARE-CAROUSEL-203.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K",
+                  "@kryoflux": true,
+                  "@args": "--suppData=/software/pcx86/sys/ext/softlogic/carousel/2.0.3/index.md"
+                }
+              ]
+            },
+            "3.0.1": {
+              "@title": "Software Carousel 3.0.1",
+              "@media": [
+                {
+                  "@title": "Software Carousel 3.0.1",
+                  "@diskette": "SOFTWARE-CAROUSEL-301.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        },
+        "doubledos": {
+          "@title": "DoubleDOS",
+          "@versions": {
+            "2.1": {
+              "@title": "DoubleDOS 2.1",
+              "@media": [
+                {
+                  "@title": "DoubleDOS 2.1",
+                  "@diskette": "DOUBLEDOS.json",
+                  "@format": "PC360K",
+                  "@kryoflux": true,
+                  "@args": "--suppData=/software/pcx86/sys/ext/softlogic/doubledos/2.1/index.md"
+                  }
+              ]
+            },
+            "2.1f": {
+              "@title": "DoubleDOS 2.1F",
+              "@media": [
+                {
+                  "@title": "DoubleDOS 2.1F",
+                  "@diskette": "DOUBLEDOS-21F.json",
+                  "@format": "PC160K"
+                }
+              ]
+            },
+            "2.1v": {
+              "@title": "DoubleDOS 2.1V",
+              "@media": [
+                {
+                  "@title": "DoubleDOS 2.1V (Disk 1)",
+                  "@diskette": "DOUBLEDOS-21V-DISK1.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K",
+                  "@kryoflux": true
+                },
+                {
+                  "@title": "DoubleDOS 2.1V (Disk 2)",
+                  "@diskette": "DOUBLEDOS-21V-DISK2.json",
+                  "@format": "PC360K",
+                  "@kryoflux": true
+                }
+              ]
+            }
+          }
+        },
+        "optimizer": {
+          "@title": "Disk Optimizer",
+          "@versions": {
+            "2.0.3": {
+              "@title": "Disk Optimizer 2.0.3",
+              "@media": [
+                {
+                  "@title": "Disk Optimizer 2.0.3",
+                  "@diskette": "DISK-OPTIMIZER.json",
+                  "@photo": ".jpg",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "other": {
+        "@title": "Other",
+        "omniview": {
+          "@title": "Omniview 386",
+          "@versions": {
+            "4.30": {
+              "@title": "Omniview 386 4.30",
+              "@media": [
+                {
+                  "@title": "Omniview 386 4.30",
+                  "@diskette": "OMNIVIEW386-430.json",
+                  "@format": "PC1200K",
+                  "@archive": "folder",
+                  "@label": "OMNIVIEW386"
+                }
+              ]
+            }
+          }
+        },
+        "homebase": {
+          "@title": "HomeBase",
+          "@versions": {
+            "1.04A": {
+              "@title": "HomeBase 1.04A",
+              "@media": [
+                {
+                  "@title": "HomeBase 1.04A",
+                  "@diskette": "HOMEBASE-104A.json",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "os2": {
+      "@title": "OS/2",
+      "ibm": {
+        "@title": "IBM OS/2",
+        "@versions": {
+          "1.0": {
+            "@title": "IBM OS/2 1.0",
+            "@media": [
+              {
+                "@title": "IBM OS/2 1.0 (Install)",
+                "@diskette": "OS210-INSTALL.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.0 (Disk 1)",
+                "@diskette": "OS210-DISK1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.0 (Disk 2)",
+                "@diskette": "OS210-DISK2.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.0 (Disk 3)",
+                "@diskette": "OS210-DISK3.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "1.1": {
+            "@title": "IBM OS/2 1.1",
+            "@media": [
+              {
+                "@title": "IBM OS/2 1.1 (Install)",
+                "@diskette": "OS211-INSTALL.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.1 (Disk 1)",
+                "@diskette": "OS211-DISK01.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.1 (Disk 2)",
+                "@diskette": "OS211-DISK02.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.1 (Disk 3)",
+                "@diskette": "OS211-DISK03.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.1 (Disk 4)",
+                "@diskette": "OS211-DISK04.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.1 (Devices)",
+                "@diskette": "OS211-DEVICES.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.1 (Printers)",
+                "@diskette": "OS211-PRINTERS.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "1.2": {
+            "@title": "IBM OS/2 1.2",
+            "@media": [
+              {
+                "@title": "IBM OS/2 1.2 (Disk 1)",
+                "@diskette": "OS212-DISK01.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.2 (Disk 2)",
+                "@diskette": "OS212-DISK02.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.2 (Disk 3)",
+                "@diskette": "OS212-DISK03.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.2 (Disk 4)",
+                "@diskette": "OS212-DISK04.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.2 (Disk 5)",
+                "@diskette": "OS212-DISK05.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.2 (Install)",
+                "@diskette": "OS212-DISK06-INSTALL.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.2 (Driver 1)",
+                "@diskette": "OS212-DISK07-DRIVER1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.2 (Driver 2)",
+                "@diskette": "OS212-DISK08-DRIVER2.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "1.3": {
+            "@title": "IBM OS/2 1.3",
+            "@media": [
+              {
+                "@title": "IBM OS/2 1.3 (Install)",
+                "@diskette": "OS213-DISK01.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Disk 1)",
+                "@diskette": "OS213-DISK02.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Disk 2)",
+                "@diskette": "OS213-DISK03.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Disk 3)",
+                "@diskette": "OS213-DISK04.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Disk 4)",
+                "@diskette": "OS213-DISK05.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Disk 5)",
+                "@diskette": "OS213-DISK06.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Disk 6)",
+                "@diskette": "OS213-DISK07.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Driver 1)",
+                "@diskette": "OS213-DISK08.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Driver 2)",
+                "@diskette": "OS213-DISK09.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "IBM OS/2 1.3 (Fonts)",
+                "@diskette": "OS213-DISK10.json",
+                "@format": "PC1440K"
+              }
+            ]
+          }
+        }
+      },
+      "microsoft": {
+        "@title": "MS OS/2",
+        "@versions": {
+          "1.0": {
+            "@title": "MS OS/2 1.0",
+            "@media": [
+              {
+                "@title": "MS OS/2 1.0 (1.2M Install)",
+                "@diskette": "MSOS210-INSTALL.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS OS/2 1.0 (1.2M Program)",
+                "@diskette": "MSOS210-PROGRAM.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MS OS/2 1.0 (1.2M Supplemental)",
+                "@diskette": "MSOS210-SUPP.json",
+                "@format": "PC1200K"
+              }
+            ]
+          },
+          "1.1": {
+            "@title": "MS OS/2 1.1",
+            "@hidden": true,
+            "@media": [
+              {
+                "@title": "MS OS/2 1.1 (Disk 1)",
+                "@diskette": "MSOS211-DISK01.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.1 (Disk 2)",
+                "@diskette": "MSOS211-DISK02.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.1 (Disk 3)",
+                "@diskette": "MSOS211-DISK03.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.1 (Disk 4)",
+                "@diskette": "MSOS211-DISK04.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.1 (Drivers)",
+                "@diskette": "MSOS211-DISK05-DRIVERS.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.1 (Dual Boot)",
+                "@diskette": "MSOS211-DISK06-DUALBOOT.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.1 (Install)",
+                "@diskette": "MSOS211-DISK07-INSTALL.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.1 (LanMan DOS)",
+                "@diskette": "MSOS211-DISK08-LANMAN-DOS.json",
+                "@format": "PC720K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (LanMan OS/2 1)",
+                "@diskette": "MSOS211-DISK09-LANMAN-OS2-1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (LanMan OS/2 2)",
+                "@diskette": "MSOS211-DISK10-LANMAN-OS2-2.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "1.2": {
+            "@title": "MS OS/2 1.21",
+            "@hidden": true,
+            "@media": [
+              {
+                "@title": "MS OS/2 1.21 (Disk 1)",
+                "@diskette": "MSOS2121-DISK01.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Disk 2)",
+                "@diskette": "MSOS2121-DISK02.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Disk 3)",
+                "@diskette": "MSOS2121-DISK03.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Disk 4)",
+                "@diskette": "MSOS2121-DISK04.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Disk 5)",
+                "@diskette": "MSOS2121-DISK05.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Install A)",
+                "@diskette": "MSOS2121-DISK06-INSTALLA.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Install B)",
+                "@diskette": "MSOS2121-DISK07-INSTALLB.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Driver 1)",
+                "@diskette": "MSOS2121-DISK08-DRIVER1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.21 (Driver 2)",
+                "@diskette": "MSOS2121-DISK09-DRIVER2.json",
+                "@format": "PC1440K"
+              }
+            ]
+          },
+          "1.3": {
+            "@title": "MS OS/2 1.3",
+            "@hidden": true,
+            "@media": [
+              {
+                "@title": "MS OS/2 1.3 (Disk 1)",
+                "@diskette": "MSOS213-DISK01.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Disk 2)",
+                "@diskette": "MSOS213-DISK02.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Disk 3)",
+                "@diskette": "MSOS213-DISK03.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Disk 4)",
+                "@diskette": "MSOS213-DISK04.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Disk 5)",
+                "@diskette": "MSOS213-DISK05.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Install A)",
+                "@diskette": "MSOS213-DISK06-INSTALLA.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Install B)",
+                "@diskette": "MSOS213-DISK07-INSTALLB.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Supplemental)",
+                "@diskette": "MSOS213-DISK08-SUPP.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Driver 1)",
+                "@diskette": "MSOS213-DISK09-DRIVER1.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Driver 2)",
+                "@diskette": "MSOS213-DISK10-DRIVER2.json",
+                "@format": "PC1440K"
+              },
+              {
+                "@title": "MS OS/2 1.3 (Font)",
+                "@diskette": "MSOS213-DISK11-FONT.json",
+                "@format": "PC1440K"
+              }
+            ]
+          }
+        }
+      },
+      "misc": {
+        "@title": "OS/2 Prototype Disks",
+        "@versions": {
+          "86295": {
+            "@title": "OS/2 CP-DOS (v7.68)",
+            "@media": [
+              {
+                "@title": "OS/2 CP-DOS (v7.68)",
+                "@diskette": "286DOS-76800.json",
+                "@format": "PC1200K"
+              }
+            ]
+          },
+          "87007": {
+            "@title": "OS/2 SIZZLE (v7.68.18)",
+            "@media": [
+              {
+                "@title": "OS/2 SIZZLE (v7.68.18)",
+                "@diskette": "SIZZLE-76818-19870107.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "OS/2 SIZZLE (v7.68.18 DEBUG)",
+                "@diskette": "SIZZLE-76818-19870107-DEBUG.json",
+                "@format": "PC1200K"
+              }
+            ]
+          },
+          "87058": {
+            "@title": "OS/2 FOOTBALL (v7.68.17)",
+            "@media": [
+              {
+                "@title": "OS/2 FOOTBALL (v7.68.17)",
+                "@diskette": "FOOTBALL-76817.json",
+                "@format": "PC1200K"
+              }
+            ]
+          },
+          "87357": {
+            "@title": "OS/2 FOOTBALL (v4.41.00)",
+            "@media": [
+              {
+                "@title": "OS/2 FOOTBALL (v4.41.00)",
+                "@diskette": "FOOTBALL-44100.json",
+                "@format": "PC1200K"
+              }
+            ]
+          },
+          "88286": {
+            "@title": "OS/2 1.0 Debugger (1988)",
+            "@media": [
+              {
+                "@title": "OS/2 1.0 Debugger (1988)",
+                "@diskette": "OS210-88286.json",
+                "@format": "PC1200K"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "unix": {
+      "@title": "UNIX",
+      "ibm": {
+        "@title": "IBM",
+        "pcix": {
+          "@title": "PC/IX",
+          "@versions": {
+            "1.0": {
+              "@title": "PC/IX 1.0",
+              "@media": [
+                {
+                  "@title": "PC/IX 1.0 (MAINT)",
+                  "@diskette": "01MAINT.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE1)",
+                  "@diskette": "02CORE1.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE2)",
+                  "@diskette": "03CORE2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE3)",
+                  "@diskette": "04CORE3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE4)",
+                  "@diskette": "05CORE4.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE5)",
+                  "@diskette": "06CORE5.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE6)",
+                  "@diskette": "07CORE6.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE7)",
+                  "@diskette": "08CORE7.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (CORE8)",
+                  "@diskette": "09CORE8.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (PROG1)",
+                  "@diskette": "10PROG1.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (PROG2)",
+                  "@diskette": "11PROG2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (PROG3)",
+                  "@diskette": "12PROG3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (PROG4)",
+                  "@diskette": "13PROG4.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (COMMS)",
+                  "@diskette": "14COMMS.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (SCCS)",
+                  "@diskette": "15SCCS.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (TEXT)",
+                  "@diskette": "16TEXT.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (SPECIA)",
+                  "@diskette": "17SPECIA.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (GAMES)",
+                  "@diskette": "18GAMES.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "PC/IX 1.0 (ACCNT)",
+                  "@diskette": "19ACCNT.json",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        },
+        "xenix": {
+          "@title": "XENIX",
+          "@versions": {
+            "1.0": {
+              "@title": "XENIX 1.0",
+              "@media": [
+                {
+                  "@title": "IBM XENIX 1.0 (BOOT)",
+                  "@diskette": "IBM-XENIX-100-BOOT.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (BASE1)",
+                  "@diskette": "IBM-XENIX-100-BASE1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (BASE2)",
+                  "@diskette": "IBM-XENIX-100-BASE2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (BASE3)",
+                  "@diskette": "IBM-XENIX-100-BASE3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (SDK1)",
+                  "@diskette": "IBM-XENIX-100-SDK1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (SDK2)",
+                  "@diskette": "IBM-XENIX-100-SDK2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (SDK3)",
+                  "@diskette": "IBM-XENIX-100-SDK3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (TEXT)",
+                  "@diskette": "IBM-XENIX-100-TEXT.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (EXT1)",
+                  "@diskette": "IBM-XENIX-100-EXT1.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 1.0 (EXT2)",
+                  "@diskette": "IBM-XENIX-100-EXT2.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                }
+              ]
+            },
+            "2.0": {
+              "@title": "XENIX 2.0",
+              "@media": [
+                {
+                  "@title": "IBM XENIX 2.0 (INSTALL)",
+                  "@diskette": "IBM-XENIX-200-INSTALL.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 2.0 (DISK1)",
+                  "@diskette": "IBM-XENIX-200-DISK1.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 2.0 (DISK2)",
+                  "@diskette": "IBM-XENIX-200-DISK2.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 2.0 (DISK3)",
+                  "@diskette": "IBM-XENIX-200-DISK3.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 2.0 (SDK1)",
+                  "@diskette": "IBM-XENIX-200-SDK1.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 2.0 (SDK2)",
+                  "@diskette": "IBM-XENIX-200-SDK2.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "IBM XENIX 2.0 (SDK3)",
+                  "@diskette": "IBM-XENIX-200-SDK3.json",
+                  "@photo": ".jpg",
+                  "@format": "PC1200K"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "microport": {
+        "@title": "Microport",
+        "system-v": {
+          "@title": "AT&T UNIX System V-AT",
+          "@versions": {
+            "2.3": {
+              "@title": "AT&T UNIX System V-AT 2.3",
+              "@media": [
+                {
+                  "@title": "UNIX System V Boot Disk",
+                  "@diskette": "SYSTEMV23-DISK01.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Runtime (Disk 1)",
+                  "@diskette": "SYSTEMV23-DISK02.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Runtime (Disk 2)",
+                  "@diskette": "SYSTEMV23-DISK03.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Runtime (Disk 3)",
+                  "@diskette": "SYSTEMV23-DISK04.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Runtime Utilities",
+                  "@diskette": "SYSTEMV23-DISK05.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Runtime System",
+                  "@diskette": "SYSTEMV23-DISK06.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Runtime Link Kit",
+                  "@diskette": "SYSTEMV23-DISK07.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Software (Disk 1)",
+                  "@diskette": "SYSTEMV23-DISK08.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Software (Disk 2)",
+                  "@diskette": "SYSTEMV23-DISK09.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Software (Disk 3)",
+                  "@diskette": "SYSTEMV23-DISK10.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Software (Disk 4)",
+                  "@diskette": "SYSTEMV23-DISK11.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Software Upgrade",
+                  "@diskette": "SYSTEMV23-DISK12.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Text Prep (Disk 1)",
+                  "@diskette": "SYSTEMV23-DISK13.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Text Prep (Disk 2)",
+                  "@diskette": "SYSTEMV23-DISK14.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "UNIX System V Text Prep (Disk 3)",
+                  "@diskette": "SYSTEMV23-DISK15.json",
+                  "@format": "PC1200K"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "minix": {
+        "@title": "MINIX",
+        "@versions": {
+          "1.1": {
+            "@title": "MINIX 1.1",
+            "@media": [
+              {
+                "@title": "MINIX 1.1 (1.2M Disk 1: Boot)",
+                "@diskette": "MINIX11-1200K-DISK1-BOOT.json",
+                "@photo": ".jpg",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MINIX 1.1 (1.2M Disk 2: Root)",
+                "@diskette": "MINIX11-1200K-DISK2-ROOT.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MINIX 1.1 (1.2M Disk 3: Usr+User)",
+                "@diskette": "MINIX11-1200K-DISK3-USR.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MINIX 1.1 (1.2M Disk 4: Sources)",
+                "@diskette": "MINIX11-1200K-DISK4-KERNEL.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MINIX 1.1 (1.2M Disk 5: Sources)",
+                "@diskette": "MINIX11-1200K-DISK5-TOOLS.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 1: Boot)",
+                "@diskette": "MINIX11-360K-DISK1-BOOT.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 2: Root)",
+                "@diskette": "MINIX11-360K-DISK2-ROOT.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 3: Usr)",
+                "@diskette": "MINIX11-360K-DISK3-USR.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 4: User)",
+                "@diskette": "MINIX11-360K-DISK4-USER.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 5: Sources)",
+                "@diskette": "MINIX11-360K-DISK5-SRC1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 6: Sources)",
+                "@diskette": "MINIX11-360K-DISK6-SRC2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 7: Sources)",
+                "@diskette": "MINIX11-360K-DISK7-SRC3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "MINIX 1.1 (360K Disk 8: Sources)",
+                "@diskette": "MINIX11-360K-DISK8-SRC4.json",
+                "@format": "PC360K"
+              }
+            ]
+          }
+        }
+      },
+      "qnx": {
+        "@title": "QNX",
+        "@versions": {
+          "1.1": {
+            "@title": "QNX 1.1",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "QNX 1.1 DEMO",
+                "@diskette": "QNX11-DEMO.json",
+                "@format": "Unknown"
+              }
+            ]
+          },
+          "1.2": {
+            "@title": "QNX 1.2",
+            "@bootable": true,
+            "@media": [
+              {
+                "@title": "QNX 1.2 BOOT",
+                "@diskette": "QNX12-BOOT.json",
+                "@format": "Unknown"
+              },
+              {
+                "@title": "QNX 1.2 C COMPILER",
+                "@diskette": "QNX12-CC.json",
+                "@format": "Unknown"
+              },
+              {
+                "@title": "QNX 1.2 DOS FSYS",
+                "@diskette": "QNX12-DOSFSYS.json",
+                "@format": "Unknown"
+              },
+              {
+                "@title": "QNX 1.2 DOS FSYSB",
+                "@diskette": "QNX12-DOSFSYSB.json",
+                "@format": "Unknown"
+              },
+              {
+                "@title": "QNX 1.2 QDOS2",
+                "@diskette": "QNX12-QDOS2.json",
+                "@format": "Unknown"
+              },
+              {
+                "@title": "QNX 1.2 UTILITIES",
+                "@diskette": "QNX12-UTILS.json",
+                "@format": "Unknown"
+              }
+            ]
+          }
+        }
+      },
+      "sco": {
+        "@title": "SCO",
+        "xenix/086": {
+          "@title": "Xenix 8086",
+          "@versions": {
+            "2.1.3": {
+              "@title": "Xenix 8086 2.1.3",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 8086 (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (N3)",
+                  "@diskette": "N3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (N4)",
+                  "@diskette": "N4.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (N5)",
+                  "@diskette": "N5.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (N6)",
+                  "@diskette": "N6.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (B2)",
+                  "@diskette": "B2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (B3)",
+                  "@diskette": "B3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (X4)",
+                  "@diskette": "X4.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (X5)",
+                  "@diskette": "X5.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (X6)",
+                  "@diskette": "X6.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 8086 (GAMES)",
+                  "@diskette": "GAMES.json",
+                  "@format": "PC360K"
+                }
+              ]
+            }
+          }
+        },
+        "xenix/286": {
+          "@title": "Xenix 286",
+          "@versions": {
+            "2.1.3": {
+              "@title": "Xenix 286 2.1.3",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (N3)",
+                  "@diskette": "N3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (N4)",
+                  "@diskette": "N4.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (N5)",
+                  "@diskette": "N5.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (B2)",
+                  "@diskette": "B2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (B3)",
+                  "@diskette": "B3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (X4)",
+                  "@diskette": "X4.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (X5)",
+                  "@diskette": "X5.json",
+                  "@format": "PC360K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.1.3 (X6)",
+                  "@diskette": "X6.json",
+                  "@format": "PC360K"
+                }
+              ]
+            },
+            "2.2.1e": {
+              "@title": "Xenix 286 2.2.1e",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 286 2.2.1e (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.1e (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.1e (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.1e (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.1e (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.1e (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC1200K"
+                }
+              ]
+            },
+            "2.2.3b": {
+              "@title": "Xenix 286 2.2.3b",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (D1)",
+                  "@diskette": "D1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (D2)",
+                  "@diskette": "D2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (D3)",
+                  "@diskette": "D3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (D4)",
+                  "@diskette": "D4.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (GAMES)",
+                  "@diskette": "GAMES.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (GSS-CGI2)",
+                  "@diskette": "GSS-CGI2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.2.3b (GSS-CGI3)",
+                  "@diskette": "GSS-CGI3.json",
+                  "@format": "PC1200K"
+                }
+              ]
+            },
+            "2.3.2d": {
+              "@title": "Xenix 286 2.3.2d",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (N3)",
+                  "@diskette": "N3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (B2)",
+                  "@diskette": "B2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (X4)",
+                  "@diskette": "X4.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 286 2.3.2d (GAMES)",
+                  "@diskette": "GAMES.json",
+                  "@format": "PC1200K"
+                }
+              ]
+            }
+          }
+        },
+        "xenix/386": {
+          "@title": "Xenix 386",
+          "@versions": {
+            "2.2.3b": {
+              "@title": "Xenix 386 2.2.3b",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (N3)",
+                  "@diskette": "N3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.2.3b (GAMES)",
+                  "@diskette": "GAMES.json",
+                  "@format": "PC1200K"
+                }
+              ]
+            },
+            "2.3.2f": {
+              "@title": "Xenix 386 2.3.2f",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (N3)",
+                  "@diskette": "N3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (B2)",
+                  "@diskette": "B2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (X4)",
+                  "@diskette": "X4.json",
+                  "@format": "PC1200K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.2f (GAMES)",
+                  "@diskette": "GAMES.json",
+                  "@format": "PC1200K"
+                }
+              ]
+            },
+            "2.3.4h": {
+              "@title": "Xenix 386 2.3.4h",
+              "@media": [
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (N1-BOOT)",
+                  "@diskette": "N1-BOOT.json",
+                  "@format": "PC1440K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (N2)",
+                  "@diskette": "N2.json",
+                  "@format": "PC1440K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (B1)",
+                  "@diskette": "B1.json",
+                  "@format": "PC1440K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (X1)",
+                  "@diskette": "X1.json",
+                  "@format": "PC1440K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (X2)",
+                  "@diskette": "X2.json",
+                  "@format": "PC1440K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (X3)",
+                  "@diskette": "X3.json",
+                  "@format": "PC1440K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (X4)",
+                  "@diskette": "X4.json",
+                  "@format": "PC1440K"
+                },
+                {
+                  "@title": "SCO Xenix 386 2.3.4h (GAMES)",
+                  "@diskette": "GAMES.json",
+                  "@format": "PC1440K"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "windows": {
+      "@title": "Windows",
+      "@versions": {
+        "1.00": {
+          "@title": "Microsoft Windows 1.00",
+          "@media": [
+            {
+              "@title": "Windows 1.00 (SETUP)",
+              "@diskette": "WIN100-DISK1.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.00 (BUILD)",
+              "@diskette": "WIN100-DISK2.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.00 (UTILITY)",
+              "@diskette": "WIN100-DISK3.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.00 (APPS)",
+              "@diskette": "WIN100-DISK4.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1.01": {
+          "@title": "Microsoft Windows 1.01",
+          "@media": [
+            {
+              "@title": "Windows 1.01 (SETUP)",
+              "@diskette": "WIN101-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.01 (BUILD)",
+              "@diskette": "WIN101-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.01 (UTILITY)",
+              "@diskette": "WIN101-DISK3-UTILITY.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.01 (APPS)",
+              "@diskette": "WIN101-DISK4-APPS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.01 (WRITE)",
+              "@diskette": "WIN101-DISK5-WRITE.json",
+              "@format": "PC360K"
+            }
+          ],
+          "@demos": {
+            "cga": {
+              "@title": "Windows 1.01 (CGA)",
+              "@bootable": true,
+              "@hardware": {
+                "url": "/machines/pcx86/ibm/5160/cga/"
+              },
+              "@state": "PCDOS200-WIN101-CGA-STATE.json",
+              "@media": [
+                {
+                  "@name": "PC DOS 2.00 with Windows 1.01 (CGA)",
+                  "@harddisk": "PCDOS200-WIN101-CGA-DISK",
+                  "@type": "3",
+                  "@size": "10Mb"
+                }
+              ]
+            },
+            "ega": {
+              "@title": "Windows 1.01 (EGA)",
+              "@bootable": true,
+              "@hardware": {
+                "url": "/machines/pcx86/ibm/5160/ega/debugger/?sizeRAM=640"
+              },
+              "@state": "PCDOS200-WIN101-EGA-STATE.json",
+              "@media": [
+                {
+                  "@name": "PC DOS 2.00 with Windows 1.01 (EGA)",
+                  "@harddisk": "PCDOS200-WIN101-EGA-DISK",
+                  "@type": "3",
+                  "@size": "10Mb"
+                }
+              ],
+              "@note": "The final path for each piece of media shall be formed by the key hierarchy (eg, /pcx86/sys/dos/ibm/2.00/) and the predefined media server (eg, https://harddisks.pcjs.org)"
+            }
+          }
+        },
+        "1.02": {
+          "@title": "Microsoft Windows 1.02",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows 1.02 (SETUP)",
+              "@diskette": "WIN102-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.02 (BUILD)",
+              "@diskette": "WIN102-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.02 (UTILITY)",
+              "@diskette": "WIN102-DISK3-UTILITY.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.02 (FONT)",
+              "@diskette": "WIN102-DISK4-FONT.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.02 (APPS)",
+              "@diskette": "WIN102-DISK5-APPS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.02 (WRITE)",
+              "@diskette": "WIN102-DISK6-WRITE.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1.03": {
+          "@title": "Microsoft Windows 1.03",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows 1.03 (SETUP)",
+              "@diskette": "WIN103-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03 (BUILD)",
+              "@diskette": "WIN103-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03 (UTILITY)",
+              "@diskette": "WIN103-DISK3-UTILITY.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03 (FONT)",
+              "@diskette": "WIN103-DISK4-FONT.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03 (APPS)",
+              "@diskette": "WIN103-DISK5-APPS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03 (PROGRAM)",
+              "@diskette": "WIN103-DISK6-PROGRAM.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1.03a": {
+          "@title": "Microsoft Windows 1.03a",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows 1.03a (SETUP)",
+              "@diskette": "WIN103A-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03a (BUILD)",
+              "@diskette": "WIN103A-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03a (UTILITY)",
+              "@diskette": "WIN103A-DISK3-UTILITY.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03a (FONT)",
+              "@diskette": "WIN103A-DISK4-FONT.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03a (APPS)",
+              "@diskette": "WIN103A-DISK5-APPS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03a (PROGRAM)",
+              "@diskette": "WIN103A-DISK6-PROGRAM.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03a (SYMBOLS A)",
+              "@diskette": "WIN103A-DISK7-SYMBOLSA.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03a (SYMBOLS B)",
+              "@diskette": "WIN103A-DISK8-SYMBOLSB.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1.03b": {
+          "@title": "Microsoft Windows 1.03b",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows 1.03b (SETUP)",
+              "@diskette": "WIN103B-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03b (BUILD)",
+              "@diskette": "WIN103B-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03b (UTILITY)",
+              "@diskette": "WIN103B-DISK3-UTILITY.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03b (FONT)",
+              "@diskette": "WIN103B-DISK4-FONT.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03b (APPS)",
+              "@diskette": "WIN103B-DISK5-APPS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.03b (PROGRAM)",
+              "@diskette": "WIN103B-DISK6-PROGRAM.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "1.04": {
+          "@title": "Microsoft Windows 1.04",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows 1.04 (SETUP)",
+              "@diskette": "WIN104-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.04 (BUILD)",
+              "@diskette": "WIN104-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.04 (UTILITY)",
+              "@diskette": "WIN104-DISK3-UTILITY.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.04 (FONT)",
+              "@diskette": "WIN104-DISK4-FONT.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.04 (APPS)",
+              "@diskette": "WIN104-DISK5-APPS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.04 (PROGRAM)",
+              "@diskette": "WIN104-DISK6-PROGRAM.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 1.04 (SUPP)",
+              "@diskette": "WIN104-DISK7-SUPPDRV.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "2.03": {
+          "@title": "Microsoft Windows 2.03",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows 2.03 (SETUP)",
+              "@diskette": "WIN203-DISK1-SETUP.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (BUILD)",
+              "@diskette": "WIN203-DISK2-BUILD.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (DISPLAYS)",
+              "@diskette": "WIN203-DISK3-DISPLAYS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (UTILS 1)",
+              "@diskette": "WIN203-DISK4-UTILS1.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (UTILS 2)",
+              "@diskette": "WIN203-DISK5-UTILS2.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (FONTS 1)",
+              "@diskette": "WIN203-DISK6-FONTS1.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (FONTS 2)",
+              "@diskette": "WIN203-DISK7-FONTS2.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (APPS)",
+              "@diskette": "WIN203-DISK8-APPS.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Windows 2.03 (PROGRAM)",
+              "@diskette": "WIN203-DISK9-PROGRAM.json",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "2.0x": {
+          "@title": "Microsoft Windows/386 2.0x",
+          "@media": [
+            {
+              "@title": "Windows/386 2.01 (Disk 1)",
+              "@diskette": "WIN201-386-DISK1.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.01 (Disk 2)",
+              "@diskette": "WIN201-386-DISK2.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.01 (Disk 3)",
+              "@diskette": "WIN201-386-DISK3.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.03 (SETUP)",
+              "@diskette": "WIN203-386-DISK1.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows/386 2.03 (UTILITY)",
+              "@diskette": "WIN203-386-DISK2.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows/386 2.03 (FONTS)",
+              "@diskette": "WIN203-386-DISK3.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows/386 2.03 (PROGRAM)",
+              "@diskette": "WIN203-386-DISK4.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows/386 2.03 (UTILITY 2)",
+              "@diskette": "WIN203-386-DISK5.json",
+              "@format": "PC720K"
+            }
+          ]
+        },
+        "2.10": {
+          "@title": "Microsoft Windows/386 2.10",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows/386 2.10 (SETUP)",
+              "@diskette": "WIN210-386-DISK1.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.10 (UTILS 1)",
+              "@diskette": "WIN210-386-DISK2.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.10 (UTILS 2)",
+              "@diskette": "WIN210-386-DISK3.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.10 (DISPLAYS)",
+              "@diskette": "WIN210-386-DISK4.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.10 (FONTS)",
+              "@diskette": "WIN210-386-DISK5.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.10 (APPS)",
+              "@diskette": "WIN210-386-DISK6.json",
+              "@format": "PC1200K"
+            }
+          ]
+        },
+        "2.11": {
+          "@title": "Microsoft Windows 2.11",
+          "@hardware": {
+            "config": "none"
+          },
+          "@media": [
+            {
+              "@title": "Windows/286 2.11 (SETUP)",
+              "@diskette": "WIN211-286-DISK1.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/286 2.11 (UTIL 1)",
+              "@diskette": "WIN211-286-DISK2.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/286 2.11 (UTIL 2)",
+              "@diskette": "WIN211-286-DISK3.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/286 2.11 (APPS)",
+              "@diskette": "WIN211-286-DISK4.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.11 (SETUP)",
+              "@diskette": "WIN211-386-DISK1.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.11 (UTIL 1)",
+              "@diskette": "WIN211-386-DISK2.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.11 (UTIL 2)",
+              "@diskette": "WIN211-386-DISK3.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows/386 2.11 (APPS)",
+              "@diskette": "WIN211-386-DISK4.json",
+              "@format": "PC1200K"
+            }
+          ]
+        },
+        "3.00": {
+          "@title": "Microsoft Windows 3.00",
+          "@media": [
+            {
+              "@title": "Windows 3.00 (Disk 1)",
+              "@diskette": "WIN300-1200K-DISK1.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.00 (Disk 2)",
+              "@diskette": "WIN300-1200K-DISK2.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.00 (Disk 3)",
+              "@diskette": "WIN300-1200K-DISK3.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.00 (Disk 4)",
+              "@diskette": "WIN300-1200K-DISK4.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.00 (Disk 5)",
+              "@diskette": "WIN300-1200K-DISK5.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.00 (720K Disk 1)",
+              "@diskette": "WIN300-720K-DISK1.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows 3.00 (720K Disk 2)",
+              "@diskette": "WIN300-720K-DISK2.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows 3.00 (720K Disk 3)",
+              "@diskette": "WIN300-720K-DISK3.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows 3.00 (720K Disk 4)",
+              "@diskette": "WIN300-720K-DISK4.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows 3.00 (720K Disk 5)",
+              "@diskette": "WIN300-720K-DISK5.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows 3.00 (720K Disk 6)",
+              "@diskette": "WIN300-720K-DISK6.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Windows 3.00 (720K Disk 7)",
+              "@diskette": "WIN300-720K-DISK7.json",
+              "@format": "PC720K"
+            }
+          ]
+        },
+        "3.10": {
+          "@title": "Microsoft Windows 3.10",
+          "@media": [
+            {
+              "@title": "Windows 3.10 (Disk 1)",
+              "@diskette": "WIN310-DISK1.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.10 (Disk 2)",
+              "@diskette": "WIN310-DISK2.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.10 (Disk 3)",
+              "@diskette": "WIN310-DISK3.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.10 (Disk 4)",
+              "@diskette": "WIN310-DISK4.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.10 (Disk 5)",
+              "@diskette": "WIN310-DISK5.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.10 (Disk 6)",
+              "@diskette": "WIN310-DISK6.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Windows 3.10 (Disk 7)",
+              "@diskette": "WIN310-DISK7.json",
+              "@format": "PC1200K"
+            }
+          ]
+        },
+        "3.11": {
+          "@title": "Windows for Workgroups 3.11",
+          "@media": [
+            {
+              "@title": "Windows 3.11 (Disk 1)",
+              "@diskette": "WFW311_DISK1.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 3.11 (Disk 2)",
+              "@diskette": "WFW311_DISK2.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 3.11 (Disk 3)",
+              "@diskette": "WFW311_DISK3.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 3.11 (Disk 4)",
+              "@diskette": "WFW311_DISK4.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 3.11 (Disk 5)",
+              "@diskette": "WFW311_DISK5.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 3.11 (Disk 6)",
+              "@diskette": "WFW311_DISK6.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 3.11 (Disk 7)",
+              "@diskette": "WFW311_DISK7.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 3.11 (Disk 8)",
+              "@diskette": "WFW311_DISK8.json",
+              "@format": "PC1440K"
+            }
+          ]
+        },
+        "win95/4.00.121": {
+          "@title": "Windows 95 (Build 121)",
+          "@media": [
+            {
+              "@title": "Windows 95 (Build 121 Disk 01)",
+              "@diskette": "WIN95-B121-DISK01.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 02)",
+              "@diskette": "WIN95-B121-DISK02.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 03)",
+              "@diskette": "WIN95-B121-DISK03.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 04)",
+              "@diskette": "WIN95-B121-DISK04.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 05)",
+              "@diskette": "WIN95-B121-DISK05.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 06)",
+              "@diskette": "WIN95-B121-DISK06.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 07)",
+              "@diskette": "WIN95-B121-DISK07.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 08)",
+              "@diskette": "WIN95-B121-DISK08.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 09)",
+              "@diskette": "WIN95-B121-DISK09.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 10)",
+              "@diskette": "WIN95-B121-DISK10.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 11)",
+              "@diskette": "WIN95-B121-DISK11.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 12)",
+              "@diskette": "WIN95-B121-DISK12.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 13)",
+              "@diskette": "WIN95-B121-DISK13.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 14)",
+              "@diskette": "WIN95-B121-DISK14.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 15)",
+              "@diskette": "WIN95-B121-DISK15.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 16)",
+              "@diskette": "WIN95-B121-DISK16.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 121 Disk 17)",
+              "@diskette": "WIN95-B121-DISK17.json",
+              "@format": "PC1440K"
+            }
+          ]
+        },
+        "win95/4.00.499": {
+          "@title": "Windows 95 (Build 499)",
+          "@media": [
+            {
+              "@title": "Windows 95 (Build 499 Disk 01)",
+              "@diskette": "WIN95-B499-DISK01.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 02)",
+              "@diskette": "WIN95-B499-DISK02.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 03)",
+              "@diskette": "WIN95-B499-DISK03.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 04)",
+              "@diskette": "WIN95-B499-DISK04.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 05)",
+              "@diskette": "WIN95-B499-DISK05.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 06)",
+              "@diskette": "WIN95-B499-DISK06.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 07)",
+              "@diskette": "WIN95-B499-DISK07.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 08)",
+              "@diskette": "WIN95-B499-DISK08.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 09)",
+              "@diskette": "WIN95-B499-DISK09.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 10)",
+              "@diskette": "WIN95-B499-DISK10.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 11)",
+              "@diskette": "WIN95-B499-DISK11.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 12)",
+              "@diskette": "WIN95-B499-DISK12.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Build 499 Disk 13)",
+              "@diskette": "WIN95-B499-DISK13.json",
+              "@format": "PC1680K"
+            }
+          ]
+        },
+        "win95/4.00.950": {
+          "@title": "Windows 95 (RTM) 4.00.950",
+          "@media": [
+            {
+              "@title": "Windows 95 (RTM Boot)",
+              "@diskette": "WIN95-B950-BOOT.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 01)",
+              "@diskette": "WIN95-B950-DISK01.json",
+              "@format": "PC1440K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 02)",
+              "@diskette": "WIN95-B950-DISK02.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 03)",
+              "@diskette": "WIN95-B950-DISK03.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 04)",
+              "@diskette": "WIN95-B950-DISK04.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 05)",
+              "@diskette": "WIN95-B950-DISK05.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 06)",
+              "@diskette": "WIN95-B950-DISK06.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 07)",
+              "@diskette": "WIN95-B950-DISK07.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 08)",
+              "@diskette": "WIN95-B950-DISK08.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 09)",
+              "@diskette": "WIN95-B950-DISK09.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 10)",
+              "@diskette": "WIN95-B950-DISK10.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 11)",
+              "@diskette": "WIN95-B950-DISK11.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 12)",
+              "@diskette": "WIN95-B950-DISK12.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (RTM Disk 13)",
+              "@diskette": "WIN95-B950-DISK13.json",
+              "@format": "PC1680K"
+            },
+            {
+              "@title": "Windows 95 (Startup Disk)",
+              "@diskette": "WIN95-B950-STARTUP.json",
+              "@format": "PC1440K"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "test": {
+    "@title": "Tests",
+    "@versions": {
+      "cpu": {
+        "@title": "PCx86 CPU Tests",
+        "@media": [
+          {
+            "@diskette": "CPUTESTS.json",
+            "@format": "PC160K",
+            "@archive": "CPUTESTS"
+          }
+        ]
+      },
+      "testmon": {
+        "@title": "PCx86 TestMonitor",
+        "@media": [
+          {
+            "@diskette": "INT14.json",
+            "@format": "PC160K",
+            "@archive": "INT14"
+          }
+        ]
+      },
+      "vga/blackbook": {
+        "@title": "VGA \"Black Book\" Tests",
+        "@media": [
+          {
+            "@title": "VGA Black Book Binaries",
+            "@diskette": "VGABIN.json",
+            "@format": "PC160K",
+            "@archive": "folder"
+          },
+          {
+            "@title": "VGA Black Book Sources",
+            "@diskette": "VGASRC.json",
+            "@format": "PC320K",
+            "@archive": "folder"
+          }
+        ]
+      }
+    }
+  }
+}

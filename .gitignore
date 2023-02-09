@@ -1,0 +1,6 @@
+.DS_Store
+.history/
+_site/
+archive
+Gemfile.lock
+*.log
