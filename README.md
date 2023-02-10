@@ -5,22 +5,15 @@ for use with the [PCjs Machines](https://www.pcjs.org) website.  They are preser
 
 {% comment %}
 
-I used this suggestion from [stackoverflow](https://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository)
-to clean up the repository after migrating a large number of files to another repository:
+I used this suggestion from [stackoverflow](https://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository) to clean up the repository after migrating a large number of files to another repository:
 
-    git clone https://github.com/jeffpar/pcjs-diskettes
-    cd pcjs-diskettes
     git checkout --orphan newBranch
     git add -A  # Add all files and commit them
     git commit
     git branch -D master  # Deletes the master branch
     git branch -m master  # Rename the current branch to master
-    git push -f origin master  # Force push master branch to github
     git gc --aggressive --prune=all     # remove the old files
-    git push --set-upstream origin master
-
-I then used *rsync* to sync my original repository with the new one, verifying that nothing was changed/copied
-except untracked files that I still wanted to keep, and then I deleted the original.
+    git push -f origin master  # Force push master branch to github
 
 This reduced the size of the repository on GitHub by more than half, so it was worthwhile.
 
