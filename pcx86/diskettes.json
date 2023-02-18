@@ -100,7 +100,8 @@
                 "@title": "MS Mouse 2.50 (Bus)",
                 "@diskette": "MSMOUSE-250.json",
                 "@photo": ".jpg",
-                "@format": "PC320K"
+                "@format": "PC320K",
+                "@archive": "MSMOUSE-250-MOUNTABLE.img"
               },
               {
                 "@title": "MS Mouse 2.50 (Serial)",
@@ -143,6 +144,32 @@
                 "@title": "MS Mouse 5.00 (PROGRAM)",
                 "@diskette": "MSMOUSE-000199-500-DISK2-PROGRAM.json",
                 "@format": "PC360K"
+              }
+            ]
+          },
+          "5.03": {
+            "@title": "MS Mouse 5.03",
+            "@hardware": {
+              "options": "mouse"
+            },
+            "@media": [
+              {
+                "@title": "MS Mouse 5.03 (Disk 1)",
+                "@diskette": "MSMOUSE-503-DISK1.json",
+                "@format": "PC360K",
+                "@photo": ".jpg"
+              },
+              {
+                "@title": "MS Mouse 5.03 (Disk 2)",
+                "@diskette": "MSMOUSE-503-DISK2.json",
+                "@format": "PC360K",
+                "@photo": ".jpg"
+              },
+              {
+                "@title": "MS Mouse 5.03 (Disk 3)",
+                "@diskette": "MSMOUSE-503-DISK3.json",
+                "@format": "PC360K",
+                "@photo": ".jpg"
               }
             ]
           },
@@ -297,50 +324,6 @@
     "compaq": {
       "@title": "COMPAQ",
       "@versions": {
-        "5.02": {
-          "@title": "COMPAQ Diagnostics 5.02",
-          "@hardware": {
-            "options": "compaq,deskpro386"
-          },
-          "@media": [
-            {
-              "@title": "COMPAQ Diagnostics 5.02",
-              "@diskette": "COMPAQ-DIAGS-502-051987-REVC.json",
-              "@photo": ".jpg",
-              "@format": "PC360K"
-            },
-            {
-              "@title": "COMPAQ User Programs 5.02",
-              "@diskette": "COMPAQ-UTILS-502-052087-REVC.json",
-              "@photo": ".jpg",
-              "@format": "PC360K"
-            }
-          ]
-        },
-        "5.08": {
-          "@title": "COMPAQ Diagnostics 5.08",
-          "@bootable": true,
-          "@hardware": {
-            "options": "compaq,deskpro386"
-          },
-          "@media": [
-            {
-              "@diskette": "COMPAQ-DIAGS-508-012988-REVK.json",
-              "@photo": ".jpg",
-              "@format": "PC360K"
-            }
-          ]
-        },
-        "6.12": {
-          "@title": "COMPAQ Diagnostics 6.12",
-          "@bootable": true,
-          "@media": [
-            {
-              "@diskette": "COMPAQ-DIAGS-612-062189.json",
-              "@format": "PC720K"
-            }
-          ]
-        },
         "1986": {
           "@title": "COMPAQ DeskPro 386 (1986)",
           "@bootable": true,
@@ -424,11 +407,54 @@
               "@format": "PC1440K"
             }
           ]
+        },
+        "5.02": {
+          "@title": "COMPAQ Diagnostics 5.02",
+          "@hardware": {
+            "options": "compaq,deskpro386"
+          },
+          "@media": [
+            {
+              "@title": "COMPAQ Diagnostics 5.02",
+              "@diskette": "COMPAQ-DIAGS-502-051987-REVC.json",
+              "@photo": ".jpg",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "COMPAQ User Programs 5.02",
+              "@diskette": "COMPAQ-UTILS-502-052087-REVC.json",
+              "@photo": ".jpg",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "5.08": {
+          "@title": "COMPAQ Diagnostics 5.08",
+          "@bootable": true,
+          "@hardware": {
+            "options": "compaq,deskpro386"
+          },
+          "@media": [
+            {
+              "@diskette": "COMPAQ-DIAGS-508-012988-REVK.json",
+              "@photo": ".jpg",
+              "@format": "PC360K"
+            }
+          ]
+        },
+        "6.12": {
+          "@title": "COMPAQ Diagnostics 6.12",
+          "@bootable": true,
+          "@media": [
+            {
+              "@diskette": "COMPAQ-DIAGS-612-062189.json",
+              "@format": "PC720K"
+            }
+          ]
         }
       }
     },
     "ibm": {
-      "@title": "IBM Diagnostics",
       "5150": {
         "@title": "IBM PC",
         "@versions": {
@@ -561,7 +587,8 @@
             ]
           }
         }
-      }
+      },
+      "@title": "IBM Diagnostics"
     }
   },
   "sdk": {
@@ -2472,7 +2499,7 @@
                   "@format": "PC360K",
                   "@kryoflux": true,
                   "@args": "--suppData=/software/pcx86/sys/ext/softlogic/doubledos/2.1/index.md"
-                  }
+                }
               ]
             },
             "2.1f": {
