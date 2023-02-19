@@ -2,5 +2,6 @@
 .history/
 _site/
 archive
+tmp
 Gemfile.lock
 *.log
