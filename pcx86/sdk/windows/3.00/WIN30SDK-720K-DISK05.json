@@ -1,7 +1,7 @@
 {
 "imageInfo": {
   "type": "CHS",
-  "name": "WIN30SDK-DISK05.img",
+  "name": "WIN30SDK-720K-DISK05.img",
   "format": "PC720K",
   "hash": "42478a907a5c04aff4c7be2e76ef41f5",
   "checksum": 11756643,
@@ -13,7 +13,7 @@
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,50,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
   "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sdk/windows/3.00/archive/WIN30SDK-DISK05.img"
+  "archive": "/diskettes/pcx86/sdk/windows/3.00/archive/WIN30SDK-720K-DISK05.img"
 },
 "volTable": [
  {
