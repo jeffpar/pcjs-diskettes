@@ -84,7 +84,7 @@
               {
                 "@title": "MS Mouse 2.00",
                 "@diskette": "MSMOUSE-200--1983-12-31.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC320K"
               }
             ]
@@ -99,7 +99,7 @@
               {
                 "@title": "MS Mouse 2.50 (Bus)",
                 "@diskette": "MSMOUSE-250.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC320K",
                 "@archive": "MSMOUSE-250-MOUNTABLE.img"
               },
@@ -123,13 +123,13 @@
                 "@title": "MS Mouse 4.00 (SYSTEM)",
                 "@diskette": "MSMOUSE-039599-400-DISK1-SYSTEM.json",
                 "@format": "PC360K",
-                "@photo": ".jpg"
+                "@photo": "jpg"
               },
               {
                 "@title": "MS Mouse 4.00 (PROGRAM)",
                 "@diskette": "MSMOUSE-039599-400-DISK2-PROGRAM.json",
                 "@format": "PC360K",
-                "@photo": ".jpg"
+                "@photo": "jpg"
               }
             ]
           },
@@ -167,19 +167,19 @@
                 "@title": "MS Mouse 5.03 (Disk 1 Revised)",
                 "@diskette": "MSMOUSE-503-DISK1-REVISED.json",
                 "@format": "PC360K",
-                "@photo": ".jpg"
+                "@photo": "jpg"
               },
               {
                 "@title": "MS Mouse 5.03 (Disk 2)",
                 "@diskette": "MSMOUSE-503-DISK2.json",
                 "@format": "PC360K",
-                "@photo": ".jpg"
+                "@photo": "jpg"
               },
               {
                 "@title": "MS Mouse 5.03 (Disk 3)",
                 "@diskette": "MSMOUSE-503-DISK3.json",
                 "@format": "PC360K",
-                "@photo": ".jpg"
+                "@photo": "jpg"
               }
             ]
           },
@@ -356,7 +356,7 @@
           "@media": [
             {
               "@diskette": "COMPAQ-UTILS-506-110387-REVG.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC360K"
             }
           ]
@@ -383,37 +383,37 @@
             {
               "@title": "SystemPro Configuration Files 1.03",
               "@diskette": "COMPAQ-CONFLIB-1.03-071090.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC1440K"
             },
             {
               "@title": "SystemPro Diagnostics 7.08",
               "@diskette": "COMPAQ-DIAGS-708-092590.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC720K"
             },
             {
               "@title": "SystemPro Owner Registration 3.05",
               "@diskette": "COMPAQ-OWNREG-3.05-100890.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC720K"
             },
             {
               "@title": "SystemPro EISA Configuration 1.15",
               "@diskette": "COMPAQ-SYSCONFIG-1.15-082790.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC1440K"
             },
             {
               "@title": "SystemPro User Programs 7.05 (Disk 1)",
               "@diskette": "COMPAQ-USER_1-7.05-092890.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC1440K"
             },
             {
               "@title": "SystemPro User Programs 7.05 (Disk 2)",
               "@diskette": "COMPAQ-USER_2-7.05-092890.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC1440K"
             }
           ]
@@ -427,13 +427,13 @@
             {
               "@title": "COMPAQ Diagnostics 5.02",
               "@diskette": "COMPAQ-DIAGS-502-051987-REVC.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC360K"
             },
             {
               "@title": "COMPAQ User Programs 5.02",
               "@diskette": "COMPAQ-UTILS-502-052087-REVC.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC360K"
             }
           ]
@@ -447,7 +447,7 @@
           "@media": [
             {
               "@diskette": "COMPAQ-DIAGS-508-012988-REVK.json",
-              "@photo": ".jpg",
+              "@photo": "jpg",
               "@format": "PC360K"
             }
           ]
@@ -514,7 +514,7 @@
             "@media": [
               {
                 "@diskette": "5150-DIAG-205.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC180K"
               }
             ]
@@ -525,7 +525,7 @@
             "@media": [
               {
                 "@diskette": "5150-DIAG-205A.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC180K"
               }
             ]
@@ -561,7 +561,7 @@
             "@media": [
               {
                 "@diskette": "5170-DIAG-101A.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC360K"
               }
             ]
@@ -1002,97 +1002,97 @@
               "@title": "Windows SDK 3.00 (1200K Disk 1)",
               "@diskette": "WIN30SDK-1200K-DEVTOOLS.json",
               "@format": "PC1200K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (1200K Disk 2)",
               "@diskette": "WIN30SDK-1200K-DBGTOOLS.json",
               "@format": "PC1200K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (1200K Disk 3)",
               "@diskette": "WIN30SDK-1200K-DEVFILES.json",
               "@format": "PC1200K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (1200K Disk 4)",
               "@diskette": "WIN30SDK-1200K-LIBRARIES.json",
               "@format": "PC1200K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (1200K Disk 5)",
               "@diskette": "WIN30SDK-1200K-SAMPLES1.json",
               "@format": "PC1200K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (1200K Disk 6)",
               "@diskette": "WIN30SDK-1200K-SAMPLES2.json",
               "@format": "PC1200K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 1)",
               "@diskette": "WIN30SDK-720K-DISK01.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 2)",
               "@diskette": "WIN30SDK-720K-DISK02.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 3)",
               "@diskette": "WIN30SDK-720K-DISK03.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 4)",
               "@diskette": "WIN30SDK-720K-DISK04.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 5)",
               "@diskette": "WIN30SDK-720K-DISK05.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 6)",
               "@diskette": "WIN30SDK-720K-DISK06.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 7)",
               "@diskette": "WIN30SDK-720K-DISK07.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 8)",
               "@diskette": "WIN30SDK-720K-DISK08.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 9)",
               "@diskette": "WIN30SDK-720K-DISK09.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.00 (720K Disk 10)",
               "@diskette": "WIN30SDK-720K-DISK10.json",
               "@format": "PC720K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             }
           ]
         },
@@ -1103,67 +1103,67 @@
               "@title": "Windows SDK 3.10 (Disk 1)",
               "@diskette": "WIN31SDK-DISK01.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 2)",
               "@diskette": "WIN31SDK-DISK02.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 3)",
               "@diskette": "WIN31SDK-DISK03.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 4)",
               "@diskette": "WIN31SDK-DISK04.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 5)",
               "@diskette": "WIN31SDK-DISK05.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 6)",
               "@diskette": "WIN31SDK-DISK06.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 7)",
               "@diskette": "WIN31SDK-DISK07.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 8)",
               "@diskette": "WIN31SDK-DISK08.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 9)",
               "@diskette": "WIN31SDK-DISK09.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 10)",
               "@diskette": "WIN31SDK-DISK10.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             },
             {
               "@title": "Windows SDK 3.10 (Disk 11)",
               "@diskette": "WIN31SDK-DISK11.json",
               "@format": "PC1440K",
-              "@photo": ".jpg"
+              "@photo": "jpg"
             }
           ]
         }
@@ -1226,13 +1226,13 @@
               {
                 "@title": "COMPAQ MS-DOS 1.10 Rev B",
                 "@diskette": "COMPAQ-DOS110B.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC320K"
               },
               {
                 "@title": "COMPAQ MS-DOS 1.10 Rev E",
                 "@diskette": "COMPAQ-DOS110E.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC320K"
               }
             ],
@@ -2009,7 +2009,7 @@
               {
                 "@title": "MS-DOS 3.20 (ProgRef 1)",
                 "@diskette": "MSDOS320-DISK3-PROGREF1.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC360K"
               },
               {
@@ -2440,7 +2440,7 @@
                 {
                   "@title": "DESQview 1.02",
                   "@diskette": "DESQVIEW-102.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K"
                 }
               ],
@@ -2469,7 +2469,7 @@
                 {
                   "@title": "QEMM-386 4.10",
                   "@diskette": "QEMM386-410.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K"
                 }
               ]
@@ -2484,7 +2484,7 @@
                 {
                   "@title": "QEMM-386 4.23",
                   "@diskette": "QEMM386-423.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K"
                 }
               ]
@@ -2513,7 +2513,7 @@
                 {
                   "@title": "QEMM-386 6.02",
                   "@diskette": "QEMM386-602.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K"
                 }
               ]
@@ -2532,7 +2532,7 @@
                 {
                   "@title": "Software Carousel 2.0.3",
                   "@diskette": "SOFTWARE-CAROUSEL-203.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K",
                   "@kryoflux": true,
                   "@args": "--suppData=/software/pcx86/sys/ext/softlogic/carousel/2.0.3/index.md"
@@ -2545,7 +2545,7 @@
                 {
                   "@title": "Software Carousel 3.0.1",
                   "@diskette": "SOFTWARE-CAROUSEL-301.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K"
                 }
               ]
@@ -2583,7 +2583,7 @@
                 {
                   "@title": "DoubleDOS 2.1V (Disk 1)",
                   "@diskette": "DOUBLEDOS-21V-DISK1.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K",
                   "@kryoflux": true
                 },
@@ -2606,7 +2606,7 @@
                 {
                   "@title": "Disk Optimizer 2.0.3",
                   "@diskette": "DISK-OPTIMIZER.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC360K"
                 }
               ]
@@ -3234,13 +3234,13 @@
                 {
                   "@title": "IBM XENIX 1.0 (EXT1)",
                   "@diskette": "IBM-XENIX-100-EXT1.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 },
                 {
                   "@title": "IBM XENIX 1.0 (EXT2)",
                   "@diskette": "IBM-XENIX-100-EXT2.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 }
               ]
@@ -3251,43 +3251,43 @@
                 {
                   "@title": "IBM XENIX 2.0 (INSTALL)",
                   "@diskette": "IBM-XENIX-200-INSTALL.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 },
                 {
                   "@title": "IBM XENIX 2.0 (DISK1)",
                   "@diskette": "IBM-XENIX-200-DISK1.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 },
                 {
                   "@title": "IBM XENIX 2.0 (DISK2)",
                   "@diskette": "IBM-XENIX-200-DISK2.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 },
                 {
                   "@title": "IBM XENIX 2.0 (DISK3)",
                   "@diskette": "IBM-XENIX-200-DISK3.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 },
                 {
                   "@title": "IBM XENIX 2.0 (SDK1)",
                   "@diskette": "IBM-XENIX-200-SDK1.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 },
                 {
                   "@title": "IBM XENIX 2.0 (SDK2)",
                   "@diskette": "IBM-XENIX-200-SDK2.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 },
                 {
                   "@title": "IBM XENIX 2.0 (SDK3)",
                   "@diskette": "IBM-XENIX-200-SDK3.json",
-                  "@photo": ".jpg",
+                  "@photo": "jpg",
                   "@format": "PC1200K"
                 }
               ]
@@ -3392,7 +3392,7 @@
               {
                 "@title": "MINIX 1.1 (1.2M Disk 1: Boot)",
                 "@diskette": "MINIX11-1200K-DISK1-BOOT.json",
-                "@photo": ".jpg",
+                "@photo": "jpg",
                 "@format": "PC1200K"
               },
               {
