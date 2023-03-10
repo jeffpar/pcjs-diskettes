@@ -12,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,41,144,57,104,101,56,56,73,72,67,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/os2/misc/86295/archive/286DOS-76800.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

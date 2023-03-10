@@ -12,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,233,139,0,83,69,69,81,85,65,50,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,223,2,37,2,9,42]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/ext/other/homebase/1.04A/archive/HOMEBASE-104A.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

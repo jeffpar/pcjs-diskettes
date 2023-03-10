@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/windows/2.10/archive/WIN210-386-DISK1.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

@@ -12,8 +12,7 @@
   "diskSize": 327680,
   "bootSector": "[0,235,39,144,3,1,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/dev/mouse/microsoft/2.00/archive/MSMOUSE-200--1983-12-31.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

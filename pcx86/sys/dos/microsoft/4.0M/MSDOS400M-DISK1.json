@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/dos/microsoft/4.0M/archive/MSDOS400M-DISK1.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

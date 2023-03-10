@@ -12,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,51,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/os2/microsoft/1.3/archive/MSOS213-DISK10-DRIVER2.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {
@@ -34,7 +33,7 @@
 ],
 "fileTable": [
   {"hash":"d9374e2e20be0a89f52ef7fe05245574","path":"/4208.DCP","attr":"0x20","date":"1991-11-15 00:00:12","size":533},
-  {"hash":"73c0f94886ee35810254272452340ae0","path":"/EA DATA.SF","attr":"0x27","date":"1991-11-14 16:28:10","size":2560},
+  {"hash":"73c0f94886ee35810254272452340ae0","path":"/EA DATA. SF","attr":"0x27","date":"1991-11-14 16:28:10","size":2560},
   {"hash":"de780d50bd7ac9c1bc89b43ec5c3cc74","path":"/IBM4019.DRV","attr":"0x20","date":"1991-11-15 00:00:12","size":177936,"module":{"name":"IBM4019","description":"PRINTER DEVICE DRIVER DYNA-LINK","segments":{"1":{"offStart":896,"offEnd":65270,"ordinals":{"200":{"o":19552,"s":"OS2_PM_DRV_ENABLE"},"202":{"o":48356,"s":"OS2_PM_DRV_DEVICENAMES"}}},"2":{"offStart":66192,"offEnd":101779,"ordinals":{"203":{"o":33580}}},"3":{"offStart":101936,"offEnd":107236},"4":{"offStart":107312,"offEnd":147994,"ordinals":{"2":{"o":22168,"s":"PRDM_MAINDLGPROC"},"201":{"o":54,"s":"OS2_PM_DRV_DEVMODE"}}},"5":{"offStart":148400,"offEnd":148461},"6":{"offStart":148464,"offEnd":161062},"7":{"offStart":161088,"offEnd":161645},"8":{"offStart":161648,"offEnd":162038},"9":{"offStart":162048,"offEnd":163008},"10":{"offStart":163024,"offEnd":164019},"11":{"offStart":164032,"offEnd":164769},"12":{"offStart":164784,"offEnd":165291},"13":{"offStart":165296,"offEnd":166188},"14":{"offStart":166192,"offEnd":166839},"15":{"offStart":166848,"offEnd":167159},"16":{"offStart":167168,"offEnd":167472},"17":{"offStart":167488,"offEnd":167684},"18":{"offStart":167696,"offEnd":168098},"19":{"offStart":168112,"offEnd":168581},"20":{"offStart":168592,"offEnd":168959},"21":{"offStart":168960,"offEnd":169529},"22":{"offStart":169536,"offEnd":169921},"23":{"offStart":169936,"offEnd":170203},"24":{"offStart":170208,"offEnd":170417},"25":{"offStart":170432,"offEnd":170723},"26":{"offStart":170736,"offEnd":171110},"27":{"offStart":171120,"offEnd":171401},"28":{"offStart":171408,"offEnd":171761},"29":{"offStart":171776,"offEnd":172665},"30":{"offStart":172672,"offEnd":173070},"31":{"offStart":173072,"offEnd":173340},"32":{"offStart":173344,"offEnd":174924},"33":{"offStart":174928,"offEnd":175109},"34":{"offStart":175120,"offEnd":175301},"35":{"offStart":175312,"offEnd":175493},"36":{"offStart":175504,"offEnd":176225},"37":{"offStart":176240,"offEnd":176421},"38":{"offStart":176432,"offEnd":176613},"39":{"offStart":176624,"offEnd":176805},"40":{"offStart":176816,"offEnd":177537},"41":{"offStart":177552,"offEnd":177733},"42":{"offStart":177744,"offEnd":177925},"254":{"offStart":0,"offEnd":0}}}},
   {"hash":"6d5ed92c83029fd551df2c8e2fa2b9ae","path":"/IBM4019.PMF","attr":"0x20","date":"1991-11-15 00:00:12","size":191249},
   {"hash":"e5d1b178620dff44ba28db9a8f221ac3","path":"/IBM4201.DCP","attr":"0x20","date":"1991-11-15 00:00:12","size":17069},

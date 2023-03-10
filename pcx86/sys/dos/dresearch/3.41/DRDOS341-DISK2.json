@@ -12,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,54,144,68,73,71,73,84,65,76,32,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,18,0,10,0,24]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/dos/dresearch/3.41/archive/DRDOS341-DISK2.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

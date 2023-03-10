@@ -12,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,60,144,73,66,77,32,32,53,46,48,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/dos/ibm/5.02/archive/PCDOS502-DISK3.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

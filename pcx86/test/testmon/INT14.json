@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/test/testmon/archive/INT14/"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

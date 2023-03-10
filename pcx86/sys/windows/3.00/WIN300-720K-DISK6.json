@@ -12,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,52,144,77,83,68,79,83,51,46,51,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/windows/3.00/archive/WIN300-720K-DISK6.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

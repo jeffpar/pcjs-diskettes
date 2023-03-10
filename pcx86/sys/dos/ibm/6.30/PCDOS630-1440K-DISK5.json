@@ -12,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,87,73,78,73,77,65,71,69,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/dos/ibm/6.30/archive/PCDOS630-1440K-DISK5.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

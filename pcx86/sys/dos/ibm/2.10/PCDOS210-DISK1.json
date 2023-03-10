@@ -12,8 +12,7 @@
   "diskSize": 184320,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,1,1,0,2,64,0,104,1,252,2,0,9,0,1,0,0,0,0,0,10,223,2,37]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/dos/ibm/2.10/archive/PCDOS210-DISK1.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

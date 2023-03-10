@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/unix/ibm/pcix/1.0/archive/03CORE2.img"
+  "repository": "pcjs.org"
 },
 "diskData":[[[
   {"c":0,"h":0,"s":1,"l":512,"d":[-362086391,192644,446593540,0,38592,1986356271,1684566575,13500471,13762769,1954047279,16802162,19726621,20644147,1953460082,22216960,22348116,22675798,327728,0]},

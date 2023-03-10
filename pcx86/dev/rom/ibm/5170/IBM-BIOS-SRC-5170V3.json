@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/dev/rom/ibm/5170/archive/IBM-BIOS-SRC-5170V3/"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

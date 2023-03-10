@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 737280,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/diag/compaq/1990/archive/COMPAQ-DIAGS-708-092590.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

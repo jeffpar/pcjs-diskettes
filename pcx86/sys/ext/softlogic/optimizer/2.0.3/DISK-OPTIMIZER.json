@@ -12,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,44,144,73,66,77,32,32,50,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,10,223,2,37]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/ext/softlogic/optimizer/2.0.3/archive/DISK-OPTIMIZER.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

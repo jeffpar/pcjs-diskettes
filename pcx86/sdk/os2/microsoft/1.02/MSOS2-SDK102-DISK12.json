@@ -12,8 +12,7 @@
   "diskSize": 737280,
   "bootSector": "[0,235,41,144,79,83,50,32,49,48,46,48,0,2,2,1,0,2,112,0,160,5,249,3,0,9,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sdk/os2/microsoft/1.02/archive/MSOS2-SDK102-DISK12.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

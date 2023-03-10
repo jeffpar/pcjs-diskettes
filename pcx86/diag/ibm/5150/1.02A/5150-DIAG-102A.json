@@ -12,8 +12,7 @@
   "diskSize": 163840,
   "bootSector": "[0,235,47,20,0,0,0,96,0,32,55,45,77,97,121,45,56,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/diag/ibm/5150/1.02A/archive/5150-DIAG-102A.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

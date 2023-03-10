@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/dev/cdrom/dos/archive/ATAPI-CDROM-DRIVERS/"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 368640,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/unix/minix/1.1/archive/MINIX11-360K-DISK4-USER.img"
+  "repository": "pcjs.org"
 },
 "diskData":[[[
   {"c":0,"h":0,"s":1,"l":512,"d":[0]},

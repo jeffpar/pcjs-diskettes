@@ -12,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,60,144,39,47,45,109,125,73,72,67,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/windows/win95/4.00.121/archive/WIN95-B121-DISK05.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

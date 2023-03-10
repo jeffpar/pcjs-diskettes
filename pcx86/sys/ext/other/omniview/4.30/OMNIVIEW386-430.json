@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 1228800,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/ext/other/omniview/4.30/archive/OMNIVIEW386-430/"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

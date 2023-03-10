@@ -12,8 +12,7 @@
   "diskSize": 1720320,
   "bootSector": "[0,235,60,144,39,80,49,52,45,73,72,67,0,2,4,1,0,2,16,0,32,13,240,3,0,21,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/windows/win95/4.00.499/archive/WIN95-B499-DISK13.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

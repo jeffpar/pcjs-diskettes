@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/dos/microsoft/2.00/archive/MSDOS200-OEM-DISK3.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

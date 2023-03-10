@@ -12,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,41,144,73,66,77,32,49,48,46,48,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/os2/ibm/1.0/archive/OS210-INSTALL.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

@@ -12,8 +12,7 @@
   "diskSize": 1474560,
   "bootSector": "[0,235,52,144,73,66,77,32,32,51,46,51,0,2,1,1,0,2,224,0,64,11,240,9,0,18,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/os2/microsoft/1.3/archive/MSOS213-DISK11-FONT.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {
@@ -46,7 +45,7 @@
   {"hash":"f3241afe1f98302f30beefc088f79f2f","path":"/COUI.PFB","attr":"0x20","date":"1991-11-15 00:00:28","size":46060},
   {"hash":"7829d18eefe1d46a5dfab619fb8d1f44","path":"/DCP.DAT","attr":"0x20","date":"1991-11-15 00:00:28","size":6427},
   {"hash":"7a57da37e6d5a1437feed900d5e4b972","path":"/DDHELP.DAT","attr":"0x20","date":"1991-11-15 00:00:28","size":27208},
-  {"hash":"f70e159cb2b844469a4c8f4ac0af25ae","path":"/EA DATA.SF","attr":"0x27","date":"1991-11-14 16:28:20","size":1536},
+  {"hash":"f70e159cb2b844469a4c8f4ac0af25ae","path":"/EA DATA. SF","attr":"0x27","date":"1991-11-14 16:28:20","size":1536},
   {"hash":"aaa451fb1e172861928d02caff51213c","path":"/EPSON.DAT","attr":"0x20","date":"1991-11-15 00:00:28","size":2718},
   {"hash":"64494b4d49f638b982cd02262e39749b","path":"/HEL.AFM","attr":"0x20","date":"1991-11-15 00:00:28","size":25584},
   {"hash":"871f932b62fa89857c46ae74300c0970","path":"/HEL.PFB","attr":"0x20","date":"1991-11-15 00:00:28","size":40979},

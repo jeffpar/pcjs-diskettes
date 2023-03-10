@@ -12,8 +12,7 @@
   "diskSize": 1228800,
   "bootSector": "[0,235,60,144,77,83,68,79,83,53,46,48,0,2,1,1,0,2,224,0,96,9,249,7,0,15,0,2,0,0,0,0,0,0,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sys/dos/microsoft/6.20/archive/MSDOS620-1200K-SUPPDISK.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

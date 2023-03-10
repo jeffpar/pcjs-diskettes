@@ -12,8 +12,7 @@
   "diskSize": 368640,
   "bootSector": "[0,235,42,144,73,66,77,32,32,51,46,48,0,2,2,1,0,2,112,0,208,2,253,2,0,9,0,2,0,0,0,0,0,20,0,0,0]",
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/sdk/windows/1.01/archive/WINSDK101-DISK1-UTILITIES.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

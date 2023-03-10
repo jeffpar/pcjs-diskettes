@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/dev/mouse/microsoft/2.50/archive/MSMOUSE-250-SERIAL/"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {

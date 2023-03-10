@@ -11,8 +11,7 @@
   "sectorDefault": 512,
   "diskSize": 163840,
   "version": "2.10",
-  "repository": "pcjs.org",
-  "archive": "/diskettes/pcx86/empty/archive/EMPTY-160K.img"
+  "repository": "pcjs.org"
 },
 "volTable": [
  {
