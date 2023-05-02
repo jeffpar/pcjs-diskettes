@@ -4,7 +4,7 @@
   "name": "OS211-DISK02.img",
   "format": "PC1440K",
   "hash": "862e43f3d79944bd2e372e97b402ac39",
-  "checksum": -86664430,
+  "checksum": 4208302866,
   "cylinders": 80,
   "heads": 2,
   "trackDefault": 18,

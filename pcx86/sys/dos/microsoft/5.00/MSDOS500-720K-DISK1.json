@@ -4,7 +4,7 @@
   "name": "MSDOS500-720K-DISK1.img",
   "format": "PC720K",
   "hash": "b31e7d14b2719fd7c3f3837a6b1e8127",
-  "checksum": -475328646,
+  "checksum": 3819638650,
   "cylinders": 80,
   "heads": 2,
   "trackDefault": 9,

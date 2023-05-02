@@ -44,12 +44,12 @@
   {"hash":"0ad000f7739c6bda218ae45ea6487af2","path":"/BASIC.COM","attr":"0x00","date":"1981-06-04 00:00:00","size":11008},
   {"hash":"4b34b948ed052d6edec1426de1fb3d2f","path":"/CHKDSK.COM","attr":"0x00","date":"1981-05-30 00:00:00","size":1224},
   {"hash":"5a10ae48075e25dd4a6d6ef8111b495d","path":"/EDLIN.COM","attr":"0x00","date":"1981-05-29 00:00:00","size":2231},
-  {"hash":"b889421330944effe96be8619af26714","path":"/MODE.COM","attr":"0x00","date":"1980-01-01 00:00:00","size":675},
+  {"hash":"b889421330944effe96be8619af26714","path":"/MODE.COM","attr":"0x00","date":"1979-11-30 00:00:00","size":675},
   {"hash":"f7791282bd21a67f10d7ce65d345463a","path":"/COMMENTS","attr":"0x00","date":"1981-06-05 00:00:00","size":3561},
   {"hash":"13b391ba639930a790ff6f9e2e2724cc","path":"/MOVBAS.COM","attr":"0x00","date":"1981-04-23 00:00:00","size":128},
   {"hash":"db3ede6626c19ac5cb50105c2f366655","path":"/BAS18.COM","attr":"0x00","date":"1981-06-04 00:00:00","size":11008},
   {"hash":"305641e769af09d179311a1dde5ca192","path":"/BASICA.COM","attr":"0x00","date":"1981-06-04 00:00:00","size":14976},
-  {"hash":"67227f108e168f6711ffd64a198fc6ce","path":"/AUTOEXEC.BAK","attr":"0x00","date":"1980-01-01 00:00:00","size":24},
+  {"hash":"67227f108e168f6711ffd64a198fc6ce","path":"/AUTOEXEC.BAK","attr":"0x00","date":"1979-11-30 00:00:00","size":24},
   {"hash":"6bc016fbcc2cd3cc72a33d0924c8540b","path":"/SYS.COM","attr":"0x00","date":"1981-06-03 00:00:00","size":896},
   {"hash":"63bb5b9864eb82bbfef279d0bac4d5a7","path":"/BAS18A.COM","attr":"0x00","date":"1981-06-04 00:00:00","size":14976},
   {"hash":"0e2bb79f3debf6c124a7aa829241cf7b","path":"/COMMENTS.BAK","attr":"0x00","date":"1981-06-05 00:00:00","size":3560},
@@ -65,7 +65,7 @@
   {"hash":"f2d4705e1d6fe5136addd3da1742740e","path":"/SHIPS.MAC","attr":"0x00","date":"1981-06-01 00:00:00","size":1792},
   {"hash":"626233391043bf67b2071fc6e5929743","path":"/CIRCLE.MAC","attr":"0x00","date":"1981-06-01 00:00:00","size":384},
   {"hash":"a65d349bfaa88db129ba70fbec5a78a4","path":"/RBAS.COM","attr":"0x00","date":"1981-04-25 00:00:00","size":32768},
-  {"hash":"9a4feee264b1c3d144ca780bb575a26e","path":"/THREED.BAS","attr":"0x00","date":"1980-01-01 00:00:00","size":3072},
+  {"hash":"9a4feee264b1c3d144ca780bb575a26e","path":"/THREED.BAS","attr":"0x00","date":"1979-11-30 00:00:00","size":3072},
   {"hash":"94aacf58b5137a2247dbbcb095d5eb41","path":"/CUBE.DAT","attr":"0x00","date":"1981-04-30 00:00:00","size":402}
 ],
 "diskData":[[[

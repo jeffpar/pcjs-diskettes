@@ -4,7 +4,7 @@
   "name": "MSDOS600-1200K-DISK2.img",
   "format": "PC1200K",
   "hash": "e8439edee49aaf8226e10ec18d85ac5d",
-  "checksum": -2089262199,
+  "checksum": 2205705097,
   "cylinders": 80,
   "heads": 2,
   "trackDefault": 15,

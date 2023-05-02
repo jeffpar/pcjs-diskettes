@@ -4,7 +4,7 @@
   "name": "ATAPI-CDROM-BOOT.img",
   "format": "PC1200K",
   "hash": "5d9a9d0e2a4f7483437a2d429b792a00",
-  "checksum": -1155519047,
+  "checksum": 3139448249,
   "cylinders": 80,
   "heads": 2,
   "trackDefault": 15,

@@ -4,7 +4,7 @@
   "name": "MSDOS622-1200K-BOOT.img",
   "format": "PC1200K",
   "hash": "eb73b32a4b9ec4cea00ba5fd086337da",
-  "checksum": -58821657,
+  "checksum": 4236145639,
   "cylinders": 80,
   "heads": 2,
   "trackDefault": 15,

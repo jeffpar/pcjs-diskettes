@@ -4,7 +4,7 @@
   "name": "PCDOS320-720K-DISK1.img",
   "format": "PC720K",
   "hash": "4843cc3d0ed7105e3fe75fa8d8103345",
-  "checksum": -384544769,
+  "checksum": 3910422527,
   "cylinders": 80,
   "heads": 2,
   "trackDefault": 9,

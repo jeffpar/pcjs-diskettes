@@ -4,7 +4,7 @@
   "name": "DOUBLEDOS-21F.img",
   "format": "PC160K",
   "hash": "46c704cf20c1c62e7b4e6a1adea31d82",
-  "checksum": -882215810,
+  "checksum": 3412751486,
   "cylinders": 40,
   "heads": 1,
   "trackDefault": 8,
@@ -32,8 +32,8 @@
  }
 ],
 "fileTable": [
-  {"hash":"bece116f9f856e052c7befbd53027f94","path":"/IBMBIO.COM","attr":"0x06","date":"1980-01-01 00:00:00","size":1920},
-  {"hash":"0173bdc08150ac776a6bf3b35e311dec","path":"/IBMDOS.COM","attr":"0x06","date":"1980-01-01 00:00:00","size":6400},
+  {"hash":"bece116f9f856e052c7befbd53027f94","path":"/IBMBIO.COM","attr":"0x06","date":"1979-11-30 00:00:00","size":1920},
+  {"hash":"0173bdc08150ac776a6bf3b35e311dec","path":"/IBMDOS.COM","attr":"0x06","date":"1979-11-30 00:00:00","size":6400},
   {"hash":"2b2e074b33a00b3f35fd4e5e2a691c6a","path":"/COMMAND.COM","attr":"0x20","date":"1983-10-20 12:00:00","size":17792},
   {"hash":"0e32deff699bc7698fd99324b051152d","path":"/READ_ME.1ST","attr":"0x20","date":"1984-04-16 15:14:30","size":4992},
   {"hash":"4b37ba3b852041ac429e509bf3aa657b","path":"/DOUBLEDO.EXE","attr":"0x20","date":"1985-02-28 21:13:34","size":38912},

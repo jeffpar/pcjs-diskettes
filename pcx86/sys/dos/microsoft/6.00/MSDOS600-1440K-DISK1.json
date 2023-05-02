@@ -4,7 +4,7 @@
   "name": "MSDOS600-1440K-DISK1.img",
   "format": "PC1440K",
   "hash": "eb5f72866ddfc8a185bed326a6137208",
-  "checksum": -545702857,
+  "checksum": 3749264439,
   "cylinders": 80,
   "heads": 2,
   "trackDefault": 18,

@@ -4,7 +4,7 @@
   "name": "MSDOS500-360K-DISK1.img",
   "format": "PC360K",
   "hash": "3f19a16e260f7e36039bc5fc840f061b",
-  "checksum": -1285821897,
+  "checksum": 3009145399,
   "cylinders": 40,
   "heads": 2,
   "trackDefault": 9,
