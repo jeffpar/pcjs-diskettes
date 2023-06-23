@@ -2550,7 +2550,7 @@
                   "@photo": "jpg",
                   "@format": "PC360K",
                   "@kryoflux": true,
-                  "@args": "--suppData=/software/pcx86/sys/ext/softlogic/carousel/2.0.3/index.md"
+                  "@args": "--suppData=/software/pcx86/sys/ext/softlogic/carousel/2.0.3/README.md"
                 }
               ]
             },
@@ -2578,7 +2578,7 @@
                   "@diskette": "DOUBLEDOS.json",
                   "@format": "PC360K",
                   "@kryoflux": true,
-                  "@args": "--suppData=/software/pcx86/sys/ext/softlogic/doubledos/2.1/index.md"
+                  "@args": "--suppData=/software/pcx86/sys/ext/softlogic/doubledos/2.1/README.md"
                 }
               ]
             },
