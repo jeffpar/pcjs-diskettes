@@ -1350,19 +1350,34 @@
             "@bootable": true,
             "@media": [
               {
-                "@title": "COMPAQ MS-DOS 3.10 (Disk 1)",
-                "@diskette": "COMPAQ-DOS310-DISK1.json",
-                "@format": "PC360K"
-              },
-              {
-                "@title": "COMPAQ MS-DOS 3.10 (Disk 2)",
-                "@diskette": "COMPAQ-DOS310-DISK2.json",
-                "@format": "PC360K"
-              },
-              {
-                "@title": "COMPAQ MS-DOS 3.10 (12-17-85)",
+                "@title": "COMPAQ MS-DOS 3.10 (1985 1.2M)",
                 "@diskette": "COMPAQ-DOS310-PERSONAL.json",
                 "@format": "PC1200K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (1985-09 Disk 1)",
+                "@diskette": "COMPAQ-DOS310-19850930-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (1985-09 Disk 2)",
+                "@diskette": "COMPAQ-DOS310-19850930-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (1986-03)",
+                "@diskette": "COMPAQ-DOS310-19860327-DISK1.json",
+                "@format": "PC1200K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (1986-10 Disk 1)",
+                "@diskette": "COMPAQ-DOS310-19861031-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "COMPAQ MS-DOS 3.10 (1986-10 Disk 2)",
+                "@diskette": "COMPAQ-DOS310-19861031-DISK2.json",
+                "@format": "PC360K"
               },
               {
                 "@title": "COMPAQ PC DOS 3.20 Support",
