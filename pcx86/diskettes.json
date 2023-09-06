@@ -1243,12 +1243,6 @@
                 "@diskette": "COMPAQ-DOS110B.json",
                 "@photo": "jpg",
                 "@format": "PC320K"
-              },
-              {
-                "@title": "COMPAQ MS-DOS 1.10 Rev E",
-                "@diskette": "COMPAQ-DOS110E.json",
-                "@photo": "jpg",
-                "@format": "PC320K"
               }
             ],
             "@documents": [
