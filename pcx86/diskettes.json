@@ -1437,17 +1437,17 @@
                 "@format": "PC720K"
               },
               {
-                "@title": "COMPAQ MS-DOS 3.31G (Disk 1)",
+                "@title": "COMPAQ MS-DOS 3.31G (720K Disk 1)",
                 "@diskette": "COMPAQ-DOS331-REVG-720K-DISK1.json",
                 "@format": "PC720K"
               },
               {
-                "@title": "COMPAQ MS-DOS 3.31G (Disk 2)",
+                "@title": "COMPAQ MS-DOS 3.31G (720K Disk 2)",
                 "@diskette": "COMPAQ-DOS331-REVG-720K-DISK2.json",
                 "@format": "PC720K"
               },
               {
-                "@title": "COMPAQ MS-DOS 3.31G (Disk 3)",
+                "@title": "COMPAQ MS-DOS 3.31G (720K Disk 3)",
                 "@diskette": "COMPAQ-DOS331-REVG-720K-DISK3.json",
                 "@format": "PC720K"
               },
