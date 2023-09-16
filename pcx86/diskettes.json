@@ -1392,12 +1392,12 @@
             "@media": [
               {
                 "@title": "COMPAQ MS-DOS 3.20A (Disk 1)",
-                "@diskette": "COMPAQ-DOS320A-DISK1.json",
+                "@diskette": "COMPAQ-DOS320-REVA-DISK1.json",
                 "@format": "PC360K"
               },
               {
                 "@title": "COMPAQ MS-DOS 3.20A (Disk 2)",
-                "@diskette": "COMPAQ-DOS320A-DISK2.json",
+                "@diskette": "COMPAQ-DOS320-REVA-DISK2.json",
                 "@format": "PC360K"
               }
             ]
