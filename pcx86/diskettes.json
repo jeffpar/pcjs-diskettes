@@ -1050,55 +1050,55 @@
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 1)",
+              "@title": "Windows SDK 3.00 (720K Disk 01)",
               "@diskette": "WIN30SDK-720K-DISK01.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 2)",
+              "@title": "Windows SDK 3.00 (720K Disk 02)",
               "@diskette": "WIN30SDK-720K-DISK02.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 3)",
+              "@title": "Windows SDK 3.00 (720K Disk 03)",
               "@diskette": "WIN30SDK-720K-DISK03.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 4)",
+              "@title": "Windows SDK 3.00 (720K Disk 04)",
               "@diskette": "WIN30SDK-720K-DISK04.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 5)",
+              "@title": "Windows SDK 3.00 (720K Disk 05)",
               "@diskette": "WIN30SDK-720K-DISK05.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 6)",
+              "@title": "Windows SDK 3.00 (720K Disk 06)",
               "@diskette": "WIN30SDK-720K-DISK06.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 7)",
+              "@title": "Windows SDK 3.00 (720K Disk 07)",
               "@diskette": "WIN30SDK-720K-DISK07.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 8)",
+              "@title": "Windows SDK 3.00 (720K Disk 08)",
               "@diskette": "WIN30SDK-720K-DISK08.json",
               "@format": "PC720K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.00 (720K Disk 9)",
+              "@title": "Windows SDK 3.00 (720K Disk 09)",
               "@diskette": "WIN30SDK-720K-DISK09.json",
               "@format": "PC720K",
               "@photo": "jpg"
@@ -1115,55 +1115,55 @@
           "@title": "Windows SDK 3.10",
           "@media": [
             {
-              "@title": "Windows SDK 3.10 (Disk 1)",
+              "@title": "Windows SDK 3.10 (Disk 01)",
               "@diskette": "WIN31SDK-DISK01.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 2)",
+              "@title": "Windows SDK 3.10 (Disk 02)",
               "@diskette": "WIN31SDK-DISK02.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 3)",
+              "@title": "Windows SDK 3.10 (Disk 03)",
               "@diskette": "WIN31SDK-DISK03.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 4)",
+              "@title": "Windows SDK 3.10 (Disk 04)",
               "@diskette": "WIN31SDK-DISK04.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 5)",
+              "@title": "Windows SDK 3.10 (Disk 05)",
               "@diskette": "WIN31SDK-DISK05.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 6)",
+              "@title": "Windows SDK 3.10 (Disk 06)",
               "@diskette": "WIN31SDK-DISK06.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 7)",
+              "@title": "Windows SDK 3.10 (Disk 07)",
               "@diskette": "WIN31SDK-DISK07.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 8)",
+              "@title": "Windows SDK 3.10 (Disk 08)",
               "@diskette": "WIN31SDK-DISK08.json",
               "@format": "PC1440K",
               "@photo": "jpg"
             },
             {
-              "@title": "Windows SDK 3.10 (Disk 9)",
+              "@title": "Windows SDK 3.10 (Disk 09)",
               "@diskette": "WIN31SDK-DISK09.json",
               "@format": "PC1440K",
               "@photo": "jpg"
