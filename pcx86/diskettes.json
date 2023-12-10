@@ -1613,23 +1613,43 @@
             "@bootable": true,
             "@media": [
               {
-                "@title": "DR DOS 5.00 (Disk 1)",
-                "@diskette": "DRDOS500-DISK1.json",
+                "@title": "DR DOS 5.00 (1990-06 Disk 1)",
+                "@diskette": "DRDOS500-1990-06-DISK1.json",
                 "@format": "PC360K"
               },
               {
-                "@title": "DR DOS 5.00 (Disk 2)",
-                "@diskette": "DRDOS500-DISK2.json",
+                "@title": "DR DOS 5.00 (1990-06 Disk 2)",
+                "@diskette": "DRDOS500-1990-06-DISK2.json",
                 "@format": "PC360K"
               },
               {
-                "@title": "DR DOS 5.00 (Disk 3)",
-                "@diskette": "DRDOS500-DISK3.json",
+                "@title": "DR DOS 5.00 (1990-06 Disk 3)",
+                "@diskette": "DRDOS500-1990-06-DISK3.json",
                 "@format": "PC360K"
               },
               {
-                "@title": "DR DOS 5.00 (Disk 4)",
-                "@diskette": "DRDOS500-DISK4.json",
+                "@title": "DR DOS 5.00 (1990-06 Disk 4)",
+                "@diskette": "DRDOS500-1990-06-DISK4.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 5.00 (1991-02 Disk 1)",
+                "@diskette": "DRDOS500-1991-02-DISK1.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 5.00 (1991-02 Disk 2)",
+                "@diskette": "DRDOS500-1991-02-DISK2.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 5.00 (1991-02 Disk 3)",
+                "@diskette": "DRDOS500-1991-02-DISK3.json",
+                "@format": "PC360K"
+              },
+              {
+                "@title": "DR DOS 5.00 (1991-02 Disk 4)",
+                "@diskette": "DRDOS500-1991-02-DISK4.json",
                 "@format": "PC360K"
               }
             ]
