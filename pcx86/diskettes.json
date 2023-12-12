@@ -1691,31 +1691,37 @@
               {
                 "@title": "DR DOS 6.00 (1.2M StartUp)",
                 "@diskette": "DRDOS600-STARTUP.json",
+                "@photo": "jpg",
                 "@format": "PC1200K"
               },
               {
                 "@title": "DR DOS 6.00 (1.2M ViewMAX)",
                 "@diskette": "DRDOS600-VIEWMAX.json",
+                "@photo": "jpg",
                 "@format": "PC1200K"
               },
               {
                 "@title": "DR DOS 6.00 (1991 Update 1)",
                 "@diskette": "DRDOS600-UPDATE-1991-12-DISK1.json",
+                "@photo": "jpg",
                 "@format": "PC360K"
               },
               {
                 "@title": "DR DOS 6.00 (1991 Update 2)",
                 "@diskette": "DRDOS600-UPDATE-1991-12-DISK2.json",
+                "@photo": "jpg",
                 "@format": "PC360K"
               },
               {
                 "@title": "DR DOS 6.00 (1992 Update 1)",
                 "@diskette": "DRDOS600-UPDATE-1992-04-DISK1.json",
+                "@photo": "jpg",
                 "@format": "PC360K"
               },
               {
                 "@title": "DR DOS 6.00 (1992 Update 2)",
                 "@diskette": "DRDOS600-UPDATE-1992-04-DISK2.json",
+                "@photo": "jpg",
                 "@format": "PC360K"
               }
             ]
